@@ -1,0 +1,658 @@
+% arara: xelatex: {action: nonstopmode,synctex: yes}
+% arara: biber
+% arara: xelatex: {action: nonstopmode,synctex: yes}
+% arara: xelatex: {action: nonstopmode,synctex: yes}
+\RequirePackage[l2tabu, orthodox]{nag}
+\documentclass{article}
+
+%文献宏包
+%\usepackage[style=numeric,backend=biber]{biblatex}
+
+\usepackage[a4paper]{geometry}
+
+%字体宏包
+%\usepackage[Ligatures=TeX]{fontspec}
+%中文宏包
+%\usepackage[UTF8,winfonts,fancyhdr,hyperref,fntef]{ctex}
+\usepackage{xeCJK}
+
+\usepackage[pdfborder={0 0 0},colorlinks=false]{hyperref}
+\usepackage{graphicx,amsmath,amssymb,bm,mathtools,subcaption,caption,cleveref}
+\usepackage{IEEEtrantools}
+\usepackage{dtklogos}
+
+%数学定义
+\renewcommand{\emptyset}{\varnothing}
+
+%single & double quotes
+\newcommand{\sq}[1]{`#1'}
+\newcommand{\dq}[1]{``#1''}
+
+%文献源 \addbibresource{•}
+
+\newcommand{\book}[1]{\textit{#1}}
+
+%设置字体
+%\setmainfont[Ligatures=TeX]{Helvetica}
+%\setsansfont{Helvetica}%Arial
+%\setmonofont{}
+\setCJKmainfont[BoldFont={SimHei},ItalicFont={楷体}]{SimSun}%Hiragino Sans GB W3/W6
+%\setCJKsansfont{Hiragino Sans GB W3}
+\setCJKmonofont{幼圆}
+
+%代码宏包
+%\usepackage{listings}
+%\lstset{language=,frame=single,texcl=true,mathescape=true}%[LaTeX]TeX or mathematica or etc?
+
+\title{Materials That I Have Read All These Years}
+\author{Naitree Zhu}
+\date{Last modified \today}
+
+\begin{document}
+\maketitle
+%目录 \tableofcontents
+
+\section{Physics}
+\subsection{经典力学}
+\begin{itemize}
+    \item \book{普通物理学教程: 力学} (第二版), 漆安慎, 杜婵英. (在读)
+    \item \book{新概念物理教程: 力学} (第二版), 赵凯华, 罗蔚茵. (在读)
+    \item \book{An Introduction to Mechanics}, 2nd, by Kleppner and Kolenkow. (在读)
+    \item \href{http://physics.stackexchange.com/}{Physics.SE}
+        \begin{itemize}
+            \item \href{http://physics.stackexchange.com/questions/1984/why-does-holding-something-up-cost-energy-while-no-work-is-being-done}{Why does holding something up cost energy while no work is being done?}
+            \item \href{http://physics.stackexchange.com/questions/132978/who-does-work-while-walking}{Who does work while walking?}
+        \end{itemize}
+\end{itemize}
+
+\subsection{热物理学}
+\begin{itemize}
+    \item \book{新概念物理教程: 热学} (第二版), 赵凯华, 罗蔚茵. (在读)
+    \item \book{热物理学基础}, 包柯达. (在读)
+    \item \book{热学}, 秦允豪. (在读)
+    \item \book{Heat and Thermodynamics}, 7th edition, by Zemansky. (在读)
+    \item \book{Thermodynamics and An Introduction To Thermostatistics}, 2nd edition, by Callen. (在读)
+\end{itemize}
+
+\subsection{电磁理论}
+\begin{enumerate}
+    \item 普通物理学教程: 电磁学, 第二版, by 梁灿彬. (在读)
+\end{enumerate}
+\subsection{量子理论}
+\begin{itemize}
+    \item \href{http://physics.stackexchange.com/}{Physics.SE}
+        \begin{itemize}
+            \item \href{http://physics.stackexchange.com/questions/133270/can-someone-please-qualitatively-explain-unitary-group-from-a-physics-perspectiv}{Can someone please qualitatively explain unitary group from a physics perspective?}
+        \end{itemize}
+\end{itemize}
+\section{Mathematics}
+\subsection{General Materials}
+\begin{itemize}
+    \item \href{http://mathworld.wolfram.com/}{Wolfram MathWorld}
+    \item Wikipedia
+    \item Mathematics Stackexchange
+    \item Mathoverflow
+\end{itemize}
+\subsection{分析学}
+\begin{itemize}
+    \item \book{高等数学}, 同济第六版.
+    \item \book{数学分析新讲}, 第一册, 张筑生. (在读)
+\end{itemize}
+\section{Computer Science}
+\subsection{Algorithm}
+\begin{enumerate}
+    \item Introduction to Algorithms, by Cormen. (在读, 很多有价值的参考资料在章末)
+\end{enumerate}
+\subsection{Design Patterns and Refactoring}
+\begin{enumerate}
+    \item Refactoring: Improving the Design of Existing Code (在读)
+\end{enumerate}
+\subsection{LaTeX}
+\begin{itemize}
+    \item \LaTeX{} Wikibook.
+    \item \LaTeX{} Stackexchange
+    \item The Not So Short Introduction to \LaTeXe{}.
+    \item arara user manual. (无笔记)
+    \item listings package documentation. (未读完)
+    \item geometry package documentation.
+    \item pdfpages package documentation. (未读完)
+    \item amsmath package documentation.
+    \item siunitx package documentation.
+    \item lnotes, by 包太雷.
+    \item lnotes2, by 包太雷.
+    \item booktabs package documentation.
+    \item \href{http://tex.stackexchange.com/}{TeX.SE}
+        \begin{itemize}
+            \item \href{http://tex.stackexchange.com/questions/198613/spacing-around-align-environments}{Spacing around align environments}
+            \item the TeXbook. (在读)
+            \item pgfmanual. (在读)
+            \item enumitem package documentation. (在读)
+            \item cool package doc \& demo. (在读)
+        \end{itemize}
+\end{itemize}
+\subsection{Vim}
+\begin{itemize}
+    \item Vim tutor.
+    \item Vim-LaTeX reference. (剩下后面需要理解 vimscript 的部分)
+    \item Vim-LaTeX reference card.
+    \item \book{Practical Vim}, by Drew Neil. (在读)
+    \item \verb|usr_40| (在读)
+    \item \href{http://vim.wikia.com/wiki/Vim_Tips_Wiki}{Vim Tips wiki}
+    \item Vim questions on StackOverflow
+\end{itemize}
+\subsection{Mathematica}
+\begin{itemize}
+    \item \book{Mathematica 与大学物理计算}.
+    \item \book{The Mathematica Book}, by Stephen Wolfram. (在读)
+    \item Mathematica virtual book---help doc. (在读)
+    \item Mathematica Cookbook, by Sal Mangano (在读)
+    \item Power programming with Mathematica: The kernel. (在读)
+    \item Video tutorials: \href{http://www.wolfram.com/broadcast/}{Wolfram Screencast \&{} Video Gallery} (在读)
+    \item \href{http://demonstrations.wolfram.com/}{Wolfram Demonstrations Project} (在读)
+    \item \href{http://stoney.sb.org/wordpress/2008/12/adding-a-keyboard-shortcut-to-mathematica-v7/}{修改默认的 brackets 插入快捷键使得可以 wrap text selection}
+    \item Mathematica Stackexchange:
+        \begin{itemize}
+            \item \href{http://mathematica.stackexchange.com/questions/18393/what-are-the-most-common-pitfalls-awaiting-new-users}{What are the most common pitfalls awaiting new users?}
+            \item \href{http://mathematica.stackexchange.com/questions/24988/can-one-identify-the-design-patterns-of-mathematica}{Can one identify the design patterns of Mathematica?}
+            \item \href{http://mathematica.stackexchange.com/questions/8310/using-the-mathematica-front-end-efficiently-for-editing-notebooks}{Using the Mathematica front-end efficiently for editing notebooks}
+            \item \href{http://mathematica.stackexchange.com/questions/853/is-there-a-way-to-separate-variables-between-multiple-notebooks?lq=1}{Is there a way to separate variables between multiple notebooks?}
+            \item \href{http://mathematica.stackexchange.com/questions/57656/how-draw-a-line-dynamically-using-manipulate}{How draw a line dynamically using manipulate?}
+        \end{itemize}
+    \item Wolfram blog:
+        \begin{itemize}
+            \item \href{http://blog.wolfram.com/2011/12/07/10-tips-for-writing-fast-mathematica-code/}{10 Tips for Writing Fast Mathematica Code}
+        \end{itemize}
+\end{itemize}
+\subsection{C}
+\begin{enumerate}
+    \item C Primer Plus, 6th edition. (在读)
+    \item Peter's gdb tutorial. (无笔记)
+    \item gdb manual (在读)
+    \item C11 Standard (在读)
+    \item libraries
+        \begin{enumerate}
+            \item libpcap
+            \item libguestfs
+            \item libvirt
+        \end{enumerate}
+\end{enumerate}
+\subsection{Java}
+\begin{enumerate}
+    \item Java: A Beginner's Guide (在读)
+    \item Java Language Specification (在读)
+    \item \href{http://docs.oracle.com/javase/8/docs/api/index.html?overview-summary.html}{Java Platform Standard Edition 8 API doc} (在读)
+    \item \href{http://tomcat.apache.org/tomcat-8.0-doc/servletapi/}{Apache Tomcat Servlet API doc} (在读)
+    \item \href{http://logging.apache.org/log4j/2.x/log4j-api/apidocs/index.html}{Apache Log4j API doc} (在读)
+    \item How to Write Doc Comments for the Javadoc Tool (在读)
+    \item Spring by Example (在读)
+    \item Spring Framework Reference Documentation (在读)
+    \item Tomcat tutorial (已读)
+\end{enumerate}
+\subsection{Python}
+\begin{enumerate}
+    \item tutorial --- Python official documentation (已读)
+    \item Python Language Reference 2.7.10 --- Python official documentation (在读)
+    \item Beginning Python From Novice to Professional (在读)
+    \item PEP 0008 --- Style Guide for Python Code
+    \item PEP 0257 --- Docstring Conventions
+    \item PEP 0318 --- Decorators For Functions and Methods
+    \item PEP 0441 --- Improving Python ZIP Application Support
+    \item Format String Syntax --- Python Library Reference
+    \item Builtin exception hierarchy \url{https://docs.python.org/3.4/library/exceptions.html#exception-hierarchy}
+    \item Unicode HowTo \url{https://docs.python.org/2/howto/unicode.html#python-2-x-s-unicode-support}
+    \item Descriptor HowTo \url{https://docs.python.org/2/howto/descriptor.html}
+    \item The Python Profilers \url{https://docs.python.org/2/library/profile.html}
+    \item modules/libraries/frameworks, and more:
+        \begin{itemize}
+            %multitasking
+            \item thread (_thread in py3)
+            \item threading (done: doc)
+            \item multiprocessing (done: doc)
+
+            \item pprint
+            \item webbrowser
+            \item random
+            \item difflib
+            \item csv
+
+            %string
+            \item string
+            \item StringIO
+            \item cStringIO
+
+            %json
+            \item json (doc, encode 时的 default 参数用法存疑, 它似乎只有在 JSON 标准数据类型之外作为输入时才起作用;)
+
+            %yaml
+            \itme yaml
+
+            %xml, html
+            \item html5lib
+            \item minidom
+            \item pyquery
+            \item xmltodict
+            \item BeautifulSoup (bs4)
+            \item Scrapy
+
+            %cmdline
+            \item colorama
+            \item termcolor
+            \item docopt
+            \item getopt
+            \item argparse
+            \item cmd
+            \item shlex
+            \item glob
+            \item fnmatch
+            \item subprocess (done: doc)
+            \item subprocess32
+            \item readline
+
+            %system
+            \item sys (done: doc)
+            \item os (done: doc)
+            \item shutil (done: doc)
+            \item posixpath, a.k.a. os.path (done: doc)
+            \item platform (done: doc)
+            \item posix
+            \item site
+            \item signal
+            \item psutil
+            \item fileinput
+            \item tempfile (done: doc)
+            \item stat
+            \item pwd
+            \item getpass
+            \item errno
+            \item guestfs
+            \item libvirt
+
+            %time
+            \item time
+            \item datetime
+
+            %test
+            \item trace
+            \item coverage
+            \item unittest
+            \item doctest
+
+            %refactor
+            \item pylint
+
+            %profiling
+            \item timeit
+            \item cProfile
+            \item profile
+            \item pstats
+            \item pycallgraph
+
+            %encryption
+            \item hashlib
+            \item base64
+            \item binascii
+            \item rsa
+
+            %compression
+            \item zlib (done: doc)
+            \item gzip
+            \item tarfile
+            \item zipfile
+            \item zipapp (py3 only)
+
+            %encoding
+            \item codecs
+            \item unicodedata
+
+            %ABC
+            \item abc
+
+            %data structure
+            \item array
+            \item _abcoll
+            \item collections
+            \item heapq
+            \item Queue
+
+            %simple data store
+            \item marshal
+            \item shelve
+            \item pickle (done: doc)
+            \item cPickle (_pickle in py3)
+            %database
+            \item pymongo (mongodb)
+            \item bson (mongodb)
+            \item psycopg2
+            \item sqlite3
+
+            %GUI programming
+            \item wx (wxPython)
+            \item PyQt
+
+            %web programming
+            %lower-level structure
+            \item socket
+            \item netifaces
+            \item dpkt
+            \item ipaddress
+            %client
+            \item requests
+            \item urlparse (urllib.parse in py3)
+            \item urllib (urllib in py3)
+            \item urllib2 (urllib in py3)
+            \item pycurl
+            \item httplib (http.client in py3)
+            %server
+            \item wsgiref
+            \item SocketServer
+            \item BaseHTTPServer (http.server in py3)
+            \item asyncore
+            \item asynchat
+            \item select (done: doc)
+            \item cgi
+            \item cgitb
+            \item bottle (doc & source)
+            \item uWSGI
+            \item Twisted
+            \item Django
+            \item tornado
+            %cookies
+            \item Cookie (http.cookies in py3) (doc & source)
+
+            %email
+            \item email
+            \item smtplib
+            \item smtpd
+            \item poplib
+            \item imaplib
+
+            %other network modules
+            \item pysmb
+
+            %scientific computing
+            \item math
+            \item SciPy
+            \item NumPy
+            \item IPython
+            \item Sympy
+            \item Matplotlib
+            \item pandas
+
+            %extension
+            \item ctypes
+            \item SWIG
+
+            %package distribution
+            \item distutils
+            \item setuptools
+            \item py2exe
+
+            %documentation
+            \item docutils
+            \item Sphinx
+            \item Read the Docs
+
+            %misc
+            \item re (done: doc)
+            \item yara
+            \item pypdf2
+            \item gc
+            \item struct
+            \item importlib
+            \item imp
+            \item functools (doc)
+            \item itertools
+            \item operator
+            \item logging
+            \item ConfigParser
+            \item jsbeautifier
+            \item textwrap
+            \item uuid
+            \item __future__ (manual, source)
+            \item inspect
+            \item types
+            \item beanstalkc (done: official tutorial)
+            \item traceback
+            \item copy
+            \item py_compile
+            \item warnings
+        \end{itemize}
+        \begin{enumerate}
+            \item nginx tutorial \url{http://nginx.org/en/docs/beginners_guide.html}
+            \item configuring nginx plus as a web server \url{https://www.nginx.com/resources/admin-guide/nginx-web-server/}
+        \end{enumerate}
+\end{enumerate}
+\subsection{Linux \&\ Unix}
+\subsubsection{System Overview}
+\begin{enumerate}
+    \item Learning the Unix Operating System (无笔记)
+    \item Unix in a nutshell (在读)
+    \item Fedora 22 System Administrator's Guide (在读)
+\end{enumerate}
+\subsubsection{User System}
+\begin{itemize}
+    \item sudo
+        \begin{enumerate}
+            \item \url{https://help.ubuntu.com/community/RootSudo}
+            \item \url{https://help.ubuntu.com/community/Sudoers}
+        \end{enumerate}
+\end{itemize}
+\subsubsection{System Structure}
+\begin{itemize}
+    \item How Linux Works, 2nd Edition (在读)
+    \item Linux device mapper wiki \url{https://en.wikipedia.org/wiki/Device_mapper}
+    \item Linux Logical Volume Manager (LVM) wiki \url{https://en.wikipedia.org/wiki/Logical_Volume_Manager_(Linux)}
+    \item Power management/Suspend and hibernate wiki \url{https://wiki.archlinux.org/index.php/Power_management/Suspend_and_hibernate}
+    \item upstart cookbook (obsolete, 作废)
+    \item systemd
+        \begin{enumerate}
+            \item \url{http://0pointer.de/blog/projects/systemd-docs.html}
+            \item systemd for Administrators:
+                \begin{enumerate}
+                    \item \url{http://0pointer.de/blog/projects/systemd-for-admins-1.html}
+                    \item \url{http://0pointer.de/blog/projects/systemd-for-admins-2.html}
+                    \item \url{http://0pointer.de/blog/projects/systemd-for-admins-3.html}
+                    \item \url{http://0pointer.de/blog/projects/systemd-for-admins-4.html}
+                    \item \url{http://0pointer.de/blog/projects/three-levels-of-off}
+                    \item \url{http://0pointer.de/blog/projects/blame-game.html}
+                    \item \url{http://0pointer.de/blog/projects/the-new-configuration-files}
+                    \item \url{http://www.freedesktop.org/wiki/Software/systemd/}
+                \end{enumerate}
+        \end{enumerate}
+    \item syslog
+        \begin{enumerate}
+            \item logger(1), syslog(3), rsyslogd(8), journalctl(1) manpages
+            \item rsyslog documentation \url{http://www.rsyslog.com/doc/master/index.html}
+            \item syslog wiki \url{https://en.wikipedia.org/wiki/Syslog}
+        \end{enumerate}
+    \item iptables
+        \begin{enumerate}
+        \end{enumerate}
+    \item SELinux
+        \begin{enumerate}
+            \item CentOS SELinux HowTo \url{https://wiki.centos.org/HowTos/SELinux}
+        \end{enumerate}
+    \item Pluggable Authentication Modules (PAM)
+        \begin{enumerate}
+            \item wiki \url{https://en.wikipedia.org/wiki/Linux_PAM}
+            \item pam(8) manpage
+            \item Understanding PAM Authentication and Security \url{http://aplawrence.com/Basics/understandingpam.html}
+            \item pam.d(5) manpage
+            \item pam_ftp(8) manpage
+        \end{enumerate}
+\end{itemize}
+\subsubsection{Shell Programming}
+\begin{enumerate}
+    \item customize terminal prompt (无笔记)
+    \item Advanced Bash-Scripting Guide, by Mendel Cooper (在读)
+    \item Learning the Bash Shell (在读)
+    \item docopt: Command-line interface description language \url{http://docopt.org/}
+    \item shell utils and commands:
+        \begin{enumerate}
+            \item bash, printf, echo, cd, pwd, export, type, fg, bg, jobs, umask, test, set, while, case, exit, shift, if, for, source, declare, read, continue, break, trap, exec, eval, dirs, pushd, popd, ulimit, readonly, unset
+            \item sh, sudo, su, chsh, visudo, passwd, getty, login, chvt
+            \item mknod
+            \item xinput, xclip,
+            \item alternatives
+            \item apt-get (install|update), dnf (install|remove|erease|update|updateinfo), yum, rpm
+            \item ls, stat, cat, rm, mkdir, rmdir, mv, cp, less, vi, chmod, chroot, chown, touch, file, locate, head, tail, env, printenv, tr, groups, which, ln, readlink, uname, dd, dmesg, lsof, dirname, mktemp, printf
+            \item w, who, whoami, uptime, tty,
+            \item seq
+            \item pgrep, pkill, kill, kill, killall, ps, top, pidof, nice
+            \item grep, bzgrep, xzgrep, zgrep, zipgrep, locale, find, xargs
+            \item date, hwclock (clock)
+            \item man, apropos, mandb, info
+            \item texdoc
+            \item shutdown, poweroff, reboot
+            \item column, uniq, sort
+            \item dmidecode
+            \item sed, awk, gawk, cut, expect
+            \item tar, gzip, gunzip, zcat, bzip2, bunzip2, bzcat, xz, unxz, xzcat, 7z, 7za, zip, unzip,
+            \item md5sum
+            \item dos2unix, unix2dos
+            \item useradd, userdel, usermod, lid
+            \item systemctl (status|start|stop|restart|enable|disable|list-units|list-unit-files|list-jobs|poweroff|reboot|suspend), systemd-analyze (blame|plot|dot), systemd-cgls, systemd-udevd, journalctl, logind.conf(5)
+            \item service, run-parts, telinit, udevadm (info|monitor), lsscsi, lsusb
+            \item screen
+            \item df, du, fdisk, gdisk, parted, gparted, mkfs.<type>, fsck.<type>, dumpe2fs, tune2fs, debugfs, mount, umount, samba, findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab, sync, free, mkswap, swapon, swapoff, dmsetup, lspci, ionice
+            \item console_codes(4)
+            \item proc(5)
+            \item grub2-install, grub2-mkconfig
+            \item ssh, ssh-keygen, ssh-copy-id, sshpass sftp, ftp, scp, telnet, netcat (nc), wget, curl, rsync, nslookup, tcpdump
+            \item hostname
+            \item gcc, gdb, ctags, cscope, gvim, vim, gvimdiff, python, python3, pip, pip3, pydoc, java, javac, make, diff, patch, ldd, strings, pmap, taskset
+            \item ping, arping, iptables
+            \item virsh (list|start|destroy), qemu-img
+            \item vncviewer
+            \item okular
+            \item git (init|clone|branch|mv|status|remote|merge|mergetool|pull|fetch|push|commit|log|checkout|ls-files|rm|add|stash|config|diff|difftool|rebase|reset|tag|show), gitignore(5), svn (commit|checkout|log)
+            \item mail
+            \item sqlite3
+            \item psql
+            \item mongo, mongod, mongodump, mongorestore, mongoexport, mongoimport
+            \item beanstalkd
+        \end{enumerate}
+    \item AWK programming
+        \begin{enumerate}
+            \item The AWK Programming Language (在读)
+        \end{enumerate}
+\end{enumerate}
+\subsubsection{Regular Expression}
+\begin{enumerate}
+    \item Mastering Regular Expression (在读)
+\end{enumerate}
+\subsection{HTML\&\ CSS}
+\begin{enumerate}
+    \item \href{https://developer.mozilla.org/en-US/Learn}{Mozilla Developer Network} (在读)
+    \item \href{https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web}{Mozilla Developer Network: Getting Started with Web} (在读)
+    \item HTML and XHTML: The Definitive Guide (已读无笔记, 可能不会再读了)
+\end{enumerate}
+\subsection{JavaScript}
+\begin{enumerate}
+    \item  \href{http://bonsaiden.github.io/JavaScript-Garden/}{Javascript Garden} (在读)
+    \item \href{https://developer.mozilla.org/en-US/Learn}{Mozilla Developer Network} (在读)
+    \item JavaScript: The Good Parts (在读)
+    \item JavaScript: The Definitive Guide (在读)
+\end{enumerate}
+\subsection{JSON}
+\begin{enumerate}
+    \item JSON format intro by official site \url{http://www.json.org/}
+\end{enumerate}
+\subsection{VCS}
+\begin{enumerate}
+    \item Git Pro, 2nd edition. (在读)
+    \item Version Control with Subversion (在读)
+\end{enumerate}
+\subsection{Computer System}
+\begin{enumerate}
+    \item Computer system: A programmer's perspective. (在读)
+    \item GUID Partition Table wiki \url{https://en.wikipedia.org/wiki/GUID_Partition_Table}
+    \item RAID wiki \url{https://en.wikipedia.org/wiki/RAID}
+\end{enumerate}
+\subsection{Network}
+\begin{enumerate}
+    \item Sams Teach Yourself TCP/IP in 24 Hours (在读)
+    \item HTTP
+        \begin{enumerate}
+            \item HTTP: The Definitive Guide (在读, 很多有价值的参考资料在章末)
+        \end{enumerate}
+    \item email
+        \begin{enumerate}
+            \item RFC2822: Internet Message Format
+        \end{enumerate}
+    \item file sharing and printing
+        \begin{enumerate}
+            \item Network File System Protocol (wikipedia)
+            \item Internet Printing Protocol (Wikipedia)
+            \item CUPS---Common Unix Printing System (Wikipedia)
+            \item network printing from ubuntu \url{https://help.ubuntu.com/community/NetworkPrintingWithUbuntu}
+            \item samba
+                \begin{enumerate}
+                    \item samba (Wikipedia)
+                    \item samba (ubuntu community wiki)
+                    \item samba file server (ubuntu community wiki)
+                    \item samba print server (ubuntu community wiki)
+                    \item SambaServerGuide (ubuntu community wiki)
+                    \item mountWindowsSharesPermanently (ubuntu community wiki)
+                \end{enumerate}
+            \item SMB/CIFS protocol (Wikipedia)
+        \end{enumerate}
+\end{enumerate}
+\subsection{Database}
+\begin{enumerate}
+    \item PostgreSQL Documentation (在读)
+    \item Getting Started with MongoDB: Mongo Shell
+    \item Getting Started with MongoDB: Python Driver
+\end{enumerate}
+\subsection{Character Set and Encodings}
+\begin{enumerate}
+    \item The difference between UTF-8 and Unicode \url{http://www.rrn.dk/the-difference-between-utf-8-and-unicode/}
+    \item Unicode HowTo \url{https://docs.python.org/2/howto/unicode.html#python-2-x-s-unicode-support}
+\end{enumerate}
+\subsection{Markdown}
+\begin{enumerate}
+    \item markdown documentation (无笔记)
+    \item markdown extra documentation (在读)
+\end{enumerate}
+\subsection{YAML}
+\begin{enumerate}
+    \item \href{https://en.wikipedia.org/wiki/YAML}{YAML wiki}
+\end{enumerate}
+\subsection{Anti-virus, Security, Crypotography}
+\begin{enumerate}
+    \item yara, documentation \url{http://yara.readthedocs.org/en/v3.4.0/writingrules.html}
+    \item Disk encryption introduction \url{https://wiki.archlinux.org/index.php/Disk_encryption}
+\end{enumerate}
+\section{English Learning}
+\subsection{文法}
+\begin{itemize}
+    \item 文法俱乐部, by 旋元佑. (待复习整理)
+    \item 赖世雄经典语法 (在读)
+    \item 賴氏英文文法 (在读)
+\end{itemize}
+\subsection{词汇}
+\begin{itemize}
+    \item 拓词上的几本词库, 考研词库, 六级词库, 等等.
+    \item 欧陆词典, 配合许多词典文件.
+    \item 字源大挪移, by 旋元佑. (在读)
+    \item Google search, 查询字源.
+\end{itemize}
+\subsection{修辞}
+\section{Not so important}
+\subsection{Science Fiction}
+\begin{enumerate}
+    \item Ender's Game.
+\end{enumerate}
+\subsection{Fantasy}
+\begin{enumerate}
+    \item Under the Dome
+\end{enumerate}
+\subsection{History}
+
+\subsection{Miscellaneous}
+\begin{itemize}
+    \item 北京---一座失去建筑哲学的城市, by 王博.
+    \item Alice's Adventures in Wonderland, by Charles Lutwidge Dodgson.
+    \item Steve Jobs, by Walter Isaacson.
+\end{itemize}
+\end{document}
