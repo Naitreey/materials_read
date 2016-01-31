@@ -99,6 +99,33 @@
     \item \book{数学分析新讲}, 第一册, 张筑生. (在读)
 \end{itemize}
 \section{Computer Science}
+%
+\subsection{Learned Languages}
+\begin{itemize}
+    %programming languages
+    \item C
+    \item Python
+    \item Java
+    \item Javascript
+    \item Mathematica
+    \item shell script
+    \item AWK
+    \item TeX
+    %markup languages
+    \item TeX
+    \item HTML
+    \item CSS
+    \item reStructuredText
+    \item Markdown
+    %database languages
+    \item SQL
+    \item MongoDB
+    %data format
+    \item XML
+    \item YAML
+    \item JSON
+\end{itemize}
+%
 \subsection{Algorithm}
 \begin{enumerate}
     \item Introduction to Algorithms, by Cormen. (在读, 很多有价值的参考资料在章末)
@@ -107,7 +134,7 @@
 \begin{enumerate}
     \item Refactoring: Improving the Design of Existing Code (在读)
 \end{enumerate}
-\subsection{LaTeX}
+\subsection{TeX}
 \begin{itemize}
     \item \LaTeX{} Wikibook.
     \item \LaTeX{} Stackexchange
@@ -202,6 +229,10 @@
     \item Unicode HowTo \url{https://docs.python.org/2/howto/unicode.html#python-2-x-s-unicode-support}
     \item Descriptor HowTo \url{https://docs.python.org/2/howto/descriptor.html}
     \item The Python Profilers \url{https://docs.python.org/2/library/profile.html}
+    \item docutils
+        \begin{itemize}
+            \item docutils front-end tools \url{http://docutils.sourceforge.net/docs/user/tools.html}
+        \end{itemize}
     \item modules/libraries/frameworks, and more:
         \begin{itemize}
             %multitasking
@@ -227,6 +258,7 @@
             \itme yaml
 
             %xml, html
+            \item xml
             \item html5lib
             \item minidom
             \item pyquery
@@ -266,6 +298,7 @@
             \item errno
             \item guestfs
             \item libvirt
+            \item resource
 
             %time
             \item time
@@ -303,6 +336,7 @@
             %encoding
             \item codecs
             \item unicodedata
+            \item chardet
 
             %ABC
             \item abc
@@ -359,6 +393,9 @@
             %cookies
             \item Cookie (http.cookies in py3) (doc & source)
 
+            %template
+            \item jinja2
+
             %email
             \item email
             \item smtplib
@@ -412,10 +449,12 @@
             \item inspect
             \item types
             \item beanstalkc (done: official tutorial)
-            \item traceback
+            \item traceback (done: 部分 doc and source code)
             \item copy
             \item py_compile
             \item warnings
+            \item pydoc
+            \item linecache
         \end{itemize}
         \begin{enumerate}
             \item nginx tutorial \url{http://nginx.org/en/docs/beginners_guide.html}
@@ -519,18 +558,19 @@
             \item systemctl (status|start|stop|restart|enable|disable|list-units|list-unit-files|list-jobs|poweroff|reboot|suspend), systemd-analyze (blame|plot|dot), systemd-cgls, systemd-udevd, journalctl, logind.conf(5)
             \item service, run-parts, telinit, udevadm (info|monitor), lsscsi, lsusb
             \item screen
-            \item df, du, fdisk, gdisk, parted, gparted, mkfs.<type>, fsck.<type>, dumpe2fs, tune2fs, debugfs, mount, umount, samba, findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab, sync, free, mkswap, swapon, swapoff, dmsetup, lspci, ionice
+            \item df, du, fdisk, gdisk, parted, gparted, mkfs.<type>, fsck.<type>, dumpe2fs, tune2fs, debugfs, mount, umount, samba, findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab, sync, free, mkswap, swapon, swapoff, dmsetup, lspci, ionice, iotop
             \item console_codes(4)
             \item proc(5)
             \item grub2-install, grub2-mkconfig
             \item ssh, ssh-keygen, ssh-copy-id, sshpass sftp, ftp, scp, telnet, netcat (nc), wget, curl, rsync, nslookup, tcpdump
             \item hostname
-            \item gcc, gdb, ctags, cscope, gvim, vim, gvimdiff, python, python3, pip, pip3, pydoc, java, javac, make, diff, patch, ldd, strings, pmap, taskset
+            \item gcc, gdb, ctags, cscope, gvim, vim, gvimdiff, python, python3, pip, pip3, pydoc, java, javac, make, diff, patch, ldd, strings, pmap, taskset, node, npm
             \item ping, arping, iptables
             \item virsh (list|start|destroy), qemu-img
+            \item bluetoothctl
             \item vncviewer
             \item okular
-            \item git (init|clone|branch|mv|status|remote|merge|mergetool|merge-base|pull|fetch|push|commit|log|checkout|ls-files|rm|add|stash|config|diff|difftool|apply|rebase|reset|tag|show|instaweb|clean|cherry-pick|reflog|request-pull|format-patch|am|send-email|rev-parse), git-shell, gitignore(5), gitrevisions(7)
+            \item git (init|clone|branch|mv|status|remote|ls-remote|merge|mergetool|merge-base|pull|fetch|push|commit|log|shortlog|checkout|ls-files|rm|add|stash|config|diff|difftool|apply|rebase|reset|tag|show|instaweb|clean|cherry-pick|cherry|reflog|request-pull|format-patch|am|send-email|rev-parse|rerere|describe|archive|gc|help), git-shell, gitignore(5), gitrevisions(7)
             \item svn (commit|checkout|log)
             \item mail
             \item sqlite3
@@ -553,6 +593,9 @@
     \item \href{https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web}{Mozilla Developer Network: Getting Started with Web} (在读)
     \item HTML and XHTML: The Definitive Guide (已读无笔记, 可能不会再读了)
 \end{enumerate}
+%
+\subsection{XML}
+%
 \subsection{JavaScript}
 \begin{enumerate}
     \item  \href{http://bonsaiden.github.io/JavaScript-Garden/}{Javascript Garden} (在读)
@@ -615,6 +658,14 @@
     \item The difference between UTF-8 and Unicode \url{http://www.rrn.dk/the-difference-between-utf-8-and-unicode/}
     \item Unicode HowTo \url{https://docs.python.org/2/howto/unicode.html#python-2-x-s-unicode-support}
 \end{enumerate}
+%
+\subsection{reStructuredText}
+\begin{itemize}
+    \item a reStructuredText Primer \url{http://docutils.sourceforge.net/docs/user/rst/quickstart.html}
+    \item Quick reStructuredText \url{http://docutils.sourceforge.net/docs/user/rst/quickref.html}
+    \item An Introduction to reStructuredText \url{http://docutils.sourceforge.net/docs/ref/rst/introduction.html}
+\end{itemize}
+%
 \subsection{Markdown}
 \begin{enumerate}
     \item markdown documentation (无笔记)
