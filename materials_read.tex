@@ -218,12 +218,17 @@
 \subsection{Python}
 \begin{enumerate}
     \item tutorial --- Python official documentation (已读)
-    \item Python Language Reference 2.7.10 --- Python official documentation (在读)
-    \item Beginning Python From Novice to Professional (在读)
+    \item Python Language Reference 2.7.10 --- Python official documentation (已读)
+    \item Beginning Python From Novice to Professional (已读)
     \item PEP 0008 --- Style Guide for Python Code
+    \item PEP 0273 --- Import Modules from Zip Archives
     \item PEP 0257 --- Docstring Conventions
+    \item PEP 0302 --- New Import Hooks
     \item PEP 0318 --- Decorators For Functions and Methods
+    \item PEP 0328 --- Imports: Multi-Line and Absolute/Relative
     \item PEP 0441 --- Improving Python ZIP Application Support
+    \item PEP 3113 --- Removal of Tuple Parameter Unpacking
+    \item PEP 3119 --- Introducing Abstract Base Classes
     \item Format String Syntax --- Python Library Reference
     \item Builtin exception hierarchy \url{https://docs.python.org/3.4/library/exceptions.html#exception-hierarchy}
     \item Unicode HowTo \url{https://docs.python.org/2/howto/unicode.html#python-2-x-s-unicode-support}
@@ -339,12 +344,13 @@
             \item chardet
 
             %ABC
-            \item abc
+            \item abc (done: doc, source)
+            \item collections
+            \item numbers (done: doc, source)
 
             %data structure
             \item array
-            \item _abcoll
-            \item collections
+            \item collections (done: doc, source (collections.py, _abcoll.py))
             \item heapq
             \item Queue
 
@@ -393,6 +399,9 @@
             %cookies
             \item Cookie (http.cookies in py3) (doc & source)
 
+            %mimetype
+            \item mimetype
+
             %template
             \item jinja2
 
@@ -403,7 +412,7 @@
             \item poplib
             \item imaplib
 
-            %other network modules
+            %SMB
             \item pysmb
 
             %scientific computing
@@ -428,6 +437,12 @@
             \item docutils
             \item Sphinx
             \item Read the Docs
+            \item pydoc
+
+            %import
+            \item importlib
+            \item imp
+            \item zipimport
 
             %misc
             \item re (done: doc)
@@ -435,26 +450,26 @@
             \item pypdf2
             \item gc
             \item struct
-            \item importlib
-            \item imp
             \item functools (doc)
             \item itertools
             \item operator
+            \item keyword
             \item logging
             \item ConfigParser
             \item jsbeautifier
             \item textwrap
             \item uuid
-            \item __future__ (manual, source)
+            \item __future__ (done: doc, source)
             \item inspect
-            \item types
+            \item types (done: doc, source)
             \item beanstalkc (done: official tutorial)
             \item traceback (done: 部分 doc and source code)
             \item copy
             \item py_compile
             \item warnings
-            \item pydoc
             \item linecache
+            \item dis
+            \item weakref
         \end{itemize}
         \begin{enumerate}
             \item nginx tutorial \url{http://nginx.org/en/docs/beginners_guide.html}
@@ -570,7 +585,7 @@
             \item bluetoothctl
             \item vncviewer
             \item okular
-            \item git (init|clone|branch|mv|status|remote|ls-remote|merge|mergetool|merge-base|pull|fetch|push|commit|log|shortlog|checkout|ls-files|rm|add|stash|config|diff|difftool|apply|rebase|reset|tag|show|instaweb|clean|cherry-pick|cherry|reflog|request-pull|format-patch|am|send-email|rev-parse|rerere|describe|archive|gc|help), git-shell, gitignore(5), gitrevisions(7)
+            \item git (init|clone|branch|mv|status|remote|ls-remote|merge|mergetool|merge-base|merge-file|pull|fetch|push|commit|commit-tree|log|shortlog|checkout|ls-files|ls-tree|cat-file|rm|add|stash|config|diff|difftool|diff-tree|apply|rebase|reset|tag|show|instaweb|clean|cherry-pick|cherry|reflog|filter-branch|request-pull|format-patch|am|send-email|rev-parse|rerere|describe|grep|archive|gc|help|credential|credential-cache|credential-cache--daemon|credential-store), git-shell, gitignore(5), gitrevisions(7), gitattributes(5), githooks(5), gitcredentials(7)
             \item svn (commit|checkout|log)
             \item mail
             \item sqlite3
@@ -591,7 +606,8 @@
 \begin{enumerate}
     \item \href{https://developer.mozilla.org/en-US/Learn}{Mozilla Developer Network} (在读)
     \item \href{https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web}{Mozilla Developer Network: Getting Started with Web} (在读)
-    \item HTML and XHTML: The Definitive Guide (已读无笔记, 可能不会再读了)
+    \item HTML and XHTML: The Definitive Guide (已读, 有用的东西很多, 废话也很多)
+    \item CSS: The Definitive Guide (在读)
 \end{enumerate}
 %
 \subsection{XML}
