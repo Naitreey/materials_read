@@ -166,6 +166,21 @@
     \item \verb|usr_40| (在读)
     \item \href{http://vim.wikia.com/wiki/Vim_Tips_Wiki}{Vim Tips wiki}
     \item Vim questions on StackOverflow
+    \item vim features and commands:
+        \begin{itemize}
+            \item movement
+                \begin{itemize}
+                    \item normal mode
+                        h, j, k, l, w, e, \^, \$,
+                \end{itemize}
+            \item editing
+                \begin{itemize}
+                    \item cmdline mode
+                        :w, :wa, :wqa
+                    \item normal mode
+                        a, A, I
+                \end{itemize}
+        \end{itemize}
 \end{itemize}
 \subsection{Mathematica}
 \begin{itemize}
@@ -229,6 +244,7 @@
     \item PEP 0441 --- Improving Python ZIP Application Support
     \item PEP 3113 --- Removal of Tuple Parameter Unpacking
     \item PEP 3119 --- Introducing Abstract Base Classes
+    \item Unifying types and classes in Python 2.2 \url{https://www.python.org/download/releases/2.2.3/descrintro/}
     \item Format String Syntax --- Python Library Reference
     \item Builtin exception hierarchy \url{https://docs.python.org/3.4/library/exceptions.html#exception-hierarchy}
     \item Unicode HowTo \url{https://docs.python.org/2/howto/unicode.html#python-2-x-s-unicode-support}
@@ -274,7 +290,7 @@
             %cmdline
             \item colorama
             \item termcolor
-            \item docopt
+            \item docopt (done: doc)
             \item getopt
             \item argparse
             \item cmd
@@ -331,6 +347,10 @@
             \item binascii
             \item rsa
 
+            %crypto
+            \item Crypto
+            \item ssl
+
             %compression
             \item zlib (done: doc)
             \item gzip
@@ -376,6 +396,7 @@
             \item dpkt
             \item ipaddress
             %client
+            \item paramiko
             \item requests
             \item urlparse (urllib.parse in py3)
             \item urllib (urllib in py3)
@@ -476,6 +497,9 @@
             \item configuring nginx plus as a web server \url{https://www.nginx.com/resources/admin-guide/nginx-web-server/}
         \end{enumerate}
 \end{enumerate}
+%
+\subsection{Go}
+%
 \subsection{Linux \&\ Unix}
 \subsubsection{System Overview}
 \begin{enumerate}
@@ -573,7 +597,7 @@
             \item systemctl (status|start|stop|restart|enable|disable|list-units|list-unit-files|list-jobs|poweroff|reboot|suspend), systemd-analyze (blame|plot|dot), systemd-cgls, systemd-udevd, journalctl, logind.conf(5)
             \item service, run-parts, telinit, udevadm (info|monitor), lsscsi, lsusb
             \item screen
-            \item df, du, fdisk, gdisk, parted, gparted, mkfs.<type>, fsck.<type>, dumpe2fs, tune2fs, debugfs, mount, umount, samba, findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab, sync, free, mkswap, swapon, swapoff, dmsetup, lspci, ionice, iotop
+            \item df, du, fdisk, gdisk, parted, gparted, mkfs.<type>, fsck.<type>, dumpe2fs, tune2fs, debugfs, mount, umount, samba, findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (mount(8)), /proc/mounts (proc(5)), sync, free, mkswap, swapon, swapoff, dmsetup, lspci, ionice, iotop
             \item console_codes(4)
             \item proc(5)
             \item grub2-install, grub2-mkconfig
@@ -585,19 +609,62 @@
             \item bluetoothctl
             \item vncviewer
             \item okular
-            \item git (init|clone|branch|mv|status|remote|ls-remote|merge|mergetool|merge-base|merge-file|pull|fetch|push|commit|commit-tree|log|shortlog|checkout|ls-files|ls-tree|cat-file|rm|add|stash|config|diff|difftool|diff-tree|apply|rebase|reset|tag|show|instaweb|clean|cherry-pick|cherry|reflog|filter-branch|request-pull|format-patch|am|send-email|rev-parse|rerere|describe|grep|archive|gc|help|credential|credential-cache|credential-cache--daemon|credential-store), git-shell, gitignore(5), gitrevisions(7), gitattributes(5), githooks(5), gitcredentials(7)
+            \item git (init|clone|branch|mv|status|remote|ls-remote|merge|mergetool|merge-base|merge-file|pull|fetch|push|commit|commit-tree|log|shortlog|checkout|ls-files|ls-tree|read-tree|write-tree|hash-object|cat-file|rm|add|update-index|stash|config|var|diff|difftool|diff-tree|diff-index|apply|rebase|reset|revert|tag|show|instaweb|clean|cherry-pick|cherry|reflog|submodule|filter-branch|request-pull|format-patch|am|send-email|rev-parse|rev-list|rerere|describe|grep|blame|bisect|archive|bundle|gc|help|credential|credential-cache|credential-cache--daemon|credential-gnome-keyring|credential-store|replace), git-shell, gitignore(5), gitrevisions(7), gitattributes(5), githooks(5), gitcredentials(7), gitmodules(5)
             \item svn (commit|checkout|log)
             \item mail
             \item sqlite3
             \item psql
             \item mongo, mongod, mongodump, mongorestore, mongoexport, mongoimport
             \item beanstalkd
+            \item runc (start|spec|kill|list)
+            \item docker (build|run|images|create|commit|rename|rm|rmi|ps|start|stop|kill|attach|export|logs|port|history)
         \end{enumerate}
     \item AWK programming
         \begin{enumerate}
             \item The AWK Programming Language (在读)
         \end{enumerate}
 \end{enumerate}
+%
+\subsubsection{Virtualization}
+%
+\begin{itemize}
+        \item whole system virtualization
+            \begin{itemize}
+                \item QEMU
+                    \begin{itemize}
+                        \item QEMU wiki https://en.wikipedia.org/wiki/QEMU
+                        \item QEMU wikibook https://en.wikibooks.org/wiki/QEMU
+                    \end{itemize}
+            \end{itemize}
+        \item operating-system-level virtualization
+            \begin{itemize}
+                \item chroot
+                \item operating-system-level virtualization wiki \url{https://en.wikipedia.org/wiki/Operating-system-level_virtualization}
+                \item open container, runC, docker
+                    \begin{itemize}
+                        \item Open Container Specifications \url{https://github.com/opencontainers/specs}
+                        \item OCI FAQs \url{https://www.opencontainers.org/faq}
+                        \item runC homepage Getting Started \url{https://runc.io/}
+                        \item runC readme \url{https://github.com/opencontainers/runc}
+                        \item docker wiki \url{https://en.wikipedia.org/wiki/Docker_(software)}
+                        \item docker documentation: Get Started with Docker Engine for Linux https://docs.docker.com/linux/
+                        \item docker documentation: Understand the architecture \url{https://docs.docker.com/engine/understanding-docker/}
+                        \item docker documentation: Quickstart Docker Engine \url{https://docs.docker.com/engine/quickstart/}
+                    \end{itemize}
+            \end{itemize}
+\end{itemize}
+%
+\subsubsection{File Systems}
+%
+\begin{itemize}
+    \item Union mount, overlayfs
+        \begin{itemize}
+            \item Union mount https://en.wikipedia.org/wiki/Union_mount
+            \item OverlayFS https://en.wikipedia.org/wiki/OverlayFS
+            \item kernel documentation https://www.kernel.org/doc/Documentation/filesystems/overlayfs.txt
+            \item Arch linux overlayfs wiki https://wiki.archlinux.org/index.php/Overlay_filesystem
+        \end{itemize}
+\end{itemize}
 \subsubsection{Regular Expression}
 \begin{enumerate}
     \item Mastering Regular Expression (在读)
