@@ -169,17 +169,23 @@
     \item vim features and commands:
         \begin{itemize}
             \item movement
-                \begin{itemize}
-                    \item normal mode
-                        h, j, k, l, w, e, \^, \$,
+                h, j, k, l, w, W, e, E, \^, \$, gg, G, {n}G, /{char}, ?{char}, n, N, *,
+                <C-o>, <C-i>, f, F, t, T, ;, \verb|,|, zz,
                 \end{itemize}
             \item editing
                 \begin{itemize}
                     \item cmdline mode
-                        :w, :wa, :wqa
+                        :w, :wa, :wq, :wqa, <C-p>, <C-n>, \%, :h
                     \item normal mode
-                        a, A, I
+                        a, A, I, i, x, d, dd, D, gU, gu, u, <C-r>, r, R, c, C, s, S,
+                        v, V, <C-v>, o, O, y, yy, Y, >, >>, <, <<, ., <C-a>, <C-x>
+                    \item insert mode
+                        <C-k>, <C-v>, <ESC>, 
                 \end{itemize}
+            \item info
+                <C-g>, ga,
+            \item session
+                <C-z>
         \end{itemize}
 \end{itemize}
 \subsection{Mathematica}
@@ -395,6 +401,7 @@
             \item netifaces
             \item dpkt
             \item ipaddress
+            \item pyroute2
             %client
             \item paramiko
             \item requests
@@ -435,6 +442,12 @@
 
             %SMB
             \item pysmb
+
+            %snmp
+            \item pysnmp
+
+            %asn1
+            \item pyasn1
 
             %scientific computing
             \item math
@@ -508,7 +521,9 @@
     \item Fedora 22 System Administrator's Guide (在读)
     \item IPC wiki \url{https://en.wikipedia.org/wiki/Inter-process_communication}
 \end{enumerate}
+%
 \subsubsection{User System}
+%
 \begin{itemize}
     \item sudo
         \begin{enumerate}
@@ -516,7 +531,9 @@
             \item \url{https://help.ubuntu.com/community/Sudoers}
         \end{enumerate}
 \end{itemize}
+%
 \subsubsection{System Structure}
+%
 \begin{itemize}
     \item How Linux Works, 2nd Edition (在读)
     \item Linux device mapper wiki \url{https://en.wikipedia.org/wiki/Device_mapper}
@@ -548,6 +565,10 @@
             \item rsyslog documentation \url{http://www.rsyslog.com/doc/master/index.html}
             \item syslog wiki \url{https://en.wikipedia.org/wiki/Syslog}
         \end{enumerate}
+    \item periodical jobs
+        \begin{itemize}
+            \item anacron wiki \url{https://en.wikipedia.org/wiki/Anacron}
+        \end{itemize}
     \item iptables
         \begin{enumerate}
         \end{enumerate}
@@ -563,8 +584,20 @@
             \item pam.d(5) manpage
             \item pam_ftp(8) manpage
         \end{enumerate}
+    \item initramfs
+        \begin{itemize}
+            \item dracut \url{https://en.wikipedia.org/wiki/Dracut_(software)}
+        \end{itemize}
 \end{itemize}
+%
+\subsubsection{System Programming}
+%
+\begin{itemize}
+    \item Upgrading: nuance about replacing executable \url{http://unix.stackexchange.com/questions/138214/how-is-it-possible-to-do-a-live-update-while-a-program-is-running}
+\end{itemize}
+%
 \subsubsection{Shell Programming}
+%
 \begin{enumerate}
     \item customize terminal prompt (无笔记)
     \item Advanced Bash-Scripting Guide, by Mendel Cooper (在读)
@@ -609,7 +642,7 @@
             \item bluetoothctl
             \item vncviewer
             \item okular
-            \item git (init|clone|branch|mv|status|remote|ls-remote|merge|mergetool|merge-base|merge-file|pull|fetch|push|commit|commit-tree|log|shortlog|checkout|ls-files|ls-tree|read-tree|write-tree|hash-object|cat-file|rm|add|stash|config|var|diff|difftool|diff-tree|diff-index|apply|rebase|reset|revert|tag|show|instaweb|clean|cherry-pick|cherry|reflog|submodule|filter-branch|request-pull|format-patch|am|send-email|rev-parse|rev-list|rerere|describe|grep|blame|bisect|update-index|update-ref|symbolic-ref|archive|bundle|gc|help|credential|credential-cache|credential-cache--daemon|credential-gnome-keyring|credential-store|replace), git-shell, gitignore(5), gitrevisions(7), gitattributes(5), githooks(5), gitcredentials(7), gitmodules(5)
+            \item git (init|clone|branch|mv|status|remote|ls-remote|merge|mergetool|merge-base|merge-file|pull|fetch|push|commit|commit-tree|log|shortlog|checkout|ls-files|ls-tree|read-tree|write-tree|hash-object|cat-file|rm|add|stash|config|var|diff|difftool|diff-tree|diff-index|apply|rebase|reset|revert|tag|show|instaweb|clean|cherry-pick|cherry|reflog|submodule|filter-branch|request-pull|format-patch|am|send-email|rev-parse|rev-list|rerere|describe|grep|blame|bisect|update-index|update-ref|symbolic-ref|archive|bundle|gc|prune|fsck|count-objects|help|credential|credential-cache|credential-cache--daemon|credential-gnome-keyring|credential-store|replace|update-server-info|send-pack|receive-pack|version), git-shell, gitignore(5), gitrevisions(7), gitattributes(5), githooks(5), gitcredentials(7), gitmodules(5)
             \item svn (commit|checkout|log)
             \item mail
             \item sqlite3
@@ -619,6 +652,12 @@
             \item runc (start|spec|kill|list)
             \item docker (build|run|images|create|commit|rename|rm|rmi|ps|start|stop|kill|attach|export|logs|port|history)
         \end{enumerate}
+    \item description about p, x, etc. manpage sections: \url{http://unix.stackexchange.com/questions/204501/what-are-the-n-l-3pm-sections-of-the-manual-for}
+    \item background process, daemon, etc
+        \begin{itemize}
+            \item background process on shell exit: \url{http://stackoverflow.com/questions/32780706/does-linux-kill-background-processes-if-we-close-the-terminal-from-which-it-has}, \url{http://superuser.com/questions/662431/what-exactly-determines-if-a-backgrounded-job-is-killed-when-the-shell-is-exited}, \url{http://unix.stackexchange.com/questions/3886/difference-between-nohup-disown-and#}, \url{http://unix.stackexchange.com/questions/4004/how-can-i-close-a-terminal-without-killing-the-command-running-in-it}
+        \end{itemize}
+    \item suid on interpreted programs: \url{http://unix.stackexchange.com/questions/364/allow-setuid-on-shell-scripts}
     \item AWK programming
         \begin{enumerate}
             \item The AWK Programming Language (在读)
@@ -669,6 +708,15 @@
 \begin{enumerate}
     \item Mastering Regular Expression (在读)
 \end{enumerate}
+%
+\subsubsection{Misc}
+%
+\begin{itemize}
+    \item watchdog timer
+        \begin{itemize}
+            \item watchdog kernel documentation https://www.kernel.org/doc/Documentation/watchdog/watchdog-api.txt
+        \end{itemize}
+\end{itemize}
 \subsection{HTML\&\ CSS}
 \begin{enumerate}
     \item \href{https://developer.mozilla.org/en-US/Learn}{Mozilla Developer Network} (在读)
@@ -692,7 +740,7 @@
 \end{enumerate}
 \subsection{VCS}
 \begin{enumerate}
-    \item Git Pro, 2nd edition. (在读)
+    \item Pro Git, 2nd edition. (已读)
     \item Version Control with Subversion (在读)
 \end{enumerate}
 \subsection{Computer System}
@@ -729,6 +777,15 @@
                 \end{enumerate}
             \item SMB/CIFS protocol (Wikipedia)
         \end{enumerate}
+    \item remote management
+        \begin{itemize}
+            \item SNMP
+                \begin{itemize}
+                    \item pysnmp doc http://pysnmp.sourceforge.net/docs/snmp-history.html
+                    \item snmp wiki https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol
+                    \item management information base https://en.wikipedia.org/wiki/Management_information_base
+                \end{itemize}
+        \end{itemize}
 \end{enumerate}
 \subsection{Database}
 \begin{enumerate}
