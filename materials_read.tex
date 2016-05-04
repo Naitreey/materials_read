@@ -180,7 +180,7 @@
                         a, A, I, i, x, d, dd, D, gU, gu, u, <C-r>, r, R, c, C, s, S,
                         v, V, <C-v>, o, O, y, yy, Y, >, >>, <, <<, ., <C-a>, <C-x>
                     \item insert mode
-                        <C-k>, <C-v>, <ESC>, 
+                        <C-k>, <C-v>, <ESC>,
                 \end{itemize}
             \item info
                 <C-g>, ga,
@@ -217,6 +217,7 @@
     \item Peter's gdb tutorial. (无笔记)
     \item gdb manual (在读)
     \item C11 Standard (在读)
+    \item crt0 wiki \url{https://en.wikipedia.org/wiki/Crt0}
     \item libraries
         \begin{enumerate}
             \item libpcap
@@ -519,6 +520,7 @@
     \item Learning the Unix Operating System (无笔记)
     \item Unix in a nutshell (在读)
     \item Fedora 22 System Administrator's Guide (在读)
+    \item RHEL6 deployment guide (在读)
     \item IPC wiki \url{https://en.wikipedia.org/wiki/Inter-process_communication}
 \end{enumerate}
 %
@@ -554,7 +556,16 @@
                     \item \url{http://0pointer.de/blog/projects/the-new-configuration-files}
                     \item \url{http://www.freedesktop.org/wiki/Software/systemd/}
                 \end{enumerate}
+            \item Predictable Network Interface Names \url{https://www.freedesktop.org/wiki/Software/systemd/PredictableNetworkInterfaceNames/}
         \end{enumerate}
+    \item udev
+        \begin{itemize}
+            \item udev wiki \url{https://en.wikipedia.org/wiki/Udev}
+            \item udev documentation \url{https://www.kernel.org/pub/linux/utils/kernel/hotplug/udev/udev.html}
+            \item Writing udev rules \url{http://www.reactivated.net/writing_udev_rules.html}
+            \item archlinux udev wiki \url{https://wiki.archlinux.org/index.php/udev}
+            \item /usr/lib/udev/rules.d 规则 (在读)
+        \end{itemize}
     \item D-Bus
         \begin{enumerate}
             \item D-Bus wiki \url{https://en.wikipedia.org/wiki/DBus}
@@ -587,6 +598,16 @@
     \item initramfs
         \begin{itemize}
             \item dracut \url{https://en.wikipedia.org/wiki/Dracut_(software)}
+            \item dracut linux kernel doc \url{https://www.kernel.org/pub/linux/utils/boot/dracut/dracut.html}
+        \end{itemize}
+    \item sysfs
+        \begin{itemize}
+            \item The sysfs system by Patrick Mochel (在读, 涉及 kernel programming 的部分未读)
+            \item kernel sysfs documentation https://www.kernel.org/doc/Documentation/filesystems/sysfs.txt
+        \end{itemize}
+    \item package management
+        \begin{itemize}
+            \item DNF system upgrade \url{https://fedoraproject.org/wiki/DNF_system_upgrade}
         \end{itemize}
 \end{itemize}
 %
@@ -599,19 +620,19 @@
 \subsubsection{Shell Programming}
 %
 \begin{enumerate}
-    \item customize terminal prompt (无笔记)
+    \item Bash Reference Manual (在读)
     \item Advanced Bash-Scripting Guide, by Mendel Cooper (在读)
     \item Learning the Bash Shell (在读)
-    \item docopt: Command-line interface description language \url{http://docopt.org/}
     \item shell utils and commands:
         \begin{enumerate}
-            \item bash, printf, echo, cd, pwd, export, type, fg, bg, jobs, umask, test, set, while, case, exit, shift, if, for, source, declare, read, continue, break, trap, exec, eval, dirs, pushd, popd, ulimit, readonly, unset
+            \item bash, printf, echo, cd, pwd, export, type, fg, bg, jobs, umask, test, while, case, exit, shift, if, for, source, declare, read, continue, break, trap, exec, eval, dirs, pushd, popd, ulimit, hash, [[ ]], builtin, command, enable, shopt, set, unset, readonly, history, time, kill, alias, unalias
             \item sh, sudo, su, chsh, visudo, passwd, getty, login, chvt
             \item mknod
             \item xinput, xclip,
             \item alternatives
             \item apt-get (install|update), dnf (install|remove|erease|update|updateinfo), yum, rpm
             \item ls, stat, cat, rm, mkdir, rmdir, mv, cp, less, vi, chmod, chroot, chown, touch, file, locate, head, tail, env, printenv, tr, groups, which, ln, readlink, uname, dd, dmesg, lsof, dirname, mktemp, printf
+            \item id (man and info '(coreutils) id invocation')
             \item w, who, whoami, uptime, tty,
             \item seq
             \item pgrep, pkill, kill, kill, killall, ps, top, pidof, nice
@@ -627,8 +648,10 @@
             \item md5sum
             \item dos2unix, unix2dos
             \item useradd, userdel, usermod, lid
-            \item systemctl (status|start|stop|restart|enable|disable|list-units|list-unit-files|list-jobs|poweroff|reboot|suspend), systemd-analyze (blame|plot|dot), systemd-cgls, systemd-udevd, journalctl, logind.conf(5)
-            \item service, run-parts, telinit, udevadm (info|monitor), lsscsi, lsusb
+            \item systemctl (status|start|stop|restart|enable|disable|list-units|list-unit-files|list-jobs|poweroff|reboot|suspend), systemd-analyze (blame|plot|dot), systemd-cgls, systemd-udevd, journalctl, logind.conf(5), systemd-journald.service(8), systemd-journald.socket(8), systemd-journald-dev-log.socket(8), /usr/lib/systemd/systemd-journald(8),
+            \item service, run-parts, telinit, lsscsi, lsusb
+            \item udev.conf(5), udevadm(8), udev(7), systemd-udevd.service(8)
+            \item dracut(8), lsinitrd(1), mkinitrd(8), dracut.cmdline(7), dracut.conf(5), dracut.modules(7), dracut.bootup(7), dracut-cmdline.service(8),
             \item screen
             \item df, du, fdisk, gdisk, parted, gparted, mkfs.<type>, fsck.<type>, dumpe2fs, tune2fs, debugfs, mount, umount, samba, findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (mount(8)), /proc/mounts (proc(5)), sync, free, mkswap, swapon, swapoff, dmsetup, lspci, ionice, iotop
             \item console_codes(4)
@@ -642,7 +665,7 @@
             \item bluetoothctl
             \item vncviewer
             \item okular
-            \item git (init|clone|branch|mv|status|remote|ls-remote|merge|mergetool|merge-base|merge-file|pull|fetch|push|commit|commit-tree|log|shortlog|checkout|ls-files|ls-tree|read-tree|write-tree|hash-object|cat-file|rm|add|stash|config|var|diff|difftool|diff-tree|diff-index|apply|rebase|reset|revert|tag|show|instaweb|clean|cherry-pick|cherry|reflog|submodule|filter-branch|request-pull|format-patch|am|send-email|rev-parse|rev-list|rerere|describe|grep|blame|bisect|update-index|update-ref|symbolic-ref|archive|bundle|gc|prune|fsck|count-objects|help|credential|credential-cache|credential-cache--daemon|credential-gnome-keyring|credential-store|replace|update-server-info|send-pack|receive-pack|version), git-shell, gitignore(5), gitrevisions(7), gitattributes(5), githooks(5), gitcredentials(7), gitmodules(5)
+            \item git (init|clone|branch|mv|status|remote|ls-remote|merge|mergetool|merge-base|merge-file|pull|fetch|push|commit|commit-tree|log|shortlog|checkout|show-branch|ls-files|ls-tree|read-tree|write-tree|hash-object|cat-file|rm|add|stash|config|var|diff|difftool|diff-tree|diff-index|apply|rebase|reset|revert|tag|show|instaweb|clean|cherry-pick|cherry|reflog|submodule|filter-branch|request-pull|format-patch|am|send-email|rev-parse|rev-list|rerere|describe|grep|blame|bisect|update-index|update-ref|symbolic-ref|archive|bundle|gc|prune|fsck|count-objects|help|credential|credential-cache|credential-cache--daemon|credential-gnome-keyring|credential-store|replace|update-server-info|send-pack|receive-pack|version), git-shell, gitignore(5), gitrevisions(7), gitattributes(5), githooks(5), gitcredentials(7), gitmodules(5)
             \item svn (commit|checkout|log)
             \item mail
             \item sqlite3
@@ -652,6 +675,13 @@
             \item runc (start|spec|kill|list)
             \item docker (build|run|images|create|commit|rename|rm|rmi|ps|start|stop|kill|attach|export|logs|port|history)
         \end{enumerate}
+    \item bash init procedures:
+        \begin{itemize}
+            \item /etc/profile
+        \end{itemize}
+    \item dd wiki \url{https://en.wikipedia.org/wiki/Dd_(Unix)}
+    \item docopt: Command-line interface description language \url{http://docopt.org/}
+    \item customize terminal prompt (无笔记)
     \item description about p, x, etc. manpage sections: \url{http://unix.stackexchange.com/questions/204501/what-are-the-n-l-3pm-sections-of-the-manual-for}
     \item background process, daemon, etc
         \begin{itemize}
@@ -663,6 +693,12 @@
             \item The AWK Programming Language (在读)
         \end{enumerate}
 \end{enumerate}
+%
+\subsubsection{Networking}
+%
+\begin{itemize}
+    \item
+\end{itemize}
 %
 \subsubsection{Virtualization}
 %
@@ -715,6 +751,19 @@
     \item watchdog timer
         \begin{itemize}
             \item watchdog kernel documentation https://www.kernel.org/doc/Documentation/watchdog/watchdog-api.txt
+        \end{itemize}
+\end{itemize}
+%
+\subsubsection{History}
+%
+\begin{itemize}
+    \item fedora wiki \url{https://en.wikipedia.org/wiki/Fedora_(operating_system)}
+    \item RHEL wiki \url{https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux}
+    \item the relationship between Fedora and RHEL
+        \begin{itemize}
+            \item What is the relationship between Fedora and Red Hat Enterprise Linux? \url{https://www.redhat.com/en/technologies/linux-platforms/articles/relationship-between-fedora-and-rhel}
+            \item fedora wiki: Red Hat Enterprise Linux {https://fedoraproject.org/wiki/Red_Hat_Enterprise_Linux}
+            \item Red Hat Enterprise Linux derivatives \url{https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux_derivatives}
         \end{itemize}
 \end{itemize}
 \subsection{HTML\&\ CSS}
