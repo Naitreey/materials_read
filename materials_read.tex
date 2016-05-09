@@ -327,6 +327,7 @@
             \item guestfs
             \item libvirt
             \item resource
+            \item atexit
 
             %time
             \item time
@@ -411,10 +412,12 @@
             \item urllib2 (urllib in py3)
             \item pycurl
             \item httplib (http.client in py3)
+            \item xmlrpclib
             %server
             \item wsgiref
             \item SocketServer
             \item BaseHTTPServer (http.server in py3)
+            \item SimpleXMLRPCServer
             \item asyncore
             \item asynchat
             \item select (done: doc)
@@ -474,10 +477,14 @@
             \item Read the Docs
             \item pydoc
 
+            % image processing
+            \item
+
             %import
             \item importlib
             \item imp
             \item zipimport
+            \item pkgutil
 
             %misc
             \item re (done: doc)
@@ -625,7 +632,7 @@
     \item Learning the Bash Shell (在读)
     \item shell utils and commands:
         \begin{enumerate}
-            \item bash, printf, echo, cd, pwd, export, type, fg, bg, jobs, umask, test, while, case, exit, shift, if, for, source, declare, read, continue, break, trap, exec, eval, dirs, pushd, popd, ulimit, hash, [[ ]], builtin, command, enable, shopt, set, unset, readonly, history, time, kill, alias, unalias
+            \item bash, printf, echo, cd, pwd, export, type, fg, bg, jobs, umask, exit, if, case, select, source, read, trap, exec, eval, dirs, pushd, popd, ulimit, hash, [[ ]], test (\verb|[|), builtin, command, enable, shopt, set, unset, shift, history, time, kill, alias, unalias, until, for, while, break, continue, coproc, wait, function, return, declare, local, readonly
             \item sh, sudo, su, chsh, visudo, passwd, getty, login, chvt
             \item mknod
             \item xinput, xclip,
