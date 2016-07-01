@@ -223,6 +223,9 @@
             \item libpcap
             \item libguestfs
             \item libvirt
+                \begin{itemize}
+                    \item
+                \end{itemize}
         \end{enumerate}
 \end{enumerate}
 \subsection{Java}
@@ -394,6 +397,7 @@
             \item bson (mongodb)
             \item psycopg2
             \item sqlite3
+            \item sqlalchemy
 
             %GUI programming
             \item wx (wxPython)
@@ -488,6 +492,13 @@
             \item imp
             \item zipimport
             \item pkgutil
+
+            %checking
+            %py2py3
+            \item six
+            \item future
+            %codingstyle
+            \item flake8
 
             %misc
             \item re (done: doc)
@@ -640,13 +651,15 @@
             \item bash, :, ., source, printf, echo, cd, pwd, type, fg, bg, jobs, umask, exit, if, case, select, read, trap, exec, eval, dirs, pushd, popd, ulimit, hash, [[ ]], test (\verb|[|), builtin, command, enable, shopt, set, unset, shift, history, time, times, kill, alias, unalias, until, for, while, break, continue, coproc, wait, function, return, declare, local, readonly, export, getopts, bind
             \item sh, sudo, su, chsh, visudo, passwd, getty, login, chvt
             \item gnu readline
-                move: C-b (<Left>), C-f (<Right>), M-b, M-f, C-a, C-e
-                delete: C-h (<Backspace>), C-d (<Del>), M-<Backspace>, M-d, C-w, C-k
+                move: backward-char (C-b) (<Left>), forward-char (C-f) (<Right>), backward-word (M-b), forward-word (M-f), beginning-of-line (C-a), end-of-line (C-e), shell-forward-word (M-F), shell-backward-word (M-B)
+                delete: C-h (<Backspace>), delete-char (C-d) (<Del>), M-<Backspace>, M-d, C-w, C-k
                 undo: C-_, C-x C-u
-                clear screen: C-l
+                clear screen: clear-screen (C-l)
                 paste: C-y, M-y
-                accept line: C-j, C-m (<Enter>)
-                search history: C-r, C-s, C-g, <ESC>
+                accept line: accept-line (C-j) (C-m) (<Enter>)
+                search history: previous-history (C-p), next-history (C-n), reverse-search-history (C-r), forward-search-history (C-s), C-g, <ESC>
+                eof: end-of-file (C-d)
+                insert: quoted-insert (C-v), self-insert,
             \item mknod
             \item xinput, xclip,
             \item alternatives
@@ -725,6 +738,7 @@
 \begin{itemize}
         \item whole system virtualization
             \begin{itemize}
+                \item hypervisor wiki: \url{https://en.wikipedia.org/wiki/Hypervisor}
                 \item QEMU
                     \begin{itemize}
                         \item QEMU wiki https://en.wikipedia.org/wiki/QEMU
