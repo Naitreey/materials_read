@@ -652,14 +652,15 @@
             \item sh, sudo, su, chsh, visudo, passwd, getty, login, chvt
             \item gnu readline
                 move: backward-char (C-b) (<Left>), forward-char (C-f) (<Right>), backward-word (M-b), forward-word (M-f), beginning-of-line (C-a), end-of-line (C-e), shell-forward-word (M-F), shell-backward-word (M-B)
-                delete: C-h (<Backspace>), delete-char (C-d) (<Del>), M-<Backspace>, M-d, C-w, C-k
+                delete: C-h (<Backspace>), delete-char (C-d) (<Del>), backward-kill-word (M-<Backspace>), kill-word (M-d), C-w, kill-line (C-k), unix-line-discard (C-u), unix-word-rubout (C-w)
                 undo: C-_, C-x C-u
                 clear screen: clear-screen (C-l)
                 paste: C-y, M-y
                 accept line: accept-line (C-j) (C-m) (<Enter>)
                 search history: previous-history (C-p), next-history (C-n), reverse-search-history (C-r), forward-search-history (C-s), C-g, <ESC>
                 eof: end-of-file (C-d)
-                insert: quoted-insert (C-v), self-insert,
+                insert: quoted-insert (C-v), self-insert
+                swap case: upcase-word (M-u), downcase-word (M-l), capitalize-word (M-c)
             \item mknod
             \item xinput, xclip,
             \item alternatives
