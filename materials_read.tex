@@ -223,9 +223,6 @@
             \item libpcap
             \item libguestfs
             \item libvirt
-                \begin{itemize}
-                    \item
-                \end{itemize}
         \end{enumerate}
 \end{enumerate}
 \subsection{Java}
@@ -313,9 +310,14 @@
             \item readline
             \item rlcompleter
 
+            %virtualization
+            \item guestfs
+            \item libvirt
+
             %system
             \item sys (done: doc)
             \item os (done: doc)
+            \item fcntl
             \item shutil (done: doc)
             \item posixpath, a.k.a. os.path (done: doc)
             \item platform (done: doc)
@@ -329,8 +331,6 @@
             \item pwd
             \item getpass
             \item errno
-            \item guestfs
-            \item libvirt
             \item resource
             \item atexit
 
@@ -648,29 +648,31 @@
     \item Learning the Bash Shell (在读)
     \item shell utils and commands:
         \begin{enumerate}
-            \item bash, :, ., source, printf, echo, cd, pwd, type, fg, bg, jobs, umask, exit, if, case, select, read, trap, exec, eval, dirs, pushd, popd, ulimit, hash, [[ ]], test (\verb|[|), builtin, command, enable, shopt, set, unset, shift, history, time, times, kill, alias, unalias, until, for, while, break, continue, coproc, wait, function, return, declare, local, readonly, export, getopts, bind
+            \item bash, :, ., source, printf, echo, cd, pwd, type, umask, exit, if, case, select, read, trap, exec, eval, dirs, pushd, popd, ulimit, hash, [[ ]], test (\verb|[|), builtin, command, enable, shopt, set, unset, shift, time, times, alias, unalias, until, for, while, break, continue, coproc, function, return, declare, local, readonly, export, getopts, bind, complete, compgen, compopt, fc, history, !n, !-n, !!, !string, !?string[?], :0, :n, :^, :\$, :x-y, :-y, :*, :x*, :h, :t, :r, :e, :p, :s/old/new/, :gs/old/new/, jobs, fg, bg, kill, wait, disown, suspend, \%n, \%\%, \%string, \%?string, suspend character, caller
             \item sh, sudo, su, chsh, visudo, passwd, getty, login, chvt
             \item gnu readline
-                move: backward-char (C-b) (<Left>), forward-char (C-f) (<Right>), backward-word (M-b), forward-word (M-f), beginning-of-line (C-a), end-of-line (C-e), shell-forward-word (M-F), shell-backward-word (M-B)
-                delete: C-h (<Backspace>), delete-char (C-d) (<Del>), backward-kill-word (M-<Backspace>), kill-word (M-d), C-w, kill-line (C-k), unix-line-discard (C-u), unix-word-rubout (C-w)
-                undo: C-_, C-x C-u
+                move: backward-char (C-b) (<Left>), forward-char (C-f) (<Right>), backward-word (M-b), forward-word (M-f), beginning-of-line (C-a), end-of-line (C-e), vi-fWord (M-F), vi-bWord (M-B), character-search (C-]), character-search-backward (M-C-])
+                delete: C-h (<Backspace>), delete-char (C-d) (<Del>), backward-kill-word (M-<Backspace>), kill-word (M-d), kill-line (C-k), unix-line-discard (C-u), unix-word-rubout (C-w)
+                undo: undo (C-_, C-x C-u)
                 clear screen: clear-screen (C-l)
                 paste: C-y, M-y
                 accept line: accept-line (C-j) (C-m) (<Enter>)
-                search history: previous-history (C-p), next-history (C-n), reverse-search-history (C-r), forward-search-history (C-s), C-g, <ESC>
+                search history: previous-history (C-p), next-history (C-n), reverse-search-history (C-r), forward-search-history (C-s), abort (C-g)
                 eof: end-of-file (C-d)
-                insert: quoted-insert (C-v), self-insert
+                insert: quoted-insert (C-v), self-insert, insert-comment (M-#), shell-expand-line (M-C-e), edit-and-execute-command (C-x C-e)
                 swap case: upcase-word (M-u), downcase-word (M-l), capitalize-word (M-c)
                 completion: complete (Tab), menu-complete, complete-filename (M-/), complete-username (M-~), complete-variable (M-\$), complete-hostname (M-@), complete-command (M-!), complete-into-braces (M-\{)
                 options: colored-stats, mark-directories, menu-complete-display-prefix,
                          show-all-if-ambiguous, skip-completed-text
+                misc: re-read-init-file (C-x C-r), prefix-meta (ESC)
+                cancel: ctrl-[ (ESC)
             \item mknod
             \item xinput, xclip,
             \item alternatives
             \item apt-get (install|update), dnf (install|remove|erease|update|updateinfo), yum, rpm
             \item ls, stat, cat, rm, mkdir, rmdir, mv, cp, less, vi, chmod, chroot, chown, touch, file, locate, head, tail, env, printenv, tr, groups, which, ln, readlink, uname, dd, dmesg, lsof, dirname, mktemp, printf
             \item id (man and info '(coreutils) id invocation')
-            \item w, who, whoami, uptime, tty,
+            \item w, who, whoami, uptime, tty, whois (jwhois),
             \item seq
             \item pgrep, pkill, kill, kill, killall, ps, top, pidof, nice
             \item grep, bzgrep, xzgrep, zgrep, zipgrep, locale, find, xargs
@@ -698,6 +700,8 @@
             \item hostname
             \item gcc, gdb, ctags, cscope, gvim, vim, gvimdiff, python, python3, pip, pip3, pydoc, java, javac, make, diff, patch, ldd, strings, pmap, taskset, node, npm
             \item ping, arping, iptables
+            \item ip (maddress)
+            \item whois (jwhois)
             \item virsh (list|start|destroy), qemu-img
             \item bluetoothctl
             \item vncviewer
@@ -742,31 +746,40 @@
 \subsubsection{Virtualization}
 %
 \begin{itemize}
-        \item whole system virtualization
-            \begin{itemize}
-                \item hypervisor wiki: \url{https://en.wikipedia.org/wiki/Hypervisor}
-                \item QEMU
-                    \begin{itemize}
-                        \item QEMU wiki https://en.wikipedia.org/wiki/QEMU
-                        \item QEMU wikibook https://en.wikibooks.org/wiki/QEMU
-                    \end{itemize}
-            \end{itemize}
-        \item operating-system-level virtualization
-            \begin{itemize}
-                \item chroot
-                \item operating-system-level virtualization wiki \url{https://en.wikipedia.org/wiki/Operating-system-level_virtualization}
-                \item open container, runC, docker
-                    \begin{itemize}
-                        \item Open Container Specifications \url{https://github.com/opencontainers/specs}
-                        \item OCI FAQs \url{https://www.opencontainers.org/faq}
-                        \item runC homepage Getting Started \url{https://runc.io/}
-                        \item runC readme \url{https://github.com/opencontainers/runc}
-                        \item docker wiki \url{https://en.wikipedia.org/wiki/Docker_(software)}
-                        \item docker documentation: Get Started with Docker Engine for Linux https://docs.docker.com/linux/
-                        \item docker documentation: Understand the architecture \url{https://docs.docker.com/engine/understanding-docker/}
-                        \item docker documentation: Quickstart Docker Engine \url{https://docs.docker.com/engine/quickstart/}
-                    \end{itemize}
-            \end{itemize}
+    \item general introduction
+        \begin{itemize}
+            \item Hardware virtualization wiki \url{https://en.wikipedia.org/wiki/Hardware_virtualization}
+        \end{itemize}
+    \item management tool: libvirt
+        \begin{itemize}
+            \item libvirt wiki \url{https://en.wikipedia.org/wiki/Libvirt}
+            \item libvirt documentation (在读) \url{http://libvirt.org/docs.html}
+        \end{itemize}
+    \item full virtualization
+        \begin{itemize}
+            \item hypervisor wiki \url{https://en.wikipedia.org/wiki/Hypervisor}
+            \item QEMU
+                \begin{itemize}
+                    \item QEMU wiki https://en.wikipedia.org/wiki/QEMU
+                    \item QEMU wikibook https://en.wikibooks.org/wiki/QEMU
+                \end{itemize}
+        \end{itemize}
+    \item operating-system-level virtualization
+        \begin{itemize}
+            \item operating-system-level virtualization wiki \url{https://en.wikipedia.org/wiki/Operating-system-level_virtualization}
+            \item chroot
+            \item open container, runC, docker
+                \begin{itemize}
+                    \item Open Container Specifications \url{https://github.com/opencontainers/specs}
+                    \item OCI FAQs \url{https://www.opencontainers.org/faq}
+                    \item runC homepage Getting Started \url{https://runc.io/}
+                    \item runC readme \url{https://github.com/opencontainers/runc}
+                    \item docker wiki \url{https://en.wikipedia.org/wiki/Docker_(software)}
+                    \item docker documentation: Get Started with Docker Engine for Linux https://docs.docker.com/linux/
+                    \item docker documentation: Understand the architecture \url{https://docs.docker.com/engine/understanding-docker/}
+                    \item docker documentation: Quickstart Docker Engine \url{https://docs.docker.com/engine/quickstart/}
+                \end{itemize}
+        \end{itemize}
 \end{itemize}
 %
 \subsubsection{File Systems}
