@@ -220,7 +220,31 @@
     \item crt0 wiki \url{https://en.wikipedia.org/wiki/Crt0}
     \item libraries
         \begin{enumerate}
-            \item stdio
+            \item stdio.h(0P), stdio(3)
+                \begin{itemize}
+                    \item printf(3), fprintf(3), scanf(3),
+                          getchar(3), putchar(3),
+                          setvbuf(3), fflush(3)
+                \end{itemize}
+            \item stdbool.h(0P)
+            \item stdarg.h(0P), stdarg(3)
+            \item stdint.h(0P), inttypes.h(0P)
+            \item floats.h(0P)
+            \item complex.h(0P), complex(7)
+            \item stddef.h(0P)
+            \item limits.h(0P)
+            \item math.h(0P)
+                \begin{itemize}
+                    \item pow(3), isnan(3), isinf(3), fabs(3), sqrt(3)
+                \end{itemize}
+            \item ctype.h(0P)
+            \item string.h(0P)
+                \begin{itemize}
+                    \item strlen(3)
+                \end{itemize}
+            \item unistd.h(0P)
+            \item termios.h(0P), termios(3)
+            \item iso646.h(0P)
             \item libpcap
             \item libguestfs
             \item libvirt
@@ -644,6 +668,7 @@
         \begin{itemize}
             \item open(), read(), write(), close(), lseek()
         \end{itemize}
+    \item The Linux Kernel Archives --- Active kernel releases \url{https://www.kernel.org/category/releases.html}
 \end{itemize}
 %
 \subsubsection{Shell Programming}
