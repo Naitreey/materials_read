@@ -222,14 +222,17 @@
         \begin{enumerate}
             \item stdio.h(0P), stdio(3)
                 \begin{itemize}
+                    \item stdin, stdout, stderr
+                    \item fopen(3), fdopen(3), freopen(3), fclose(3)
+                    \item fileno(3)
+                    \item feof(3), ferror(3), clearerr(3)
+                    \item fread(3), fwrite(3)
+                    \item fseek(3), ftell(3), rewind(3), fgetpos(3), fsetpos(3)
                     \item setvbuf(3), fflush(3)
                     \item printf(3), fprintf(3), sprintf(3), dprintf(3), snprintf(3)
-                    \item scanf(3)
+                    \item scanf(3), fscanf(3), sscanf(3)
                     \item getchar(3), getc(3), fgetc(3), gets(3), fgets(3), ungetc(3)
                     \item putchar(3), putc(3), fputc(3), puts(3), fputs(3)
-                    \item strcmp(3), strncmp(3)
-                    \item strcpy(3), strncpy(3)
-                    \item strchr(3), strrchr(3)
                 \end{itemize}
             \item stdbool.h(0P)
             \item stdarg.h(0P), stdarg(3)
@@ -246,10 +249,32 @@
             \item string.h(0P)
                 \begin{itemize}
                     \item strlen(3)
+                    \item strcmp(3), strncmp(3)
+                    \item strcpy(3), strncpy(3)
+                    \item strcat(3), strncat(3)
+                    \item strchr(3), strrchr(3), strpbrk(3)
+                    \item memcpy(3), memmove(3)
+                \end{itemize}
+            \item stdlib.h(0P)
+                \begin{itemize}
+                    \item malloc(3), calloc(3), realloc(3), aligned_alloc(3), free(3)
+                    \item qsort(3)
+                    \item exit(3), EXIT_SUCCESS, EXIT_FAILURE
+                    \item atoi(3), atol(3), atoll(3)
+                    \item strtol(3), strtoll(3)
+                    \item strtof(3), strtod(3), strtold(3)
+                    \item rand(3), srand(3)
+                \end{itemize}
+            \item time.h(0P)
+                \begin{itemize}
+                    \item time(2), RAND_MAX
                 \end{itemize}
             \item unistd.h(0P)
             \item termios.h(0P), termios(3)
+            \item stdalign.h
+            \item stdatomic.h, threads.h
             \item iso646.h(0P)
+            \item attributes(7)
             \item libpcap
             \item libguestfs
             \item libvirt
@@ -347,7 +372,6 @@
             %system
             \item sys (done: doc)
             \item os (done: doc)
-            \item fcntl
             \item shutil (done: doc)
             \item posixpath, a.k.a. os.path (done: doc)
             \item platform (done: doc)
@@ -411,8 +435,12 @@
             \item collections
             \item numbers (done: doc, source)
 
-            %data structure
+            % C and system-level interfaces
             \item array
+            \item struct
+            \item fcntl
+
+            %data structure
             \item collections (done: doc, source (collections.py, _abcoll.py))
             \item heapq
             \item Queue
@@ -535,7 +563,6 @@
             \item yara
             \item pypdf2
             \item gc
-            \item struct
             \item functools (doc)
             \item itertools
             \item operator
@@ -647,10 +674,17 @@
             \item pam.d(5) manpage
             \item pam_ftp(8) manpage
         \end{enumerate}
-    \item initramfs
+    \item PXE
         \begin{itemize}
-            \item dracut \url{https://en.wikipedia.org/wiki/Dracut_(software)}
-            \item dracut linux kernel doc \url{https://www.kernel.org/pub/linux/utils/boot/dracut/dracut.html}
+            \item Preboot Execution Environment wiki \url{https://en.wikipedia.org/wiki/Preboot_Execution_Environment}
+        \end{itemize}
+    \item initramfs, dracut
+        \begin{itemize}
+            \item dracut wiki \url{https://en.wikipedia.org/wiki/Dracut_(software)}
+            \item dracut kernel wiki \url{https://dracut.wiki.kernel.org/index.php/Main_Page}
+            \item dracut kernel doc \url{https://www.kernel.org/pub/linux/utils/boot/dracut/dracut.html}
+            \item wwoods' notes on dracut: theory, operation, and good practice \url{https://wwoods.fedorapeople.org/doc/dracut-notes.html}
+            \item dracut source repo
         \end{itemize}
     \item sysfs
         \begin{itemize}
@@ -744,6 +778,7 @@
             \item vncviewer
             \item okular
             \item git (init|clone|branch|mv|status|remote|ls-remote|merge|mergetool|merge-base|merge-file|pull|fetch|push|commit|commit-tree|log|shortlog|checkout|show-branch|ls-files|ls-tree|read-tree|write-tree|hash-object|cat-file|rm|add|stash|config|var|diff|difftool|diff-tree|diff-index|apply|rebase|reset|revert|tag|show|instaweb|clean|cherry-pick|cherry|reflog|submodule|filter-branch|request-pull|format-patch|am|send-email|rev-parse|rev-list|rerere|describe|grep|blame|bisect|update-index|update-ref|symbolic-ref|archive|bundle|gc|prune|fsck|count-objects|help|credential|credential-cache|credential-cache--daemon|credential-gnome-keyring|credential-store|replace|update-server-info|send-pack|receive-pack|version), git-shell, gitignore(5), gitrevisions(7), gitattributes(5), githooks(5), gitcredentials(7), gitmodules(5)
+            \item git annex (init|add|copy|move|describe|drop|dropunused|initremote|numcopies|unused|)
             \item svn (commit|checkout|log)
             \item mail
             \item sqlite3
@@ -753,6 +788,7 @@
             \item runc (start|spec|kill|list)
             \item docker (build|run|images|create|commit|rename|rm|rmi|ps|start|stop|kill|attach|export|logs|port|history)
             \item expressvpn,
+            \item wdctl
         \end{enumerate}
     \item bash init procedures:
         \begin{itemize}
@@ -777,7 +813,7 @@
 \subsubsection{Networking}
 %
 \begin{itemize}
-    \item
+    \item IEEE 802.11ac standard \url{https://en.wikipedia.org/wiki/IEEE_802.11ac}
 \end{itemize}
 %
 \subsubsection{Virtualization}
