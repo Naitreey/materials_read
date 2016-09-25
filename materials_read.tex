@@ -218,6 +218,10 @@
     \item gdb manual (在读)
     \item C11 Standard (在读)
     \item crt0 wiki \url{https://en.wikipedia.org/wiki/Crt0}
+    \item C FAQs
+        \begin{itemize}
+            not to use \code{scanf} \url{http://c-faq.com/stdio/scanfprobs.html}
+        \end{itemize}
     \item libraries
         \begin{enumerate}
             \item stdio.h(0P), stdio(3)
@@ -236,6 +240,11 @@
                 \end{itemize}
             \item stdbool.h(0P)
             \item stdarg.h(0P), stdarg(3)
+                \begin{itemize}
+                    \item va_list
+                    \item va_start, va_arg, va_end
+                    \item va_copy
+                \end{itemize}
             \item stdint.h(0P), inttypes.h(0P)
             \item floats.h(0P)
             \item complex.h(0P), complex(7)
@@ -245,6 +254,7 @@
                 \begin{itemize}
                     \item pow(3), isnan(3), isinf(3), fabs(3), sqrt(3)
                 \end{itemize}
+            \item tgmath.h(0P)
             \item ctype.h(0P)
             \item string.h(0P)
                 \begin{itemize}
@@ -259,17 +269,26 @@
                 \begin{itemize}
                     \item malloc(3), calloc(3), realloc(3), aligned_alloc(3), free(3)
                     \item qsort(3)
-                    \item exit(3), EXIT_SUCCESS, EXIT_FAILURE
                     \item atoi(3), atol(3), atoll(3)
                     \item strtol(3), strtoll(3)
                     \item strtof(3), strtod(3), strtold(3)
                     \item rand(3), srand(3)
+                    \item mkdtemp(3), tmpfile(3)
+                    \item exit(3), EXIT_SUCCESS, EXIT_FAILURE
+                    \item atexit(3)
+                    \item abort(3)
                 \end{itemize}
             \item time.h(0P)
                 \begin{itemize}
                     \item time(2), RAND_MAX
+                    \item clock(3), CLOCKS_PER_SEC
                 \end{itemize}
             \item unistd.h(0P)
+            \item assert.h(0P)
+                \begin{itemize}
+                    \item assert(3)
+                \end{itemize}
+            \item signal.h(0P), signal(2)
             \item termios.h(0P), termios(3)
             \item stdalign.h
             \item stdatomic.h, threads.h
@@ -278,6 +297,7 @@
             \item libpcap
             \item libguestfs
             \item libvirt
+            \item Gnulib, GDSL, GLib, SGLIB
         \end{enumerate}
 \end{enumerate}
 \subsection{Java}
@@ -722,7 +742,7 @@
             \item bash, :, ., source, printf, echo, cd, pwd, type, umask, exit, if, case, select, read, trap, exec, eval, dirs, pushd, popd, ulimit, hash, [[ ]], test (\verb|[|), builtin, command, enable, shopt, set, unset, shift, time, times, alias, unalias, until, for, while, break, continue, coproc, function, return, declare, local, readonly, export, getopts, bind, complete, compgen, compopt, fc, history, !n, !-n, !!, !string, !?string[?], :0, :n, :^, :\$, :x-y, :-y, :*, :x*, :h, :t, :r, :e, :p, :s/old/new/, :gs/old/new/, jobs, fg, bg, kill, wait, disown, suspend, \%n, \%\%, \%string, \%?string, suspend character, caller, help, let, logout, mapfile, readarray
             \item sh, sudo, su, chsh, visudo, passwd, getty, login, chvt
             \item gnu readline
-                move: backward-char (C-b) (<Left>), forward-char (C-f) (<Right>), backward-word (M-b), forward-word (M-f), beginning-of-line (C-a), end-of-line (C-e), vi-fWord (M-F), vi-bWord (M-B), character-search (C-]), character-search-backward (M-C-])
+                move: backward-char (C-b) (<Left>), forward-char (C-f) (<Right>), backward-word (M-b), forward-word (M-f), beginning-of-line (C-a), end-of-line (C-e), vi-fWord, vi-bWord (M-B), character-search (C-]), character-search-backward (M-C-])
                 delete: C-h (<Backspace>), delete-char (C-d) (<Del>), backward-kill-word (M-<Backspace>), kill-word (M-d), kill-line (C-k), unix-line-discard (C-u), unix-word-rubout (C-w)
                 undo: undo (C-_, C-x C-u)
                 clear screen: clear-screen (C-l)
@@ -774,7 +794,8 @@
             \item arp, arping
             \item ip (maddress|neighbour)
             \item whois (jwhois)
-            \item virsh (list|start|destroy), qemu-img
+            \item virsh (list|start|destroy|capabilities)
+            \item qemu-img (create|convert|info|snapshot)
             \item bluetoothctl
             \item vncviewer
             \item okular
@@ -823,36 +844,46 @@
     \item general introduction
         \begin{itemize}
             \item Hardware virtualization wiki \url{https://en.wikipedia.org/wiki/Hardware_virtualization}
+            \item Virtual Linux: An overview of virtualization methods, architectures, and implementations \url{https://web.archive.org/web/20080327111126/http://www-128.ibm.com/developerworks/linux/library/l-linuxvirt/?ca=dgr-lnxw01Virtual-Linux}
+            \item Fedora Virtualization intro \url{https://fedoraproject.org/wiki/Virtualization?rd=Tools/Virtualization}
+            \item Fedora Getting started with virtualization \url{https://fedoraproject.org/wiki/Getting_started_with_virtualization}
+            \item hardware emulation wiki \url{https://en.wikipedia.org/wiki/Emulator},
+                  full virtualization wiki \url{https://en.wikipedia.org/wiki/Full_virtualization},
+                  hardware-assisted virtualization wiki \url{https://en.wikipedia.org/wiki/Hardware-assisted_virtualization},
+                  paravirtualization wiki \url{https://en.wikipedia.org/wiki/Full_virtualization},
+                  operating-system-level virtualization \url{https://en.wikipedia.org/wiki/Operating-system-level_virtualization}
+            \item hypervisor wiki \url{https://en.wikipedia.org/wiki/Hypervisor}
         \end{itemize}
     \item management tool: libvirt
         \begin{itemize}
             \item libvirt wiki \url{https://en.wikipedia.org/wiki/Libvirt}
-            \item libvirt documentation (在读) \url{http://libvirt.org/docs.html}
+            \item Driver capabilities XML format \url{http://libvirt.org/formatcaps.html}
         \end{itemize}
-    \item full virtualization
+    \item QEMU (hardware emulation, full virtualization)
         \begin{itemize}
-            \item hypervisor wiki \url{https://en.wikipedia.org/wiki/Hypervisor}
-            \item QEMU
-                \begin{itemize}
-                    \item QEMU wiki https://en.wikipedia.org/wiki/QEMU
-                    \item QEMU wikibook https://en.wikibooks.org/wiki/QEMU
-                \end{itemize}
+            \item QEMU wiki \url{https://en.wikipedia.org/wiki/QEMU}
+            \item QEMU wikibook \url{https://en.wikibooks.org/wiki/QEMU}
+            \item How to use qemu \url{https://fedoraproject.org/wiki/How_to_use_qemu#Qemu_commands_since_F.3F.2B}
         \end{itemize}
-    \item operating-system-level virtualization
+    \item KVM (hardware-assisted virtualization, paravirtualization)
         \begin{itemize}
-            \item operating-system-level virtualization wiki \url{https://en.wikipedia.org/wiki/Operating-system-level_virtualization}
-            \item chroot
-            \item open container, runC, docker
-                \begin{itemize}
-                    \item Open Container Specifications \url{https://github.com/opencontainers/specs}
-                    \item OCI FAQs \url{https://www.opencontainers.org/faq}
-                    \item runC homepage Getting Started \url{https://runc.io/}
-                    \item runC readme \url{https://github.com/opencontainers/runc}
-                    \item docker wiki \url{https://en.wikipedia.org/wiki/Docker_(software)}
-                    \item docker documentation: Get Started with Docker Engine for Linux https://docs.docker.com/linux/
-                    \item docker documentation: Understand the architecture \url{https://docs.docker.com/engine/understanding-docker/}
-                    \item docker documentation: Quickstart Docker Engine \url{https://docs.docker.com/engine/quickstart/}
-                \end{itemize}
+            \item Kernel-based Virtual Machine wiki \url{https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine}
+            \item Difference between KVM and QEMU \url{http://serverfault.com/questions/208693/difference-between-kvm-and-qemu}
+            \item windows virtio drivers \url{https://fedoraproject.org/wiki/Windows_Virtio_Drivers#Direct_download}
+            \item QEMU/Windows guest \url{https://wiki.gentoo.org/wiki/QEMU/Windows_guest}
+            \item Example using SPICE and QXL for improved Graphics experience in the guest \url{http://www.linux-kvm.org/page/SPICE}
+        \end{itemize}
+    \item chroot
+    \item open container, runC, docker (os-level virtualization)
+        \begin{itemize}
+            \item Open Container Specifications \url{https://github.com/opencontainers/specs}
+            \item OCI FAQs \url{https://www.opencontainers.org/faq}
+            \item runC homepage Getting Started \url{https://runc.io/}
+            \item runC readme \url{https://github.com/opencontainers/runc}
+            \item docker wiki \url{https://en.wikipedia.org/wiki/Docker_(software)}
+            \item docker documentation: Get Started with Docker Engine for Linux https://docs.docker.com/linux/
+            \item docker documentation: Understand the architecture \url{https://docs.docker.com/engine/understanding-docker/}
+            \item docker documentation: Quickstart Docker Engine \url{https://docs.docker.com/engine/quickstart/}
         \end{itemize}
 \end{itemize}
 %
