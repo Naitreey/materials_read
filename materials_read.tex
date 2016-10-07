@@ -160,10 +160,14 @@
 \subsection{Vim}
 \begin{itemize}
     \item Vim tutor.
+    \item Vim documentations
+        \begin{itemize}
+            \item usr_40.txt (在读)
+            \item if_cscop.txt (cscope)
+        \end{itemize}
     \item Vim-LaTeX reference. (剩下后面需要理解 vimscript 的部分)
     \item Vim-LaTeX reference card.
     \item \book{Practical Vim}, by Drew Neil. (在读)
-    \item \verb|usr_40| (在读)
     \item \href{http://vim.wikia.com/wiki/Vim_Tips_Wiki}{Vim Tips wiki}
     \item Vim questions on StackOverflow
     \item vim features and commands:
@@ -190,7 +194,7 @@
 \end{itemize}
 \subsection{Mathematica}
 \begin{itemize}
-    \item \book{Mathematica 与大学物理计算}.
+    \item \book{Mathematica 与大学物理计算}. (完全不合理地使用了 MMA)
     \item \book{The Mathematica Book}, by Stephen Wolfram. (在读)
     \item Mathematica virtual book---help doc. (在读)
     \item Mathematica Cookbook, by Sal Mangano (在读)
@@ -222,6 +226,9 @@
         \begin{itemize}
             not to use \code{scanf} \url{http://c-faq.com/stdio/scanfprobs.html}
         \end{itemize}
+    \item Why use apparently meaningless do-while and if-else statements in C/C++ macros?
+        \url{http://stackoverflow.com/questions/154136/why-use-apparently-meaningless-do-while-and-if-else-statements-in-c-c-macros}
+    \item Bit fields \url{http://en.cppreference.com/w/c/language/bit_field}
     \item libraries
         \begin{enumerate}
             \item stdio.h(0P), stdio(3)
@@ -234,6 +241,7 @@
                     \item fseek(3), ftell(3), rewind(3), fgetpos(3), fsetpos(3)
                     \item setvbuf(3), fflush(3)
                     \item printf(3), fprintf(3), sprintf(3), dprintf(3), snprintf(3)
+                    \item vprintf(3), vfprintf(3)
                     \item scanf(3), fscanf(3), sscanf(3)
                     \item getchar(3), getc(3), fgetc(3), gets(3), fgets(3), ungetc(3)
                     \item putchar(3), putc(3), fputc(3), puts(3), fputs(3)
@@ -284,6 +292,12 @@
                     \item clock(3), CLOCKS_PER_SEC
                 \end{itemize}
             \item unistd.h(0P)
+            \item wchar.h(0P)
+            \item locale.h(0P)
+            \item alloca.h
+                \begin{itemize}
+                    \item alloca(3)
+                \end{itemize}
             \item assert.h(0P)
                 \begin{itemize}
                     \item assert(3)
@@ -299,6 +313,15 @@
             \item libvirt
             \item Gnulib, GDSL, GLib, SGLIB
         \end{enumerate}
+    \item development tools
+        \begin{itemize}
+            \item cscope
+                \begin{itemize}
+                    \item Using Cscope on large projects \url{http://cscope.sourceforge.net/large_projects.html}
+                    \item vim cscope doc: if_cscop.txt
+                    \item cscope(1) manpage
+                \end{itemize}
+        \end{itemize}
 \end{enumerate}
 \subsection{Java}
 \begin{enumerate}
@@ -789,12 +812,23 @@
             \item grub2-install, grub2-mkconfig
             \item ssh, ssh-keygen, ssh-copy-id, sshpass sftp, ftp, scp, telnet, netcat (nc), wget, curl, rsync, nslookup, tcpdump
             \item hostname
-            \item gcc, gdb, ctags, cscope, gvim, vim, gvimdiff, python, python3, pip, pip3, pydoc, java, javac, make, diff, patch, ldd, strings, pmap, taskset, node, npm, getopt
+            \item gcc, gdb
+            \item ctags, cscope(1)
+            \item make, diff, patch, ldd, strings, pmap, taskset, getopt
+            \item gvim, vim, gvimdiff
+            \item python, python3, pip, pip3, pydoc
+            \item node, npm
+            \item java, javac
             \item ping, iptables
             \item arp, arping
-            \item ip (maddress|neighbour)
+            \item ip (route|maddress|neighbour)
+            \item traceroute(1)
             \item whois (jwhois)
-            \item virsh (list|start|destroy|capabilities)
+            \item virsh (list|
+                       create|start|shutdown|destroy|
+                       dompmsuspend|dompmwakeup|
+                       define|
+                       capabilities)
             \item qemu-img (create|convert|info|snapshot)
             \item bluetoothctl
             \item vncviewer
@@ -835,7 +869,6 @@
 \subsubsection{Networking}
 %
 \begin{itemize}
-    \item IEEE 802.11ac standard \url{https://en.wikipedia.org/wiki/IEEE_802.11ac}
 \end{itemize}
 %
 \subsubsection{Virtualization}
@@ -857,6 +890,7 @@
     \item management tool: libvirt
         \begin{itemize}
             \item libvirt wiki \url{https://en.wikipedia.org/wiki/Libvirt}
+            \item Domain XML format \url{http://libvirt.org/formatdomain.html}
             \item Driver capabilities XML format \url{http://libvirt.org/formatcaps.html}
         \end{itemize}
     \item QEMU (hardware emulation, full virtualization)
@@ -973,39 +1007,56 @@
 \begin{enumerate}
     \item Sams Teach Yourself TCP/IP in 24 Hours (在读)
     \item TCP/IP Illustrated 2nd (在读)
-    \item HTTP
-        \begin{enumerate}
-            \item HTTP: The Definitive Guide (在读, 很多有价值的参考资料在章末)
-        \end{enumerate}
-    \item email
-        \begin{enumerate}
-            \item RFC2822: Internet Message Format
-        \end{enumerate}
-    \item file sharing and printing
-        \begin{enumerate}
-            \item Network File System Protocol (wikipedia)
-            \item Internet Printing Protocol (Wikipedia)
-            \item CUPS---Common Unix Printing System (Wikipedia)
-            \item network printing from ubuntu \url{https://help.ubuntu.com/community/NetworkPrintingWithUbuntu}
-            \item samba
-                \begin{enumerate}
-                    \item samba (Wikipedia)
-                    \item samba (ubuntu community wiki)
-                    \item samba file server (ubuntu community wiki)
-                    \item samba print server (ubuntu community wiki)
-                    \item SambaServerGuide (ubuntu community wiki)
-                    \item mountWindowsSharesPermanently (ubuntu community wiki)
-                \end{enumerate}
-            \item SMB/CIFS protocol (Wikipedia)
-        \end{enumerate}
-    \item remote management
+    \item application layer
         \begin{itemize}
-            \item SNMP
+            \item HTTP
+                \begin{enumerate}
+                    \item HTTP: The Definitive Guide (在读, 很多有价值的参考资料在章末)
+                \end{enumerate}
+            \item email
+                \begin{enumerate}
+                    \item RFC2822: Internet Message Format
+                \end{enumerate}
+            \item file sharing and printing
+                \begin{enumerate}
+                    \item Network File System Protocol (wikipedia)
+                    \item Internet Printing Protocol (Wikipedia)
+                    \item CUPS---Common Unix Printing System (Wikipedia)
+                    \item network printing from ubuntu \url{https://help.ubuntu.com/community/NetworkPrintingWithUbuntu}
+                    \item samba
+                        \begin{enumerate}
+                            \item samba (Wikipedia)
+                            \item samba (ubuntu community wiki)
+                            \item samba file server (ubuntu community wiki)
+                            \item samba print server (ubuntu community wiki)
+                            \item SambaServerGuide (ubuntu community wiki)
+                            \item mountWindowsSharesPermanently (ubuntu community wiki)
+                        \end{enumerate}
+                    \item SMB/CIFS protocol (Wikipedia)
+                \end{enumerate}
+            \item remote management
                 \begin{itemize}
-                    \item pysnmp doc http://pysnmp.sourceforge.net/docs/snmp-history.html
-                    \item snmp wiki https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol
-                    \item management information base https://en.wikipedia.org/wiki/Management_information_base
+                    \item SNMP
+                        \begin{itemize}
+                            \item pysnmp doc http://pysnmp.sourceforge.net/docs/snmp-history.html
+                            \item snmp wiki https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol
+                            \item management information base https://en.wikipedia.org/wiki/Management_information_base
+                        \end{itemize}
                 \end{itemize}
+        \end{itemize}
+    \item network layer
+        \begin{itemize}
+            \item Internet Protocol (IP)
+                \begin{itemize}
+                    \item Routing selection: specificity vs metric
+                        \url{http://serverfault.com/questions/648276/routing-selection-specificity-vs-metric}
+                    \item ip address scope parameter
+                        \url{http://serverfault.com/questions/63014/ip-address-scope-parameter}
+                \end{itemize}
+        \end{itemize}
+    \item link layer
+        \begin{itemize}
+            \item IEEE 802.11ac standard \url{https://en.wikipedia.org/wiki/IEEE_802.11ac}
         \end{itemize}
 \end{enumerate}
 \subsection{Database}
