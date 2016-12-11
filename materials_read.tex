@@ -229,7 +229,7 @@
     \item Why use apparently meaningless do-while and if-else statements in C/C++ macros?
         \url{http://stackoverflow.com/questions/154136/why-use-apparently-meaningless-do-while-and-if-else-statements-in-c-c-macros}
     \item Bit fields \url{http://en.cppreference.com/w/c/language/bit_field}
-    \item libraries manuals
+    \item libraries
         \begin{enumerate}
             \item feature_test_macros(7)
             \item stdio.h(0P), stdio(3)
@@ -793,9 +793,25 @@
     \item The Linux Programming Interface (在读)
     \item resource limit: \url{http://serverfault.com/questions/356962/where-are-the-default-ulimit-values-set-linux-centos}
     \item Upgrading: nuance about replacing executable \url{http://unix.stackexchange.com/questions/138214/how-is-it-possible-to-do-a-live-update-while-a-program-is-running}
-    \item system calls
+    \item system programming APIs
         \begin{itemize}
-            \item open(), read(), write(), close(), lseek()
+            \item fcntl.h(0P), fcntl(2)
+                \begin{itemize}
+                    \item open(2)
+                \end{itemize}
+            \item unistd.h(0P)
+                \begin{itemize}
+                    \item read(2)
+                    \item write(2)
+                    \item close(2)
+                    \item lseek(2)
+
+                    \item fork(2)
+                    \item execve(2)
+
+                    \item getpid(2)
+                    \item getppid(2)
+                \end{itemize}
         \end{itemize}
     \item The Linux Kernel Archives --- Active kernel releases \url{https://www.kernel.org/category/releases.html}
 \end{itemize}
