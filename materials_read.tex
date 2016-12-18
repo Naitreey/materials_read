@@ -129,6 +129,11 @@
 \subsection{Algorithm}
 \begin{enumerate}
     \item Introduction to Algorithms, by Cormen. (在读, 很多有价值的参考资料在章末)
+    \item Concurrent programming
+        \begin{itemize}
+            \item Mutual exclusion \url{https://en.wikipedia.org/wiki/Mutual_exclusion}
+            \item Semaphore \url{https://en.wikipedia.org/wiki/Semaphore_(programming)}
+        \end{itemize}
 \end{enumerate}
 \subsection{Design Patterns and Refactoring}
 \begin{enumerate}
@@ -315,7 +320,6 @@
                 \begin{itemize}
                     \item assert(3)
                 \end{itemize}
-            \item signal.h(0P), signal(2)
             \item prctl(2)
             \item crypt.h
                 \begin{itemize}
@@ -712,7 +716,8 @@
     \item Linux Logical Volume Manager (LVM) wiki \url{https://en.wikipedia.org/wiki/Logical_Volume_Manager_(Linux)}
     \item Power management/Suspend and hibernate wiki \url{https://wiki.archlinux.org/index.php/Power_management/Suspend_and_hibernate}
     \item upstart cookbook (obsolete, 作废)
-    \item Debian and general Linux boot process \url{https://wiki.debian.org/BootProcess}
+    \item Debian and general Linux boot process
+          \url{https://wiki.debian.org/BootProcess}
     \item 6 Stages of Linux Boot Process
           \url{http://www.thegeekstuff.com/2011/02/linux-boot-process/}
     \item systemd
@@ -813,14 +818,45 @@
                     \item fork(2)
                     \item execve(2)
 
-                    \item getpid(2)
-                    \item getppid(2)
+                    \item getuid(2), geteuid(2)
+                    \item getgid(2), getegid(2)
+                    \item getresuid(2), getresgid(2)
+                    \item getgroups(2)
+                    \item getpid(2), getppid(2)
+                    \item getpgid(2)
+                    \item getpgrp(2)
+                    \item getsid(2)
 
                     \item _exit(2)
+
+                    \item sysconf(3)
                 \end{itemize}
             \item sys/wait.h
                 \begin{itemize}
                     \item wait(2), waitpid(2)
+                \end{itemize}
+            \item sys/resource.h
+                \begin{itemize}
+                    \item getrlimit(2)
+                    \item setrlimit(2)
+                    \item prlimit(2)
+                \end{itemize}
+            \item sys/mman.h
+                \begin{itemize}
+                    \item mmap(2)
+                    \item munmap(2)
+                \end{itemize}
+            \item signal.h(0P), signal(2)
+                \begin{itemize}
+                    \item kill(2)
+
+                    \item sigemptyset(3)
+                    \item sigfullset(3)
+                    \item sigaddset(3)
+                    \item sigdelset(3)
+                    \item sigismember(3)
+
+                    \item sigprocmask(2)
                 \end{itemize}
         \end{itemize}
     \item The Linux Kernel Archives --- Active kernel releases \url{https://www.kernel.org/category/releases.html}
@@ -1128,6 +1164,7 @@
     \item Computer system: A programmer's perspective. (在读)
     \item GUID Partition Table wiki \url{https://en.wikipedia.org/wiki/GUID_Partition_Table}
     \item RAID wiki \url{https://en.wikipedia.org/wiki/RAID}
+    \item Virtual memory wiki \url{https://en.wikipedia.org/wiki/Virtual_memory}
 \end{enumerate}
 \subsection{Network}
 \begin{enumerate}
