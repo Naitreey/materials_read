@@ -195,6 +195,16 @@
                 <C-g>, ga,
             \item session
                 <C-z>
+            \item tab
+                \begin{itemize}
+                    \item cmdline mode
+                        :tabnew, :tabclose
+                        :tabfirst, :tablast, :tabnext, :tabprevious
+                    \item normal mode
+                        gt, gT
+                \end{itemize}
+            \item working directory
+                :lcd, :cd
         \end{itemize}
 \end{itemize}
 \subsection{Mathematica}
@@ -234,6 +244,7 @@
     \item Why use apparently meaningless do-while and if-else statements in C/C++ macros?
         \url{http://stackoverflow.com/questions/154136/why-use-apparently-meaningless-do-while-and-if-else-statements-in-c-c-macros}
     \item Bit fields \url{http://en.cppreference.com/w/c/language/bit_field}
+    \item enum \url{http://en.cppreference.com/w/c/language/enum}
     \item libraries
         \begin{enumerate}
             \item feature_test_macros(7)
@@ -251,6 +262,9 @@
                     \item scanf(3), fscanf(3), sscanf(3)
                     \item getchar(3), getc(3), fgetc(3), gets(3), fgets(3), ungetc(3)
                     \item putchar(3), putc(3), fputc(3), puts(3), fputs(3)
+                    \item perror(3)
+
+                    \item remove(3)
                 \end{itemize}
             \item stdbool.h(0P)
             \item stdarg.h(0P), stdarg(3)
@@ -270,6 +284,7 @@
                 \end{itemize}
             \item tgmath.h(0P)
             \item ctype.h(0P)
+            \item errno(3), errno.h(0P)
             \item string.h(0P)
                 \begin{itemize}
                     \item strlen(3)
@@ -278,6 +293,8 @@
                     \item strcat(3), strncat(3)
                     \item strchr(3), strrchr(3), strpbrk(3)
                     \item memcpy(3), memmove(3)
+
+                    \item strerror(3)
                 \end{itemize}
             \item stdlib.h(0P)
                 \begin{itemize}
@@ -298,7 +315,6 @@
                     \item pthread_create(3), pthread_join(3)
                 \end{itemize}
             \item setjmp(3), setjmp.h(0P)
-            \item errno(3), errno.h(0P)
             \item fenv(3), fenv.h(0P)
             \item time.h(0P)
                 \begin{itemize}
@@ -688,6 +704,15 @@
 %
 \subsection{Go}
 %
+\begin{itemize}
+\end{itemize}
+%
+\subsection{Operating System}
+%
+\begin{itemize}
+    \item trap instruction wiki \url{https://en.wikipedia.org/wiki/Trap_(computing)}
+    \item data segment wiki \url{https://en.wikipedia.org/wiki/Data_segment}
+\end{itemize}
 \subsection{Linux \&\ Unix}
 \subsubsection{System Overview}
 \begin{enumerate}
@@ -802,7 +827,8 @@
     \item The Linux Programming Interface (在读)
     \item resource limit: \url{http://serverfault.com/questions/356962/where-are-the-default-ulimit-values-set-linux-centos}
     \item Upgrading: nuance about replacing executable \url{http://unix.stackexchange.com/questions/138214/how-is-it-possible-to-do-a-live-update-while-a-program-is-running}
-    \item system programming APIs
+    \item GNU C Library wiki \url{https://en.wikipedia.org/wiki/GNU_C_Library}
+    \item glibc and system programming APIs (syscalls)
         \begin{itemize}
             \item fcntl.h(0P), fcntl(2)
                 \begin{itemize}
@@ -817,6 +843,8 @@
 
                     \item fork(2)
                     \item execve(2)
+                    \item brk(2)
+                    \item sbrk(2)
 
                     \item getuid(2), geteuid(2)
                     \item getgid(2), getegid(2)
@@ -830,6 +858,20 @@
                     \item _exit(2)
 
                     \item sysconf(3)
+                    \item confstr(3)
+
+                    \item unlink(2)
+                    \item rmdir(2)
+
+                    \item getopt(3)
+                    \item getopt_long(3)
+                    \item getopt_long_only(3)
+                    \item optarg(3), optind(3), opterr(3), optopt(3),
+                \end{itemize}
+            \item gnu/libc-version.h
+                \begin{itemize}
+                    \item gnu_get_libc_version(3)
+                    \item gnu_get_libc_release(3)
                 \end{itemize}
             \item sys/wait.h
                 \begin{itemize}
@@ -896,7 +938,10 @@
             \item alternatives
             \item apt-get (install|update), dnf (install|remove|erease|update|updateinfo), yum, rpm
             \item pwdx
-            \item ls, stat, cat, rm, mkdir, rmdir, mv, cp, less, vi, chmod, chroot, chown, touch, file, locate, head, tail, env, printenv, tr, groups, which, ln, readlink, uname, dd, dmesg, lsof, dirname, mktemp, printf
+            \item ls, stat, cat, rm, unlink(1), mkdir, rmdir(1),
+            \item mv, cp, less, vi, chmod, chroot, chown, touch, file,
+            \item locate, head, tail, env, printenv, tr, groups, which, ln, readlink,
+            \item uname, dd, dmesg, lsof, dirname, mktemp, printf
             \item id (man and info '(coreutils) id invocation')
             \item w, who, whoami, uptime, tty, whois (jwhois),
             \item seq
@@ -926,7 +971,7 @@
             \item hostname
             \item gcc, gdb
             \item ctags, cscope(1)
-            \item make, diff, patch, ldd, strings, pmap, taskset, getopt
+            \item make, diff, patch, ldd, strings, pmap, taskset, getopt(1)
             \item gvim, vim, gvimdiff
             \item python, python3, pip, pip3, pydoc
             \item node, npm
@@ -1168,9 +1213,14 @@
 \subsection{Computer System}
 \begin{enumerate}
     \item Computer system: A programmer's perspective. (在读)
-    \item GUID Partition Table wiki \url{https://en.wikipedia.org/wiki/GUID_Partition_Table}
-    \item RAID wiki \url{https://en.wikipedia.org/wiki/RAID}
-    \item Virtual memory wiki \url{https://en.wikipedia.org/wiki/Virtual_memory}
+    \item GUID Partition Table wiki
+          \url{https://en.wikipedia.org/wiki/GUID_Partition_Table}
+    \item RAID wiki
+          \url{https://en.wikipedia.org/wiki/RAID}
+    \item Virtual memory wiki
+          \url{https://en.wikipedia.org/wiki/Virtual_memory}
+    \item Interrupt request wiki
+          \url{https://en.wikipedia.org/wiki/Interrupt_request_(PC_architecture)}
 \end{enumerate}
 \subsection{Network}
 \begin{enumerate}
