@@ -247,6 +247,7 @@
         \url{http://stackoverflow.com/questions/154136/why-use-apparently-meaningless-do-while-and-if-else-statements-in-c-c-macros}
     \item Bit fields \url{http://en.cppreference.com/w/c/language/bit_field}
     \item enum \url{http://en.cppreference.com/w/c/language/enum}
+    \item conditional operator \url{http://en.cppreference.com/w/c/language/operator_other#Conditional_operator}
     \item libraries
         \begin{enumerate}
             \item feature_test_macros(7)
@@ -259,8 +260,11 @@
                     \item fread(3), fwrite(3)
                     \item fseek(3), ftell(3), rewind(3), fgetpos(3), fsetpos(3)
                     \item setvbuf(3), fflush(3)
-                    \item printf(3), fprintf(3), sprintf(3), dprintf(3), snprintf(3)
-                    \item vprintf(3), vfprintf(3)
+
+                    \item printf(3), fprintf(3), sprintf(3),
+                          dprintf(3), snprintf(3), asprintf(3)
+                    \item vprintf(3), vfprintf(3) vsprintf(3),
+                          vdprintf(3), vsnprintf(3), vasprintf(3)
                     \item scanf(3), fscanf(3), sscanf(3)
                     \item getchar(3), getc(3), fgetc(3), gets(3), fgets(3), ungetc(3)
                     \item putchar(3), putc(3), fputc(3), puts(3), fputs(3)
@@ -286,6 +290,9 @@
                 \end{itemize}
             \item tgmath.h(0P)
             \item ctype.h(0P)
+                \begin{itemize}
+                    \item isdigit(3)
+                \end{itemize}
             \item errno(3), errno.h(0P)
             \item string.h(0P)
                 \begin{itemize}
@@ -301,20 +308,28 @@
             \item stdlib.h(0P)
                 \begin{itemize}
                     \item malloc(3), calloc(3), realloc(3), aligned_alloc(3), free(3)
+
                     \item qsort(3)
+
                     \item atoi(3), atol(3), atoll(3)
                     \item strtol(3), strtoll(3)
                     \item strtof(3), strtod(3), strtold(3)
+
                     \item rand(3), srand(3)
                     \item mkdtemp(3), tmpfile(3)
+
                     \item exit(3), EXIT_SUCCESS, EXIT_FAILURE
                     \item _Exit(3P)
                     \item atexit(3)
                     \item abort(3)
+
+                    \item getenv(3)
+
+                    \item getsubopt(3)
                 \end{itemize}
             \item pthread.h(0P)
                 \begin{itemize}
-                    \item pthread_create(3), pthread_join(3)
+                    \item pthread_create(3), pthread_join(3), pthread_exit(3)
                 \end{itemize}
             \item setjmp(3), setjmp.h(0P)
             \item fenv(3), fenv.h(0P)
@@ -709,6 +724,12 @@
 \begin{itemize}
 \end{itemize}
 %
+%
+\subsection{Haskell}
+%
+\begin{itemize}
+    \item links to documentation resources \url{https://www.haskell.org/documentation}
+\end{itemize}
 \subsection{Operating System}
 %
 \begin{itemize}
@@ -835,6 +856,9 @@
             \item fcntl.h(0P), fcntl(2)
                 \begin{itemize}
                     \item open(2)
+
+                    \item fallocate(2)
+                    \item posix_fallocate(3)
                 \end{itemize}
             \item unistd.h(0P)
                 \begin{itemize}
@@ -842,6 +866,11 @@
                     \item write(2)
                     \item close(2)
                     \item lseek(2)
+                    \item fsync(2)
+                    \item fdatasync(2)
+
+                    \item dup(2)
+                    \item dup2(2)
 
                     \item fork(2)
                     \item execve(2)
@@ -866,9 +895,23 @@
                     \item rmdir(2)
 
                     \item getopt(3)
+                    \item optarg(3), optind(3), opterr(3), optopt(3)
+
+                    \item reboot(2)
+                \end{itemize}
+            \item sys/ioctl.h
+                \begin{itemize}
+                    \item ioctl(2)
+                    \item ioctl_list(2)
+                \end{itemize}
+            \item getopt.h
+                \begin{itemize}
                     \item getopt_long(3)
                     \item getopt_long_only(3)
-                    \item optarg(3), optind(3), opterr(3), optopt(3),
+                \end{itemize}
+            \item argp.h
+                \begin{itemize}
+                    \item arg_parse
                 \end{itemize}
             \item gnu/libc-version.h
                 \begin{itemize}
@@ -902,6 +945,8 @@
 
                     \item sigprocmask(2)
                 \end{itemize}
+            \item features.h
+            \item sys/reboot.h
         \end{itemize}
     \item The Linux Kernel Archives --- Active kernel releases \url{https://www.kernel.org/category/releases.html}
     \item Program memory segments wiki
@@ -940,8 +985,8 @@
             \item alternatives
             \item apt-get (install|update), dnf (install|remove|erease|update|updateinfo), yum, rpm
             \item pwdx
-            \item ls, stat, cat, rm, unlink(1), mkdir, rmdir(1),
-            \item mv, cp, less, vi, chmod, chroot, chown, touch, file,
+            \item ls, stat, cat, tee(1), rm, unlink(1), mkdir, rmdir(1),
+            \item mv, less, vi, chmod, chroot, chown, touch, file,
             \item locate, head, tail, env, printenv, tr, groups, which, ln, readlink,
             \item uname, dd, dmesg, lsof, dirname, mktemp, printf
             \item id (man and info '(coreutils) id invocation')
@@ -971,7 +1016,7 @@
             \item grub2-install, grub2-mkconfig
             \item ssh, ssh-keygen, ssh-copy-id, sshpass sftp, ftp, scp, telnet, netcat (nc), wget, curl, rsync, nslookup, tcpdump
             \item hostname
-            \item gcc, gdb
+            \item ar(1), ranlib(1)
             \item ctags, cscope(1)
             \item make, diff, patch, ldd, strings, pmap, taskset, getopt(1)
             \item gvim, vim, gvimdiff
@@ -1004,6 +1049,7 @@
             \item docker (build|run|images|create|commit|rename|rm|rmi|ps|start|stop|kill|attach|export|logs|port|history)
             \item expressvpn,
             \item wdctl
+            \item feature_test_macros(7)
         \end{enumerate}
     \item bash init procedures:
         \begin{itemize}
@@ -1139,6 +1185,7 @@
             \item kernel documentation https://www.kernel.org/doc/Documentation/filesystems/overlayfs.txt
             \item Arch linux overlayfs wiki https://wiki.archlinux.org/index.php/Overlay_filesystem
         \end{itemize}
+    \item sparse file wiki \url{https://en.wikipedia.org/wiki/Sparse_file}
 \end{itemize}
 \subsubsection{Regular Expression}
 \begin{enumerate}
