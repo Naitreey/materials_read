@@ -317,7 +317,13 @@
                     \item strtof(3), strtod(3), strtold(3)
 
                     \item rand(3), srand(3)
-                    \item mkdtemp(3), tmpfile(3)
+
+                    \item mkstemp(3)
+                    \item mkostemp(3)
+                    \item mkstemps(3)
+                    \item mkostemps(3)
+                    \item tmpfile(3)
+                    \item mkdtemp(3)
 
                     \item exit(3), EXIT_SUCCESS, EXIT_FAILURE
                     \item _Exit(3P)
@@ -500,19 +506,40 @@
             \item guestfs
             \item libvirt
 
-            %system
+            %python itself
             \item sys (done: doc)
             \item sysconfig
-            \item os (done: doc)
-            \item shutil (done: doc)
-            \item posixpath, a.k.a. os.path (done: doc)
-            \item platform (done: doc)
-            \item posix
+            \item __future__ (done: doc, source)
+            \item traceback (done: 部分 doc and source code)
+            \item py_compile
+            \item inspect
+            \item dis
+            \item weakref
             \item site
+            \item runpy
+            %import
+            \item importlib
+            \item imp
+            \item zipimport
+            \item pkgutil
+            %package distribution
+            \item distutils
+            \item setuptools
+            \item py2exe
+            \item venv
+            \item ensurepip
+
+            %documentation
+            \item docutils
+            \item Sphinx
+            \item Read the Docs
+            \item pydoc
+
+            %os-level
             \item signal
             \item psutil
             \item fileinput
-            \item tempfile (done: doc)
+            \item tempfile
             \item stat
             \item pwd
             \item getpass
@@ -520,6 +547,11 @@
             \item resource
             \item atexit
             \item python-prctl
+            \item os (done: doc)
+            \item shutil (done: doc)
+            \item posixpath, a.k.a. os.path (done: doc)
+            \item platform (done: doc)
+            \item posix
 
             %time
             \item time
@@ -665,25 +697,8 @@
             \item ctypes
             \item SWIG
 
-            %package distribution
-            \item distutils
-            \item setuptools
-            \item py2exe
-
-            %documentation
-            \item docutils
-            \item Sphinx
-            \item Read the Docs
-            \item pydoc
-
             % image processing
             \item
-
-            %import
-            \item importlib
-            \item imp
-            \item zipimport
-            \item pkgutil
 
             %checking
             %py2py3
@@ -691,6 +706,13 @@
             \item future
             %codingstyle
             \item flake8
+
+            %queue
+            \item beanstalkc (done: official tutorial)
+            \item pynsq
+
+            %graphics
+            \item turtle
 
             %misc
             \item __main__ (done: doc)
@@ -708,17 +730,9 @@
             \item jsbeautifier
             \item textwrap
             \item uuid
-            \item __future__ (done: doc, source)
-            \item inspect
             \item types (done: doc, source)
-            \item beanstalkc (done: official tutorial)
-            \item pynsq
-            \item traceback (done: 部分 doc and source code)
             \item copy
-            \item py_compile
             \item warnings
-            \item dis
-            \item weakref
         \end{itemize}
         \begin{enumerate}
             \item nginx tutorial \url{http://nginx.org/en/docs/beginners_guide.html}
@@ -878,8 +892,16 @@
                     \item fsync(2)
                     \item fdatasync(2)
 
+                    \item pread(2)
+                    \item pwrite(2)
+                    \item readv(2)
+                    \item writev(2)
+                    \item preadv(2)
+                    \item pwritev(2)
+
                     \item dup(2)
                     \item dup2(2)
+                    \item dup3(2)
 
                     \item fork(2)
                     \item execve(2)
