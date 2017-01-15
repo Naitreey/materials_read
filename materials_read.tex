@@ -331,6 +331,10 @@
                     \item abort(3)
 
                     \item getenv(3)
+                    \item putenv(3)
+                    \item setenv(3)
+                    \item unsetenv(3)
+                    \item clearenv(3)
 
                     \item getsubopt(3)
                 \end{itemize}
@@ -441,21 +445,27 @@
         \end{itemize}
     \item modules/libraries/frameworks, and more:
         \begin{itemize}
-            %multitasking
+            %concurrency
+            \item subprocess
+            \item subprocess32
             \item thread (_thread in py3)
-            \item threading (done: doc)
-            \item multiprocessing (done: doc)
+            \item threading
+            \item multiprocessing
+            \item asyncio
+            \item concurrent.futures
 
-            \item pprint
-            \item webbrowser
-            \item random
-            \item difflib
-            \item csv
+            %event scheduler
+            \item sched
 
-            %string
+            %text
             \item string
+            \item re
+            \item textwrap
+            \item difflib
+
+            %io
+            \item io
             \item StringIO
-            \item cStringIO
 
             %json
             \item json (doc)
@@ -483,8 +493,6 @@
             \item argparse
             \item cmd
             \item shlex
-            \item subprocess (done: doc)
-            \item subprocess32
             \item readline
             \item rlcompleter
 
@@ -522,12 +530,12 @@
             \item imp
             \item zipimport
             \item pkgutil
-            %package distribution
-            \item distutils
-            \item setuptools
-            \item py2exe
-            \item venv
+            %packaging
+            \item pip
             \item ensurepip
+            \item venv
+            \item setuptools
+            \item distutils
 
             %documentation
             \item docutils
@@ -566,15 +574,16 @@
             %refactor
             \item pylint
 
-            %encryption
+            %hash
             \item hashlib
+
+            %bin
             \item base64
             \item binascii
-            \item rsa
 
             %crypto
-            \item Crypto
             \item ssl
+            \item rsa
 
             %compression
             \item zlib (done: doc)
@@ -606,11 +615,9 @@
             \item heapq
             \item Queue
 
-            %simple data store
-            \item marshal
-            \item shelve
-            \item pickle (done: doc)
-            \item cPickle (_pickle in py3)
+            %data serialization
+            \item shelve (almost useless)
+            \item pickle (almost useless)
             %database
             \item pymongo (mongodb)
             \item bson (mongodb)
@@ -646,8 +653,6 @@
             \item SocketServer
             \item BaseHTTPServer (http.server in py3)
             \item SimpleXMLRPCServer
-            \item asyncore
-            \item asynchat
             \item select (done: doc)
             \item cgi
             \item cgitb
@@ -716,7 +721,6 @@
 
             %misc
             \item __main__ (done: doc)
-            \item re (done: doc)
             \item yara
             \item pypdf2
             \item gc
@@ -733,6 +737,10 @@
             \item types (done: doc, source)
             \item copy
             \item warnings
+            \item pprint
+            \item webbrowser
+            \item random
+            \item csv
         \end{itemize}
         \begin{enumerate}
             \item nginx tutorial \url{http://nginx.org/en/docs/beginners_guide.html}
@@ -964,6 +972,11 @@
                     \item mmap(2)
                     \item munmap(2)
                 \end{itemize}
+            \item sys/shm.h
+                \begin{itemize}
+                    \item shmat(2)
+                    \item shmdt(2)
+                \end{itemize}
             \item signal.h(0P), signal(2)
                 \begin{itemize}
                     \item kill(2)
@@ -1018,7 +1031,7 @@
             \item pwdx
             \item ls, stat, cat, tee(1), rm, unlink(1), mkdir, rmdir(1),
             \item mv, less, vi, chmod, chroot, chown, touch, file,
-            \item locate, head, tail, env, printenv, tr, groups, which, ln, readlink,
+            \item locate, head, tail, env(1), printenv(1), tr, groups, which, ln, readlink,
             \item uname, dd, dmesg, lsof, dirname, mktemp, printf
             \item id (man and info '(coreutils) id invocation')
             \item w, who, whoami, uptime, tty, whois (jwhois),
@@ -1051,7 +1064,7 @@
             \item ctags, cscope(1)
             \item make, diff, patch, ldd, strings, pmap, taskset, getopt(1)
             \item gvim, vim, gvimdiff
-            \item python, python3, pip, pip3, pydoc
+            \item python2, python3, pip2, pip3, pydoc2, pydoc3
             \item node, npm
             \item java, javac
             \item ping, iptables
@@ -1391,6 +1404,7 @@
     \item Mutual exclusion wiki \url{https://en.wikipedia.org/wiki/Mutual_exclusion}
     \item Semaphore wiki \url{https://en.wikipedia.org/wiki/Semaphore_(programming)}
     \item deadlock wiki \url{https://en.wikipedia.org/wiki/Deadlock}
+    \item reentrancy wiki \url{https://en.wikipedia.org/wiki/Reentrancy_(computing)}
 \end{itemize}
 \subsection{reStructuredText}
 \begin{itemize}
