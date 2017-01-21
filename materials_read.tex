@@ -433,6 +433,7 @@
             \item What’s New In Python 3.0
             \item What’s New In Python 3.1
             \item What’s New In Python 3.2
+            \item What’s New In Python 3.3
         \end{itemize}
     \item PEPs
         \begin{itemize}
@@ -630,9 +631,9 @@
             \item Queue
             \item enum
 
-            %data serialization
-            \item shelve (almost useless)
-            \item pickle (almost useless)
+            %object serialization
+            \item shelve
+            \item pickle
             %database
             \item pymongo (mongodb)
             \item bson (mongodb)
@@ -668,7 +669,8 @@
             \item SocketServer
             \item BaseHTTPServer (http.server in py3)
             \item SimpleXMLRPCServer
-            \item select (done: doc)
+            \item select
+            \item selectors
             \item cgi
             \item cgitb
             \item bottle (doc & source)
@@ -777,8 +779,12 @@
 \subsection{Operating System}
 %
 \begin{itemize}
-    \item trap instruction wiki \url{https://en.wikipedia.org/wiki/Trap_(computing)}
-    \item data segment wiki \url{https://en.wikipedia.org/wiki/Data_segment}
+    \item trap instruction wiki
+          \url{https://en.wikipedia.org/wiki/Trap_(computing)}
+    \item data segment wiki
+          \url{https://en.wikipedia.org/wiki/Data_segment}
+    \item Anatomy of a Program in Memory
+          \url{http://duartes.org/gustavo/blog/post/anatomy-of-a-program-in-memory/}
 \end{itemize}
 \subsection{Linux \&\ Unix}
 \subsubsection{System Overview}
@@ -928,6 +934,7 @@
 
                     \item fork(2)
                     \item execve(2)
+
                     \item brk(2)
                     \item sbrk(2)
 
