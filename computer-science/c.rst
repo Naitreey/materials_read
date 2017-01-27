@@ -1,0 +1,436 @@
+language
+========
+- C Primer Plus, 6th edition. (已读)
+- C11 Standard (在读)
+- crt0 wiki
+  https://en.wikipedia.org/wiki/Crt0
+- not to use scanf
+  http://c-faq.com/stdio/scanfprobs.html
+- Why use apparently meaningless do-while and if-else statements in C/C++ macros?
+  http://stackoverflow.com/questions/154136/why-use-apparently-meaningless-do-while-and-if-else-statements-in-c-c-macros
+- Bit fields
+  http://en.cppreference.com/w/c/language/bit_field
+- enum
+  http://en.cppreference.com/w/c/language/enum
+- conditional operator
+  http://en.cppreference.com/w/c/language/operator_other#Conditional_operator
+
+source codes
+============
+- glibc source (在读)
+- evince source (在读)
+
+dev tools
+=========
+gdb
+---
+- Peter's gdb tutorial. (无笔记)
+- gdb manual (在读)
+
+cscope
+------
+- Using Cscope on large projects
+  http://cscope.sourceforge.net/large_projects.html
+- vim cscope doc: if_cscop.txt
+- cscope(1) manpage
+
+libraries and syscalls
+======================
+IO
+--
+- file and stream
+
+  * fcntl.h(0P), fcntl(2)
+    - open(2)
+
+  * unistd.h(0P)
+    - lseek(2)
+    - fsync(2)
+    - fdatasync(2)
+
+    - dup(2)
+    - dup2(2)
+    - dup3(2)
+
+  * fcntl.h(0P), fcntl(2)
+    - fcntl(2)
+
+  * stdio.h(0P), stdio(3)
+    - stdin, stdout, stderr
+    - fopen(3), fdopen(3), freopen(3), fclose(3)
+    - fileno(3)
+    - feof(3), ferror(3), clearerr(3)
+    - fread(3), fwrite(3)
+    - fseek(3), ftell(3), rewind(3)
+    - setvbuf(3), fflush(3)
+
+- text io
+
+  * stdio.h(0P), stdio(3)
+    - printf(3), fprintf(3), sprintf(3),
+    - dprintf(3), snprintf(3), asprintf(3)
+    - vprintf(3), vfprintf(3) vsprintf(3),
+    - vdprintf(3), vsnprintf(3), vasprintf(3)
+    - scanf(3), fscanf(3), sscanf(3)
+    - getchar(3), getc(3), fgetc(3), gets(3), fgets(3), ungetc(3)
+    - putchar(3), putc(3), fputc(3), puts(3), fputs(3)
+
+- binary io
+
+  * unistd.h(0P)
+    - read(2)
+    - write(2)
+    - close(2)
+
+    .. positioned and scattered io
+
+    - pread(2)
+    - pwrite(2)
+    - readv(2)
+    - writev(2)
+    - preadv(2)
+    - pwritev(2)
+
+- error handling
+
+  * stdio.h(0P), stdio(3)
+    - perror(3)
+
+  * errno(3), errno.h(0P)
+
+  * string.h(0P)
+    - strerror(3)
+
+- file operations
+
+  * unistd.h(0P)
+    - unlink(2)
+    - rmdir(2)
+
+  * stdio.h(0P), stdio(3)
+    - remove(3)
+
+  * fcntl.h(0P), fcntl(2)
+    - fallocate(2)
+    - posix_fallocate(3)
+
+- temp file
+
+  * stdlib.h(0P)
+    - mkstemp(3)
+    - mkostemp(3)
+    - mkstemps(3)
+    - mkostemps(3)
+    - tmpfile(3)
+    - mkdtemp(3)
+
+- device manipulation
+
+  * sys/ioctl.h
+    - ioctl(2)
+    - ioctl_list(2)
+
+type and constant definitions
+-----------------------------
+- stdbool.h(0P)
+
+- stdarg.h(0P), stdarg(3)
+  * va_list
+  * va_start
+  * va_arg
+  * va_end
+  * va_copy
+
+- stdint.h(0P), inttypes.h(0P)
+
+- limits.h(0P)
+
+- float.h(0P)
+
+- stddef.h(0P)
+
+string operations
+-----------------
+- ctype.h(0P)
+  * isdigit(3)
+
+- string.h(0P)
+  * strlen(3)
+  * strcmp(3), strncmp(3)
+  * strcpy(3), strncpy(3)
+  * strcat(3), strncat(3)
+  * strchr(3), strrchr(3), strpbrk(3)
+  * memcpy(3), memmove(3)
+
+- stdlib.h(0P)
+  * atoi(3), atol(3), atoll(3)
+  * strtol(3), strtoll(3)
+  * strtof(3), strtod(3), strtold(3)
+
+process
+-------
+- process creation
+
+  * unistd.h(0P)
+    - fork(2)
+    - execve(2)
+
+- process termination
+
+  * unistd.h(0P)
+    - _exit(2)
+
+  * stdlib.h(0P)
+    - exit(3), EXIT_SUCCESS, EXIT_FAILURE
+    - _Exit(3P)
+    - atexit(3)
+    - abort(3)
+
+- memory allocations
+
+  .. allocate and free
+
+  * unistd.h(0P)
+    - brk(2)
+    - sbrk(2)
+
+  * stdlib.h(0P)
+    - malloc(3)
+    - calloc(3)
+    - realloc(3)
+    - posix_memalign(3)
+    - aligned_alloc(3)
+    - free(3)
+
+  .. debug
+
+  * mcheck.h
+    - mtrace(3)
+    - muntrace(3)
+    - mcheck(3)
+
+  .. malloc tuning and status info
+
+  * malloc.h
+    - mallopt(3)
+    - mallinfo(3)
+
+  .. stack memory allocation
+
+  * alloca.h
+    - alloca(3)
+
+- mmap and shared memory
+
+  * sys/mman.h
+    - mmap(2)
+    - munmap(2)
+
+  * sys/shm.h
+    - shmat(2)
+    - shmdt(2)
+
+- environment
+
+  * stdlib.h(0P)
+    - getenv(3)
+    - putenv(3)
+    - setenv(3)
+    - unsetenv(3)
+    - clearenv(3)
+
+- process credentials
+
+  * unistd.h(0P)
+    - getuid(2), geteuid(2)
+    - getgid(2), getegid(2)
+    - getresuid(2), getresgid(2)
+    - getgroups(2)
+    - getpid(2), getppid(2)
+    - getpgid(2)
+    - getpgrp(2)
+    - getsid(2)
+
+- resource limits
+
+  * sys/resource.h
+    - getrlimit(2)
+    - setrlimit(2)
+    - prlimit(2)
+
+- nonlocal goto
+
+  * setjmp.h(0P)
+    - setjmp(3)
+    - longjmp(3)
+
+- process manipulation
+
+  * sys/prctl.h
+    - prctl(2)
+
+dynamic library
+---------------
+- dlfcn.h(0P)
+  * dlopen(3)
+  * dlclose(3)
+  * dlerror(3)
+  * dlsym(3)
+  * dlvsym(3)
+
+- ltdl.h
+
+cmdline
+-------
+- argument parsing
+
+  * unistd.h(0P)
+    - getopt(3)
+    - optarg(3), optind(3), opterr(3), optopt(3)
+
+  * getopt.h
+    - getopt_long(3)
+    - getopt_long_only(3)
+
+  * stdlib.h(0P)
+    - getsubopt(3)
+
+  * argp.h
+    - arg_parse
+
+concurrency
+-----------
+- multiprocessing
+
+  * unistd.h(0P)
+    - fork(2)
+    - execve(2)
+
+  * sys/wait.h
+    - wait(2)
+    - waitpid(2)
+
+- multithreading
+
+  * pthread.h(0P)
+    - pthread_create(3)
+    - pthread_join(3)
+    - pthread_exit(3)
+
+interprocess communication
+--------------------------
+- signal
+
+  * signal.h(0P), signal(2)
+
+    - kill(2)
+
+    - sigemptyset(3)
+    - sigfullset(3)
+    - sigaddset(3)
+    - sigdelset(3)
+    - sigismember(3)
+
+    - sigprocmask(2)
+
+- mmap
+
+  * sys/mman.h
+    - mmap(2)
+    - munmap(2)
+
+- shared memory
+
+  * sys/shm.h
+    - shmat(2)
+    - shmdt(2)
+
+internationalization
+--------------------
+- wide character
+
+  * wchar.h(0P)
+
+  * uchar.h
+
+  * wctype.h(0P), wctype(3)
+
+- locale
+
+  * locale.h(0P)
+
+- iso646.h(0P)
+
+terminal
+--------
+
+system configuration
+--------------------
+- sysconf(3)
+- confstr(3)
+
+system administration
+---------------------
+- reboot
+
+  * unistd.h(0P)
+    - reboot(2)
+
+  * sys/reboot.h
+
+math
+----
+- complex.h(0P), complex(7)
+
+- math.h(0P)
+  * pow(3), isnan(3), isinf(3), fabs(3), sqrt(3)
+
+- tgmath.h(0P)
+
+encryption
+----------
+- unistd.h(0P)
+  * crypt(3)
+
+- crypt.h
+  * crypt_r(3)
+  * crypt_data
+
+algorithms
+----------
+- sorting
+
+  * stdlib.h(0P)
+    - qsort(3)
+
+misc
+----
+- glibc
+
+  * feature_test_macros(7)
+
+  * attributes(7)
+
+  * gnu/libc-version.h
+    - gnu_get_libc_version(3)
+    - gnu_get_libc_release(3)
+
+- random number
+
+  * stdlib.h(0P)
+    - rand(3)
+    - srand(3)
+    - RAND_MAX
+
+- time
+  * time.h(0P)
+    - time(2)
+    - clock(3)
+    - CLOCKS_PER_SEC
+
+  * unistd.h(0P)
+    - sleep(3)
+
+- assertion
+  * assert.h(0P)
+    - assert(3)
