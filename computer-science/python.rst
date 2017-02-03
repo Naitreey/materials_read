@@ -76,6 +76,9 @@ xml, html
 - xmltodict
 - BeautifulSoup (bs4)
 - Scrapy
+- html
+- html.entities
+- html.parser
 
 cmdline parser
 --------------
@@ -84,8 +87,8 @@ cmdline parser
 - docopt
 - click
 
-cmdline
--------
+shell, terminal
+---------------
 - colorama
 - termcolor
 - cmd
@@ -93,13 +96,15 @@ cmdline
 - readline
 - rlcompleter
 - getpass
+- pty
 
-file and directory access
--------------------------
+file and directory
+------------------
 - glob
 - fnmatch
 - linecache
 - pathlib
+- filecmp
 
 debugging and profiling
 -----------------------
@@ -120,15 +125,16 @@ virtualization
 
 python itself
 -------------
-- sys (done: doc)
+- sys
 - sysconfig
-- __future__ (done: doc, source)
-- traceback (done: 部分 doc and source code)
+- __future__
+- traceback
 - py_compile
 - inspect
 - weakref
 - site
 - runpy
+- keyword
 
 .. import
 
@@ -172,10 +178,11 @@ os-level
 - platform (done: doc)
 - posix
 
-time
-----
+date, time
+----------
 - time
 - datetime
+- calendar
 
 test
 ----
@@ -270,39 +277,53 @@ network programming
 - ipaddress
 - pyroute2
 
-.. client
+- http and related protocols
 
-- paramiko
-- requests
-- urlparse (urllib.parse in py3)
-- urllib (urllib in py3)
-- urllib2 (urllib in py3)
-- urllib3
-- pycurl
-- httplib (http.client in py3)
-- xmlrpclib
+  .. client
+
+  * http.client (httplib)
+  * urllib (urllib, urlib2)
+  * urllib.request
+  * urllib.parse (urlparse)
+  * urllib.robotparser
+  * urllib.error
+  * urllib3
+  * requests
+  * pycurl
+
+  .. server
+
+  * http.server (BaseHTTPServer)
+  * bottle
+  * Flask
+  * uWSGI
+  * Django
+  * Tornado
+  * Twisted
+
+  .. cookies
+
+  * http.cookies (Cookie)
+  * http.cookiejar
+
+- ssh
+
+  * paramiko
+
+- XML-RPC
+  .. (ok, why not REST?)
+
+  * xmlrpc
+  * xmlrpc.client (xmlrpclib)
+  * xmlrpc.server (SimpleXMLRPCServer)
 
 .. server
 
 - wsgiref
-- SocketServer
-- BaseHTTPServer (http.server in py3)
-- SimpleXMLRPCServer
+- socketserver
 - select
 - selectors
-- cgi
-- cgitb
-- bottle (doc & source)
-- uWSGI
-- Twisted
-- Django
-- Flask
-- Tornado
 - shadowsocks
-
-.. cookies
-
-- Cookie (http.cookies in py3) (doc & source)
 
 mime
 ----
@@ -377,7 +398,6 @@ misc
 - itertools
 - contextlib
 - operator
-- keyword
 - logging
 - ConfigParser
 - jsbeautifier

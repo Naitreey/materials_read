@@ -262,6 +262,7 @@ Command Line
   * terminal
 
     - getty, chvt
+    - script(1), scriptreplay(1)
 
   * package management
 
