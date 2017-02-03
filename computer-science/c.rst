@@ -151,21 +151,59 @@ type and constant definitions
 
 string operations
 -----------------
-- ctype.h(0P)
-  * isdigit(3)
+- length
 
-- string.h(0P)
-  * strlen(3)
-  * strcmp(3), strncmp(3)
-  * strcpy(3), strncpy(3)
-  * strcat(3), strncat(3)
-  * strchr(3), strrchr(3), strpbrk(3)
-  * memcpy(3), memmove(3)
+  * string.h(0P)
+    - strlen(3)
 
-- stdlib.h(0P)
-  * atoi(3), atol(3), atoll(3)
-  * strtol(3), strtoll(3)
-  * strtof(3), strtod(3), strtold(3)
+- comparison
+
+  * string.h(0P)
+    - strcmp(3), strncmp(3)
+
+  * strings.h(0P)
+    - strcasecmp(3), strncasecmp(3)
+
+- character set
+
+  * ctype.h(0P)
+    - isdigit(3)
+
+- copy
+
+  * string.h(0P)
+    - strcpy(3), strncpy(3)
+    - strcat(3), strncat(3)
+    - stpcpy(3)
+
+    - strdup(3), strndup(3)
+    - strdupa(3), strndupa(3)
+
+    - memcpy(3), memmove(3)
+
+- find, split
+
+  * string.h(0P)
+    - strchr(3), strrchr(3)
+    - strstr(3), strcasestr(3)
+
+    - strpbrk(3)
+    - strspn(3), strcspn(3)
+
+    - strtok(3), strtok_r(3)
+
+- conversion
+
+  * stdlib.h(0P)
+    - atoi(3), atol(3), atoll(3)
+    - strtol(3), strtoll(3)
+    - strtof(3), strtod(3), strtold(3)
+
+- misc
+  * string.h(0P)
+    - strfry(3)
+
+- string(3)
 
 process
 -------
@@ -377,6 +415,79 @@ system administration
     - reboot(2)
 
   * sys/reboot.h
+
+- user account system
+
+  * pwd.h(0P)
+
+    .. get one entry
+
+    - getpwnam(3)
+    - getpwuid(3)
+
+    .. reentrant version
+
+    - getpwnam_r(3)
+    - getpwuid_r(3)
+
+    .. iterate all entries
+
+    - getpwent(3)
+    - setpwent(3)
+    - endpwent(3)
+
+    .. reentrant version
+
+    - getpwent_r(3)
+    - fgetpwent_r(3)
+
+  * grp.h(0P)
+
+    .. get one entry
+
+    - getgrnam(3)
+    - getgrgid(3)
+
+    .. reentrant version
+
+    - getgrnam_r(3)
+    - getgrgid_r(3)
+
+    .. iterate all entries
+
+    - getgrent(3)
+    - setgrent(3)
+    - endgwent(3)
+
+    .. reentrant version
+
+    - getpwent_r(3)
+    - fgetpwent_r(3)
+
+  * shadow.h(3)
+    - getspnam(3)
+    - getspnam_r(3)
+
+    - getspent(3)
+    - getspent_r(3)
+    - setspent(3)
+    - endspent(3)
+
+    - fgetspent(3)
+    - fgetspent_r(3)
+    - sgetspent(3)
+    - sgetspent_r(3)
+
+    - putspent(3)
+
+    - lckpwdf(3)
+    - ulckpwdf(3)
+
+encryption
+----------
+- crypt.h
+
+  * crypt(3)
 
 math
 ----
