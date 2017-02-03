@@ -77,17 +77,22 @@ xml, html
 - BeautifulSoup (bs4)
 - Scrapy
 
+cmdline parser
+--------------
+- getopt
+- argparse
+- docopt
+- click
+
 cmdline
 -------
 - colorama
 - termcolor
-- docopt (done: doc)
-- getopt
-- argparse
 - cmd
 - shlex
 - readline
 - rlcompleter
+- getpass
 
 file and directory access
 -------------------------
@@ -100,6 +105,7 @@ debugging and profiling
 -----------------------
 - pdb
 - bdb
+- dis
 - tracemalloc
 - timeit
 - cProfile
@@ -120,7 +126,6 @@ python itself
 - traceback (done: 部分 doc and source code)
 - py_compile
 - inspect
-- dis
 - weakref
 - site
 - runpy
@@ -155,7 +160,8 @@ os-level
 - tempfile
 - stat
 - pwd
-- getpass
+- spwd
+- grp
 - errno
 - resource
 - atexit
@@ -389,6 +395,12 @@ dev tools
 =========
 - The Python Profilers
   https://docs.python.org/2/library/profile.html
+- pdb
 - docutils
   * docutils front-end tools
     http://docutils.sourceforge.net/docs/user/tools.html
+- pyenv
+- pip
+- venv
+- pylint
+- flake8
