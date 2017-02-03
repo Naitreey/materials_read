@@ -14,8 +14,8 @@ User System
   * https://help.ubuntu.com/community/RootSudo
   * https://help.ubuntu.com/community/Sudoers
 
-System Structure
-================
+System Components
+=================
 - Linux device mapper wiki
   https://en.wikipedia.org/wiki/Device_mapper
 - Linux Logical Volume Manager (LVM) wiki
@@ -394,6 +394,14 @@ Command Line
     \begin{enumerate}
         \item The AWK Programming Language (在读)
     \end{enumerate}
+
+Kernel
+======
+pseudo-filesystem
+-----------------
+/dev
+~~~~
+- mem(4), kmem(4), port(4)
 %
 \subsubsection{Networking}
 %
