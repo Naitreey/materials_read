@@ -70,11 +70,10 @@ xml, html
 - xml
 - xml.dom.minidom
 - xml.etree.ElementTree
-- xml.etree.cElementTree
+- xmltodict
 - html5lib
 - pyquery
-- xmltodict
-- BeautifulSoup (bs4)
+- BeautifulSoup
 - Scrapy
 - html
 - html.entities
@@ -105,6 +104,10 @@ file and directory
 - linecache
 - pathlib
 - filecmp
+- stat
+- tempfile
+- fileinput
+- shutil
 
 debugging and profiling
 -----------------------
@@ -135,6 +138,7 @@ python itself
 - site
 - runpy
 - keyword
+- types
 
 .. import
 
@@ -158,25 +162,25 @@ documentation
 - Read the Docs
 - pydoc
 
-os-level
---------
+C and system level
+------------------
 - signal
 - psutil
-- fileinput
-- tempfile
-- stat
 - pwd
 - spwd
 - grp
 - errno
 - resource
+- mmap
 - atexit
 - python-prctl
-- os (done: doc)
-- shutil (done: doc)
-- posixpath, a.k.a. os.path (done: doc)
+- os
+- os.path (posixpath)
 - platform (done: doc)
 - posix
+- struct
+- ctypes
+- fcntl
 
 date, time
 ----------
@@ -211,7 +215,7 @@ crypto
 
 compression
 -----------
-- zlib (done: doc)
+- zlib
 - gzip
 - bz2
 - lzma
@@ -231,28 +235,26 @@ ABC
 - collections.abc
 - numbers
 
-C and system-level interfaces
------------------------------
-- array
-- struct
-- fcntl
-- mmap
-
+C and low level data
+--------------------
 data structure
 --------------
 - collections
 - heapq
 - Queue
 - enum
+- array
 
 object serialization
 --------------------
-- shelve
 - pickle
 - pickletools
+- shelve
 
 database
 --------
+- dbm
+- dbm.gnu
 - pymongo (mongodb)
 - bson (mongodb)
 - psycopg2
@@ -367,7 +369,6 @@ scientific computing
 
 c extension
 -----------
-- ctypes
 - SWIG
 
 graphics and image processing
@@ -401,9 +402,7 @@ misc
 - logging
 - ConfigParser
 - jsbeautifier
-- textwrap
 - uuid
-- types (done: doc, source)
 - copy
 - warnings
 - pprint

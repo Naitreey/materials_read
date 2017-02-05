@@ -227,7 +227,8 @@ Command Line
       %string %?string suspend
 
   * file access and manipulation
-    - ls, stat, cat, tee(1), mv, less, vi, chmod, chroot, chown, touch, file,
+    - ls, stat, cat, tee(1), mv, less, vi,
+    - chmod(1), chroot, chown, touch, file,
     - head, tail, tr,
     - ln, readlink
     - dirname, mktemp,
@@ -244,7 +245,7 @@ Command Line
       pwck(8), grpck(8)
 
     - list membership:
-      groups(1), lid(1)
+      groups(1), lid(1), id(1)
 
     - make changes:
       useradd(8), usermod(8), passwd(1), chage(1), chsh(1)
@@ -263,6 +264,7 @@ Command Line
 
     - getty, chvt
     - script(1), scriptreplay(1)
+    - wall(1)
 
   * package management
 
@@ -270,6 +272,14 @@ Command Line
     - dnf (install|remove|erease|update|updateinfo)
     - yum
     - rpm
+
+  * disk and filesystem
+
+df, du, fdisk, gdisk, parted, gparted, mkfs.<type>, fsck.<type>, dumpe2fs, tune2fs, debugfs, mount, umount,
+findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (mount(8)), /proc/mounts (proc(5)), sync,
+
+  * process and resource monitor
+
 
   * version control system
 
@@ -320,10 +330,9 @@ Command Line
         \item rm, unlink(1), mkdir, rmdir(1),
         \item locate,  env(1), printenv(1), which,
         \item uname, dd, dmesg, lsof, printf
-        \item id
         \item w, who, whoami, uptime, tty, whois (jwhois),
         \item seq
-        \item pgrep, pkill, kill, kill, killall, ps, top, pidof, nice
+        \item pgrep, pkill, kill, kill, killall, pidof, nice, ps(1), top(1)
         \item grep, bzgrep, xzgrep, zgrep, zipgrep, locale, find, xargs
         \item date, hwclock (clock)
         \item man, apropos, mandb, info
@@ -335,13 +344,13 @@ Command Line
         \item tar, gzip, gunzip, zcat, bzip2, bunzip2, bzcat, xz, unxz, xzcat, 7z, 7za, zip, unzip,
         \item md5sum
         \item dos2unix, unix2dos
-        \item useradd, userdel, usermod, lid
+        \item userdel
         \item systemctl (status|start|stop|restart|enable|disable|list-units|list-unit-files|list-jobs|poweroff|reboot|suspend), systemd-analyze (blame|plot|dot), systemd-cgls, systemd-udevd, journalctl, logind.conf(5), systemd-journald.service(8), systemd-journald.socket(8), systemd-journald-dev-log.socket(8), /usr/lib/systemd/systemd-journald(8),
         \item service, run-parts, telinit, lsscsi, lsusb
         \item udev.conf(5), udevadm(8), udev(7), systemd-udevd.service(8)
         \item dracut(8), lsinitrd(1), mkinitrd(8), dracut.cmdline(7), dracut.conf(5), dracut.modules(7), dracut.bootup(7), dracut-cmdline.service(8),
         \item screen
-        \item df, du, fdisk, gdisk, parted, gparted, mkfs.<type>, fsck.<type>, dumpe2fs, tune2fs, debugfs, mount, umount, samba, findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (mount(8)), /proc/mounts (proc(5)), sync, free, mkswap, swapon, swapoff, dmsetup, lspci, ionice, iotop
+        \item samba, free, mkswap, swapon, swapoff, dmsetup, lspci, ionice, iotop
         \item console_codes(4)
         \item proc(5)
         \item grub2-install, grub2-mkconfig

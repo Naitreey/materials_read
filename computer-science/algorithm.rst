@@ -12,5 +12,16 @@ abstract data structure
 
 tree
 ----
-- heap
-  https://en.wikipedia.org/wiki/Heap_(data_structure)
+heap
+~~~~
+
+binary search trees
+~~~~~~~~~~~~~~~~~~~
+- binary search tree
+- self-balancing binary search tree
+
+
+array
+-----
+hash table
+~~~~~~~~~~

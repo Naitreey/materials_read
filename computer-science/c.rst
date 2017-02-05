@@ -270,6 +270,8 @@ process
 
 - environment
 
+  * environ(8)
+
   * stdlib.h(0P)
     - getenv(3)
     - putenv(3)
@@ -288,6 +290,10 @@ process
     - getpgid(2)
     - getpgrp(2)
     - getsid(2)
+
+  * sys/fsuid.h
+    - setfsuid(2) (obsolete)
+    - setfsgid(2) (obsolete)
 
 - resource limits
 
