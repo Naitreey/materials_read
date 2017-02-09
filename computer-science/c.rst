@@ -279,21 +279,38 @@ process
     - unsetenv(3)
     - clearenv(3)
 
-- process credentials
+- process credentials(7)
 
-  * unistd.h(0P)
-    - getuid(2), geteuid(2)
-    - getgid(2), getegid(2)
-    - getresuid(2), getresgid(2)
-    - getgroups(2)
-    - getpid(2), getppid(2)
-    - getpgid(2)
-    - getpgrp(2)
-    - getsid(2)
+  * uids, gids, groups
 
-  * sys/fsuid.h
-    - setfsuid(2) (obsolete)
-    - setfsgid(2) (obsolete)
+    - unistd.h(0P)
+      * getuid(2), geteuid(2)
+      * getgid(2), getegid(2)
+
+      * setuid(2), seteuid(2)
+      * setgid(2), setegid(2)
+
+      * getresuid(2), getresgid(2)
+      * setresuid(2), setresgid(2)
+
+      * setreuid(2), setregid(2) (painful)
+
+      * getgroups(2), setgroups(2)
+
+    - grp.h(0P)
+      * initgroups(3)
+
+    - sys/fsuid.h
+      * setfsuid(2) (obsolete)
+      * setfsgid(2) (obsolete)
+
+  * process identifiers
+
+    - unistd.h(0P)
+      * getpid(2), getppid(2)
+      * getpgid(2)
+      * getpgrp(2)
+      * getsid(2)
 
 - resource limits
 
