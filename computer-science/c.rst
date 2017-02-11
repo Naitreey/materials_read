@@ -130,6 +130,10 @@ IO
     - ioctl(2)
     - ioctl_list(2)
 
+file system
+-----------
+- path_resolution (7)
+
 type and constant definitions
 -----------------------------
 - stdbool.h(0P)
@@ -406,6 +410,38 @@ interprocess communication
     - shmat(2)
     - shmdt(2)
 
+time
+----
+- calendar time
+
+  * sys/time.h
+    - gettimeofday(2)
+    - settimeofday(2)
+
+  * time.h(0P)
+    - time(2)
+    - stime(2)
+
+- time conversion
+
+  * time.h(0P)
+
+    - gmtime(3), gmtime_r(3)
+    - localtime(3), localtime_r(3)
+    - mktime(3)
+
+    - asctime(3), asctime_r(3)
+    - strftime(3), strptime(3)
+
+    - ctime(3), ctime_r(3)
+
+
+  - clock(3)
+  - CLOCKS_PER_SEC
+
+* unistd.h(0P)
+  - sleep(3)
+
 internationalization
 --------------------
 - wide character
@@ -555,15 +591,6 @@ misc
     - rand(3)
     - srand(3)
     - RAND_MAX
-
-- time
-  * time.h(0P)
-    - time(2)
-    - clock(3)
-    - CLOCKS_PER_SEC
-
-  * unistd.h(0P)
-    - sleep(3)
 
 - assertion
   * assert.h(0P)
