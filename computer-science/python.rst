@@ -8,6 +8,7 @@ language
   * What’s New In Python 3.1
   * What’s New In Python 3.2
   * What’s New In Python 3.3
+  * What’s New In Python 3.4
 - PEPs
   * PEP 0008 --- Style Guide for Python Code
   * PEP 0273 --- Import Modules from Zip Archives
@@ -358,6 +359,7 @@ asn1
 scientific computing
 --------------------
 - math
+- cmath
 - decimal
 - statistics
 - SciPy
