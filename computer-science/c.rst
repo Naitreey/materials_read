@@ -184,6 +184,7 @@ string operations
     - strdupa(3), strndupa(3)
 
     - memcpy(3), memmove(3)
+    - memset(3)
 
 - find, split
 
@@ -415,12 +416,12 @@ time
 - calendar time
 
   * sys/time.h
-    - gettimeofday(2)
-    - settimeofday(2)
+    - gettimeofday(2) (obsolete)
+    - settimeofday(2) (obsolete)
 
   * time.h(0P)
     - time(2)
-    - stime(2)
+    - stime(2) (obsolete)
 
 - time conversion
 
@@ -430,10 +431,10 @@ time
     - localtime(3), localtime_r(3)
     - mktime(3)
 
-    - asctime(3), asctime_r(3)
+    - asctime(3), asctime_r(3) (obsolete)
     - strftime(3), strptime(3)
 
-    - ctime(3), ctime_r(3)
+    - ctime(3), ctime_r(3) (obsolete)
 
 
   - clock(3)
