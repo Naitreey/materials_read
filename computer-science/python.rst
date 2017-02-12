@@ -83,6 +83,7 @@ xml, html
 cmdline parser
 --------------
 - getopt
+- optparse
 - argparse
 - docopt
 - click
