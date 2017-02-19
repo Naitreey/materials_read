@@ -55,7 +55,7 @@ text
 io
 --
 - io
-- StringIO
+- StringIO (io.StringIO)
 
 json
 ----

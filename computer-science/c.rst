@@ -164,6 +164,7 @@ string operations
 
   * string.h(0P)
     - strcmp(3), strncmp(3)
+    - strcoll(3)
 
   * strings.h(0P)
     - strcasecmp(3), strncasecmp(3)
@@ -171,7 +172,21 @@ string operations
 - character set
 
   * ctype.h(0P)
+    - isalnum(3)
+    - isalpha(3)
+
+    - isgraph(3)
+    - isprint(3)
+    - isspace(3)
+    - ispunct(3)
+
+    - iscntrl(3)
+
+    - islower(3)
+    - isupper(3)
+
     - isdigit(3)
+    - isxdigit(3)
 
 - copy
 
@@ -185,6 +200,8 @@ string operations
 
     - memcpy(3), memmove(3)
     - memset(3)
+
+    - strxfrm(3)
 
 - find, split
 
@@ -415,13 +432,27 @@ time
 ----
 - calendar time
 
+  .. get
+
   * sys/time.h
     - gettimeofday(2) (obsolete)
-    - settimeofday(2) (obsolete)
 
   * time.h(0P)
     - time(2)
+
+  .. set
+
+  * sys/time.h
+    - settimeofday(2) (obsolete)
+    - adjtime(3)
+
+  * time.h(0P)
     - stime(2) (obsolete)
+
+- process time
+
+  - clock(3)
+  - CLOCKS_PER_SEC
 
 - time conversion
 
@@ -436,9 +467,15 @@ time
 
     - ctime(3), ctime_r(3) (obsolete)
 
+- timezone
 
-  - clock(3)
-  - CLOCKS_PER_SEC
+  * tzfile(5)
+
+  * time.h(0P)
+    - tzset(3)
+    - tzname(3)
+    - daylight(3)
+    - timezone(3)
 
 * unistd.h(0P)
   - sleep(3)
@@ -455,7 +492,11 @@ internationalization
 
 - locale
 
+  * locale(7)
+
   * locale.h(0P)
+    - setlocale(3)
+    - localeconv(3)
 
 - iso646.h(0P)
 

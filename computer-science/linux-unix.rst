@@ -260,6 +260,18 @@ Command Line
       su(1), sg(1), newgrp(1)
       sudo(8), visudo(8)
 
+  * time, timezone
+    - timedatectl(1)
+    - date(1)
+    - zdump(8)
+    - zic(8)
+
+  * locale
+    - locale(1)
+    - localectl(1)
+    - locale.conf(5)
+    - localedef(1)
+
   * terminal
 
     - getty, chvt
@@ -333,7 +345,7 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
         \item w, who, whoami, uptime, tty, whois (jwhois),
         \item seq
         \item pgrep, pkill, kill, kill, killall, pidof, nice, ps(1), top(1)
-        \item grep, bzgrep, xzgrep, zgrep, zipgrep, locale, find, xargs
+        \item grep, bzgrep, xzgrep, zgrep, zipgrep, find, xargs
         \item date, hwclock (clock)
         \item man, apropos, mandb, info
         \item texdoc
