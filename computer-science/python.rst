@@ -201,17 +201,19 @@ refactor
 --------
 - pylint
 
-hash
-----
-- hashlib
-
 bin
 ---
 - base64
 - binascii
 
+hash
+----
+- hashlib
+- hmac
+
 crypto
 ------
+- crypt
 - ssl
 - rsa
 
