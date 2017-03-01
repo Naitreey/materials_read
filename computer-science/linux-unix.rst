@@ -260,11 +260,14 @@ Command Line
       su(1), sg(1), newgrp(1)
       sudo(8), visudo(8)
 
-  * time, timezone
+  * calendar time, timezone
     - timedatectl(1)
     - date(1)
     - zdump(8)
     - zic(8)
+
+  * process time
+    - time(1)
 
   * locale
     - locale(1)

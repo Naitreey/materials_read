@@ -52,33 +52,45 @@ text
 - textwrap
 - difflib
 
+encoding
+--------
+- codecs
+- unicodedata
+- chardet
+
 io
 --
 - io
 - StringIO (io.StringIO)
 
-json
-----
-- json (doc)
-- ujson
+data formats and markup
+-----------------------
 
-yaml
-----
-\itme PyYAML
+* json
+  - json
+  - json.tool
+  - ujson
 
-xml, html
----------
-- xml
-- xml.dom.minidom
-- xml.etree.ElementTree
-- xmltodict
-- html5lib
-- pyquery
-- BeautifulSoup
-- Scrapy
-- html
-- html.entities
-- html.parser
+* yaml
+  - PyYAML
+
+* csv
+  - csv
+
+* xml
+  - xml
+  - xml.dom.minidom
+  - xml.etree.ElementTree
+  - xmltodict
+
+* html
+  - html
+  - html.entities
+  - html.parser
+  - html5lib
+  - pyquery
+  - BeautifulSoup
+  - Scrapy
 
 cmdline parser
 --------------
@@ -93,6 +105,7 @@ shell, terminal
 - colorama
 - termcolor
 - cmd
+- code
 - shlex
 - readline
 - rlcompleter
@@ -135,12 +148,15 @@ python itself
 - __future__
 - traceback
 - py_compile
+- compileall
+- copy
 - inspect
 - weakref
 - site
 - runpy
 - keyword
 - types
+- gc
 
 .. import
 
@@ -156,6 +172,12 @@ python itself
 - venv
 - setuptools
 - distutils
+
+functional programming
+----------------------
+- operator
+- functools
+- itertools
 
 documentation
 -------------
@@ -224,14 +246,8 @@ compression
 - bz2
 - lzma
 - zipfile
-- zipapp (py3 only)
+- zipapp
 - tarfile
-
-encoding
---------
-- codecs
-- unicodedata
-- chardet
 
 ABC
 ---
@@ -285,6 +301,8 @@ network programming
 
 - http and related protocols
 
+  * http
+
   .. client
 
   * http.client (httplib)
@@ -306,6 +324,11 @@ network programming
   * Django
   * Tornado
   * Twisted
+
+  .. cgi
+
+  * cgi
+
 
   .. cookies
 
@@ -379,6 +402,11 @@ c extension
 graphics and image processing
 -----------------------------
 - turtle
+- imghdr
+
+sound
+-----
+- sndhdr
 
 py2py3
 ------
@@ -391,29 +419,25 @@ codingstyle
 
 queue
 -----
-- beanstalkc (done: official tutorial)
+- beanstalkc
 - pynsq
+
+malware analysis
+----------------
+- yara
 
 misc
 ----
-- __main__ (done: doc)
-- yara
 - pypdf2
-- gc
-- functools
-- itertools
 - contextlib
-- operator
 - logging
-- ConfigParser
+- configparser
 - jsbeautifier
 - uuid
-- copy
 - warnings
 - pprint
 - webbrowser
 - random
-- csv
 
 dev tools
 =========

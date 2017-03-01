@@ -451,8 +451,11 @@ time
 
 - process time
 
-  - clock(3)
-  - CLOCKS_PER_SEC
+  * sys/time.h
+    - times(2)
+
+  * time.h(0P)
+    - clock(3)
 
 - time conversion
 
