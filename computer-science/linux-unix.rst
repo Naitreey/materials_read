@@ -278,6 +278,9 @@ Command Line
     - locale.conf(5)
     - localedef(1)
 
+  * font
+    - setfont(8)
+
   * terminal
 
     - getty, chvt
@@ -429,11 +432,18 @@ pseudo-filesystem
 /dev
 ~~~~
 - mem(4), kmem(4), port(4)
-%
-\subsubsection{Networking}
-%
-\begin{itemize}
-\end{itemize}
+
+graphics
+--------
+- Direct Rendering Manager (DRM)
+  * DRM wiki https://en.wikipedia.org/wiki/Direct_Rendering_Manager
+  * Kernel Mode Setting wiki https://en.wikipedia.org/wiki/Mode_setting
+  * KMS archlinux wiki
+    https://wiki.archlinux.org/index.php/Kernel_mode_setting#Forcing_modes_and_EDID
+
+Networking
+==========
+
 %
 \subsubsection{Desktop environment}
 %
