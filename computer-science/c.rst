@@ -334,12 +334,19 @@ process
       * getpgrp(2)
       * getsid(2)
 
-- resource limits
+- resource usage
 
-  * sys/resource.h
-    - getrlimit(2)
-    - setrlimit(2)
-    - prlimit(2)
+  * get info
+
+    - sys/resource.h
+      * getrusage(2)
+
+  * usage limit
+
+    - sys/resource.h
+      * getrlimit(2)
+      * setrlimit(2)
+      * prlimit(2)
 
 - nonlocal goto
 
@@ -430,6 +437,8 @@ interprocess communication
 
 time
 ----
+- time(7)
+
 - calendar time
 
   .. get
@@ -479,6 +488,10 @@ time
     - tzname(3)
     - daylight(3)
     - timezone(3)
+
+- RTC
+
+  * rtc(4)
 
 * unistd.h(0P)
   - sleep(3)

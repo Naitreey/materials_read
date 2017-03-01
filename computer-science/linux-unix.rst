@@ -269,6 +269,9 @@ Command Line
   * process time
     - time(1)
 
+  * RTC
+    - hwclock(8)
+
   * locale
     - locale(1)
     - localectl(1)
@@ -349,7 +352,6 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
         \item seq
         \item pgrep, pkill, kill, kill, killall, pidof, nice, ps(1), top(1)
         \item grep, bzgrep, xzgrep, zgrep, zipgrep, find, xargs
-        \item date, hwclock (clock)
         \item man, apropos, mandb, info
         \item texdoc
         \item shutdown, poweroff, reboot
