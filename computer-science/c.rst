@@ -493,6 +493,13 @@ time
 
   * rtc(4)
 
+- HRTs
+
+  * time.h(0P)
+    - clock_getres(2)
+    - clock_gettime(2)
+    - clock_settime(2)
+
 * unistd.h(0P)
   - sleep(3)
 
@@ -649,6 +656,10 @@ misc
     - rand(3)
     - srand(3)
     - RAND_MAX
+
+  * linux/random.h
+    - urandom(4)
+    - random(4)
 
 - assertion
   * assert.h(0P)

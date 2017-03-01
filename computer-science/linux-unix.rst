@@ -271,6 +271,7 @@ Command Line
 
   * RTC
     - hwclock(8)
+    - /etc/adjtime
 
   * locale
     - locale(1)
