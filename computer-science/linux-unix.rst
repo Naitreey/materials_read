@@ -340,6 +340,9 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
       rm|rmi|ps|start|stop|kill|attach|export|logs|
       port|history|exec)
 
+  * interpreters
+    - python2(1), python3(1)
+
     \begin{enumerate}
         \item mknod
         \item xinput, xclip,
@@ -378,7 +381,7 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
         \item ctags, cscope(1)
         \item make, diff, patch, ldd, strings, pmap, taskset, getopt(1)
         \item gvim, vim, gvimdiff
-        \item python2, python3, pip2, pip3, pydoc2, pydoc3
+        \item pip2, pip3, pydoc2, pydoc3
         \item node, npm
         \item java, javac
         \item ping, iptables
