@@ -9,6 +9,7 @@ language
   * What’s New In Python 3.2
   * What’s New In Python 3.3
   * What’s New In Python 3.4
+  * What’s New In Python 3.5
 - PEPs
   * PEP 0008 --- Style Guide for Python Code
   * PEP 0273 --- Import Modules from Zip Archives
@@ -39,6 +40,7 @@ concurrency
 - threading
 - multiprocessing
 - asyncio
+- uvloop
 - concurrent.futures
 
 event scheduler
@@ -278,6 +280,7 @@ database
 - pymongo (mongodb)
 - bson (mongodb)
 - psycopg2
+- asyncpg
 - sqlite3
 - sqlalchemy
 - elasticsearch

@@ -344,8 +344,27 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
       rm|rmi|ps|start|stop|kill|attach|export|logs|
       port|history|exec)
 
-  * interpreters
+  * language tools
     - python2(1), python3(1)
+    - ghc, stack, cabal, hoogle
+
+  * unix manuals
+
+    .. read
+
+    - man(1), whatis(1), apropos(1), manpath(1)
+
+    .. generate
+
+    - mandb(8), catman(1), manconv(1)
+
+    .. config
+
+    - man_db.conf
+
+  * searching files
+
+    - locate(1), updatedb(8), updatedb.conf(5)
 
     \begin{enumerate}
         \item mknod
@@ -359,7 +378,6 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
         \item seq
         \item pgrep, pkill, kill, kill, killall, pidof, nice, ps(1), top(1)
         \item grep, bzgrep, xzgrep, zgrep, zipgrep, find, xargs
-        \item man, apropos, mandb, info
         \item texdoc
         \item shutdown, poweroff, reboot
         \item column, uniq, sort
