@@ -425,6 +425,13 @@ queue
 - beanstalkc
 - pynsq
 
+logging and warning
+-------------------
+- logging
+- logging.config
+- logging.handlers
+- warnings
+
 malware analysis
 ----------------
 - yara
@@ -433,11 +440,9 @@ misc
 ----
 - pypdf2
 - contextlib
-- logging
 - configparser
 - jsbeautifier
 - uuid
-- warnings
 - pprint
 - webbrowser
 - random
