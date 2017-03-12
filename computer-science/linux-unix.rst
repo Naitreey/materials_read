@@ -366,6 +366,9 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
 
     - locate(1), updatedb(8), updatedb.conf(5)
 
+  * system limits and options
+    - getconf(1P)
+
     \begin{enumerate}
         \item mknod
         \item xinput, xclip,

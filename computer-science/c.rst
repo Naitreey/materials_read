@@ -134,6 +134,19 @@ file system
 -----------
 - path_resolution (7)
 
+system limits and options
+-------------------------
+- get limits and options
+
+  * limits.h(0P)
+
+  * posixoptions(7)
+
+  * unistd.h(0P)
+    - sysconf(3) --- get runtime invariants and runtime increasable
+    - pathconf(3), fpathconf(3) --- get pathname variables
+    - confstr(3) --- get string values
+
 type and constant definitions
 -----------------------------
 - stdbool.h(0P)
