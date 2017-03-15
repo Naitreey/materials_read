@@ -297,10 +297,10 @@ Command Line
 
   * disk and filesystem
 
-df, du, fdisk, gdisk, parted, gparted, mkfs.<type>, fsck.<type>, dumpe2fs, tune2fs, debugfs, mount, umount,
+    - df, du, fdisk, gdisk, parted, gparted, mkfs.<type>, fsck.<type>, dumpe2fs, tune2fs, debugfs, mount, umount,
 findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (mount(8)), /proc/mounts (proc(5)), sync,
 
-  * process and resource monitor
+  * process and resource management
 
 
   * version control system
@@ -340,8 +340,14 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
   * container
 
     - runc (start|spec|kill|list)
-    - docker (build|run|images|create|commit|rename|
-      rm|rmi|ps|start|stop|kill|attach|export|logs|
+
+    - docker
+      * docker pull(1)
+      * docker images(1)
+      * docker run(1)
+      * docker start(1)
+      * (build|create|commit|rename|
+      rm|rmi|ps|stop|kill|attach|export|logs|
       port|history|exec)
 
   * language tools
@@ -469,105 +475,135 @@ graphics
 Networking
 ==========
 
-%
-\subsubsection{Desktop environment}
-%
-\begin{itemize}
-    \item GNOME
-        \begin{itemize}
-            \item gnome wiki \url{https://en.wikipedia.org/wiki/GNOME}
-            \item gnome newcomers guide \url{https://wiki.gnome.org/Newcomers/}
-            \item gnome project tour \url{https://wiki.gnome.org/Newcomers/ProjectTour}
-            \item gnome IRC \url{https://wiki.gnome.org/Community/GettingInTouch/IRC}
-            \item Tools and tricks for solving tasks in a GNOME project
-                  \url{https://wiki.gnome.org/Newcomers/FindAndSolveTasks}
-            \item evince
-                \begin{itemize}
-                    \item evince wiki \url{https://en.wikipedia.org/wiki/Evince}
-                    \item poppler wiki \url{https://en.wikipedia.org/wiki/Poppler_(software)}
-                \end{itemize}
-            \item jhbuild
-                \begin{itemize}
-                    \item build gnome: Set up JHBuild \url{https://wiki.gnome.org/Newcomers/BuildGnome}
-                \end{itemize}
-            \item Choose Application ID
-                  \url{https://wiki.gnome.org/HowDoI/ChooseApplicationID}
-            \item Beautiful Buttons
-                  \url{https://wiki.gnome.org/HowDoI/Buttons}
-            \item Compiling GTK+ Applications
-                  \url{https://developer.gnome.org/gtk3/stable/gtk-compiling.html}
-        \end{itemize}
-    \item GTK
-        \begin{itemize}
-            \item Getting Started with GTK+
-                  \url{https://developer.gnome.org/gtk3/stable/gtk-getting-started.html}
-            \item GtkInspector \url{https://wiki.gnome.org/Projects/GTK\%2B/Inspector}
-        \end{itemize}
-\end{itemize}
-%
-\subsubsection{Development Tools}
-%
-\begin{itemize}
-    \item build systems
-        \begin{itemize}
-            \item GNU build system
-                \begin{itemize}
-                    \item GNU Make wiki \url{https://en.wikipedia.org/wiki/Make_(software)}
-                    \item Autotools: A Practitioner's Guide to GNU Autoconf, Automake, and Libtool (在读)
-                    \item m4 wiki \url{https://en.wikipedia.org/wiki/M4_(computer_language)}
-                \end{itemize}
-        \end{itemize}
-\end{itemize}
-%
-\subsubsection{Virtualization}
-%
-\begin{itemize}
-    \item general introduction
-        \begin{itemize}
-            \item Hardware virtualization wiki \url{https://en.wikipedia.org/wiki/Hardware_virtualization}
-            \item Virtual Linux: An overview of virtualization methods, architectures, and implementations \url{https://web.archive.org/web/20080327111126/http://www-128.ibm.com/developerworks/linux/library/l-linuxvirt/?ca=dgr-lnxw01Virtual-Linux}
-            \item Fedora Virtualization intro \url{https://fedoraproject.org/wiki/Virtualization?rd=Tools/Virtualization}
-            \item Fedora Getting started with virtualization \url{https://fedoraproject.org/wiki/Getting_started_with_virtualization}
-            \item hardware emulation wiki \url{https://en.wikipedia.org/wiki/Emulator},
-                  full virtualization wiki \url{https://en.wikipedia.org/wiki/Full_virtualization},
-                  hardware-assisted virtualization wiki \url{https://en.wikipedia.org/wiki/Hardware-assisted_virtualization},
-                  paravirtualization wiki \url{https://en.wikipedia.org/wiki/Full_virtualization},
-                  operating-system-level virtualization \url{https://en.wikipedia.org/wiki/Operating-system-level_virtualization}
-            \item hypervisor wiki \url{https://en.wikipedia.org/wiki/Hypervisor}
-        \end{itemize}
-    \item management tool: libvirt
-        \begin{itemize}
-            \item libvirt wiki \url{https://en.wikipedia.org/wiki/Libvirt}
-            \item Domain XML format \url{http://libvirt.org/formatdomain.html}
-            \item Driver capabilities XML format \url{http://libvirt.org/formatcaps.html}
-        \end{itemize}
-    \item QEMU (hardware emulation, full virtualization)
-        \begin{itemize}
-            \item QEMU wiki \url{https://en.wikipedia.org/wiki/QEMU}
-            \item QEMU wikibook \url{https://en.wikibooks.org/wiki/QEMU}
-            \item How to use qemu \url{https://fedoraproject.org/wiki/How_to_use_qemu#Qemu_commands_since_F.3F.2B}
-        \end{itemize}
-    \item KVM (hardware-assisted virtualization, paravirtualization)
-        \begin{itemize}
-            \item Kernel-based Virtual Machine wiki \url{https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine}
-            \item Difference between KVM and QEMU \url{http://serverfault.com/questions/208693/difference-between-kvm-and-qemu}
-            \item windows virtio drivers \url{https://fedoraproject.org/wiki/Windows_Virtio_Drivers#Direct_download}
-            \item QEMU/Windows guest \url{https://wiki.gentoo.org/wiki/QEMU/Windows_guest}
-            \item Example using SPICE and QXL for improved Graphics experience in the guest \url{http://www.linux-kvm.org/page/SPICE}
-        \end{itemize}
-    \item chroot
-    \item open container, runC, docker (os-level virtualization)
-        \begin{itemize}
-            \item Open Container Specifications \url{https://github.com/opencontainers/specs}
-            \item OCI FAQs \url{https://www.opencontainers.org/faq}
-            \item runC homepage Getting Started \url{https://runc.io/}
-            \item runC readme \url{https://github.com/opencontainers/runc}
-            \item docker wiki \url{https://en.wikipedia.org/wiki/Docker_(software)}
-            \item docker documentation: Get Started with Docker Engine for Linux https://docs.docker.com/linux/
-            \item docker documentation: Understand the architecture \url{https://docs.docker.com/engine/understanding-docker/}
-            \item docker documentation: Quickstart Docker Engine \url{https://docs.docker.com/engine/quickstart/}
-        \end{itemize}
-\end{itemize}
+Desktop Environment
+===================
+
+GNOME, GTK
+----------
+
+GNOME
+~~~~~
+- gnome wiki
+  https://en.wikipedia.org/wiki/GNOME
+- gnome newcomers guide
+  https://wiki.gnome.org/Newcomers/
+- gnome project tour
+  https://wiki.gnome.org/Newcomers/ProjectTour
+- gnome IRC
+  https://wiki.gnome.org/Community/GettingInTouch/IRC
+- Tools and tricks for solving tasks in a GNOME project
+  https://wiki.gnome.org/Newcomers/FindAndSolveTasks
+- PDF viewer
+  * evince wiki
+    https://en.wikipedia.org/wiki/Evince
+  * poppler wiki
+    https://en.wikipedia.org/wiki/Poppler_(software)
+- jhbuild
+  * build gnome: Set up JHBuild
+    https://wiki.gnome.org/Newcomers/BuildGnome
+- Choose Application ID
+  https://wiki.gnome.org/HowDoI/ChooseApplicationID
+- Beautiful Buttons
+  https://wiki.gnome.org/HowDoI/Buttons
+
+GTK
+~~~
+- Compiling GTK+ Applications
+  https://developer.gnome.org/gtk3/stable/gtk-compiling.html
+- Getting Started with GTK+
+  https://developer.gnome.org/gtk3/stable/gtk-getting-started.html
+- GtkInspector
+  https://wiki.gnome.org/Projects/GTK%2B/Inspector
+
+Development Tools
+=================
+
+Build Systems
+-------------
+
+GNU Build System
+~~~~~~~~~~~~~~~~
+- GNU Make wiki
+  https://en.wikipedia.org/wiki/Make_(software)
+- Autotools: A Practitioner's Guide to GNU Autoconf, Automake, and Libtool (在读)
+- m4 wiki
+  https://en.wikipedia.org/wiki/M4_(computer_language)
+
+Virtualization
+==============
+
+General Introductions
+---------------------
+- Hardware virtualization wiki
+  https://en.wikipedia.org/wiki/Hardware_virtualization
+- Virtual Linux: An overview of virtualization methods, architectures, and implementations
+  https://web.archive.org/web/20080327111126/http://www-128.ibm.com/developerworks/linux/library/l-linuxvirt/?ca=dgr-lnxw01Virtual-Linux
+- Fedora Virtualization intro
+  https://fedoraproject.org/wiki/Virtualization?rd=Tools/Virtualization
+- Fedora Getting started with virtualization
+  https://fedoraproject.org/wiki/Getting_started_with_virtualization
+- hardware emulation wiki
+  https://en.wikipedia.org/wiki/Emulator
+- full virtualization wiki
+  https://en.wikipedia.org/wiki/Full_virtualization
+- hardware-assisted virtualization wiki
+  https://en.wikipedia.org/wiki/Hardware-assisted_virtualization
+- paravirtualization wiki
+  https://en.wikipedia.org/wiki/Full_virtualization
+- operating-system-level virtualization
+  https://en.wikipedia.org/wiki/Operating-system-level_virtualization
+- hypervisor wiki
+  https://en.wikipedia.org/wiki/Hypervisor
+
+Management Tool: libvirt
+------------------------
+- libvirt wiki
+  https://en.wikipedia.org/wiki/Libvirt
+- Domain XML format
+  http://libvirt.org/formatdomain.html
+- Driver capabilities XML format
+  http://libvirt.org/formatcaps.html
+
+QEMU (hardware emulation, full virtualization)
+----------------------------------------------
+- QEMU wiki
+  https://en.wikipedia.org/wiki/QEMU
+- QEMU wikibook
+  https://en.wikibooks.org/wiki/QEMU
+- How to use qemu
+  https://fedoraproject.org/wiki/How_to_use_qemu#Qemu_commands_since_F.3F.2B
+
+KVM (hardware-assisted virtualization, paravirtualization)
+----------------------------------------------------------
+- Kernel-based Virtual Machine wiki
+  https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine
+- Difference between KVM and QEMU
+  http://serverfault.com/questions/208693/difference-between-kvm-and-qemu
+- windows virtio drivers
+  https://fedoraproject.org/wiki/Windows_Virtio_Drivers#Direct_download
+- QEMU/Windows guest
+  https://wiki.gentoo.org/wiki/QEMU/Windows_guest
+- Example using SPICE and QXL for improved Graphics experience in the guest
+  http://www.linux-kvm.org/page/SPICE
+
+chroot
+------
+
+open container, runC, docker (os-level virtualization)
+------------------------------------------------------
+- Open Container Specifications
+  https://github.com/opencontainers/specs
+- OCI FAQs
+  https://www.opencontainers.org/faq
+- runC homepage Getting Started
+  https://runc.io/
+- runC readme
+  https://github.com/opencontainers/runc
+- docker wiki
+  https://en.wikipedia.org/wiki/Docker_(software)
+- docker documentation: Get started with Docker
+  https://docs.docker.com/engine/getstarted/
+
 %
 \subsubsection{File Systems}
 %
