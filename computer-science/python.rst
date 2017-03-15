@@ -401,6 +401,9 @@ scientific computing
 c extension
 -----------
 - SWIG
+- ctypes
+- cython
+- cffi
 
 graphics and image processing
 -----------------------------
