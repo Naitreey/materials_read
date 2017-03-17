@@ -346,7 +346,8 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
       * docker images(1)
       * docker run(1)
       * docker start(1)
-      * (build|create|commit|rename|
+      * docker build(1)
+      * (create|commit|rename|
       rm|rmi|ps|stop|kill|attach|export|logs|
       port|history|exec)
 
