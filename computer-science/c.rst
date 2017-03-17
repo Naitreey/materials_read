@@ -372,6 +372,10 @@ process
   * sys/prctl.h
     - prctl(2)
 
+- pipeline
+
+  * pipeline.h, libpipeline(3)
+
 dynamic library
 ---------------
 - dlfcn.h(0P)
