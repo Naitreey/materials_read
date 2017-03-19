@@ -62,7 +62,8 @@ IO
     - feof(3), ferror(3), clearerr(3)
     - fread(3), fwrite(3)
     - fseek(3), ftell(3), rewind(3)
-    - setvbuf(3), fflush(3)
+    - setvbuf(3)
+    - fflush(3)
 
 - text io
 
@@ -134,8 +135,8 @@ file system
 -----------
 - path_resolution (7)
 
-system limits and options
--------------------------
+system information
+------------------
 - get limits and options
 
   * limits.h(0P)
@@ -146,6 +147,15 @@ system limits and options
     - sysconf(3) --- get runtime invariants and runtime increasable
     - pathconf(3), fpathconf(3) --- get pathname variables
     - confstr(3) --- get string values
+
+- system identification
+
+  * sys/utsname.h
+    - uname(2)
+
+  * unistd.h(0P)
+    - gethostname(2)
+    - sethostname(2)
 
 type and constant definitions
 -----------------------------
@@ -248,6 +258,9 @@ process
     - fork(2)
     - execve(2)
 
+  * stdlib.h(0P)
+    - system(3)
+
 - process termination
 
   * unistd.h(0P)
@@ -342,6 +355,7 @@ process
   * process identifiers
 
     - unistd.h(0P)
+      * gettid(2)
       * getpid(2), getppid(2)
       * getpgid(2)
       * getpgrp(2)
@@ -542,11 +556,6 @@ internationalization
 
 terminal
 --------
-
-system configuration
---------------------
-- sysconf(3)
-- confstr(3)
 
 system administration
 ---------------------

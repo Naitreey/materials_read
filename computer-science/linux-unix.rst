@@ -226,6 +226,9 @@ Command Line
       jobs fg bg kill wait disown suspend %n %%
       %string %?string suspend
 
+  * system identification
+    - uname(1)
+
   * file access and manipulation
     - ls, stat, cat, tee(1), mv, less, vi,
     - chmod(1), chroot, chown, touch, file,
@@ -347,8 +350,12 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
       * docker run(1)
       * docker start(1)
       * docker build(1)
+      * docker tag(1)
+      * docker rmi(1)
+      * docker login(1)
+      * docker push(1)
       * (create|commit|rename|
-      rm|rmi|ps|stop|kill|attach|export|logs|
+      rm|ps|stop|kill|attach|export|logs|
       port|history|exec)
 
   * language tools
@@ -383,7 +390,7 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
         \item pwdx
         \item rm, unlink(1), mkdir, rmdir(1),
         \item locate,  env(1), printenv(1), which,
-        \item uname, dd, dmesg, lsof, printf
+        \item dd, dmesg, lsof, printf
         \item w, who, whoami, uptime, tty, whois (jwhois),
         \item seq
         \item pgrep, pkill, kill, kill, killall, pidof, nice, ps(1), top(1)
@@ -604,25 +611,27 @@ open container, runC, docker (os-level virtualization)
   https://en.wikipedia.org/wiki/Docker_(software)
 - docker documentation: Get started with Docker
   https://docs.docker.com/engine/getstarted/
+- docker documentation: Define and deploy your app
+  https://docs.docker.com/engine/getstarted-voting-app/
 
-%
-\subsubsection{File Systems}
-%
-\begin{itemize}
-    \item Union mount, overlayfs
-        \begin{itemize}
-            \item Union mount https://en.wikipedia.org/wiki/Union_mount
-            \item OverlayFS https://en.wikipedia.org/wiki/OverlayFS
-            \item kernel documentation https://www.kernel.org/doc/Documentation/filesystems/overlayfs.txt
-            \item Arch linux overlayfs wiki https://wiki.archlinux.org/index.php/Overlay_filesystem
-        \end{itemize}
-    \item sparse file wiki \url{https://en.wikipedia.org/wiki/Sparse_file}
-\end{itemize}
-\subsubsection{Regular Expression}
-\begin{enumerate}
-    \item Mastering Regular Expression (在读)
-\end{enumerate}
-%
+File Systems
+============
+Union mount, overlayfs
+----------------------
+- Union mount
+  https://en.wikipedia.org/wiki/Union_mount
+- OverlayFS
+  https://en.wikipedia.org/wiki/OverlayFS
+- kernel documentation
+  https://www.kernel.org/doc/Documentation/filesystems/overlayfs.txt
+- Arch linux overlayfs wiki
+  https://wiki.archlinux.org/index.php/Overlay_filesystem
+
+sparse file
+-----------
+- sparse file wiki
+  https://en.wikipedia.org/wiki/Sparse_file
+
 \subsubsection{Misc}
 %
 \begin{itemize}
