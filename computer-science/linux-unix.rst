@@ -62,7 +62,8 @@ System Components
 - scheduled tasks
   * anacron wiki
     https://en.wikipedia.org/wiki/Anacron
-- iptables
+- iptables & NetFilter
+  * iptables(8), iptables-extensions(8)
 - SELinux
   * CentOS SELinux HowTo
     https://wiki.centos.org/HowTos/SELinux
@@ -383,6 +384,11 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
   * system limits and options
     - getconf(1P)
 
+  * network management
+
+    - firewall
+      * iptables(8), iptables-extensions(8)
+
     \begin{enumerate}
         \item mknod
         \item xinput, xclip,
@@ -422,7 +428,7 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
         \item pip2, pip3, pydoc2, pydoc3
         \item node, npm
         \item java, javac
-        \item ping, iptables
+        \item ping
         \item arp, arping
         \item ip (route|maddress|neighbour)
         \item traceroute(1)

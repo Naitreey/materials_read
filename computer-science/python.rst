@@ -436,8 +436,13 @@ queue
 logging and warning
 -------------------
 - logging
-- logging.config
-- logging.handlers
+  * logging
+  * logging.config
+  * logging.handlers
+  * Logging HOWTO
+    https://docs.python.org/3/howto/logging.html#advanced-logging-tutorial
+  * Logging Cookbook
+    https://docs.python.org/3/howto/logging-cookbook.html#adding-contextual-information-to-your-logging-output
 - warnings
 
 malware analysis
