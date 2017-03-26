@@ -46,6 +46,7 @@ concurrency
 - asyncio
 - uvloop
 - concurrent.futures
+- gevent
 
 event scheduler
 ---------------

@@ -272,6 +272,9 @@ process
     - atexit(3)
     - abort(3)
 
+- memory layout
+  * etext(3), edata(3), end(3)
+
 - memory allocations
 
   .. allocate and free

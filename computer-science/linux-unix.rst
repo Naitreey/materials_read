@@ -229,6 +229,9 @@ Command Line
 
   * system identification
     - uname(1)
+    - hostnamectl(1)
+    - machine-info(5)
+    - machine-id(5)
 
   * file access and manipulation
     - ls, stat, cat, tee(1), mv, less, vi,
@@ -389,6 +392,13 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
     - firewall
       * iptables(8), iptables-extensions(8)
 
+    - hostname and FQDN
+      * hostname(1), dnsdomainname(1)
+      * hostname(5), hostname(7)
+      * systemd-hostnamed(8), systemd-hostnamed.service(8)
+
+    - DNS
+
     \begin{enumerate}
         \item mknod
         \item xinput, xclip,
@@ -417,10 +427,8 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
         \item screen
         \item samba, free, mkswap, swapon, swapoff, dmsetup, lspci, ionice, iotop
         \item console_codes(4)
-        \item proc(5)
         \item grub2-install, grub2-mkconfig
         \item ssh, ssh-keygen, ssh-copy-id, sshpass sftp, ftp, scp, telnet, netcat (nc), wget, curl, rsync, nslookup, tcpdump
-        \item hostname
         \item ar(1), ranlib(1)
         \item ctags, cscope(1)
         \item make, diff, patch, ldd, strings, pmap, taskset, getopt(1)
@@ -477,6 +485,10 @@ pseudo-filesystem
 /dev
 ~~~~
 - mem(4), kmem(4), port(4)
+
+/proc
+~~~~~
+- proc(5)
 
 graphics
 --------
