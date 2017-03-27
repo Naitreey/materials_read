@@ -667,17 +667,23 @@ algorithms
   * stdlib.h(0P)
     - qsort(3)
 
-misc
-----
-- glibc
+glibc mechanisms
+----------------
+- library feature set
 
   * feature_test_macros(7)
-
-  * attributes(7)
 
   * gnu/libc-version.h
     - gnu_get_libc_version(3)
     - gnu_get_libc_release(3)
+
+- POSIX safety
+
+  * attributes(7)
+
+- Name Service Switch -- NSS
+
+  * nsswitch.conf(5)
 
 - random number
 
