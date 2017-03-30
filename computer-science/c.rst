@@ -681,7 +681,7 @@ glibc mechanisms
 
   * attributes(7)
 
-- Name Service Switch -- NSS
+- generalized name resolution -- Name Service Switch (NSS)
 
   * nsswitch.conf(5)
 
