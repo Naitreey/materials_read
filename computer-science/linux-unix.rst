@@ -363,7 +363,14 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
       port|history|exec)
 
   * language tools
-    - python2(1), python3(1)
+    - python
+      * python2(1)
+      * python3(1)
+      * pyvenv
+      * pip2
+      * pip3 (install|download|uninstall|freeze|list|show|
+              search|wheel|hash|completion|help)
+      * wheel
     - ghc, stack, cabal, hoogle
 
   * unix manuals
@@ -399,6 +406,10 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
 
     - DNS
 
+  * kernel configuration
+
+    - sysctl(8)
+
     \begin{enumerate}
         \item mknod
         \item xinput, xclip,
@@ -433,7 +444,7 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
         \item ctags, cscope(1)
         \item make, diff, patch, ldd, strings, pmap, taskset, getopt(1)
         \item gvim, vim, gvimdiff
-        \item pip2, pip3, pydoc2, pydoc3
+        \item pydoc2, pydoc3
         \item node, npm
         \item java, javac
         \item ping
@@ -480,8 +491,10 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
 
 Kernel
 ======
+
 pseudo-filesystem
 -----------------
+
 /dev
 ~~~~
 - mem(4), kmem(4), port(4)
@@ -497,6 +510,24 @@ graphics
   * Kernel Mode Setting wiki https://en.wikipedia.org/wiki/Mode_setting
   * KMS archlinux wiki
     https://wiki.archlinux.org/index.php/Kernel_mode_setting#Forcing_modes_and_EDID
+
+runtime configuration
+---------------------
+- sysctl
+  * administrator
+    - sysctl(8)
+    - sysctl.conf(5)
+  * bootup
+    - systemd-sysctl(8)
+    - systemd-sysctl.service(8)
+    - sysctl.d(5)
+
+misc
+----
+Magic SysRq key
+~~~~~~~~~~~~~~~
+- wiki
+  https://en.wikipedia.org/wiki/Magic_SysRq_key
 
 Networking
 ==========

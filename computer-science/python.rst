@@ -119,6 +119,10 @@ shell, terminal
 - getpass
 - pty
 
+grammar parser
+--------------
+- parsley
+
 file and directory
 ------------------
 - glob
@@ -174,10 +178,12 @@ python itself
 
 .. packaging
 
-- pip
 - ensurepip
+- pip
+- wheel
 - venv
 - setuptools
+- pkg_resources
 - distutils
 
 functional programming
@@ -261,9 +267,6 @@ ABC
 - abc
 - collections.abc
 - numbers
-
-C and low level data
---------------------
 
 data structure
 --------------
@@ -463,14 +466,50 @@ misc
 
 dev tools
 =========
+
+debugging
+---------
+- pdb
+
+code checking
+-------------
+- pylint
+- flake8
+
+profiling
+---------
 - The Python Profilers
   https://docs.python.org/2/library/profile.html
-- pdb
+
+python version
+--------------
+- pyenv
+
+virtual environment
+-------------------
+- venv
+
+packaging and distribution
+--------------------------
 - docutils
   * docutils front-end tools
     http://docutils.sourceforge.net/docs/user/tools.html
-- pyenv
+
+- setuptools
+
+- easy_install
+
 - pip
-- venv
-- pylint
-- flake8
+  * pip documentation: quickstart
+    https://pip.pypa.io/en/stable/quickstart/
+  * pip documentation: installation
+    https://pip.pypa.io/en/stable/installing/
+  * pip documentation: user guide
+    https://pip.pypa.io/en/stable/user_guide/
+
+- egg
+  * The Quick Guide to Python Eggs
+    http://peak.telecommunity.com/DevCenter/PythonEggs#implementation-status
+- wheel
+  * wheel documentation
+    https://wheel.readthedocs.io/en/latest/
