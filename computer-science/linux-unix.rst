@@ -323,7 +323,7 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
         stash|config|var|diff|difftool|diff-tree|
         diff-index|apply|rebase|reset|revert|tag|
         show|instaweb|clean|cherry-pick|cherry|
-        reflog|submodule|filter-branch|request-pull|
+        reflog|submodule|subtree|filter-branch|request-pull|
         format-patch|am|send-email|rev-parse|
         rev-list|rerere|describe|grep|blame|bisect|
         update-index|update-ref|symbolic-ref|
@@ -371,6 +371,8 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
       * pip3 (install|download|uninstall|freeze|list|show|
               search|wheel|hash|completion|help)
       * wheel
+      * 2to3
+
     - ghc, stack, cabal, hoogle
 
   * unix manuals

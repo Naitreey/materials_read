@@ -427,6 +427,7 @@ py2py3
 ------
 - six
 - future
+- lib2to3
 
 codingstyle
 -----------
