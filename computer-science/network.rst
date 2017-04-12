@@ -16,6 +16,8 @@ overview
 - http://stackoverflow.com/questions/671118/what-exactly-is-restful-programming
 - What is Common Gateway Interface (CGI)?
   http://stackoverflow.com/questions/2089271/what-is-common-gateway-interface-cgi
+- Basic access authentication
+  https://en.wikipedia.org/wiki/Basic_access_authentication
 
 request methods
 ~~~~~~~~~~~~~~~

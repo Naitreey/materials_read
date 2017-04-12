@@ -330,9 +330,11 @@ network programming
   .. server
 
   * http.server (BaseHTTPServer)
-  * bottle
-  * Flask
   * uWSGI
+  * bottle
+    - tutorial
+      https://bottlepy.org/docs/dev/tutorial.html
+  * Flask
   * Django
   * Tornado
   * Twisted
