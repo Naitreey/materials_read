@@ -26,8 +26,35 @@ request methods
 
 header fields
 ~~~~~~~~~~~~~
+
+connection management
+.....................
+- Connection
+  https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Connection
+
+content negotiation
+...................
+- Accept-Encoding
+  https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Encoding
+
+message body information
+........................
 - Content-Type
   https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type
+
+- Content-Length
+  https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Length
+
+- Content-Encoding
+  https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Encoding
+
+transfer coding
+...............
+- Transfer-Encoding
+  https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Transfer-Encoding
+
+download
+........
 - Content-Disposition
   https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Disposition
 
