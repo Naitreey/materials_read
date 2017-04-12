@@ -17,6 +17,29 @@ HTTP
 - What is Common Gateway Interface (CGI)?
   http://stackoverflow.com/questions/2089271/what-is-common-gateway-interface-cgi
 
+connection management
+.....................
+- Connection
+  https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Connection
+
+content negotiation
+...................
+- Accept-Encoding
+  https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Encoding
+
+message body information
+........................
+- Content-Length
+  https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Length
+
+- Content-Encoding
+  https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Encoding
+
+transfer coding
+...............
+- Transfer-Encoding
+  https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Transfer-Encoding
+
 email
 -----
 RFC2822: Internet Message Format
