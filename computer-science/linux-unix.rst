@@ -111,6 +111,8 @@ System Programming
   https://www.kernel.org/category/releases.html
 - Program memory segments wiki
   https://en.wikipedia.org/wiki/Data_segment#BSS
+- Virtual memory wiki
+  https://en.wikipedia.org/wiki/Virtual_memory
 
 Command Line
 ============
