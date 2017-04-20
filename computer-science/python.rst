@@ -456,6 +456,12 @@ malware analysis
 ----------------
 - yara
 
+vcs
+---
+- gitpython
+  * tutorial
+    http://gitpython.readthedocs.io/en/stable/tutorial.html
+
 misc
 ----
 - pypdf2
@@ -494,6 +500,13 @@ virtual environment
 
 packaging and distribution
 --------------------------
+- Python Packaging User Guide
+
+  * Additional Topics
+
+    - install_requires vs Requirements files
+      https://packaging.python.org/requirements/
+
 - docutils
   * docutils front-end tools
     http://docutils.sourceforge.net/docs/user/tools.html

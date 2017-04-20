@@ -340,7 +340,8 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
         gitattributes(5), githooks(5), gitcredentials(7), gitmodules(5)
 
       * git annex (init|add|copy|move|describe|
-        drop|dropunused|initremote|numcopies|unused|)
+        drop|dropunused|initremote|enableremote|
+        numcopies|unused|)
 
     - svn
 
@@ -453,7 +454,7 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
         \item java, javac
         \item ping
         \item arp, arping
-        \item ip (route|maddress|neighbour)
+        \item ip(8), ip (route|maddress|neighbour)
         \item traceroute(1)
         \item whois (jwhois)
         \item virsh (list|
