@@ -99,6 +99,10 @@ data formats and markup
   - BeautifulSoup
   - Scrapy
 
+configuration
+-------------
+- configparser
+
 cmdline parser
 --------------
 - getopt
@@ -152,8 +156,8 @@ virtualization
 - guestfs
 - libvirt
 
-python itself
--------------
+python runtime
+--------------
 - sys
 - sysconfig
 - __future__
@@ -168,6 +172,8 @@ python itself
 - keyword
 - types
 - gc
+- contextlib
+- pprint
 
 .. import
 
@@ -287,6 +293,8 @@ database
 - dbm
 - dbm.gnu
 - pymongo (mongodb)
+  * pymongo tutorial
+    https://api.mongodb.com/python/current/tutorial.html
 - bson (mongodb)
 - psycopg2
 - asyncpg
@@ -368,10 +376,6 @@ network programming
 - selectors
 - shadowsocks
 
-mime
-----
-- mimetype
-
 template
 --------
 - jinja2
@@ -383,6 +387,7 @@ email
 - smtpd
 - poplib
 - imaplib
+- mimetypes
 
 SMB
 ---
@@ -456,16 +461,17 @@ malware analysis
 ----------------
 - yara
 
+random number
+-------------
+- random
+- secrets
+
 misc
 ----
 - pypdf2
-- contextlib
-- configparser
 - jsbeautifier
 - uuid
-- pprint
 - webbrowser
-- random
 
 dev tools
 =========
