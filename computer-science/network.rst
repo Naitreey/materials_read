@@ -100,6 +100,13 @@ SNMP
 - management information base
   https://en.wikipedia.org/wiki/Management_information_base
 
+domain name system
+------------------
+Multicast DNS
+~~~~~~~~~~~~~
+- mDNS wiki
+  https://en.wikipedia.org/wiki/Multicast_DNS
+
 network layer
 =============
 Internet Protocol (IP)
