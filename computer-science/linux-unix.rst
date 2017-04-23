@@ -369,12 +369,12 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
     - python
       * python2(1)
       * python3(1)
-      * pyvenv
       * pip2
       * pip3 (install|download|uninstall|freeze|list|show|
               search|wheel|hash|completion|help)
       * wheel
       * 2to3
+      * pyenv
 
     - ghc, stack, cabal, hoogle
 
