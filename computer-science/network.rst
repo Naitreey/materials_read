@@ -107,6 +107,13 @@ Multicast DNS
 - mDNS wiki
   https://en.wikipedia.org/wiki/Multicast_DNS
 
+misc
+----
+Discard Protocol
+~~~~~~~~~~~~~~~~
+- discard protocol wiki
+  https://en.wikipedia.org/wiki/Discard_Protocol
+
 network layer
 =============
 Internet Protocol (IP)
