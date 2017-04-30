@@ -415,6 +415,10 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
 
     - sysctl(8)
 
+  * error code
+
+    - perror(1)
+
     \begin{enumerate}
         \item mknod
         \item xinput, xclip,

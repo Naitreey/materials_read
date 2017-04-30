@@ -92,6 +92,10 @@ IO
     - preadv(2)
     - pwritev(2)
 
+  * sys/sendfile.h
+
+    - sendfile(2)
+
 - error handling
 
   * stdio.h(0P), stdio(3)
@@ -556,6 +560,97 @@ internationalization
     - localeconv(3)
 
 - iso646.h(0P)
+
+network
+-------
+
+network database
+~~~~~~~~~~~~~~~~
+- transport layer
+
+  * netdb.h(0P)
+
+    - protocols(5)
+
+    - getprotoent(3)
+    - setprotent(3)
+    - endprotoent(3)
+
+    - getprotobyname(3)
+    - getprotobynumber(3)
+
+- application layer
+
+  * netdb.h(0P)
+
+    - services(5)
+
+    - getservent(3)
+    - setservent(3)
+    - endservent(3)
+
+    - getservbyname(3)
+    - getservbyport(3)
+
+socket
+~~~~~~
+- socket(7)
+
+- create socket
+
+  * sys/socket.h
+    - socket(2)
+
+- operation
+
+  .. preparation
+
+  * sys/socket.h
+
+    - connect(2)
+    - bind(2)
+    - accept(2)
+
+  .. read
+
+  * unistd.h(0P)
+
+    - read(2)
+
+  * sys/socket.h
+
+    - recv(2)
+    - recvfrom(2)
+    - recvmsg(2)
+
+  .. write
+
+  * unistd.h(0P)
+
+    - write(2)
+
+  * sys/socket.h
+
+    - send(2)
+    - sendto(2)
+    - sendmsg(2)
+
+- network layer
+
+  * ip(7)
+
+- transport layer
+
+  * udp(7)
+  * udplite(7)
+  * tcp(7)
+
+- socket option
+
+  * sys/socket.h
+
+    - getsockopt(2)
+    - setsockopt(2)
 
 terminal
 --------
