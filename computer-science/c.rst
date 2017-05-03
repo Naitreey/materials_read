@@ -397,6 +397,14 @@ process
 
   * pipeline.h, libpipeline(3)
 
+filesystem
+----------
+- file status
+  * sys/stat.h
+    - stat(2)
+    - fstat(2)
+    - lstat(2)
+
 dynamic library
 ---------------
 - dlfcn.h(0P)
