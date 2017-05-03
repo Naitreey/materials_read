@@ -62,6 +62,8 @@ System Components
 - scheduled tasks
   * anacron wiki
     https://en.wikipedia.org/wiki/Anacron
+  * anacron homepage
+    http://anacron.sourceforge.net/
 - iptables & NetFilter
   * iptables(8), iptables-extensions(8)
 - SELinux
