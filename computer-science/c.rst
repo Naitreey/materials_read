@@ -405,6 +405,19 @@ filesystem
     - fstat(2)
     - lstat(2)
 
+- node
+  * sys/stat.h
+    - mknod(2)
+
+device
+------
+- device id
+
+  * sys/sysmacros.h
+    - major(3)
+    - minor(3)
+    - makedev(3)
+
 dynamic library
 ---------------
 - dlfcn.h(0P)

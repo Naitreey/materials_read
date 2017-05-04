@@ -238,11 +238,18 @@ Command Line
     - machine-id(5)
 
   * file access and manipulation
-    - ls, stat, cat, tee(1), mv, less, vi,
+    - ls(1), stat(1), cat, tee(1), mv, less, vi,
     - chmod(1), chroot, chown, touch, file,
     - head, tail, tr,
     - ln, readlink
-    - dirname, mktemp,
+    - dirname, mktemp
+
+  * disk and filesystem
+
+    - df, du, fdisk, gdisk, parted, gparted, mkfs.<type>, fsck.<type>, dumpe2fs, tune2fs, debugfs, mount, umount,
+findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (mount(8)), /proc/mountinfo (proc(5)), sync,
+
+    - mknod(1)
 
   * user account system
 
@@ -305,11 +312,6 @@ Command Line
     - dnf (install|remove|erease|update|updateinfo)
     - yum
     - rpm
-
-  * disk and filesystem
-
-    - df, du, fdisk, gdisk, parted, gparted, mkfs.<type>, fsck.<type>, dumpe2fs, tune2fs, debugfs, mount, umount,
-findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (mount(8)), /proc/mountinfo (proc(5)), sync,
 
   * process and resource management
 
@@ -422,7 +424,6 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
     - perror(1)
 
     \begin{enumerate}
-        \item mknod
         \item xinput, xclip,
         \item alternatives
         \item pwdx
