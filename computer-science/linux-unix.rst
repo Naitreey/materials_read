@@ -60,10 +60,14 @@ System Components
   * syslog wiki
     https://en.wikipedia.org/wiki/Syslog
 - scheduled tasks
-  * anacron wiki
-    https://en.wikipedia.org/wiki/Anacron
-  * anacron homepage
-    http://anacron.sourceforge.net/
+  * anacron
+    - anacron wiki
+      https://en.wikipedia.org/wiki/Anacron
+    - anacron homepage
+      http://anacron.sourceforge.net/
+    - anacron(8)
+    - /etc/anacrontab(8)
+  * at
 - iptables & NetFilter
   * iptables(8), iptables-extensions(8)
 - SELinux
@@ -315,6 +319,8 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
 
   * process and resource management
 
+    - nice(1)
+
 
   * version control system
 
@@ -415,6 +421,17 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
 
     - DNS
 
+  * scheduled tasks
+
+    - fuzzy schedule
+      * anacron(8)
+      * /etc/anacrontab(8)
+
+    - one-time schedule
+      * at(1), atq(1), atrm(1), batch(1)
+      * /etc/at.allow(5), /etc/at.deny(5)
+      * atd(8)
+
   * kernel configuration
 
     - sysctl(8)
@@ -432,7 +449,7 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
         \item dd, dmesg, lsof, printf
         \item w, who, whoami, uptime, tty, whois (jwhois),
         \item seq
-        \item pgrep, pkill, kill, kill, killall, pidof, nice, ps(1), top(1)
+        \item pgrep, pkill, kill, kill, killall, pidof, ps(1), top(1)
         \item grep, bzgrep, xzgrep, zgrep, zipgrep, find, xargs
         \item texdoc
         \item shutdown, poweroff, reboot
