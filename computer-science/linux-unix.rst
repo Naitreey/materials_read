@@ -423,6 +423,8 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
 
   * scheduled tasks
 
+    - periodic schedule
+
     - fuzzy schedule
       * anacron(8)
       * /etc/anacrontab(8)
