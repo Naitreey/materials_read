@@ -17,3 +17,12 @@ Tor Network
 ===========
 How tor Works
 http://jordan-wright.com/blog/2015/02/28/how-tor-works-part-one/
+
+Password Cracking
+=================
+John the Ripper
+
+Vulnerabilities
+===============
+- Shellshock
+  https://en.wikipedia.org/wiki/Shellshock_(software_bug)
