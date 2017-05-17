@@ -60,6 +60,8 @@ System Components
   * syslog wiki
     https://en.wikipedia.org/wiki/Syslog
 - scheduled tasks
+  * at
+  * cron
   * anacron
     - anacron wiki
       https://en.wikipedia.org/wiki/Anacron
@@ -67,7 +69,6 @@ System Components
       http://anacron.sourceforge.net/
     - anacron(8)
     - /etc/anacrontab(8)
-  * at
 - iptables & NetFilter
   * iptables(8), iptables-extensions(8)
 - SELinux
@@ -424,6 +425,10 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
   * scheduled tasks
 
     - periodic schedule
+      * crontab(1)
+      * crond(8)
+      * run-parts/crontabs(4)
+      * crontab(5)
 
     - fuzzy schedule
       * anacron(8)
