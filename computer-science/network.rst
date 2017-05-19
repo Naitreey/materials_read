@@ -1,7 +1,14 @@
 Overview
 ========
+textbooks
+---------
 - Sams Teach Yourself TCP/IP in 24 Hours (在读)
 - TCP/IP Illustrated 2nd (在读)
+
+Concepts
+--------
+- Out-of-band data
+  https://en.wikipedia.org/wiki/Out-of-band_data
 
 application layer
 =================
