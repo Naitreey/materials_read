@@ -22,6 +22,9 @@ Password Cracking
 =================
 John the Ripper
 
+- Strengthening Passwords to Defend Against John
+  https://github.com/AnarchoTechNYC/meta/tree/master/train-the-trainers/mr-robots-netflix-n-hack/week-2/strengthening-passwords-to-defend-against-john#readme
+
 Vulnerabilities
 ===============
 - Shellshock
