@@ -15,6 +15,11 @@ language
 - conditional operator
   http://en.cppreference.com/w/c/language/operator_other#Conditional_operator
 
+topics
+======
+- data structure alignment
+  https://en.wikipedia.org/wiki/Data_structure_alignment
+
 source codes
 ============
 - glibc source (在读)
