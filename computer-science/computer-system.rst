@@ -128,3 +128,8 @@ standards
 
   * Understanding M.2, the interface that will speed up your next SSD
     https://arstechnica.com/gadgets/2015/02/understanding-m-2-the-interface-that-will-speed-up-your-next-ssd/
+
+- PCI Express (PCI-e)
+
+  * wiki
+    https://en.wikipedia.org/wiki/PCI_Express
