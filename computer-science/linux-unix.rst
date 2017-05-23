@@ -105,6 +105,14 @@ System Components
   * How is it possible to do a live update while a program is running?
     http://unix.stackexchange.com/questions/138214/how-is-it-possible-to-do-a-live-update-while-a-program-is-running
 
+- PulseAudio
+
+  * wiki
+    https://en.wikipedia.org/wiki/PulseAudio
+
+  * Why you should care about PulseAudio (and how to start doing it)
+    https://www.linux.com/news/why-you-should-care-about-pulseaudio-and-how-start-doing-it
+
 System Programming
 ==================
 - The Linux Programming Interface (在读)
