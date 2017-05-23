@@ -104,6 +104,9 @@ solid-state drive
 Bus
 ===
 
+general
+-------
+
 - Bus wiki
   https://en.wikipedia.org/wiki/Bus_(computing)
 
@@ -116,4 +119,12 @@ Bus
 - Transfers per second
   https://en.wikipedia.org/wiki/Transfer_(computing)
 
+standards
+---------
+
 - `front-side bus <Front-side bus>`_
+
+- M.2
+
+  * Understanding M.2, the interface that will speed up your next SSD
+    https://arstechnica.com/gadgets/2015/02/understanding-m-2-the-interface-that-will-speed-up-your-next-ssd/
