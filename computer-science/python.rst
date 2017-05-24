@@ -3,6 +3,8 @@ language
 - tutorial --- Python official documentation (已读)
 - Python Language Reference 2.7.10 --- Python official documentation (已读)
 - Beginning Python From Novice to Professional (已读)
+- The Python Standard Library
+  * Built-in Constants
 - What's New In Python
   * What’s New In Python 3.0
   * What’s New In Python 3.1
