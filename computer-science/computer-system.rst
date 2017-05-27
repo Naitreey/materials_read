@@ -110,6 +110,9 @@ general
 - Bus wiki
   https://en.wikipedia.org/wiki/Bus_(computing)
 
+- Host adapter
+  https://en.wikipedia.org/wiki/Host_adapter
+
 - Serial communication
   https://en.wikipedia.org/wiki/Serial_communication
 
@@ -133,3 +136,11 @@ standards
 
   * wiki
     https://en.wikipedia.org/wiki/PCI_Express
+
+- Serial ATA (SATA)
+
+  * wiki
+    https://en.wikipedia.org/wiki/Serial_ATA
+
+  * Advanced Host Controller Interface (AHCI)
+    https://en.wikipedia.org/wiki/Advanced_Host_Controller_Interface
