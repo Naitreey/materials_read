@@ -1,18 +1,26 @@
 language
 ========
 - tutorial --- Python official documentation (已读)
+
 - Python Language Reference 2.7.10 --- Python official documentation (已读)
+
 - Beginning Python From Novice to Professional (已读)
+
 - The Python Standard Library
+
   * Built-in Constants
+
 - What's New In Python
+
   * What’s New In Python 3.0
   * What’s New In Python 3.1
   * What’s New In Python 3.2
   * What’s New In Python 3.3
   * What’s New In Python 3.4
   * What’s New In Python 3.5
+
 - PEPs
+
   * PEP 0008 --- Style Guide for Python Code
   * PEP 0273 --- Import Modules from Zip Archives
   * PEP 0257 --- Docstring Conventions
@@ -22,15 +30,25 @@ language
   * PEP 0441 --- Improving Python ZIP Application Support
   * PEP 3113 --- Removal of Tuple Parameter Unpacking
   * PEP 3119 --- Introducing Abstract Base Classes
+
 - Unifying types and classes in Python 2.2
   https://www.python.org/download/releases/2.2.3/descrintro/
+
 - Format String Syntax --- Python Library Reference
+
 - Builtin exception hierarchy
   https://docs.python.org/3.4/library/exceptions.html#exception-hierarchy
+
 - Unicode HowTo
   https://docs.python.org/2/howto/unicode.html#python-2-x-s-unicode-support
+
 - Descriptor HowTo
   https://docs.python.org/2/howto/descriptor.html
+
+- Buffer protocol
+
+  * Less copies in Python with the buffer protocol and memoryviews
+    http://eli.thegreenplace.net/2011/11/28/less-copies-in-python-with-the-buffer-protocol-and-memoryviews
 
 libraries and frameworks
 ========================
