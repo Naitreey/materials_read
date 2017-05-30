@@ -1,17 +1,27 @@
 language
 ========
 - C Primer Plus, 6th edition. (已读)
+
 - C11 Standard (在读)
+
 - crt0 wiki
   https://en.wikipedia.org/wiki/Crt0
+
 - not to use scanf
   http://c-faq.com/stdio/scanfprobs.html
+
 - Why use apparently meaningless do-while and if-else statements in C/C++ macros?
   http://stackoverflow.com/questions/154136/why-use-apparently-meaningless-do-while-and-if-else-statements-in-c-c-macros
+
 - Bit fields
   http://en.cppreference.com/w/c/language/bit_field
+
+- struct
+  http://en.cppreference.com/w/c/language/struct
+
 - enum
   http://en.cppreference.com/w/c/language/enum
+
 - conditional operator
   http://en.cppreference.com/w/c/language/operator_other#Conditional_operator
 
@@ -166,8 +176,8 @@ system information
     - gethostname(2)
     - sethostname(2)
 
-type and constant definitions
------------------------------
+type, constant, macro definitions
+---------------------------------
 - stdbool.h(0P)
 
 - stdarg.h(0P), stdarg(3)
@@ -184,6 +194,8 @@ type and constant definitions
 - float.h(0P)
 
 - stddef.h(0P)
+
+  * offsetof(3)
 
 string operations
 -----------------
