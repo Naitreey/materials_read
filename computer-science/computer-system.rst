@@ -122,15 +122,10 @@ general
 - Transfers per second
   https://en.wikipedia.org/wiki/Transfer_(computing)
 
-standards
----------
+bus standard
+------------
 
 - `front-side bus <Front-side bus>`_
-
-- M.2
-
-  * Understanding M.2, the interface that will speed up your next SSD
-    https://arstechnica.com/gadgets/2015/02/understanding-m-2-the-interface-that-will-speed-up-your-next-ssd/
 
 - PCI Express (PCI-e)
 
@@ -142,5 +137,39 @@ standards
   * wiki
     https://en.wikipedia.org/wiki/Serial_ATA
 
-  * Advanced Host Controller Interface (AHCI)
+- Serial Attached SCSI (SAS)
+
+  * wiki
+    https://en.wikipedia.org/wiki/Serial_Attached_SCSI
+
+- Universal Serial Bus (USB)
+
+  * wiki
+    https://en.wikipedia.org/wiki/USB
+
+  * USB Connector Guide
+    http://www.cablestogo.com/learning/connector-guides/usb
+
+host controller interface (HCI)
+-------------------------------
+
+- Advanced Host Controller Interface (AHCI)
+
+  * wiki
     https://en.wikipedia.org/wiki/Advanced_Host_Controller_Interface
+
+- NVM Express (NVMe)
+
+  * wiki
+    https://en.wikipedia.org/wiki/NVM_Express
+
+connector
+---------
+
+- M.2
+
+  * wiki
+    https://en.wikipedia.org/wiki/M.2
+
+  * Understanding M.2, the interface that will speed up your next SSD
+    https://arstechnica.com/gadgets/2015/02/understanding-m-2-the-interface-that-will-speed-up-your-next-ssd/
