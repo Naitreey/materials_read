@@ -105,6 +105,8 @@ System Components
   * How is it possible to do a live update while a program is running?
     http://unix.stackexchange.com/questions/138214/how-is-it-possible-to-do-a-live-update-while-a-program-is-running
 
+Sound system
+============
 - PulseAudio
 
   * wiki
@@ -112,6 +114,11 @@ System Components
 
   * Why you should care about PulseAudio (and how to start doing it)
     https://www.linux.com/news/why-you-should-care-about-pulseaudio-and-how-start-doing-it
+
+- Advanced Linux Sound Architecture (ALSA)
+
+  * wiki
+    https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture
 
 System Programming
 ==================

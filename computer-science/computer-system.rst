@@ -122,6 +122,12 @@ general
 - Transfers per second
   https://en.wikipedia.org/wiki/Transfer_(computing)
 
+- Daisy chain
+  https://en.wikipedia.org/wiki/Daisy_chain_(electrical_engineering)
+
+- Multidrop bus
+  https://en.wikipedia.org/wiki/Multidrop_bus
+
 bus standard
 ------------
 
