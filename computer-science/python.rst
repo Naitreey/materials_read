@@ -353,6 +353,7 @@ network programming
   * urllib.error
   * urllib3
   * requests
+  * requests-toolbelt
   * pycurl
 
   .. server
