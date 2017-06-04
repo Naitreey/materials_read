@@ -37,6 +37,9 @@ clock generator
 - wiki
   https://en.wikipedia.org/wiki/Clock_generator
 
+- Overclocking
+  https://en.wikipedia.org/wiki/Overclocking
+
 storage
 -------
 - GUID Partition Table wiki
