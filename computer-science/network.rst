@@ -10,6 +10,9 @@ Concepts
 - Out-of-band data
   https://en.wikipedia.org/wiki/Out-of-band_data
 
+- Network topology
+  https://en.wikipedia.org/wiki/Network_topology#Point-to-point
+
 application layer
 =================
 

@@ -52,6 +52,9 @@ Central processing unit (CPU)
 - Interrupt request wiki
   https://en.wikipedia.org/wiki/Interrupt_request_(PC_architecture)
 
+- CPU multiplier
+  https://en.wikipedia.org/wiki/CPU_multiplier
+
 - Intel processor microarchitecture
 
   * Kaby Lake
