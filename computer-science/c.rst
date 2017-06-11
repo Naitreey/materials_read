@@ -426,6 +426,22 @@ filesystem
   * sys/stat.h
     - mknod(2)
 
+- file timestamps
+
+  * utime.h(0P)
+
+    - utime(2)
+
+  * sys/time.h
+
+    - utimes(2)
+
+  * sys/stat.h
+
+    - utimensat(2)
+
+    - futimens(2)
+
 device
 ------
 - device id
