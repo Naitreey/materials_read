@@ -44,11 +44,15 @@ storage
 -------
 - GUID Partition Table wiki
   https://en.wikipedia.org/wiki/GUID_Partition_Table
+
 - RAID wiki
   https://en.wikipedia.org/wiki/RAID
 
 Central processing unit (CPU)
 -----------------------------
+- Uncore wiki
+  https://en.wikipedia.org/wiki/Uncore
+
 - Interrupt request wiki
   https://en.wikipedia.org/wiki/Interrupt_request_(PC_architecture)
 
@@ -60,18 +64,25 @@ Central processing unit (CPU)
   * Kaby Lake
     https://en.wikipedia.org/wiki/Kaby_Lake
 
-Front-side bus
-~~~~~~~~~~~~~~
-- wiki
+- Front-side bus (FSB) wiki
   https://en.wikipedia.org/wiki/Front-side_bus
+
+- Intel QuickPath Interconnect (QPI) wiki
+  https://en.wikipedia.org/wiki/Intel_QuickPath_Interconnect
+
+- Direct Media Interface (DMI) wiki
+  https://en.wikipedia.org/wiki/Direct_Media_Interface
+
+- Flexible Display Interface (FDI) wiki
+  https://en.wikipedia.org/wiki/Flexible_Display_Interface
 
 Random-access memory (RAM)
 --------------------------
-
-Dynamic random-access memory (DRAM)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-- wiki
+- Dynamic random-access memory (DRAM) wiki
   https://en.wikipedia.org/wiki/Dynamic_random-access_memory
+
+- Synchronous dynamic random-access memory (SDRAM) wiki
+  https://en.wikipedia.org/wiki/Synchronous_dynamic_random-access_memory
 
 - SIMM wiki
   https://en.wikipedia.org/wiki/SIMM
