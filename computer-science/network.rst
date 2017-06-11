@@ -54,6 +54,11 @@ message body information
 - Content-Type
   https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type
 
+  * charset parameter
+
+    - Setting the HTTP charset parameter
+      https://www.w3.org/International/articles/http-charset/
+
 - Content-Length
   https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Length
 
@@ -123,6 +128,17 @@ Discard Protocol
 ~~~~~~~~~~~~~~~~
 - discard protocol wiki
   https://en.wikipedia.org/wiki/Discard_Protocol
+
+Internet Relay Chat (IRC) Protocol
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- freenode nickname registration
+  http://freenode.net/kb/answer/registration
+
+- Konversation/Configuring SASL authentication
+  https://userbase.kde.org/Konversation/Configuring_SASL_authentication
+
+- irssi
+
 
 network layer
 =============
