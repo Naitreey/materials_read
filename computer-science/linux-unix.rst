@@ -105,6 +105,14 @@ System Components
   * How is it possible to do a live update while a program is running?
     http://unix.stackexchange.com/questions/138214/how-is-it-possible-to-do-a-live-update-while-a-program-is-running
 
+Network Share and Printing
+--------------------------
+- Common Unix Printing System (CUPS)
+
+  * mime database
+
+    - mime.types(5)
+
 Sound system
 ============
 - PulseAudio
@@ -259,10 +267,50 @@ Command Line
 
   * file access and manipulation
     - ls(1), stat(1), cat, tee(1), mv, less, vi,
-    - chmod(1), chroot, chown, touch, file,
+    - chmod(1), chroot, chown, touch
     - head, tail, tr,
     - ln, readlink
     - dirname, mktemp
+
+  * file type
+
+    - file(1)
+
+  * mime type
+
+    .. open by default mimetype-app association or update association
+
+    - mimeopen(1)
+
+    .. query mimetype via mime-info database
+
+    - mimetype(1)
+
+    .. update mime-info database cache
+
+    - update-mime-database(1)
+
+    .. update mimetype-app association cache
+
+    - update-desktop-database(1)
+
+  * xdg utils
+
+    .. open by default DE app
+
+    - xdg-open(1)
+
+    .. query mimetype and default DE app, set default DE app, etc.
+
+    - xdg-mime(1)
+
+    .. (un)install xdg icon
+
+    - xdg-icon-resource(1)
+
+    .. DE settings
+
+    - xdg-settings(1)
 
   * disk and filesystem
 
@@ -713,6 +761,8 @@ open container, runC, docker (os-level virtualization)
   https://github.com/opencontainers/runc
 - docker wiki
   https://en.wikipedia.org/wiki/Docker_(software)
+- 8 Proven Real-World Ways to Use Docker
+  https://www.airpair.com/docker/posts/8-proven-real-world-ways-to-use-docker
 - docker documentation: Get started with Docker
   https://docs.docker.com/engine/getstarted/
 - docker documentation: Define and deploy your app
