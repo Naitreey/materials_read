@@ -29,3 +29,14 @@ Vulnerabilities
 ===============
 - Shellshock
   https://en.wikipedia.org/wiki/Shellshock_(software_bug)
+
+Penetration Testing
+===================
+- metasploit
+
+- social engineer toolkit
+
+misc sources
+============
+- NULL Byte
+  https://null-byte.wonderhowto.com/
