@@ -20,10 +20,18 @@ http://jordan-wright.com/blog/2015/02/28/how-tor-works-part-one/
 
 Password Cracking
 =================
-John the Ripper
+- John the Ripper
 
-- Strengthening Passwords to Defend Against John
-  https://github.com/AnarchoTechNYC/meta/tree/master/train-the-trainers/mr-robots-netflix-n-hack/week-2/strengthening-passwords-to-defend-against-john#readme
+  * Strengthening Passwords to Defend Against John
+    https://github.com/AnarchoTechNYC/meta/tree/master/train-the-trainers/mr-robots-netflix-n-hack/week-2/strengthening-passwords-to-defend-against-john#readme
+
+Credentials
+===========
+- mimikatz
+
+USB attack
+==========
+- USB rubber ducky
 
 Vulnerabilities
 ===============
@@ -36,7 +44,20 @@ Penetration Testing
 
 - social engineer toolkit
 
+Darknet
+=======
+- Silk Road wiki
+  https://en.wikipedia.org/wiki/Silk_Road_(marketplace)
+
 misc sources
 ============
 - NULL Byte
   https://null-byte.wonderhowto.com/
+
+- Mr. Robot (*Really? A TV show?*)
+
+  * ‘Mr. Robot’ Rewind: Owning the FBI in Episode 5
+    https://www.geekwire.com/2016/mr-robot-rewind-owning-fbi-episode-5/
+
+  * Mr. Robot Hacks: How Angela Stole Her Boss' Password Using mimikatz
+    https://www.hackers-arise.com/single-post/2016/09/13/Mr-Robot-Hacks-How-Angela-Stole-Her-Bosss-Password-Using-mimikatz
