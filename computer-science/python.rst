@@ -225,7 +225,7 @@ documentation
 - Read the Docs
 - pydoc
 
-C and system level
+system level utils
 ------------------
 - signal
 - psutil
@@ -239,11 +239,12 @@ C and system level
 - python-prctl
 - os
 - os.path (posixpath)
+- posix (do not import directly)
 - platform (done: doc)
-- posix
-- struct
-- ctypes
 - fcntl
+- ctypes
+- struct
+- array
 
 date, time
 ----------
