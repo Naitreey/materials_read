@@ -504,8 +504,15 @@ misc
 dev tools
 =========
 
+shell/REPL
+----------
+- IPython
+
 debugging
 ---------
+- python debugging tools
+  https://wiki.python.org/moin/PythonDebuggingTools
+
 - pdb
 
 code checking
@@ -553,7 +560,12 @@ packaging and distribution
 
 - egg
   * The Quick Guide to Python Eggs
-    http://peak.telecommunity.com/DevCenter/PythonEggs#implementation-status
+    http://peak.telecommunity.com/DevCenter/PythonEggs
 - wheel
   * wheel documentation
     https://wheel.readthedocs.io/en/latest/
+
+history
+=======
+- Centrum Wiskunde & Informatica (CWI)
+  https://en.wikipedia.org/wiki/Centrum_Wiskunde_%26_Informatica
