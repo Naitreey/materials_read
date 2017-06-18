@@ -38,11 +38,16 @@ Vulnerabilities
 - Shellshock
   https://en.wikipedia.org/wiki/Shellshock_(software_bug)
 
+- Stagefright
+  https://en.wikipedia.org/wiki/Stagefright_(bug)
+
 Penetration Testing
 ===================
 - metasploit
 
 - social engineer toolkit
+
+- Android Open Pwn Project (AOPP)
 
 Darknet
 =======
