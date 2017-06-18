@@ -4,13 +4,16 @@ Overview
   https://en.wikibooks.org/wiki/How_To_Assemble_A_Desktop_PC
 - Computer system: A programmer's perspective (在读)
 
-Computer System Components
-==========================
+Computer Components
+===================
 
 motherboard
 -----------
 - wiki
   https://en.wikipedia.org/wiki/Motherboard
+
+- Asus Prime z270-A specifications
+  https://www.asus.com/us/Motherboards/PRIME-Z270-A/specifications/
 
 CPU socket
 ~~~~~~~~~~
@@ -40,18 +43,16 @@ clock generator
 - Overclocking
   https://en.wikipedia.org/wiki/Overclocking
 
-storage
--------
-- GUID Partition Table wiki
-  https://en.wikipedia.org/wiki/GUID_Partition_Table
-
-- RAID wiki
-  https://en.wikipedia.org/wiki/RAID
-
 Central processing unit (CPU)
 -----------------------------
 - Uncore wiki
   https://en.wikipedia.org/wiki/Uncore
+
+- Memory Management Unit (MMU)
+  https://en.wikipedia.org/wiki/Memory_management_unit
+
+- Translation Lookaside Buffer (TLB)
+  https://en.wikipedia.org/wiki/Translation_lookaside_buffer
 
 - Interrupt request wiki
   https://en.wikipedia.org/wiki/Interrupt_request_(PC_architecture)
@@ -78,28 +79,46 @@ Central processing unit (CPU)
 
 Random-access memory (RAM)
 --------------------------
-- Dynamic random-access memory (DRAM) wiki
+- Dynamic random-access memory (DRAM)
   https://en.wikipedia.org/wiki/Dynamic_random-access_memory
 
-- Synchronous dynamic random-access memory (SDRAM) wiki
+- Synchronous dynamic random-access memory (SDRAM)
   https://en.wikipedia.org/wiki/Synchronous_dynamic_random-access_memory
 
-- SIMM wiki
+- Single inline memory module (SIMM)
   https://en.wikipedia.org/wiki/SIMM
 
-- DIMM wiki
+- Dual inline memory module (DIMM)
   https://en.wikipedia.org/wiki/DIMM
 
 - Multi-channel memory architecture
   https://en.wikipedia.org/wiki/Multi-channel_memory_architecture
 
-- Double data rate
+- Double data rate (DDR)
   https://en.wikipedia.org/wiki/Double_data_rate
 
 Static random-access memory (SRAM)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - wiki
   https://en.wikipedia.org/wiki/Static_random-access_memory
+
+storage
+-------
+- GUID Partition Table wiki
+  https://en.wikipedia.org/wiki/GUID_Partition_Table
+
+- RAID wiki
+  https://en.wikipedia.org/wiki/RAID
+
+Graphics Card
+-------------
+- Graphics address remapping table (GART)
+  https://en.wikipedia.org/wiki/Graphics_address_remapping_table
+
+Fans
+----
+- How to Manage Your PC's Fans for Optimal Airflow and Cooling
+  https://www.howtogeek.com/303078/how-to-manage-your-pcs-fans-for-optimal-airflow-and-cooling/
 
 Computer Memory
 ===============
@@ -145,6 +164,15 @@ general
 - Multidrop bus
   https://en.wikipedia.org/wiki/Multidrop_bus
 
+- Direct Memory Access (DMA)
+  https://en.wikipedia.org/wiki/Direct_memory_access
+
+- Bus mastering
+  https://en.wikipedia.org/wiki/Bus_mastering
+
+- Input-Output Memory Management Unit (IOMMU)
+  https://en.wikipedia.org/wiki/Input%E2%80%93output_memory_management_unit
+
 bus standard
 ------------
 
@@ -154,6 +182,9 @@ bus standard
 
   * wiki
     https://en.wikipedia.org/wiki/PCI_Express
+
+  * How do PCIe lanes work with the cpu & motherboard chipset?
+    http://www.tomshardware.com/answers/id-2923708/pcie-lanes-work-cpu-motherboard-chipset.html
 
 - Serial ATA (SATA)
 
