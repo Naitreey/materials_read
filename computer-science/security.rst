@@ -54,6 +54,17 @@ Darknet
 - Silk Road wiki
   https://en.wikipedia.org/wiki/Silk_Road_(marketplace)
 
+Instant Messaging
+=================
+- IRC
+
+- Wickr Messenger
+
+Social Engineering
+==================
+- spokeo: reverse search by public info
+  https://www.spokeo.com
+
 misc sources
 ============
 - NULL Byte
@@ -63,6 +74,9 @@ misc sources
 
   * ‘Mr. Robot’ Rewind: Owning the FBI in Episode 5
     https://www.geekwire.com/2016/mr-robot-rewind-owning-fbi-episode-5/
+
+  * ‘Mr. Robot’ Rewind: An exciting Episode 10 features social engineering and a Pringles ‘cantenna’
+    https://www.geekwire.com/2016/mr-robot-rewind-exciting-episode-10-features-social-engineering-pringles-cantenna/
 
   * Mr. Robot Hacks: How Angela Stole Her Boss' Password Using mimikatz
     https://www.hackers-arise.com/single-post/2016/09/13/Mr-Robot-Hacks-How-Angela-Stole-Her-Bosss-Password-Using-mimikatz
