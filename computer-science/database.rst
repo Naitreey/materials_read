@@ -14,8 +14,17 @@ MongoDB
 
 - Getting Started with MongoDB: Python Driver
 
-- MongoDB manual (在读)
+- MongoDB manual
   https://docs.mongodb.com/manual/
+
+  * indexes
+    https://docs.mongodb.com/manual/indexes/
+
+    - Single Field Indexes
+      https://docs.mongodb.com/manual/core/index-single/
+
+    - Index Build Operations
+      https://docs.mongodb.com/manual/core/index-creation/#index-creation-background
 
 Search Engine
 =============
