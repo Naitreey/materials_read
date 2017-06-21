@@ -3,7 +3,7 @@ yara
 documentation
 http://yara.readthedocs.org/en/v3.4.0/writingrules.html
 
-encryption
+Encryption
 ==========
 Disk encryption introduction
 https://wiki.archlinux.org/index.php/Disk_encryption
@@ -65,6 +65,23 @@ Social Engineering
 - spokeo: reverse search by public info
   https://www.spokeo.com
 
+security standards
+==================
+- Rainbow series
+  https://en.wikipedia.org/wiki/Rainbow_Series
+
+Classical Cryptography
+======================
+
+substitution cipher
+-------------------
+
+simple substitution cipher
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Caesar cipher
+  https://en.wikipedia.org/wiki/Caesar_cipher
+
 misc sources
 ============
 - NULL Byte
@@ -80,3 +97,6 @@ misc sources
 
   * Mr. Robot Hacks: How Angela Stole Her Boss' Password Using mimikatz
     https://www.hackers-arise.com/single-post/2016/09/13/Mr-Robot-Hacks-How-Angela-Stole-Her-Bosss-Password-Using-mimikatz
+
+  * ‘Mr. Robot’ Rewind: Code-cracking in a mysterious and mind-bending Episode 11
+    https://www.geekwire.com/2016/mr-robot-rewind-code-cracking-mysterious-mind-bending-episode-11/
