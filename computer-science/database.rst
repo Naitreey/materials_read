@@ -14,8 +14,41 @@ MongoDB
 
 - Getting Started with MongoDB: Python Driver
 
-- MongoDB manual (在读)
+- MongoDB manual
   https://docs.mongodb.com/manual/
+
+  * indexes
+    https://docs.mongodb.com/manual/indexes/
+
+    - Single Field Indexes
+      https://docs.mongodb.com/manual/core/index-single/
+
+    - Compound Indexes
+      https://docs.mongodb.com/manual/core/index-compound/
+
+    - Index Build Operations
+      https://docs.mongodb.com/manual/core/index-creation/
+
+    - Indexing Strategies
+
+      * Use Indexes to Sort Query Results
+        https://docs.mongodb.com/manual/tutorial/sort-results-with-indexes/
+
+  * MongoDB CRUD Operations
+
+    - MongoDB CRUD Concepts
+
+      * Query Optimization
+
+        - Explain Results
+          https://docs.mongodb.com/manual/reference/explain-results/
+
+  * mongo shell methods
+
+    - cursor methods
+
+      * ``cursor.explain()``
+        https://docs.mongodb.com/manual/reference/method/cursor.explain/
 
 Search Engine
 =============
