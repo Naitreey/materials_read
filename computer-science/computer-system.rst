@@ -164,6 +164,9 @@ general
 - Multidrop bus
   https://en.wikipedia.org/wiki/Multidrop_bus
 
+- Programmed Input/Output (PIO)
+  https://en.wikipedia.org/wiki/Programmed_input/output
+
 - Direct Memory Access (DMA)
   https://en.wikipedia.org/wiki/Direct_memory_access
 
@@ -177,6 +180,11 @@ bus standard
 ------------
 
 - `front-side bus <Front-side bus>`_
+
+- Memory bus
+
+  * wiki
+    https://en.wikipedia.org/wiki/Memory_bus
 
 - PCI Express (PCI-e)
 
