@@ -12,8 +12,10 @@ motherboard
 - wiki
   https://en.wikipedia.org/wiki/Motherboard
 
-- Asus Prime z270-A specifications
+- Asus Prime z270-AR specifications
   https://www.asus.com/us/Motherboards/PRIME-Z270-A/specifications/
+
+- Asus Prime z270-AR 用户手册
 
 CPU socket
 ~~~~~~~~~~
