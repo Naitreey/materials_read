@@ -45,9 +45,14 @@ MongoDB
 
   * mongo shell methods
 
+    - collection methods
+
+      * ``replaceOne()``
+        https://docs.mongodb.com/manual/reference/method/db.collection.replaceOne/
+
     - cursor methods
 
-      * ``cursor.explain()``
+      * ``explain()``
         https://docs.mongodb.com/manual/reference/method/cursor.explain/
 
 Search Engine
