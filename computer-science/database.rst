@@ -29,6 +29,11 @@ MongoDB
     - Index Build Operations
       https://docs.mongodb.com/manual/core/index-creation/
 
+    - Index Properties
+
+      * Unique Indexes
+        https://docs.mongodb.com/manual/core/index-unique/
+
     - Indexing Strategies
 
       * Use Indexes to Sort Query Results
