@@ -67,6 +67,9 @@ Central processing unit (CPU)
   * Kaby Lake
     https://en.wikipedia.org/wiki/Kaby_Lake
 
+  * Intel® Core™ i7-7700K Processor specification
+    https://ark.intel.com/products/97129/Intel-Core-i7-7700K-Processor-8M-Cache-up-to-4_50-GHz
+
 - Front-side bus (FSB) wiki
   https://en.wikipedia.org/wiki/Front-side_bus
 
@@ -122,6 +125,12 @@ Fans
 - How to Manage Your PC's Fans for Optimal Airflow and Cooling
   https://www.howtogeek.com/303078/how-to-manage-your-pcs-fans-for-optimal-airflow-and-cooling/
 
+- Corsair Hydro series H115i quick start guide
+
+Chassis
+-------
+- Corsair Carbide 400c installation guide
+
 Computer Memory
 ===============
 
@@ -131,8 +140,11 @@ volatile memory
 Non-volatile memory
 -------------------
 
-- wiki
+- Non-volatile memory
   https://en.wikipedia.org/wiki/Non-volatile_memory
+
+- Flash memory
+  https://en.wikipedia.org/wiki/Flash_memory
 
 solid-state drive
 ~~~~~~~~~~~~~~~~~
@@ -222,7 +234,7 @@ host controller interface (HCI)
   * wiki
     https://en.wikipedia.org/wiki/Advanced_Host_Controller_Interface
 
-- NVM Express (NVMe)
+- NVM Express (NVMe, NVMHCI)
 
   * wiki
     https://en.wikipedia.org/wiki/NVM_Express
