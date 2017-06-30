@@ -251,6 +251,7 @@ date, time
 - time
 - datetime
 - calendar
+- dateutil
 
 test
 ----
