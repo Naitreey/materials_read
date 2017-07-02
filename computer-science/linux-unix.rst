@@ -592,6 +592,13 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
         \item The AWK Programming Language (在读)
     \end{enumerate}
 
+Bootloader
+==========
+- GRUB
+
+  * Python without an operating system
+    https://lwn.net/Articles/641244/
+
 Kernel
 ======
 
