@@ -142,6 +142,7 @@ Internet Relay Chat (IRC) Protocol
 
 network layer
 =============
+
 Internet Protocol (IP)
 ----------------------
 - Routing selection: specificity vs metric
@@ -152,6 +153,18 @@ Internet Protocol (IP)
   https://en.wikipedia.org/wiki/Bogon_filtering
 - Martian packet
   https://en.wikipedia.org/wiki/Martian_packet
+
+Internet Protocol Security (IPsec)
+----------------------------------
+- Internet Key Exchange (IKE, IKEv1, IKEv2)
+
+  * strongSwan
+
+    - Introduction to strongSwan
+      https://wiki.strongswan.org/projects/strongswan/wiki/IntroductionTostrongSwan
+
+    - Introduction to strongSwan: IKEv2 Remote Access Client Configuration
+      https://wiki.strongswan.org/projects/strongswan/wiki/IKEv2ClientConfig
 
 link layer
 ==========
