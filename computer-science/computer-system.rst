@@ -17,6 +17,9 @@ motherboard
 
 - Asus Prime z270-AR 用户手册
 
+- Unified Extensible Firmware Interface (UEFI)
+  https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface
+
 CPU socket
 ~~~~~~~~~~
 - wiki
@@ -90,6 +93,9 @@ Random-access memory (RAM)
 - Synchronous dynamic random-access memory (SDRAM)
   https://en.wikipedia.org/wiki/Synchronous_dynamic_random-access_memory
 
+- Static random-access memory (SRAM)
+  https://en.wikipedia.org/wiki/Static_random-access_memory
+
 - Single inline memory module (SIMM)
   https://en.wikipedia.org/wiki/SIMM
 
@@ -102,10 +108,11 @@ Random-access memory (RAM)
 - Double data rate (DDR)
   https://en.wikipedia.org/wiki/Double_data_rate
 
-Static random-access memory (SRAM)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-- wiki
-  https://en.wikipedia.org/wiki/Static_random-access_memory
+- Serial presence detect (SPD)
+  https://en.wikipedia.org/wiki/Serial_presence_detect
+
+- CORSAIR VENGEANCE LED 32GB (2 x 16GB) DDR4 DRAM 3000MHz C15 Memory Kit specs
+  http://www.corsair.com/en-us/vengeance-led-32gb-2-x-16gb-ddr4-dram-3000mhz-c15-memory-kit-white-led-cmu32gx4m2c3000c15
 
 storage
 -------
@@ -127,6 +134,13 @@ Fans
 
 - Corsair Hydro series H115i quick start guide
 
+- What's the difference between "CPU FAN" socket, "CPU OPT" socket,
+  and a "SYS FAN" socket on motherboard?
+  https://www.quora.com/Whats-the-difference-between-CPU-FAN-socket-CPU-OPT-socket-and-a-SYS-FAN-socket-on-motherboard
+
+- H100i v2 and other fans connections on asus z270F
+  http://www.tomshardware.com/answers/id-3304417/h100i-fans-connections-asus-z270f.html
+
 Chassis
 -------
 - Corsair Carbide 400c installation guide
@@ -146,10 +160,13 @@ Non-volatile memory
 - Flash memory
   https://en.wikipedia.org/wiki/Flash_memory
 
-solid-state drive
-~~~~~~~~~~~~~~~~~
+solid-state drive (SSD)
+~~~~~~~~~~~~~~~~~~~~~~~
 - wiki
   https://en.wikipedia.org/wiki/Solid-state_drive
+
+- NVMe SSD 960 EVO specifications
+  http://www.samsung.com/semiconductor/minisite/ssd/product/consumer/ssd960.html
 
 Bus
 ===
