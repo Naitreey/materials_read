@@ -82,9 +82,6 @@ System Components
     http://aplawrence.com/Basics/understandingpam.html
   * pam.d(5) manpage
   * pam_ftp(8) manpage
-- PXE
-  * Preboot Execution Environment wiki
-    https://en.wikipedia.org/wiki/Preboot_Execution_Environment
 - initramfs, dracut
   * dracut wiki
     https://en.wikipedia.org/wiki/Dracut_(software)
