@@ -117,6 +117,12 @@ components
 - Flexible Display Interface (FDI) wiki
   https://en.wikipedia.org/wiki/Flexible_Display_Interface
 
+- Reset vector
+  https://en.wikipedia.org/wiki/Reset_vector
+
+- Non-uniform memory access (NUMA)
+  https://en.wikipedia.org/wiki/Non-uniform_memory_access
+
 Random-access memory (RAM)
 --------------------------
 - Dynamic random-access memory (DRAM)
