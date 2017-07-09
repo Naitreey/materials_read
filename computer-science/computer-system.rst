@@ -17,9 +17,6 @@ motherboard
 
 - Asus Prime z270-AR 用户手册
 
-- Unified Extensible Firmware Interface (UEFI)
-  https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface
-
 CPU socket
 ~~~~~~~~~~
 - wiki
@@ -48,9 +45,44 @@ clock generator
 - Overclocking
   https://en.wikipedia.org/wiki/Overclocking
 
+firmware
+~~~~~~~~
+- Basic Input/Output System (BIOS)
+  https://en.wikipedia.org/wiki/BIOS
+
+- Unified Extensible Firmware Interface (UEFI)
+  https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface
+
+- System Management BIOS (SMBIOS)
+  https://en.wikipedia.org/wiki/System_Management_BIOS
+
+- Desktop Management Interface (DMI)
+  https://en.wikipedia.org/wiki/Desktop_Management_Interface
+
+- American Megatrends Incorporated (AMI)
+  https://en.wikipedia.org/wiki/American_Megatrends
+
+operations
+~~~~~~~~~~
+- Power-On Self-Test (POST)
+  https://en.wikipedia.org/wiki/Power-on_self-test
+
+management
+~~~~~~~~~~
+- Pre-boot eXecution Environment (PXE)
+  https://en.wikipedia.org/wiki/Preboot_Execution_Environment
+
+features
+~~~~~~~~
+- Multi-channel memory architecture
+  https://en.wikipedia.org/wiki/Multi-channel_memory_architecture
+
 Central processing unit (CPU)
 -----------------------------
-- Uncore wiki
+
+components
+~~~~~~~~~~
+- Uncore, system agent
   https://en.wikipedia.org/wiki/Uncore
 
 - Memory Management Unit (MMU)
@@ -101,9 +133,6 @@ Random-access memory (RAM)
 
 - Dual inline memory module (DIMM)
   https://en.wikipedia.org/wiki/DIMM
-
-- Multi-channel memory architecture
-  https://en.wikipedia.org/wiki/Multi-channel_memory_architecture
 
 - Double data rate (DDR)
   https://en.wikipedia.org/wiki/Double_data_rate
