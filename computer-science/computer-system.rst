@@ -318,3 +318,7 @@ Booting
   * x86 BIOS-based system initialization
     http://wiki.osdev.org/System_Initialization_(x86)
 
+History
+=======
+- Amiga
+  https://en.wikipedia.org/wiki/Amiga
