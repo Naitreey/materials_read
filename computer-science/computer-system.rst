@@ -176,6 +176,9 @@ Fans
 - H100i v2 and other fans connections on asus z270F
   http://www.tomshardware.com/answers/id-3304417/h100i-fans-connections-asus-z270f.html
 
+- What is PWM and how does it work?
+  https://www.ekwb.com/blog/what-is-pwm-and-how-does-it-work/
+
 Chassis
 -------
 - Corsair Carbide 400c installation guide
