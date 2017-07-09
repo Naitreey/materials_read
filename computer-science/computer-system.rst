@@ -183,6 +183,9 @@ Chassis
 -------
 - Corsair Carbide 400c installation guide
 
+- Reset button
+  https://en.wikipedia.org/wiki/Reset_button
+
 Computer Memory
 ===============
 
@@ -304,3 +307,14 @@ connector
 
   * Understanding M.2, the interface that will speed up your next SSD
     https://arstechnica.com/gadgets/2015/02/understanding-m-2-the-interface-that-will-speed-up-your-next-ssd/
+
+Booting
+=======
+- BIOS boot sequence
+
+  * BIOS boot operations
+    http://www.pcguide.com/ref/mbsys/bios/boot.htm
+
+  * x86 BIOS-based system initialization
+    http://wiki.osdev.org/System_Initialization_(x86)
+
