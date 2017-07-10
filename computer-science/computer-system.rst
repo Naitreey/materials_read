@@ -53,14 +53,22 @@ firmware
 - Unified Extensible Firmware Interface (UEFI)
   https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface
 
+- CMOS, CMOS battery, Clear CMOS Jumper
+  
+  * What is CMOS and What Is It For?
+    https://www.lifewire.com/g00/what-is-cmos-2625826
+
+  * How to Clear CMOS
+    https://www.lifewire.com/g00/how-to-clear-cmos-2624545
+
+- American Megatrends Incorporated (AMI)
+  https://en.wikipedia.org/wiki/American_Megatrends
+
 - System Management BIOS (SMBIOS)
   https://en.wikipedia.org/wiki/System_Management_BIOS
 
 - Desktop Management Interface (DMI)
   https://en.wikipedia.org/wiki/Desktop_Management_Interface
-
-- American Megatrends Incorporated (AMI)
-  https://en.wikipedia.org/wiki/American_Megatrends
 
 operations
 ~~~~~~~~~~
@@ -162,22 +170,29 @@ Graphics Card
 - Graphics address remapping table (GART)
   https://en.wikipedia.org/wiki/Graphics_address_remapping_table
 
-Fans
-----
+Fans and cooling
+----------------
+- Computer fan control
+  https://en.wikipedia.org/wiki/Computer_fan_control
+
+- CPU_FAN, CPU_OPT, SYS_FAN/CHA_FAN, AIO_PUMP, H_AMP_FAN, EXT_FAN
+
+  * What's the difference between "CPU FAN" socket, "CPU OPT" socket,
+    and a "SYS FAN" socket on motherboard?
+    https://www.quora.com/Whats-the-difference-between-CPU-FAN-socket-CPU-OPT-socket-and-a-SYS-FAN-socket-on-motherboard
+  
+  * H100i v2 and other fans connections on asus z270F
+    http://www.tomshardware.com/answers/id-3304417/h100i-fans-connections-asus-z270f.html
+
+- PWM signal controlled fan
+
+  * What is PWM and how does it work?
+    https://www.ekwb.com/blog/what-is-pwm-and-how-does-it-work/
+
 - How to Manage Your PC's Fans for Optimal Airflow and Cooling
   https://www.howtogeek.com/303078/how-to-manage-your-pcs-fans-for-optimal-airflow-and-cooling/
 
 - Corsair Hydro series H115i quick start guide
-
-- What's the difference between "CPU FAN" socket, "CPU OPT" socket,
-  and a "SYS FAN" socket on motherboard?
-  https://www.quora.com/Whats-the-difference-between-CPU-FAN-socket-CPU-OPT-socket-and-a-SYS-FAN-socket-on-motherboard
-
-- H100i v2 and other fans connections on asus z270F
-  http://www.tomshardware.com/answers/id-3304417/h100i-fans-connections-asus-z270f.html
-
-- What is PWM and how does it work?
-  https://www.ekwb.com/blog/what-is-pwm-and-how-does-it-work/
 
 Chassis
 -------
