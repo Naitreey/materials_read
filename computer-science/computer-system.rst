@@ -299,6 +299,12 @@ bus standard
   * USB Connector Guide
     http://www.cablestogo.com/learning/connector-guides/usb
 
+- System Management Bus (SMBus)
+  https://en.wikipedia.org/wiki/System_Management_Bus
+
+- I2C Bus (I²C)
+  https://en.wikipedia.org/wiki/I%C2%B2C
+
 host controller interface (HCI)
 -------------------------------
 
