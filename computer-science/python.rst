@@ -315,9 +315,8 @@ database
 - dbm
 - dbm.gnu
 - pymongo (mongodb)
-  * pymongo tutorial
-    https://api.mongodb.com/python/current/tutorial.html
 - bson (mongodb)
+- bson.codec_options
 - psycopg2
 - asyncpg
 - sqlite3

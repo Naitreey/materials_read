@@ -60,6 +60,11 @@ MongoDB
       * ``explain()``
         https://docs.mongodb.com/manual/reference/method/cursor.explain/
 
+- PyMongo documentation
+
+  * Datetimes and Timezones
+    http://api.mongodb.com/python/current/examples/datetimes.html
+
 Search Engine
 =============
 
