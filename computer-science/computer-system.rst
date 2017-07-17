@@ -34,6 +34,9 @@ chipset
 
 - southbridge
 
+  * I/O Controller Hub (ICH), a family of southbridge
+    https://en.wikipedia.org/wiki/I/O_Controller_Hub
+
 - Platform Controller Hub
   https://en.wikipedia.org/wiki/Platform_Controller_Hub
 
@@ -53,6 +56,9 @@ firmware
 - Unified Extensible Firmware Interface (UEFI)
   https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface
 
+- the functions of firmware while OS is running
+  https://superuser.com/questions/462314/what-are-the-functions-of-the-bios-while-the-operating-system-is-running
+
 - CMOS, CMOS battery, Clear CMOS Jumper
   
   * What is CMOS and What Is It For?
@@ -64,12 +70,6 @@ firmware
 - American Megatrends Incorporated (AMI)
   https://en.wikipedia.org/wiki/American_Megatrends
 
-- System Management BIOS (SMBIOS)
-  https://en.wikipedia.org/wiki/System_Management_BIOS
-
-- Desktop Management Interface (DMI)
-  https://en.wikipedia.org/wiki/Desktop_Management_Interface
-
 operations
 ~~~~~~~~~~
 - Power-On Self-Test (POST)
@@ -77,8 +77,20 @@ operations
 
 management
 ~~~~~~~~~~
+- System Management BIOS (SMBIOS)
+  https://en.wikipedia.org/wiki/System_Management_BIOS
+
+- Desktop Management Interface (DMI)
+  https://en.wikipedia.org/wiki/Desktop_Management_Interface
+
+- Wired for Management (WfM)
+  https://en.wikipedia.org/wiki/Wired_for_Management
+
 - Pre-boot eXecution Environment (PXE)
   https://en.wikipedia.org/wiki/Preboot_Execution_Environment
+
+- Wake-On-LAN (WOL)
+  https://en.wikipedia.org/wiki/Wake-on-LAN
 
 features
 ~~~~~~~~
@@ -154,12 +166,27 @@ Random-access memory (RAM)
 - Serial presence detect (SPD)
   https://en.wikipedia.org/wiki/Serial_presence_detect
 
+- CAS latency
+  https://en.wikipedia.org/wiki/CAS_latency
+
 - CORSAIR VENGEANCE LED 32GB (2 x 16GB) DDR4 DRAM 3000MHz C15 Memory Kit specs
   http://www.corsair.com/en-us/vengeance-led-32gb-2-x-16gb-ddr4-dram-3000mhz-c15-memory-kit-white-led-cmu32gx4m2c3000c15
 
 storage
 -------
-- GUID Partition Table wiki
+
+Hard Disk Drive (HDD)
+~~~~~~~~~~~~~~~~~~~~~
+- Advanced Format
+  https://en.wikipedia.org/wiki/Advanced_Format
+
+- Seagate ST2000DM006 user manual
+  http://www.seagate.com/www-content/product-content/barracuda-fam/barracuda-new/en-us/docs/100804187d.pdf
+
+Partition table
+~~~~~~~~~~~~~~~
+
+- GUID Partition Table (GPT) wiki
   https://en.wikipedia.org/wiki/GUID_Partition_Table
 
 - RAID wiki
@@ -331,13 +358,18 @@ connector
 
 Booting
 =======
-- BIOS boot sequence
+- BIOS booting
 
   * BIOS boot operations
     http://www.pcguide.com/ref/mbsys/bios/boot.htm
 
   * x86 BIOS-based system initialization
     http://wiki.osdev.org/System_Initialization_(x86)
+
+- UEFI booting
+
+  * Linux via UEFI secure boot
+    http://blog.learningtree.com/how-does-linux-boot-part-3-uefi-to-shim-to-the-next-link-in-the-chain/
 
 History
 =======
