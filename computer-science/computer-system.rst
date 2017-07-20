@@ -83,6 +83,9 @@ management
 - Desktop Management Interface (DMI)
   https://en.wikipedia.org/wiki/Desktop_Management_Interface
 
+- Advanced Configuration and Power Interface (ACPI)
+  https://en.wikipedia.org/wiki/Advanced_Configuration_and_Power_Interface
+
 - Wired for Management (WfM)
   https://en.wikipedia.org/wiki/Wired_for_Management
 
