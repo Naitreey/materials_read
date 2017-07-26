@@ -98,7 +98,7 @@ IO
     - write(2)
     - close(2)
 
-    .. positioned and scattered io
+    .. positioned and vectored io
 
     - pread(2)
     - pwrite(2)
