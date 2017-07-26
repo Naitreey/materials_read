@@ -7,6 +7,9 @@ Overview
 Computer Components
 ===================
 
+Main components
+````````````````
+
 motherboard
 -----------
 - wiki
@@ -120,6 +123,12 @@ components
 - CPU multiplier
   https://en.wikipedia.org/wiki/CPU_multiplier
 
+- Input-Output Memory Management Unit (IOMMU)
+  https://en.wikipedia.org/wiki/Input%E2%80%93output_memory_management_unit
+
+  * DMAR 与 IOMMU
+    http://linuxperf.com/?p=67
+
 - Intel processor microarchitecture
 
   * Kaby Lake
@@ -174,6 +183,20 @@ Random-access memory (RAM)
 
 - CORSAIR VENGEANCE LED 32GB (2 x 16GB) DDR4 DRAM 3000MHz C15 Memory Kit specs
   http://www.corsair.com/en-us/vengeance-led-32gb-2-x-16gb-ddr4-dram-3000mhz-c15-memory-kit-white-led-cmu32gx4m2c3000c15
+
+Peripheral device
+`````````````````
+- Memory-mapped I/O (MMIO) and port-mapped I/O (PMIO)
+  https://en.wikipedia.org/wiki/Memory-mapped_I/O
+
+  * address decoder
+    https://en.wikipedia.org/wiki/Address_decoder
+
+- I/O base address, I/O port
+  https://en.wikipedia.org/wiki/Input/output_base_address
+
+- steps to do IO between device and memory
+  https://stackoverflow.com/questions/25161555/dma-and-i-o-memory-region-under-linux
 
 storage
 -------
@@ -289,9 +312,6 @@ general
 
 - Bus mastering
   https://en.wikipedia.org/wiki/Bus_mastering
-
-- Input-Output Memory Management Unit (IOMMU)
-  https://en.wikipedia.org/wiki/Input%E2%80%93output_memory_management_unit
 
 bus standard
 ------------
