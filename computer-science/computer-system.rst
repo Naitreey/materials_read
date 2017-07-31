@@ -63,7 +63,7 @@ firmware
   https://superuser.com/questions/462314/what-are-the-functions-of-the-bios-while-the-operating-system-is-running
 
 - CMOS, CMOS battery, Clear CMOS Jumper
-  
+
   * What is CMOS and What Is It For?
     https://www.lifewire.com/g00/what-is-cmos-2625826
 
@@ -233,7 +233,7 @@ Fans and cooling
   * What's the difference between "CPU FAN" socket, "CPU OPT" socket,
     and a "SYS FAN" socket on motherboard?
     https://www.quora.com/Whats-the-difference-between-CPU-FAN-socket-CPU-OPT-socket-and-a-SYS-FAN-socket-on-motherboard
-  
+
   * H100i v2 and other fans connections on asus z270F
     http://www.tomshardware.com/answers/id-3304417/h100i-fans-connections-asus-z270f.html
 
@@ -358,15 +358,24 @@ bus standard
 host controller interface (HCI)
 -------------------------------
 
-- Advanced Host Controller Interface (AHCI)
+- SATA: Advanced Host Controller Interface (AHCI)
 
   * wiki
     https://en.wikipedia.org/wiki/Advanced_Host_Controller_Interface
 
-- NVM Express (NVMe, NVMHCI)
+- PCIe SSD: NVM Express (NVMe, NVMHCI)
 
   * wiki
     https://en.wikipedia.org/wiki/NVM_Express
+
+- USB: Open Host Controller Interface (OHCI),
+  Universal Host Controller Interface (UHCI),
+  Enhanced Host Controller Interface (EHCI),
+  eXtensible Host Controller Interface (XHCI)
+
+  * https://en.wikipedia.org/wiki/Host_controller_interface_(USB,_Firewire)
+
+  * https://en.wikipedia.org/wiki/Extensible_Host_Controller_Interface
 
 connector
 ---------
