@@ -152,6 +152,9 @@ System Programming
 - Virtual memory wiki
   https://en.wikipedia.org/wiki/Virtual_memory
 
+- Address space layout randomization (ASLR)
+  https://en.wikipedia.org/wiki/Address_space_layout_randomization
+
 Command Line
 ============
 - Bash Reference Manual (已读)

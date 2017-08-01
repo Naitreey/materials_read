@@ -155,6 +155,9 @@ components
 - Non-uniform memory access (NUMA)
   https://en.wikipedia.org/wiki/Non-uniform_memory_access
 
+- NX bit
+  https://en.wikipedia.org/wiki/NX_bit
+
 Random-access memory (RAM)
 --------------------------
 - Dynamic random-access memory (DRAM)
