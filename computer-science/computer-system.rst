@@ -226,6 +226,9 @@ Graphics Card
 - Graphics address remapping table (GART)
   https://en.wikipedia.org/wiki/Graphics_address_remapping_table
 
+- GeForce® GTX 1050 Ti G1 Gaming 4G specs
+  http://www.gigabyte.us/Graphics-Card/GV-N105TG1-GAMING-4GD
+
 Fans and cooling
 ----------------
 - Computer fan control
