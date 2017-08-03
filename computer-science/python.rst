@@ -361,23 +361,45 @@ network programming
 
   * http.server (BaseHTTPServer)
   * uWSGI
-  * bottle
-    - tutorial
-      https://bottlepy.org/docs/dev/tutorial.html
-  * Flask
-  * Django
-  * Tornado
-  * Twisted
 
   .. cgi
 
   * cgi
 
-
   .. cookies
 
   * http.cookies (Cookie)
   * http.cookiejar
+
+  .. web framework
+
+  * bottle
+
+    - tutorial
+      https://bottlepy.org/docs/dev/tutorial.html
+
+  * Flask
+
+  * Django
+
+    - Getting started
+      https://docs.djangoproject.com/en/1.11/intro/
+
+      * Writing your first Django app, part 1,2,3,4,5,6,7
+        https://docs.djangoproject.com/en/1.11/intro/tutorial01/
+        https://docs.djangoproject.com/en/1.11/intro/tutorial02/
+        https://docs.djangoproject.com/en/1.11/intro/tutorial03/
+        https://docs.djangoproject.com/en/1.11/intro/tutorial04/
+        https://docs.djangoproject.com/en/1.11/intro/tutorial05/
+        https://docs.djangoproject.com/en/1.11/intro/tutorial06/
+        https://docs.djangoproject.com/en/1.11/intro/tutorial07/
+
+      * Advanced tutorial: How to write reusable apps
+        https://docs.djangoproject.com/en/1.11/intro/reusable-apps/
+
+  * Tornado
+
+  * Twisted
 
 - ssh
 
