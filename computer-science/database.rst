@@ -5,6 +5,23 @@ PostgreSQL
 ----------
 - PostgreSQL Documentation (在读)
 
+MySQL
+-----
+- Python driver choice
+
+  * python mysql wiki
+    https://wiki.python.org/moin/MySQL
+
+  * django mysql driver
+    https://docs.djangoproject.com/en/1.11/ref/databases/#mysql-db-api-drivers
+
+  * openstack PyMySQL evaluation
+    https://wiki.openstack.org/wiki/PyMySQL_evaluation
+
+  * stackoverflow answer for comparison of MySQLdb, PyMySQL, mysqlclient,
+    MySQL connector/python
+    https://stackoverflow.com/questions/43102442/whats-the-difference-between-mysqldb-mysqlclient-and-mysql-connector-python
+
 NoSQL
 =====
 
