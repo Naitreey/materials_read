@@ -312,17 +312,44 @@ object serialization
 
 database
 --------
+
 - dbm
 - dbm.gnu
+
+NoSQL
+~~~~~
+
+.. mongodb
+
 - pymongo (mongodb)
 - bson (mongodb)
 - bson.codec_options
-- psycopg2
-- asyncpg
-- sqlite3
-- sqlalchemy
+
+.. elasticsearch
+
 - elasticsearch
 - elasticsearch_dsl
+
+SQL
+~~~
+
+- sqlalchemy
+
+.. sqlite
+
+- sqlite3
+
+.. postgresql
+
+- psycopg2
+- asyncpg
+
+.. mysql
+
+- MySQLdb
+- mysqlclient
+- PyMySQL
+- mysql.connector
 
 GUI programming
 ---------------
@@ -380,22 +407,34 @@ network programming
 
   * Flask
 
-  * Django
+  * django
+
+    - start
+      https://www.djangoproject.com/start/
+
+      * overview
+        https://www.djangoproject.com/start/overview/
 
     - Getting started
-      https://docs.djangoproject.com/en/1.11/intro/
+      https://docs.djangoproject.com/en/stable/intro/
 
       * Writing your first Django app, part 1,2,3,4,5,6,7
-        https://docs.djangoproject.com/en/1.11/intro/tutorial01/
-        https://docs.djangoproject.com/en/1.11/intro/tutorial02/
-        https://docs.djangoproject.com/en/1.11/intro/tutorial03/
-        https://docs.djangoproject.com/en/1.11/intro/tutorial04/
-        https://docs.djangoproject.com/en/1.11/intro/tutorial05/
-        https://docs.djangoproject.com/en/1.11/intro/tutorial06/
-        https://docs.djangoproject.com/en/1.11/intro/tutorial07/
+        https://docs.djangoproject.com/en/stable/intro/tutorial01/
+        https://docs.djangoproject.com/en/stable/intro/tutorial02/
+        https://docs.djangoproject.com/en/stable/intro/tutorial03/
+        https://docs.djangoproject.com/en/stable/intro/tutorial04/
+        https://docs.djangoproject.com/en/stable/intro/tutorial05/
+        https://docs.djangoproject.com/en/stable/intro/tutorial06/
+        https://docs.djangoproject.com/en/stable/intro/tutorial07/
 
       * Advanced tutorial: How to write reusable apps
-        https://docs.djangoproject.com/en/1.11/intro/reusable-apps/
+        https://docs.djangoproject.com/en/stable/intro/reusable-apps/
+
+      * Django at a glance
+        https://docs.djangoproject.com/en/stable/intro/overview/
+
+      * What to read next
+        https://docs.djangoproject.com/en/stable/intro/whatsnext/
 
   * Tornado
 
