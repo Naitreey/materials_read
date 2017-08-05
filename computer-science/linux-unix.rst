@@ -50,7 +50,8 @@ System Components
     - http://0pointer.de/blog/projects/the-new-configuration-files
     - http://www.freedesktop.org/wiki/Software/systemd/
   * Predictable Network Interface Names
-    https://www.freedesktop.org/wiki/Software/systemd/PredictableNetworkInterfaceNames/
+    - https://www.freedesktop.org/wiki/Software/systemd/PredictableNetworkInterfaceNames/
+    - https://github.com/systemd/systemd/blob/master/src/udev/udev-builtin-net_id.c
 - udev
   * udev wiki
     https://en.wikipedia.org/wiki/Udev
