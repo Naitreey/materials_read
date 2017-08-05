@@ -106,6 +106,17 @@ features
 Central processing unit (CPU)
 -----------------------------
 
+models
+~~~~~~
+
+- Intel processor microarchitecture
+
+  * Kaby Lake
+    https://en.wikipedia.org/wiki/Kaby_Lake
+
+  * Intel® Core™ i7-7700K Processor specification
+    https://ark.intel.com/products/97129/Intel-Core-i7-7700K-Processor-8M-Cache-up-to-4_50-GHz
+
 components
 ~~~~~~~~~~
 - Uncore, system agent
@@ -129,14 +140,6 @@ components
   * DMAR 与 IOMMU
     http://linuxperf.com/?p=67
 
-- Intel processor microarchitecture
-
-  * Kaby Lake
-    https://en.wikipedia.org/wiki/Kaby_Lake
-
-  * Intel® Core™ i7-7700K Processor specification
-    https://ark.intel.com/products/97129/Intel-Core-i7-7700K-Processor-8M-Cache-up-to-4_50-GHz
-
 - Front-side bus (FSB) wiki
   https://en.wikipedia.org/wiki/Front-side_bus
 
@@ -148,6 +151,9 @@ components
 
 - Flexible Display Interface (FDI) wiki
   https://en.wikipedia.org/wiki/Flexible_Display_Interface
+
+design and concepts
+~~~~~~~~~~~~~~~~~~~
 
 - Reset vector
   https://en.wikipedia.org/wiki/Reset_vector
@@ -282,6 +288,15 @@ solid-state drive (SSD)
 
 - NVMe SSD 960 EVO specifications
   http://www.samsung.com/semiconductor/minisite/ssd/product/consumer/ssd960.html
+
+Processor
+=========
+
+- Complex instruction set computer (CISC)
+  https://en.wikipedia.org/wiki/Complex_instruction_set_computer
+
+- Reduced instruction set computer (RISC)
+  https://en.wikipedia.org/wiki/Reduced_instruction_set_computer
 
 Bus
 ===
