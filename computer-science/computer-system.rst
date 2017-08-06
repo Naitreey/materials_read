@@ -155,6 +155,9 @@ components
 design and concepts
 ~~~~~~~~~~~~~~~~~~~
 
+- x86 architecture
+  https://en.wikipedia.org/wiki/X86
+
 - Reset vector
   https://en.wikipedia.org/wiki/Reset_vector
 
