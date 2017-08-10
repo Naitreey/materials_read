@@ -522,6 +522,7 @@ py2py3
 codingstyle
 -----------
 - flake8
+- yapf
 
 queue
 -----
@@ -551,13 +552,25 @@ random number
 
 vcs
 ---
+.. git
+
 - gitpython
   * tutorial
     http://gitpython.readthedocs.io/en/stable/tutorial.html
 
+- gittle
+
+file format manipulation
+------------------------
+.. pdf
+
+- pypdf2
+.. microsoft excel
+
+- xlwt
+
 misc
 ----
-- pypdf2
 - jsbeautifier
 - uuid
 - webbrowser
@@ -580,6 +593,7 @@ code checking
 -------------
 - pylint
 - flake8
+- yapf
 
 profiling
 ---------
