@@ -22,6 +22,17 @@ MySQL
     MySQL connector/python
     https://stackoverflow.com/questions/43102442/whats-the-difference-between-mysqldb-mysqlclient-and-mysql-connector-python
 
+- MySQL 语句自动化审核系统: inception
+
+  * source code
+    https://github.com/mysql-inception/inception
+
+  * 使用规范及说明文档
+    http://mysql-inception.github.io/inception-document/
+
+  * archer 基于 inception 的自动化 SQL 操作平台
+    https://github.com/jly8866/archer
+
 NoSQL
 =====
 
