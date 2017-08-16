@@ -694,6 +694,12 @@ GTK
 - GtkInspector
   https://wiki.gnome.org/Projects/GTK%2B/Inspector
 
+font configuration
+------------------
+
+- Arch Linux 中文字体配置 wiki
+  https://wiki.archlinux.org/index.php/Font_Configuration/Chinese_Font_Configurations_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)
+
 Development Tools
 =================
 
