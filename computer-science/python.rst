@@ -22,6 +22,7 @@ language
 - PEPs
 
   * PEP 0008 --- Style Guide for Python Code
+  * PEP 0020 --- The Zen of Python
   * PEP 0273 --- Import Modules from Zip Archives
   * PEP 0257 --- Docstring Conventions
   * PEP 0302 --- New Import Hooks
