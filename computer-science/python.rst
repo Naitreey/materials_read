@@ -351,6 +351,7 @@ SQL
 - mysqlclient
 - PyMySQL
 - mysql.connector
+- mycli
 
 GUI programming
 ---------------

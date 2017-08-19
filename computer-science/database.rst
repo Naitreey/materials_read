@@ -33,6 +33,12 @@ MySQL
   * archer 基于 inception 的自动化 SQL 操作平台
     https://github.com/jly8866/archer
 
+- Coursera: Managing Big Data with MySQL (by Duke University)
+  https://www.coursera.org/learn/analytics-mysql/
+
+- mycli: A Terminal Client for MySQL with AutoCompletion and Syntax Highlighting
+  https://github.com/dbcli/mycli
+
 NoSQL
 =====
 

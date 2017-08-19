@@ -694,6 +694,13 @@ GTK
 - GtkInspector
   https://wiki.gnome.org/Projects/GTK%2B/Inspector
 
+KDE
+---
+- KDE Wallet
+
+  * Arch Linux wiki
+    https://wiki.archlinux.org/index.php/KDE_Wallet
+
 font configuration
 ------------------
 
