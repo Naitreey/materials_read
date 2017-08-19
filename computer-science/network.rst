@@ -153,6 +153,8 @@ Internet Protocol (IP)
   https://en.wikipedia.org/wiki/Bogon_filtering
 - Martian packet
   https://en.wikipedia.org/wiki/Martian_packet
+- find your public IP address
+  http://eth0.me
 
 Internet Protocol Security (IPsec)
 ----------------------------------
