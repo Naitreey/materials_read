@@ -526,6 +526,33 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
 
     - lsusb(1)
 
+  * database tools
+
+    - mysql(1), mycli, mysqld(8)
+
+    - sqlite3
+
+    - psql
+
+    - mongo, mongod, mongodump, mongorestore, mongoexport, mongoimport
+
+  * systemd
+
+    - systemctl (status|start|stop|restart|enable|disable|
+      list-units|list-unit-files|list-jobs|poweroff|reboot|
+      suspend)
+
+    - systemd-analyze (blame|plot|dot)
+
+    - systemd-cgls
+
+    - systemd-udevd
+
+    - journalctl, systemd-journald.service(8), systemd-journald.socket(8),
+      systemd-journald-dev-log.socket(8), /usr/lib/systemd/systemd-journald(8)
+
+    - logind.conf(5)
+
     \begin{enumerate}
         \item xinput, xclip,
         \item alternatives
@@ -546,7 +573,6 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
         \item md5sum
         \item dos2unix, unix2dos
         \item userdel
-        \item systemctl (status|start|stop|restart|enable|disable|list-units|list-unit-files|list-jobs|poweroff|reboot|suspend), systemd-analyze (blame|plot|dot), systemd-cgls, systemd-udevd, journalctl, logind.conf(5), systemd-journald.service(8), systemd-journald.socket(8), systemd-journald-dev-log.socket(8), /usr/lib/systemd/systemd-journald(8),
         \item service, run-parts, telinit, lsscsi
         \item udev.conf(5), udevadm(8), udev(7), systemd-udevd.service(8)
         \item dracut(8), lsinitrd(1), mkinitrd(8), dracut.cmdline(7), dracut.conf(5), dracut.modules(7), dracut.bootup(7), dracut-cmdline.service(8),
@@ -577,9 +603,6 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
         \item vncviewer
         \item okular
         \item mail
-        \item sqlite3
-        \item psql
-        \item mongo, mongod, mongodump, mongorestore, mongoexport, mongoimport
         \item beanstalkd
         \item expressvpn,
         \item wdctl
