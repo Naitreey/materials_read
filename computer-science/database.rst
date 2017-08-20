@@ -1,5 +1,7 @@
 RDBMS
 =====
+SQL language
+------------
 
 PostgreSQL
 ----------
@@ -7,6 +9,17 @@ PostgreSQL
 
 MySQL
 -----
+- MySQL documentation
+  https://dev.mysql.com/doc/
+
+  * Getting Started with MySQL
+    https://dev.mysql.com/doc/mysql-getting-started/en/
+
+  * MySQL Reference Manual
+
+    - Tutorial
+      https://dev.mysql.com/doc/refman/5.7/en/tutorial.html
+
 - Python driver choice
 
   * python mysql wiki
@@ -38,6 +51,58 @@ MySQL
 
 - mycli: A Terminal Client for MySQL with AutoCompletion and Syntax Highlighting
   https://github.com/dbcli/mycli
+
+  * docs
+    http://www.mycli.net/docs
+
+- MySQL SQL language
+
+  * DDL
+
+    - ``CREATE DATABASE``
+
+    - ``CREATE TABLE``
+
+    - ``ALTER TABLE``
+
+  * DML
+
+    - ``LOAD DATA INFILE``
+
+    - ``INSERT``
+
+  * Administration statements
+
+    - ``CREATE USER``
+
+    - ``GRANT``
+
+    - ``SHOW``
+
+  * Utility statements
+
+    - ``QUIT``
+
+    - ``USE``
+
+    - ``DESCRIBE``
+
+
+  * misc
+
+    - VERSION()
+
+    - CURRENT_DATE
+
+    - NOW()
+
+    - DATABASE()
+
+- mysql client commands
+
+  * ``\g``, ``\G``
+
+  * ``\c``
 
 NoSQL
 =====
