@@ -152,20 +152,23 @@ components
 - Flexible Display Interface (FDI) wiki
   https://en.wikipedia.org/wiki/Flexible_Display_Interface
 
-design and concepts
-~~~~~~~~~~~~~~~~~~~
-
+Architecture
+~~~~~~~~~~~~
 - x86 architecture
   https://en.wikipedia.org/wiki/X86
+
+- NX bit
+  https://en.wikipedia.org/wiki/NX_bit
+
+
+design and concepts
+~~~~~~~~~~~~~~~~~~~
 
 - Reset vector
   https://en.wikipedia.org/wiki/Reset_vector
 
 - Non-uniform memory access (NUMA)
   https://en.wikipedia.org/wiki/Non-uniform_memory_access
-
-- NX bit
-  https://en.wikipedia.org/wiki/NX_bit
 
 Random-access memory (RAM)
 --------------------------
