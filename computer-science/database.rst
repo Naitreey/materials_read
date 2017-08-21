@@ -71,6 +71,12 @@ MySQL
 
     - ``INSERT``
 
+    - ``SELECT``
+
+    - ``DELETE``
+
+    - ``UPDATE``
+
   * Administration statements
 
     - ``CREATE USER``
@@ -87,6 +93,15 @@ MySQL
 
     - ``DESCRIBE``
 
+  * Logical operatos
+
+   - AND
+
+   - OR
+
+   - IS NULL
+
+   - IS NOT NULL
 
   * misc
 
@@ -97,6 +112,26 @@ MySQL
     - NOW()
 
     - DATABASE()
+
+    - DISTINCT
+
+    - ORDER BY
+
+    - WHERE
+
+    - BINARY
+
+    - TIMESTAMPDIFF()
+
+    - YEAR()
+
+    - MONTH()
+
+    - DAYOFMONTH()
+
+    - DATE_ADD()
+
+    - CURDATE()
 
 - mysql client commands
 
