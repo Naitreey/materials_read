@@ -446,6 +446,22 @@ network programming
         - Introduction to class-based views
           https://docs.djangoproject.com/en/1.11/topics/class-based-views/intro/
 
+        - Built-in class-based generic views
+          https://docs.djangoproject.com/en/1.11/topics/class-based-views/generic-display/
+
+        - Form handling with class-based views
+          https://docs.djangoproject.com/en/1.11/topics/class-based-views/generic-editing/
+
+    - API reference
+      https://docs.djangoproject.com/en/1.11/ref/
+
+      * Models
+        https://docs.djangoproject.com/en/1.11/ref/models/
+
+        - Model Meta options
+          https://docs.djangoproject.com/en/1.11/ref/models/options/
+
+
   * Tornado
 
   * Twisted
