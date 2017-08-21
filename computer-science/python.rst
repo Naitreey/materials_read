@@ -438,6 +438,14 @@ network programming
       * What to read next
         https://docs.djangoproject.com/en/stable/intro/whatsnext/
 
+    - topics
+
+      * Class-based views
+        https://docs.djangoproject.com/en/1.11/topics/class-based-views/
+
+        - Introduction to class-based views
+          https://docs.djangoproject.com/en/1.11/topics/class-based-views/intro/
+
   * Tornado
 
   * Twisted
