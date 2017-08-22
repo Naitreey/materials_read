@@ -103,6 +103,18 @@ MySQL
 
    - IS NOT NULL
 
+   - LIKE
+
+   - NOT LIKE
+
+   - RLIKE
+
+   - NOT RLIKE
+
+   - REGEXP
+
+   - NOT REGEXP
+
   * misc
 
     - VERSION()
@@ -132,6 +144,10 @@ MySQL
     - DATE_ADD()
 
     - CURDATE()
+
+    - COUNT()
+
+    - GROUP BY
 
 - mysql client commands
 
