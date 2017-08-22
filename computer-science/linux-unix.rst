@@ -159,10 +159,17 @@ System Programming
 Command Line
 ============
 - Bash Reference Manual (已读)
+
 - /dev/(tcp|udp)/ip/port as a weapon
   https://securityreliks.wordpress.com/2010/08/20/devtcp-as-a-weapon/
+
 - Advanced Bash-Scripting Guide, by Mendel Cooper (在读)
+
 - Learning the Bash Shell (在读)
+
+- Bash CHANGES of each version
+  https://tiswww.case.edu/php/chet/bash/CHANGES
+
 - GNU Readline
 
   * move:
@@ -439,16 +446,20 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
 
     - docker
       * docker pull(1)
-      * docker images(1)
+      * docker images(1), docker image ls(1)
       * docker run(1)
       * docker start(1)
+      * docker stop(1), docker container stop(1)
       * docker build(1)
-      * docker tag(1)
-      * docker rmi(1)
+      * docker tag(1), docker image tag(1)
+      * docker rm(1), docker container rm(1)
+      * docker rmi(1), docker image rm(1)
       * docker login(1)
-      * docker push(1)
+      * docker push(1), docker image push(1)
+      * docker port(1), docker container port(1)
+      * docker events(1), docker system events(1)
       * (create|commit|rename|
-      rm|ps|stop|kill|attach|export|logs|
+      ps|stop|kill|attach|export|logs|
       port|history|exec)
 
   * language tools
@@ -817,18 +828,47 @@ open container, runC, docker (os-level virtualization)
   https://github.com/opencontainers/specs
 - OCI FAQs
   https://www.opencontainers.org/faq
+
+runC
+~~~~
+
 - runC homepage Getting Started
   https://runc.io/
 - runC readme
   https://github.com/opencontainers/runc
+
+docker
+~~~~~~
 - docker wiki
   https://en.wikipedia.org/wiki/Docker_(software)
+
 - 8 Proven Real-World Ways to Use Docker
   https://www.airpair.com/docker/posts/8-proven-real-world-ways-to-use-docker
-- docker documentation: Get started with Docker
-  https://docs.docker.com/engine/getstarted/
-- docker documentation: Define and deploy your app
-  https://docs.docker.com/engine/getstarted-voting-app/
+
+- docker documentation
+
+  * Get started with Docker
+    https://docs.docker.com/engine/getstarted/
+
+  * Define and deploy your app
+    https://docs.docker.com/engine/getstarted-voting-app/
+
+  * Docker Registry
+    
+    - Registry overview
+      https://docs.docker.com/registry/
+
+    - Understanding the registry
+      https://docs.docker.com/registry/introduction/
+
+    - Deploy a registry server
+      https://docs.docker.com/registry/deploying/
+
+    - Configuring a registry
+      https://docs.docker.com/registry/configuration/
+
+    - Working with notifications
+      https://docs.docker.com/registry/notifications/
 
 Storage
 =======
