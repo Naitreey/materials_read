@@ -440,6 +440,12 @@ network programming
 
     - topics
 
+      * Models and databases
+        https://docs.djangoproject.com/en/1.11/topics/db/
+
+        - Models
+          https://docs.djangoproject.com/en/1.11/topics/db/models/
+
       * Class-based views
         https://docs.djangoproject.com/en/1.11/topics/class-based-views/
 
@@ -451,6 +457,11 @@ network programming
 
         - Form handling with class-based views
           https://docs.djangoproject.com/en/1.11/topics/class-based-views/generic-editing/
+
+    - "How-to" guides
+
+      * Managing static files (e.g. images, JavaScript, CSS)
+        https://docs.djangoproject.com/en/1.11/howto/static-files/
 
     - API reference
       https://docs.djangoproject.com/en/1.11/ref/
