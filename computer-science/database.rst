@@ -149,6 +149,8 @@ MySQL
 
     - GROUP BY
 
+    - INNER JOIN ... ON ...
+
 - mysql client commands
 
   * ``\g``, ``\G``
