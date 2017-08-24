@@ -149,7 +149,19 @@ MySQL
 
     - GROUP BY
 
-    - INNER JOIN ... ON ...
+    - INNER JOIN ON
+
+    - LEFT JOIN ON
+
+    - source
+
+    - MAX()
+
+    - MIN()
+
+    - LIMIT
+
+    - zerofill
 
 - mysql client commands
 
