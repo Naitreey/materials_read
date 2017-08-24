@@ -458,6 +458,7 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
       * docker push(1), docker image push(1)
       * docker port(1), docker container port(1)
       * docker events(1), docker system events(1)
+      * docker info(1), docker system info(1)
       * (create|commit|rename|
       ps|stop|kill|attach|export|logs|
       port|history|exec)
@@ -539,7 +540,7 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
 
   * database tools
 
-    - mysql(1), mycli, mysqld(8)
+    - mysql(1), mycli, mysqld(8), mysqldump(1)
 
     - sqlite3
 
@@ -854,7 +855,7 @@ docker
     https://docs.docker.com/engine/getstarted-voting-app/
 
   * Docker Registry
-    
+
     - Registry overview
       https://docs.docker.com/registry/
 
@@ -869,6 +870,14 @@ docker
 
     - Working with notifications
       https://docs.docker.com/registry/notifications/
+
+    - Recipes
+
+      * Testing an insecure registry
+        https://docs.docker.com/registry/insecure/
+
+      * Registry as a pull through cache of docker hub
+        https://docs.docker.com/registry/recipes/mirror/
 
 Storage
 =======
