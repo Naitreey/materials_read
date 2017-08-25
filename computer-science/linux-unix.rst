@@ -455,13 +455,16 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
       * docker rm(1), docker container rm(1)
       * docker rmi(1), docker image rm(1)
       * docker login(1)
+      * docker logout(1)
       * docker push(1), docker image push(1)
       * docker port(1), docker container port(1)
       * docker events(1), docker system events(1)
       * docker info(1), docker system info(1)
+      * docker ps(1), docker container ls(1)
+      * docker-compose
       * (create|commit|rename|
-      ps|stop|kill|attach|export|logs|
-      port|history|exec)
+      stop|kill|attach|export|logs|
+      history|exec)
 
   * language tools
     - python
@@ -853,6 +856,25 @@ docker
 
   * Define and deploy your app
     https://docs.docker.com/engine/getstarted-voting-app/
+
+  * Docker Engine
+
+    - Overview
+      https://docs.docker.com/engine/userguide/
+
+    - Best practices for writing Dockerfiles
+      https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/
+
+  * Docker Compose
+
+    - Overview of Docker Compose
+      https://docs.docker.com/compose/overview/
+
+    - Install Docker Compose
+      https://docs.docker.com/compose/install/
+
+    - Get started with Docker Compose
+      https://docs.docker.com/compose/gettingstarted/
 
   * Docker Registry
 

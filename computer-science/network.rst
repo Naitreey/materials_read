@@ -22,17 +22,24 @@ HTTP
 overview
 ~~~~~~~~
 - HTTP: The Definitive Guide (在读, 很多有价值的参考资料在章末)
+
 - What exactly is RESTful programming?
-- http://stackoverflow.com/questions/671118/what-exactly-is-restful-programming
+  http://stackoverflow.com/questions/671118/what-exactly-is-restful-programming
+
 - What is Common Gateway Interface (CGI)?
   http://stackoverflow.com/questions/2089271/what-is-common-gateway-interface-cgi
+
 - Basic access authentication
   https://en.wikipedia.org/wiki/Basic_access_authentication
+
+- HTTP cookie
+  https://en.wikipedia.org/wiki/HTTP_cookie
 
 request methods
 ~~~~~~~~~~~~~~~
 - PUT vs POST in REST
   http://stackoverflow.com/questions/630453/put-vs-post-in-rest
+
 - HTTP GET with request body
   http://stackoverflow.com/questions/978061/http-get-with-request-body
 
