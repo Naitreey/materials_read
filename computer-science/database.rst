@@ -73,6 +73,10 @@ MySQL
 
     - ``SELECT``
 
+    - ``JOIN``
+
+    - ``UNION``
+
     - ``DELETE``
 
     - ``UPDATE``
@@ -162,6 +166,10 @@ MySQL
     - LIMIT
 
     - zerofill
+
+    - LAST_INSERT_ID()
+
+    - REFERENCES
 
 - mysql client commands
 
