@@ -35,6 +35,28 @@ overview
 - HTTP cookie
   https://en.wikipedia.org/wiki/HTTP_cookie
 
+- Same-Origin Policy (SOP)
+  https://en.wikipedia.org/wiki/Same-origin_policy
+
+- Cross-origin resource sharing (CORS)
+
+  * wiki
+    https://en.wikipedia.org/wiki/Cross-origin_resource_sharing
+
+  * HTTP access control (CORS)
+    https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS
+
+- Cross-Site Scripting (XSS)
+  https://en.wikipedia.org/wiki/Cross-site_scripting
+
+- Cross-Site Request Forgery (CSRF)
+
+  * wiki
+    https://en.wikipedia.org/wiki/Cross-site_request_forgery
+
+  * SameSite cookie to prevent CSRF attack
+    https://scotthelme.co.uk/csrf-is-dead/
+
 request methods
 ~~~~~~~~~~~~~~~
 - PUT vs POST in REST

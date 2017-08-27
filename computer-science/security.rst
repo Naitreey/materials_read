@@ -3,6 +3,9 @@ yara
 documentation
 http://yara.readthedocs.org/en/v3.4.0/writingrules.html
 
+Web
+===
+
 Encryption
 ==========
 Disk encryption introduction
