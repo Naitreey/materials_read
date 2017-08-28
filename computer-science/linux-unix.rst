@@ -461,6 +461,9 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
       * docker events(1), docker system events(1)
       * docker info(1), docker system info(1)
       * docker ps(1), docker container ls(1)
+      * docker volume create(1)
+      * docker volume ls(1)
+      * docker volume inspect(1)
       * docker-compose
       * (create|commit|rename|
       stop|kill|attach|export|logs|
