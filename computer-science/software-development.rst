@@ -19,3 +19,8 @@ service-oriented architecture
 
 - microservices
   https://en.wikipedia.org/wiki/Microservices
+
+License
+=======
+- WTFPL
+  http://www.wtfpl.net/about/
