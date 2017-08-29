@@ -446,6 +446,9 @@ network programming
         - Models
           https://docs.djangoproject.com/en/1.11/topics/db/models/
 
+        - Making queries
+          https://docs.djangoproject.com/en/1.11/topics/db/queries/
+
       * Class-based views
         https://docs.djangoproject.com/en/1.11/topics/class-based-views/
 
@@ -457,6 +460,14 @@ network programming
 
         - Form handling with class-based views
           https://docs.djangoproject.com/en/1.11/topics/class-based-views/generic-editing/
+
+      * Migrations
+        https://docs.djangoproject.com/en/1.11/topics/migrations/
+
+        - How to move model between apps
+          https://stackoverflow.com/a/26472482/1602266
+          https://stackoverflow.com/a/29622570/1602266
+          https://stackoverflow.com/a/30613732/1602266
 
     - "How-to" guides
 
@@ -605,6 +616,10 @@ file format manipulation
 .. microsoft excel
 
 - xlwt
+
+iOS
+---
+- stash
 
 misc
 ----
