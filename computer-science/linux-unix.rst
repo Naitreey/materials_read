@@ -546,7 +546,7 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
 
   * database tools
 
-    - mysql(1), mycli, mysqld(8), mysqldump(1)
+    - mysql(1), mycli, mysqld(8), mysqldump(1), mysqlimport(1)
 
     - sqlite3
 
