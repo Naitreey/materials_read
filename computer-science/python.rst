@@ -449,6 +449,9 @@ network programming
         - Making queries
           https://docs.djangoproject.com/en/1.11/topics/db/queries/
 
+        - Aggregation
+          https://docs.djangoproject.com/en/1.11/topics/db/aggregation/
+
       * Class-based views
         https://docs.djangoproject.com/en/1.11/topics/class-based-views/
 
@@ -544,6 +547,7 @@ scientific computing
 - Sympy
 - Matplotlib
 - pandas
+- pint
 
 c extension
 -----------
