@@ -21,16 +21,17 @@ language
 
 - PEPs
 
-  * PEP 0008 --- Style Guide for Python Code
-  * PEP 0020 --- The Zen of Python
-  * PEP 0273 --- Import Modules from Zip Archives
-  * PEP 0257 --- Docstring Conventions
-  * PEP 0302 --- New Import Hooks
-  * PEP 0318 --- Decorators For Functions and Methods
-  * PEP 0328 --- Imports: Multi-Line and Absolute/Relative
-  * PEP 0441 --- Improving Python ZIP Application Support
-  * PEP 3113 --- Removal of Tuple Parameter Unpacking
-  * PEP 3119 --- Introducing Abstract Base Classes
+  * PEP 0008 -- Style Guide for Python Code
+  * PEP 0020 -- The Zen of Python
+  * PEP 0273 -- Import Modules from Zip Archives
+  * PEP 0257 -- Docstring Conventions
+  * PEP 0302 -- New Import Hooks
+  * PEP 0318 -- Decorators For Functions and Methods
+  * PEP 0328 -- Imports: Multi-Line and Absolute/Relative
+  * PEP 0441 -- Improving Python ZIP Application Support
+  * PEP 3113 -- Removal of Tuple Parameter Unpacking
+  * PEP 3119 -- Introducing Abstract Base Classes
+  * PEP 3135 -- New Super
 
 - Unifying types and classes in Python 2.2
   https://www.python.org/download/releases/2.2.3/descrintro/
@@ -485,6 +486,15 @@ network programming
 
         - Model Meta options
           https://docs.djangoproject.com/en/1.11/ref/models/options/
+
+      * contrib packages
+        https://docs.djangoproject.com/en/1.11/ref/contrib/
+
+        - The Django admin site
+          https://docs.djangoproject.com/en/1.11/ref/contrib/admin/
+
+          * Admin actions
+            https://docs.djangoproject.com/en/1.11/ref/contrib/admin/actions/
 
 
   * Tornado
