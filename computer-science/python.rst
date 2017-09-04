@@ -473,6 +473,12 @@ network programming
           https://stackoverflow.com/a/29622570/1602266
           https://stackoverflow.com/a/30613732/1602266
 
+      * Working with forms
+        https://docs.djangoproject.com/en/1.11/topics/forms/
+
+        - Creating forms from models
+          https://docs.djangoproject.com/en/1.11/topics/forms/modelforms/
+
     - "How-to" guides
 
       * Managing static files (e.g. images, JavaScript, CSS)
