@@ -479,6 +479,15 @@ network programming
         - Creating forms from models
           https://docs.djangoproject.com/en/1.11/topics/forms/modelforms/
 
+      * Templates
+        https://docs.djangoproject.com/en/1.11/topics/templates/
+
+      * Handling HTTP requests
+        https://docs.djangoproject.com/en/1.11/topics/http/
+
+        - URL dispatcher
+          https://docs.djangoproject.com/en/1.11/topics/http/urls/
+
     - "How-to" guides
 
       * Managing static files (e.g. images, JavaScript, CSS)
@@ -492,6 +501,12 @@ network programming
 
         - Model Meta options
           https://docs.djangoproject.com/en/1.11/ref/models/options/
+
+      * Templates
+        https://docs.djangoproject.com/en/1.11/ref/templates/
+
+        - The Django Template Language
+          https://docs.djangoproject.com/en/1.11/ref/templates/language/
 
       * contrib packages
         https://docs.djangoproject.com/en/1.11/ref/contrib/

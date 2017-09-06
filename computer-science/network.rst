@@ -65,6 +65,11 @@ request methods
 - HTTP GET with request body
   http://stackoverflow.com/questions/978061/http-get-with-request-body
 
+URI
+~~~
+- Cool URIs don't change
+  https://www.w3.org/Provider/Style/URI
+
 header fields
 ~~~~~~~~~~~~~
 
