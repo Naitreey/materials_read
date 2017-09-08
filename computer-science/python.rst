@@ -488,6 +488,9 @@ network programming
         - URL dispatcher
           https://docs.djangoproject.com/en/1.11/topics/http/urls/
 
+        - Writing views
+          https://docs.djangoproject.com/en/1.11/topics/http/views/
+
     - "How-to" guides
 
       * Managing static files (e.g. images, JavaScript, CSS)
