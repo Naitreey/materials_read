@@ -505,6 +505,9 @@ network programming
         - Model Meta options
           https://docs.djangoproject.com/en/1.11/ref/models/options/
 
+        - Conditional Expressions
+          https://docs.djangoproject.com/en/1.11/ref/models/conditional-expressions/
+
       * Templates
         https://docs.djangoproject.com/en/1.11/ref/templates/
 
