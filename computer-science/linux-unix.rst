@@ -10,6 +10,11 @@ System Overview
 
 Distributions
 =============
+
+- identification
+
+  * os-release(5)
+
 - Arch Linux
   https://wiki.archlinux.org/index.php/Arch_Linux
 
