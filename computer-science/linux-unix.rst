@@ -961,3 +961,43 @@ sparse file
     \item Novell \url{https://en.wikipedia.org/wiki/Novell}
     \item Unix System Laboratories \url{https://en.wikipedia.org/wiki/Unix_System_Laboratories}
 \end{itemize}
+
+FreeBSD
+=======
+
+Command line
+------------
+CPU
+~~~
+
+- sysctl kern.sched.topology_spec
+
+- sysctl -n hw.model
+
+- sysctl -n dev.cpu.N.freq
+
+memory
+~~~~~~
+
+- sysctl -n hw.physmem
+
+- swapinfo
+
+disk
+~~~~
+
+- camcontrol devlist
+
+- sysctl -n kern.disks
+
+- diskinfo <name>
+
+NIC
+~~~
+
+- ifconfig
+
+PCIe
+~~~~
+
+- pciconf
