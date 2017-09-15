@@ -1001,3 +1001,11 @@ PCIe
 ~~~~
 
 - pciconf
+
+All Unixes
+==========
+
+- Tools comparison for every Unix flavors:
+
+  * A Sysadmin's Unixersal Translator (ROSETTA STONE)
+    http://bhami.com/rosetta.html
