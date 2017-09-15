@@ -470,7 +470,8 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
       * docker volume ls(1)
       * docker volume inspect(1)
       * docker-compose
-      * (create|commit|rename|
+      * docker-commit(1), docker container commit(1)
+      * (create|rename|
       stop|kill|attach|export|logs|
       history|exec)
 
@@ -575,6 +576,12 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
       systemd-journald-dev-log.socket(8), /usr/lib/systemd/systemd-journald(8)
 
     - logind.conf(5)
+
+  * automation tools
+
+    - salt
+      
+      * salt-key(1)
 
     \begin{enumerate}
         \item xinput, xclip,
