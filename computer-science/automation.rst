@@ -1,11 +1,14 @@
 Infrastructure Management
 =========================
 
-SaltStack
----------
+- Ansible v.s. Salt
+  https://medium.com/@anthonypjshaw/ansible-v-s-salt-saltstack-v-s-stackstorm-3d8f57149368
 
-- SaltStack Get Started
+Salt
+----
+
+- Salt Get Started
   https://docs.saltstack.com/en/getstarted/
 
-  * SaltStack Fundamentals
+  * Salt Fundamentals
     https://docs.saltstack.com/en/getstarted/fundamentals/
