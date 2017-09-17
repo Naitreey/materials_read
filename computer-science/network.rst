@@ -109,6 +109,19 @@ download
 - Content-Disposition
   https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Disposition
 
+controls
+........
+- Expect
+  https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expect
+
+proxies
+.......
+- X-Forwarded-Host
+  https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-Host
+
+- X-Forwarded-For
+  https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For
+
 email
 -----
 RFC2822: Internet Message Format
