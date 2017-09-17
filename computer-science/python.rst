@@ -496,6 +496,9 @@ network programming
       * Managing static files (e.g. images, JavaScript, CSS)
         https://docs.djangoproject.com/en/1.11/howto/static-files/
 
+      * Outputting CSV with Django
+        https://docs.djangoproject.com/en/1.11/howto/outputting-csv/
+
     - API reference
       https://docs.djangoproject.com/en/1.11/ref/
 
@@ -522,6 +525,9 @@ network programming
 
           * Admin actions
             https://docs.djangoproject.com/en/1.11/ref/contrib/admin/actions/
+
+      * Request and response objects
+        https://docs.djangoproject.com/en/1.11/ref/request-response/
 
 
   * Tornado
