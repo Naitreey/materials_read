@@ -336,6 +336,16 @@ Command Line
 
     - xdg-settings(1)
 
+    .. directory settings
+
+    - xdg-user-dir(1)
+
+    - xdg-user-dirs-update(1)
+
+  * KDE
+
+    - kwin, kwin_x11
+
   * disk and filesystem
 
     - df, du, fdisk, gdisk, parted, gparted, mkfs.<type>, fsck.<type>, dumpe2fs, tune2fs, debugfs, mount, umount,
