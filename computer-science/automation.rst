@@ -12,3 +12,6 @@ Salt
 
   * Salt Fundamentals
     https://docs.saltstack.com/en/getstarted/fundamentals/
+
+- SaltStack Arch Linux wiki
+  https://wiki.archlinux.org/index.php/Saltstack
