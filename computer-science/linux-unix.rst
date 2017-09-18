@@ -593,6 +593,8 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
       
       * salt-key(1)
 
+      * salt-call(1)
+
     \begin{enumerate}
         \item xinput, xclip,
         \item alternatives
