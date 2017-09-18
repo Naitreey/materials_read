@@ -169,6 +169,16 @@ Multicast DNS
 - mDNS wiki
   https://en.wikipedia.org/wiki/Multicast_DNS
 
+anti-censorship
+---------------
+
+Shadowsocks
+~~~~~~~~~~~
+- SS 详解
+  http://rt.cn2k.net/?p=214
+  http://rt.cn2k.net/?p=217
+  http://rt.cn2k.net/?p=221
+
 misc
 ----
 Discard Protocol
