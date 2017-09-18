@@ -491,6 +491,12 @@ network programming
         - Writing views
           https://docs.djangoproject.com/en/1.11/topics/http/views/
 
+      * User authentication in Django
+        https://docs.djangoproject.com/en/1.11/topics/auth/
+
+        - Using the Django authentication system
+          https://docs.djangoproject.com/en/1.11/topics/auth/default/
+
     - "How-to" guides
 
       * Managing static files (e.g. images, JavaScript, CSS)
