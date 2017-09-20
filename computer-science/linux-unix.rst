@@ -455,6 +455,20 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
 
       * svn (commit|checkout|log)
 
+  * backup tools
+
+    - bup
+
+      * bup(1)
+
+      * bup init(1)
+
+      * bup index(1)
+
+      * bup save(1)
+
+      * bup ls(1)
+
   * container
 
     - runc (start|spec|kill|list)
