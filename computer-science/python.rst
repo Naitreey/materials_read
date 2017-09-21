@@ -538,6 +538,10 @@ network programming
       * Request and response objects
         https://docs.djangoproject.com/en/1.11/ref/request-response/
 
+    - Django's release schedule
+      https://www.djangoproject.com/download/
+      https://www.djangoproject.com/weblog/2015/jun/25/roadmap/
+
 
   * Tornado
 
