@@ -179,6 +179,9 @@ Shadowsocks
   http://rt.cn2k.net/?p=217
   http://rt.cn2k.net/?p=221
 
+- SS 使用说明
+  http://rt.cn2k.net/?p=354
+
 misc
 ----
 Discard Protocol
