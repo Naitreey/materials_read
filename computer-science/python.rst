@@ -497,6 +497,9 @@ network programming
         - Using the Django authentication system
           https://docs.djangoproject.com/en/1.11/topics/auth/default/
 
+        - Customizing authentication in Django
+          https://docs.djangoproject.com/en/1.11/topics/auth/customizing/
+
     - "How-to" guides
 
       * Managing static files (e.g. images, JavaScript, CSS)
