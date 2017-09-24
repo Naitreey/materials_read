@@ -491,6 +491,9 @@ network programming
         - Writing views
           https://docs.djangoproject.com/en/1.11/topics/http/views/
 
+        - Django shortcut functions
+          https://docs.djangoproject.com/en/1.11/topics/http/shortcuts/
+
       * User authentication in Django
         https://docs.djangoproject.com/en/1.11/topics/auth/
 
