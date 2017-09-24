@@ -86,8 +86,6 @@ System Components
       http://anacron.sourceforge.net/
     - anacron(8)
     - /etc/anacrontab(8)
-- iptables & NetFilter
-  * iptables(8), iptables-extensions(8)
 - SELinux
   * CentOS SELinux HowTo
     https://wiki.centos.org/HowTos/SELinux
@@ -538,12 +536,16 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
     - firewall
       * iptables(8), iptables-extensions(8)
 
+    - ipset(8)
+
     - hostname and FQDN
       * hostname(1), dnsdomainname(1)
       * hostname(5), hostname(7)
       * systemd-hostnamed(8), systemd-hostnamed.service(8)
 
     - DNS
+
+      * dnsmasq(8)
 
   * scheduled tasks
 
@@ -565,6 +567,10 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
   * kernel configuration
 
     - sysctl(8)
+
+  * memory, cache, swap
+
+    - fincore(1)
 
   * error code
 
@@ -604,7 +610,7 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
   * automation tools
 
     - salt
-      
+
       * salt-key(1)
 
       * salt-call(1)
@@ -732,6 +738,49 @@ Magic SysRq key
 
 Networking
 ==========
+
+DNS
+---
+
+- dnsmasq
+
+  * wiki
+    https://en.wikipedia.org/wiki/Dnsmasq
+
+  * introduction on home page
+    http://www.thekelleys.org.uk/dnsmasq/doc.html
+
+  * manpage: dnsmasq(8)
+
+ARP
+---
+- /etc/ethers(5)
+
+Firewall & NAT
+--------------
+- netfilter
+
+- iptables
+
+  * iptables(8)
+
+  * iptables-extensions(8)
+
+- ipset
+
+  * introduction on home page
+    http://ipset.netfilter.org/
+
+  * features
+    http://ipset.netfilter.org/features.html
+
+  * tips
+    http://ipset.netfilter.org/tips.html
+
+  * ipset(8)
+
+  * Advanced Firewall Configuration with ipset
+    http://www.linuxjournal.com/content/advanced-firewall-configurations-ipset
 
 Desktop Environment
 ===================
