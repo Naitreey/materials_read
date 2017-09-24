@@ -162,8 +162,10 @@ SNMP
 - management information base
   https://en.wikipedia.org/wiki/Management_information_base
 
-domain name system
-------------------
+domain name system (DNS)
+------------------------
+
+
 Multicast DNS
 ~~~~~~~~~~~~~
 - mDNS wiki
@@ -181,6 +183,15 @@ Shadowsocks
 
 - SS 使用说明
   http://rt.cn2k.net/?p=354
+
+- Shadowsocks + GfwList 实现 OpenWRT / LEDE 路由器自动翻墙
+  https://cokebar.info/archives/962
+
+- TCP 方式查询解决 DNS 污染问题
+  https://cokebar.info/archives/1053
+
+- Shadowsocks + ChnRoute 实现 OpenWRT / LEDE 路由器自动翻墙
+  https://cokebar.info/archives/664
 
 misc
 ----
