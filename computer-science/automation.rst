@@ -16,5 +16,8 @@ Salt
   * Salt Configuration Management
     https://docs.saltstack.com/en/getstarted/config/
 
+  * Event-Driven Infrastructure
+    https://docs.saltstack.com/en/getstarted/event/
+
 - SaltStack Arch Linux wiki
   https://wiki.archlinux.org/index.php/Saltstack
