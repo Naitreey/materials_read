@@ -10,6 +10,15 @@ Salt
 - Salt Get Started
   https://docs.saltstack.com/en/getstarted/
 
+  * SaltStack Components
+    https://docs.saltstack.com/en/getstarted/overview.html
+
+  * SaltStack Flexibility
+    https://docs.saltstack.com/en/getstarted/flexibility.html
+
+  * Saltstack Speed
+    https://docs.saltstack.com/en/getstarted/speed.html
+
   * Salt Fundamentals
     https://docs.saltstack.com/en/getstarted/fundamentals/
 
@@ -18,6 +27,9 @@ Salt
 
   * Event-Driven Infrastructure
     https://docs.saltstack.com/en/getstarted/event/
+
+  * Understanding SaltStack
+    https://docs.saltstack.com/en/getstarted/system/
 
 - SaltStack Arch Linux wiki
   https://wiki.archlinux.org/index.php/Saltstack
