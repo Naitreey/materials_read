@@ -617,6 +617,8 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
 
       * salt-run(1)
 
+      * salt-ssh(1)
+
     \begin{enumerate}
         \item xinput, xclip,
         \item alternatives

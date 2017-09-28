@@ -31,5 +31,8 @@ Salt
   * Understanding SaltStack
     https://docs.saltstack.com/en/getstarted/system/
 
+  * Agentless Salt
+    https://docs.saltstack.com/en/getstarted/ssh/
+
 - SaltStack Arch Linux wiki
   https://wiki.archlinux.org/index.php/Saltstack
