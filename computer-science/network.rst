@@ -174,6 +174,15 @@ Multicast DNS
 anti-censorship
 ---------------
 
+DNS poisoning
+~~~~~~~~~~~~~
+
+- 域名服务器缓存污染
+  https://zh.wikipedia.org/wiki/域名服务器缓存污染
+
+- 浅谈HTTP劫持、DNS污染的影响及解决办法
+  https://www.cloudxns.net/Support/detail/id/2249.html
+
 Shadowsocks
 ~~~~~~~~~~~
 - SS 详解
