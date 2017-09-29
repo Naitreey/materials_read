@@ -491,6 +491,9 @@ network programming
         - Writing views
           https://docs.djangoproject.com/en/1.11/topics/http/views/
 
+        - View decorators
+          https://docs.djangoproject.com/en/1.11/topics/http/decorators/
+
         - Django shortcut functions
           https://docs.djangoproject.com/en/1.11/topics/http/shortcuts/
 
