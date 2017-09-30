@@ -122,6 +122,16 @@ proxies
 - X-Forwarded-For
   https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For
 
+caching
+.......
+- Vary
+
+  * MDN
+    https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Vary
+
+  * Best Practices for Using the Vary Header
+    https://www.fastly.com/blog/best-practices-using-vary-header/
+
 email
 -----
 RFC2822: Internet Message Format
