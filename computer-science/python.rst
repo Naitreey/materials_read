@@ -514,6 +514,9 @@ network programming
       * Outputting CSV with Django
         https://docs.djangoproject.com/en/1.11/howto/outputting-csv/
 
+      * Writing custom model fields
+        https://docs.djangoproject.com/en/1.11/howto/custom-model-fields/
+
     - API reference
       https://docs.djangoproject.com/en/1.11/ref/
 
@@ -548,6 +551,10 @@ network programming
       https://www.djangoproject.com/download/
       https://www.djangoproject.com/weblog/2015/jun/25/roadmap/
 
+  * django-nested-admin
+    http://django-nested-admin.readthedocs.io/en/latest/
+
+  * Grappelli
 
   * Tornado
 
