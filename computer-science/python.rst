@@ -465,6 +465,9 @@ network programming
         - Form handling with class-based views
           https://docs.djangoproject.com/en/1.11/topics/class-based-views/generic-editing/
 
+        - Using mixins with class-based views
+          https://docs.djangoproject.com/en/1.11/topics/class-based-views/mixins/
+
       * Migrations
         https://docs.djangoproject.com/en/1.11/topics/migrations/
 
@@ -493,6 +496,9 @@ network programming
 
         - View decorators
           https://docs.djangoproject.com/en/1.11/topics/http/decorators/
+
+        - File Uploads
+          https://docs.djangoproject.com/en/1.11/topics/http/file-uploads/
 
         - Django shortcut functions
           https://docs.djangoproject.com/en/1.11/topics/http/shortcuts/
@@ -553,6 +559,10 @@ network programming
 
   * django-nested-admin
     http://django-nested-admin.readthedocs.io/en/latest/
+
+  * django-widget-tweaks
+
+  * django-redis
 
   * Grappelli
 

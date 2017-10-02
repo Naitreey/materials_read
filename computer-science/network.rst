@@ -132,6 +132,9 @@ caching
   * Best Practices for Using the Vary Header
     https://www.fastly.com/blog/best-practices-using-vary-header/
 
+- Cache-Control
+  https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control
+
 email
 -----
 RFC2822: Internet Message Format
