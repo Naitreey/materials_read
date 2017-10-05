@@ -503,6 +503,12 @@ network programming
         - Django shortcut functions
           https://docs.djangoproject.com/en/1.11/topics/http/shortcuts/
 
+        - Middleware
+          https://docs.djangoproject.com/en/1.11/topics/http/middleware/
+
+        - How to use sessions
+          https://docs.djangoproject.com/en/1.11/topics/http/sessions/
+
       * User authentication in Django
         https://docs.djangoproject.com/en/1.11/topics/auth/
 
