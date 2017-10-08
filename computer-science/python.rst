@@ -570,6 +570,8 @@ network programming
 
   * django-redis
 
+  * django-session-security
+
   * Grappelli
 
   * Tornado

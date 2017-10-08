@@ -57,6 +57,9 @@ overview
   * SameSite cookie to prevent CSRF attack
     https://scotthelme.co.uk/csrf-is-dead/
 
+- Session fixation
+  https://en.wikipedia.org/wiki/Session_fixation
+
 request methods
 ~~~~~~~~~~~~~~~
 - PUT vs POST in REST
@@ -134,6 +137,11 @@ caching
 
 - Cache-Control
   https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control
+
+cookies
+.......
+- Set-Cookie
+  https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie
 
 email
 -----
