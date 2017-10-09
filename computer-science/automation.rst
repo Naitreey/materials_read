@@ -34,5 +34,14 @@ Salt
   * Agentless Salt
     https://docs.saltstack.com/en/getstarted/ssh/
 
+- Salt Documentation
+  https://docs.saltstack.com/en/latest/contents.html
+
+  * Orchestration
+    https://docs.saltstack.com/en/latest/topics/orchestrate/
+
+    - Orchestrate runner
+      https://docs.saltstack.com/en/latest/topics/orchestrate/orchestrate_runner.html
+
 - SaltStack Arch Linux wiki
   https://wiki.archlinux.org/index.php/Saltstack

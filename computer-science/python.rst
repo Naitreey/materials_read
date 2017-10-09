@@ -572,6 +572,8 @@ network programming
 
   * django-session-security
 
+  * django-debug-toolbar
+
   * Grappelli
 
   * Tornado
