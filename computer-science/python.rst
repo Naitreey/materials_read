@@ -556,6 +556,9 @@ network programming
           * Admin actions
             https://docs.djangoproject.com/en/1.11/ref/contrib/admin/actions/
 
+        - The messages framework
+          https://docs.djangoproject.com/en/1.11/ref/contrib/messages/
+
       * Request and response objects
         https://docs.djangoproject.com/en/1.11/ref/request-response/
 
@@ -573,6 +576,8 @@ network programming
   * django-session-security
 
   * django-debug-toolbar
+
+  * djangorestframework
 
   * Grappelli
 
