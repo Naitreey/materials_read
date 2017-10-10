@@ -37,6 +37,15 @@ Salt
 - Salt Documentation
   https://docs.saltstack.com/en/latest/contents.html
 
+  * Using Salt
+    https://docs.saltstack.com/en/latest/topics/using_salt.html
+
+    - Grains
+      https://docs.saltstack.com/en/latest/topics/grains/index.html
+
+    - Storing Static Data In The Pillar
+      https://docs.saltstack.com/en/latest/topics/pillar/index.html
+
   * Orchestration
     https://docs.saltstack.com/en/latest/topics/orchestrate/
 
