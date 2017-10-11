@@ -294,6 +294,12 @@ Command Line
     - ln, readlink
     - dirname, mktemp
 
+  * shell script cmdline parsing
+
+    - getopt(1)
+
+    - getopts(bash builtin)
+
   * file type
 
     - file(1)
@@ -649,7 +655,7 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
         \item ssh, ssh-keygen, ssh-copy-id, sshpass sftp, ftp, scp, telnet, netcat (nc), wget, curl, rsync, nslookup, tcpdump
         \item ar(1), ranlib(1)
         \item ctags, cscope(1)
-        \item make, diff, patch, ldd, strings, pmap, taskset, getopt(1)
+        \item make, diff, patch, ldd, strings, pmap, taskset
         \item gvim, vim, gvimdiff
         \item pydoc2, pydoc3
         \item node, npm
