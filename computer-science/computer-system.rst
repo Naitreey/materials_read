@@ -160,6 +160,15 @@ Architecture
 - NX bit
   https://en.wikipedia.org/wiki/NX_bit
 
+- Protection ring
+  https://en.wikipedia.org/wiki/Protection_ring
+
+- Real mode
+  https://en.wikipedia.org/wiki/Real_mode
+
+- Protected mode
+  https://en.wikipedia.org/wiki/Protected_mode
+
 
 design and concepts
 ~~~~~~~~~~~~~~~~~~~
