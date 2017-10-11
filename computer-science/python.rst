@@ -247,6 +247,7 @@ system level utils
 - ctypes
 - struct
 - array
+- pyinotify
 
 date, time
 ----------
