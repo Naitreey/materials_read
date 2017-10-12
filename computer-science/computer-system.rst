@@ -169,6 +169,17 @@ Architecture
 - Protected mode
   https://en.wikipedia.org/wiki/Protected_mode
 
+- Virtual 8086 mode (V86-mode, VM86)
+  https://en.wikipedia.org/wiki/Virtual_8086_mode
+
+- Unreal mode
+  https://en.wikipedia.org/wiki/Unreal_mode
+
+- System Management Mode (SMM)
+  https://en.wikipedia.org/wiki/System_Management_Mode
+
+- Long mode
+  https://en.wikipedia.org/wiki/Long_mode
 
 design and concepts
 ~~~~~~~~~~~~~~~~~~~
@@ -391,6 +402,9 @@ bus standard
 - I2C Bus (I²C)
   https://en.wikipedia.org/wiki/I%C2%B2C
 
+- Thunderbolt
+  https://en.wikipedia.org/wiki/Thunderbolt_(interface)
+
 host controller interface (HCI)
 -------------------------------
 
@@ -423,6 +437,9 @@ connector
 
   * Understanding M.2, the interface that will speed up your next SSD
     https://arstechnica.com/gadgets/2015/02/understanding-m-2-the-interface-that-will-speed-up-your-next-ssd/
+
+- COM (Communication port)
+  https://en.wikipedia.org/wiki/COM_(hardware_interface)
 
 Booting
 =======
