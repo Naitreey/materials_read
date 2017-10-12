@@ -37,6 +37,11 @@ Salt
 - Salt Documentation
   https://docs.saltstack.com/en/latest/contents.html
 
+  * tutorals
+
+    - Pillar Walkthrough
+      https://docs.saltstack.com/en/latest/topics/tutorials/pillar.html
+
   * Using Salt
     https://docs.saltstack.com/en/latest/topics/using_salt.html
 
