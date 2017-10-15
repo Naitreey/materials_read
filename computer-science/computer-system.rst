@@ -59,6 +59,9 @@ firmware
 - Unified Extensible Firmware Interface (UEFI)
   https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface
 
+- Option ROM
+  https://en.wikipedia.org/wiki/Option_ROM
+
 - the functions of firmware while OS is running
   https://superuser.com/questions/462314/what-are-the-functions-of-the-bios-while-the-operating-system-is-running
 
@@ -233,6 +236,18 @@ Peripheral device
 - steps to do IO between device and memory
   https://stackoverflow.com/questions/25161555/dma-and-i-o-memory-region-under-linux
 
+Video
+-----
+
+- Video card
+  https://en.wikipedia.org/wiki/Video_card
+
+- Framebuffer
+  https://en.wikipedia.org/wiki/Framebuffer
+
+- Heterogeneous System Architecture
+  https://en.wikipedia.org/wiki/Heterogeneous_System_Architecture
+
 storage
 -------
 
@@ -401,6 +416,12 @@ bus standard
 
 - I2C Bus (I²C)
   https://en.wikipedia.org/wiki/I%C2%B2C
+
+- DisplayPort (DP)
+  https://en.wikipedia.org/wiki/DisplayPort
+
+- High Definition Multimedia Interface (HDMI)
+  https://en.wikipedia.org/wiki/HDMI
 
 - Thunderbolt
   https://en.wikipedia.org/wiki/Thunderbolt_(interface)
