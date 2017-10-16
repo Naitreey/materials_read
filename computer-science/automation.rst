@@ -51,11 +51,25 @@ Salt
     - Storing Static Data In The Pillar
       https://docs.saltstack.com/en/latest/topics/pillar/index.html
 
+  * Configuration Management
+
+    - State System Reference
+      https://docs.saltstack.com/en/latest/ref/states/index.html
+
+      * SLS Template Variable Reference
+        https://docs.saltstack.com/en/latest/ref/states/vars.html
+
   * Orchestration
     https://docs.saltstack.com/en/latest/topics/orchestrate/
 
     - Orchestrate runner
       https://docs.saltstack.com/en/latest/topics/orchestrate/orchestrate_runner.html
+
+  * APIs
+    https://docs.saltstack.com/en/latest/topics/api.html
+
+    - Python client API
+      https://docs.saltstack.com/en/latest/ref/clients/index.html
 
 - SaltStack Arch Linux wiki
   https://wiki.archlinux.org/index.php/Saltstack
