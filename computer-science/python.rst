@@ -551,6 +551,9 @@ network programming
         - Built-in template tags and filters
           https://docs.djangoproject.com/en/1.11/ref/templates/builtins/
 
+        - The Django template language: for Python programmers
+          https://docs.djangoproject.com/en/1.11/ref/templates/api/
+
       * contrib packages
         https://docs.djangoproject.com/en/1.11/ref/contrib/
 
