@@ -58,6 +58,24 @@ text content
 - blockquote
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote
 
+- ol
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol
+
+- ul
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul
+
+- li
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li
+
+- dl
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl
+
+- dt
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt
+
+- dd
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd
+
 inline text semantics
 ~~~~~~~~~~~~~~~~~~~~~
 
@@ -96,6 +114,9 @@ inline text semantics
 
 - s
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/s
+
+- a
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
 
 document edits
 ~~~~~~~~~~~~~~
