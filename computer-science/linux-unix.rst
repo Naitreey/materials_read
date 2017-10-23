@@ -288,11 +288,18 @@ Command Line
     - machine-id(5)
 
   * file access and manipulation
+
     - ls(1), stat(1), cat, tee(1), mv, less, vi,
+
     - chmod(1), chroot, chown, touch
+
     - head, tail, tr,
+
     - ln, readlink
+
     - dirname, mktemp
+
+    - shred(1)
 
   * shell script cmdline parsing
 
