@@ -57,6 +57,11 @@ Penetration Testing
 
 - Android Open Pwn Project (AOPP)
 
+botnet
+======
+- Command-and-Control server (C&C server)
+  http://searchsecurity.techtarget.com/feature/Command-and-control-servers-The-puppet-masters-that-govern-malware
+
 Darknet
 =======
 - Silk Road wiki
@@ -89,6 +94,11 @@ simple substitution cipher
 
 - Caesar cipher
   https://en.wikipedia.org/wiki/Caesar_cipher
+
+IoT
+===
+- Shodan search engine
+  https://en.wikipedia.org/wiki/Shodan_(website)
 
 misc sources
 ============
