@@ -7,6 +7,9 @@ Overview
 Computer Components
 ===================
 
+- Thermal design power (TDP)
+  https://en.wikipedia.org/wiki/Thermal_design_power
+
 Main components
 ````````````````
 
@@ -242,11 +245,17 @@ Video
 - Video card
   https://en.wikipedia.org/wiki/Video_card
 
+- Graphics processing unit
+  https://en.wikipedia.org/wiki/Graphics_processing_unit
+
 - Framebuffer
   https://en.wikipedia.org/wiki/Framebuffer
 
 - Heterogeneous System Architecture
   https://en.wikipedia.org/wiki/Heterogeneous_System_Architecture
+
+- OpenGL
+  https://en.wikipedia.org/wiki/OpenGL
 
 storage
 -------
