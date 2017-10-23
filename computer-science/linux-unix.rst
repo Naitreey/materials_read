@@ -24,6 +24,11 @@ Distributions
   * Arch compared to other distributions
     https://wiki.archlinux.org/index.php/arch_compared_to_other_distributions
 
+- Ubuntu
+
+  * 17.10 Release Note
+    https://wiki.ubuntu.com/ArtfulAardvark/ReleaseNotes
+
 User System
 ===========
 - sudo
