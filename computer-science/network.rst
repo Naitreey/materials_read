@@ -76,6 +76,11 @@ URI
 header fields
 ~~~~~~~~~~~~~
 
+request context
+...............
+- Referer
+  https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referer
+
 connection management
 .....................
 - Connection
