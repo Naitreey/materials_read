@@ -128,6 +128,12 @@ document edits
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins
 
 
+Global attributes
+-----------------
+
+- id
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id
+
 misc
 ====
 
