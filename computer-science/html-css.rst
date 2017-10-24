@@ -76,6 +76,12 @@ text content
 - dd
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd
 
+- figure
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure
+
+- figcaption
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption
+
 inline text semantics
 ~~~~~~~~~~~~~~~~~~~~~
 
@@ -127,6 +133,11 @@ document edits
 - ins
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins
 
+image and multimedia
+~~~~~~~~~~~~~~~~~~~~
+
+- img
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img
 
 Global attributes
 -----------------
