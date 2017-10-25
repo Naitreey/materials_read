@@ -139,6 +139,15 @@ image and multimedia
 - img
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img
 
+table content
+~~~~~~~~~~~~~
+
+- table
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table
+
+- tr
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr
+
 Global attributes
 -----------------
 
