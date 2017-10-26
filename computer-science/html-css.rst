@@ -166,6 +166,13 @@ table content
 - td
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td
 
+forms
+~~~~~
+
+- form
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
+
+
 Global attributes
 -----------------
 
