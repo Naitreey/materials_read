@@ -145,8 +145,26 @@ table content
 - table
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table
 
+- caption
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption
+
+- thead
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead
+
+- tbody
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody
+
+- tfoot
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot
+
 - tr
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr
+
+- th
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th
+
+- td
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td
 
 Global attributes
 -----------------
