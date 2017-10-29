@@ -522,6 +522,9 @@ network programming
       * Signals
         https://docs.djangoproject.com/en/1.11/topics/signals/
 
+      * The contenttypes framework
+        https://docs.djangoproject.com/en/1.11/ref/contrib/contenttypes/
+
     - "How-to" guides
 
       * Managing static files (e.g. images, JavaScript, CSS)
@@ -588,6 +591,8 @@ network programming
   * django-debug-toolbar
 
   * djangorestframework
+
+  * django-guardian
 
   * Grappelli
 
