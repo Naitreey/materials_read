@@ -257,6 +257,9 @@ Video
 - OpenGL
   https://en.wikipedia.org/wiki/OpenGL
 
+- OpenCL
+  https://en.wikipedia.org/wiki/OpenCL
+
 storage
 -------
 
