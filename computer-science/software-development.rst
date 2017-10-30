@@ -1,3 +1,8 @@
+Time estimation
+===============
+- How to respond when you are asked for an estimate?
+  https://softwareengineering.stackexchange.com/questions/648/how-to-respond-when-you-are-asked-for-an-estimate
+
 Design Patterns and Refactoring
 ===============================
 - Refactoring: Improving the Design of Existing Code (在读)

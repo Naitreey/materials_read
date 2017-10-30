@@ -172,6 +172,8 @@ forms
 - form
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
 
+- input
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
 
 Global attributes
 -----------------
