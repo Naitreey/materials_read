@@ -175,11 +175,26 @@ forms
 - input
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
 
+- ``<input type="button">``
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button
+
+- ``<input type="checkbox">``
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox
+
+- ``<input type="color">``
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color
+
+- ``<input type="date">``
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date
+
 Global attributes
 -----------------
 
 - id
   https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id
+
+- accesskey
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/accesskey
 
 misc
 ====
