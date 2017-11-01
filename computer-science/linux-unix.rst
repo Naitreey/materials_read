@@ -291,6 +291,7 @@ Command Line
     - hostnamectl(1)
     - machine-info(5)
     - machine-id(5)
+    - screenfetch(1)
 
   * file access and manipulation
 
