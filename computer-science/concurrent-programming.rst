@@ -1,5 +1,3 @@
-Concurrent programming
-======================
 \item concurrency \url{https://en.wikipedia.org/wiki/Concurrent_computing}
 \item Mutual exclusion wiki \url{https://en.wikipedia.org/wiki/Mutual_exclusion}
 \item Semaphore wiki \url{https://en.wikipedia.org/wiki/Semaphore_(programming)}
@@ -14,3 +12,5 @@ Concurrent programming
       \url{http://www.tomshardware.com/answers/id-1694436/hyperthreading-work.html}
 - Understanding Latency versus Throughput
   https://community.cadence.com/cadence_blogs_8/b/sd/archive/2010/09/13/understanding-latency-vs-throughput
+- IPC wiki
+  https://en.wikipedia.org/wiki/Inter-process_communication
