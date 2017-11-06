@@ -172,8 +172,14 @@ forms
 - form
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
 
+- label
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label
+
 - input
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
+
+- ``<input type="text">``
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text
 
 - ``<input type="button">``
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button
@@ -186,6 +192,81 @@ forms
 
 - ``<input type="date">``
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date
+
+- ``<input type="datetime-local">``
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/datetime-local
+
+- ``<input type="time">``
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/time
+
+- ``<input type="email">``
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email
+
+- ``<input type="file">``
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file
+
+- ``<input type="hidden">``
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/hidden
+
+- ``<input type="image">``
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/image
+
+- ``<input type="month">``
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/month
+
+- ``<input type="number">``
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number
+
+- ``<input type="password">``
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/password
+
+- ``<input type="radio">``
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio
+
+- ``<input type="range">``
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range
+
+- ``<input type="submit">``
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/submit
+
+- ``<input type="reset">``
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/reset
+
+- ``<input type="search">``
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/search
+
+- ``<input type="tel">``
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel
+
+- ``<input type="url">``
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/url
+
+- ``<input type="week">``
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/week
+
+- button
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button
+
+- textarea
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea
+
+- select
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select
+
+- datalist
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist
+
+- option
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option
+
+- optgroup
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup
+
+- fieldset
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset
+
+- legend
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/legend
 
 Global attributes
 -----------------
