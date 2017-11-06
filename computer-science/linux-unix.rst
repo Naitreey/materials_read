@@ -1,12 +1,15 @@
-System Overview
-===============
+Operating System Concepts
+=========================
+- Data buffer
+  https://en.wikipedia.org/wiki/Data_buffer
+
+Linux Overview
+==============
 - Learning the Unix Operating System (无笔记)
 - Unix in a nutshell (在读)
 - How Linux Works, 2nd Edition (在读)
 - Fedora 22 System Administrator's Guide (在读)
 - RHEL6 deployment guide (在读)
-- IPC wiki
-  https://en.wikipedia.org/wiki/Inter-process_communication
 
 Distributions
 =============
