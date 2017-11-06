@@ -691,7 +691,25 @@ codingstyle
 queue
 -----
 - beanstalkc
+
 - pynsq
+
+- celery
+
+  * repo readme
+    https://github.com/celery/celery
+
+  * Getting Started
+    http://docs.celeryproject.org/en/latest/getting-started/index.html
+
+    - Introduction to Celery
+      http://docs.celeryproject.org/en/latest/getting-started/introduction.html
+
+    - Brokers
+      http://docs.celeryproject.org/en/latest/getting-started/brokers/index.html
+
+    - First Steps with Celery
+      http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html
 
 logging and warning
 -------------------
