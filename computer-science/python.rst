@@ -688,12 +688,14 @@ codingstyle
 - flake8
 - yapf
 
-queue
------
+message queue
+-------------
 - beanstalkc
 
 - pynsq
 
+task queue
+----------
 - celery
 
   * repo readme
