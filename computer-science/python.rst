@@ -708,8 +708,14 @@ queue
     - Brokers
       http://docs.celeryproject.org/en/latest/getting-started/brokers/index.html
 
+      * Using RabbitMQ
+        http://docs.celeryproject.org/en/latest/getting-started/brokers/rabbitmq.html
+
     - First Steps with Celery
       http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html
+
+    - Next Steps
+      http://docs.celeryproject.org/en/latest/getting-started/next-steps.html
 
 logging and warning
 -------------------
