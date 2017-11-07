@@ -16,6 +16,9 @@ HTML
 Elements
 --------
 
+- HTML element reference
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+
 main root
 ~~~~~~~~~
 
@@ -271,11 +274,26 @@ forms
 Global attributes
 -----------------
 
+- Global attributes
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes
+
 - id
   https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id
 
 - accesskey
   https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/accesskey
+
+- class
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class
+
+- contenteditable
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/contenteditable
+
+- contextmenu
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/contextmenu
+
+- ``data-*``
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*
 
 misc
 ====
