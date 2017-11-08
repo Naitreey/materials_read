@@ -454,6 +454,9 @@ network programming
         - Aggregation
           https://docs.djangoproject.com/en/1.11/topics/db/aggregation/
 
+        - Database transactions
+          https://docs.djangoproject.com/en/1.11/topics/db/transactions/
+
       * Class-based views
         https://docs.djangoproject.com/en/1.11/topics/class-based-views/
 
