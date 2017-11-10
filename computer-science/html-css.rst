@@ -273,8 +273,7 @@ forms
 
 Global attributes
 -----------------
-
-- Global attributes
+- Overview
   https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes
 
 - id
@@ -294,6 +293,27 @@ Global attributes
 
 - ``data-*``
   https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*
+
+- dir
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/dir
+
+- draggable
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/draggable
+
+- hidden
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden
+
+- lang
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang
+
+- style
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style
+
+- tabindex
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex
+
+- title
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/title
 
 misc
 ====
