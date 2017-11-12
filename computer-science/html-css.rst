@@ -19,6 +19,12 @@ Elements
 - HTML element reference
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 
+- inline-level elements
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements
+
+- block-level elements
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements
+
 main root
 ~~~~~~~~~
 
@@ -34,6 +40,9 @@ document metadata
 - title
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title
 
+- meta
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+
 sectioning root
 ~~~~~~~~~~~~~~~
 
@@ -48,6 +57,9 @@ content sectioning
 
 - address
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address
+
+- div
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div
 
 text content
 ~~~~~~~~~~~~
@@ -127,6 +139,9 @@ inline text semantics
 - a
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
 
+- span
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span
+
 document edits
 ~~~~~~~~~~~~~~
 
@@ -141,6 +156,18 @@ image and multimedia
 
 - img
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img
+
+- video
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video
+
+- audio
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio
+
+- source
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source
+
+- track
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track
 
 table content
 ~~~~~~~~~~~~~
@@ -270,6 +297,21 @@ forms
 
 - legend
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/legend
+
+embeded content
+~~~~~~~~~~~~~~~
+
+- iframe
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe
+
+  * iframe is evil
+    http://www.rwblackburn.com/iframe-evil/
+
+- embed
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed
+
+- object
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object
 
 Global attributes
 -----------------
