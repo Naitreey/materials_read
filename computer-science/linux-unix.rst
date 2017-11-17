@@ -405,6 +405,7 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
     - date(1)
     - zdump(8)
     - zic(8)
+    - time-sync.target
 
   * process time
     - time(1)
