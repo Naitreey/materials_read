@@ -52,20 +52,44 @@ sectioning root
 content sectioning
 ~~~~~~~~~~~~~~~~~~
 
+- article
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article
+
+- aside
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside
+
+- nav
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav
+
+- section
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section
+
 - h1-h6
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements
+
+- header
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header
+
+- footer
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer
 
 - address
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address
 
-- div
-  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div
-
 text content
 ~~~~~~~~~~~~
 
+- main
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main
+
+- div
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div
+
 - p
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p
+
+- pre
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre
 
 - hr
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr
@@ -97,6 +121,9 @@ text content
 - figcaption
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption
 
+- data
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/data
+
 inline text semantics
 ~~~~~~~~~~~~~~~~~~~~~
 
@@ -121,6 +148,9 @@ inline text semantics
 - em
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em
 
+- mark
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark
+
 - q
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q
 
@@ -139,8 +169,26 @@ inline text semantics
 - a
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
 
+- code
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code
+
+- kbd
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd
+
+- samp
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp
+
+- small
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/small
+
 - span
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span
+
+- bdi
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdi
+
+- bdo
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdo
 
 document edits
 ~~~~~~~~~~~~~~
