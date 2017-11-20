@@ -166,6 +166,9 @@ inline text semantics
 - s
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/s
 
+- u
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/u
+
 - a
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
 
@@ -181,14 +184,32 @@ inline text semantics
 - small
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/small
 
-- span
-  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span
+- ruby
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ruby
+
+- rp
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/rp
+
+- rt
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/rt
+
+- time
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time
 
 - bdi
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdi
 
 - bdo
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdo
+
+- var
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/var
+
+- wbr
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/wbr
+
+- span
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span
 
 document edits
 ~~~~~~~~~~~~~~
@@ -216,6 +237,12 @@ image and multimedia
 
 - track
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track
+
+- map
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/map
+
+- area
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area
 
 table content
 ~~~~~~~~~~~~~
