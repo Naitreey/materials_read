@@ -373,6 +373,33 @@ forms
 - legend
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/legend
 
+- meter
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter
+
+- progress
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress
+
+- output
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output
+
+interactive elements
+~~~~~~~~~~~~~~~~~~~~
+
+- menu
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/menu
+
+- menuitem
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/menuitem
+
+- details
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details
+
+- summary
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary
+
+- dialog
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog
+
 embeded content
 ~~~~~~~~~~~~~~~
 
