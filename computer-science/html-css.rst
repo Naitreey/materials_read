@@ -25,6 +25,9 @@ Elements
 - block-level elements
   https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements
 
+- link types for ``a``, ``area`` and ``link`` elements
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types
+
 main root
 ~~~~~~~~~
 
@@ -42,6 +45,9 @@ document metadata
 
 - meta
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+
+- link
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link
 
 sectioning root
 ~~~~~~~~~~~~~~~
@@ -458,6 +464,18 @@ Global attributes
 
 - title
   https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/title
+
+CSS
+===
+
+syntax
+------
+
+- alternate stylesheet
+  https://developer.mozilla.org/en-US/docs/Web/CSS/Alternative_style_sheets
+
+  * Correctly Using Titles With External Stylesheets
+    https://developer.mozilla.org/en-US/docs/Correctly_Using_Titles_With_External_Stylesheets
 
 misc
 ====
