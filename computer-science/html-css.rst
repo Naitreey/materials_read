@@ -13,11 +13,9 @@ general books and docs
 HTML
 ====
 
-Elements
---------
 
-- HTML element reference
-  https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+syntax
+------
 
 - inline-level elements
   https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements
@@ -25,8 +23,23 @@ Elements
 - block-level elements
   https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements
 
+link types
+----------
+
 - link types for ``a``, ``area`` and ``link`` elements
   https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types
+
+content preloading
+------------------
+
+- Preloading content with ``rel="preload"``
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Preloading_content
+
+Elements
+--------
+
+- HTML element reference
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 
 main root
 ~~~~~~~~~
@@ -48,6 +61,9 @@ document metadata
 
 - link
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link
+
+- style
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style
 
 sectioning root
 ~~~~~~~~~~~~~~~
