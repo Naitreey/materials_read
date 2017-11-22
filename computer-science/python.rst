@@ -248,6 +248,7 @@ system level utils
 - struct
 - array
 - pyinotify
+- setproctitle
 
 date, time
 ----------
