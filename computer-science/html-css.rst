@@ -487,11 +487,32 @@ CSS
 syntax
 ------
 
+- CSS syntax
+  https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax
+
 - alternate stylesheet
   https://developer.mozilla.org/en-US/docs/Web/CSS/Alternative_style_sheets
 
   * Correctly Using Titles With External Stylesheets
     https://developer.mozilla.org/en-US/docs/Correctly_Using_Titles_With_External_Stylesheets
+
+cascade, specificity, inheritance
+---------------------------------
+
+- Cascade
+  https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade
+
+- Specificity
+  https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
+
+- Inheritance
+  https://developer.mozilla.org/en-US/docs/Web/CSS/inheritance
+
+at-rule
+-------
+
+- at-rule
+  https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule
 
 misc
 ====
