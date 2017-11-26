@@ -490,6 +490,32 @@ syntax
 - CSS syntax
   https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax
 
+- shorthand properties
+  https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties
+
+- comments
+  https://developer.mozilla.org/en-US/docs/Web/CSS/Comments
+
+- value definition syntax
+  https://developer.mozilla.org/en-US/docs/Web/CSS/Value_definition_syntax
+
+- different kinds of values of a property.
+
+  * initial value
+    https://developer.mozilla.org/en-US/docs/Web/CSS/initial_value
+
+  * specified value
+    https://developer.mozilla.org/en-US/docs/Web/CSS/specified_value
+
+  * computed value
+    https://developer.mozilla.org/en-US/docs/Web/CSS/computed_value
+
+  * used value
+    https://developer.mozilla.org/en-US/docs/Web/CSS/used_value
+
+  * actual value
+    https://developer.mozilla.org/en-US/docs/Web/CSS/actual_value
+
 - alternate stylesheet
   https://developer.mozilla.org/en-US/docs/Web/CSS/Alternative_style_sheets
 
