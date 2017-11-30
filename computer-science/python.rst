@@ -388,6 +388,7 @@ network programming
   * requests
   * requests-toolbelt
   * pycurl
+  * querystring-parser (多维数组形式 querystring 解析)
 
   .. server
 
