@@ -540,6 +540,84 @@ at-rule
 - at-rule
   https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule
 
+properties
+----------
+
+text
+~~~~~
+- color
+  https://developer.mozilla.org/en-US/docs/Web/CSS/color
+
+- font-family
+  https://developer.mozilla.org/en-US/docs/Web/CSS/font-family
+
+- @font-face
+  https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face
+  https://css-tricks.com/snippets/css/using-font-face/
+
+  * font-family
+    https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-family
+
+  * src
+    https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/src
+
+- font-size
+  https://developer.mozilla.org/en-US/docs/Web/CSS/font-size
+
+- font-weight
+  https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight
+
+- font-style
+  https://developer.mozilla.org/en-US/docs/Web/CSS/font-style
+
+- text-transform
+  https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform
+
+- text-decoration
+  https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration
+
+- text-decoration-line
+  https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-line
+
+- text-decoration-style
+  https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-style
+
+- text-decoration-color
+  https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-color
+
+element
+~~~~~~~
+- opacity
+  https://developer.mozilla.org/en-US/docs/Web/CSS/opacity
+
+value data types
+----------------
+
+- ``<number>``
+  https://developer.mozilla.org/en-US/docs/Web/CSS/number
+
+- ``<percentage>``
+  https://developer.mozilla.org/en-US/docs/Web/CSS/percentage
+
+- ``<angle>``
+  https://developer.mozilla.org/en-US/docs/Web/CSS/angle
+
+- ``<color>``
+  https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
+
+- ``<family-name>``
+
+- ``<generic-name>``
+
+- ``<length>``
+  https://developer.mozilla.org/en-US/docs/Web/CSS/length
+
+- ``<url>``
+  https://developer.mozilla.org/en-US/docs/Web/CSS/url
+
+- ``<string>``
+  https://developer.mozilla.org/en-US/docs/Web/CSS/string
+
 misc
 ====
 
