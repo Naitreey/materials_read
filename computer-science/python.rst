@@ -356,11 +356,6 @@ SQL
 - mysql.connector
 - mycli
 
-GUI programming
----------------
-- wx (wxPython)
-- PyQt
-
 network programming
 -------------------
 
@@ -677,6 +672,18 @@ graphics and image processing
 -----------------------------
 - turtle
 - imghdr
+
+GUI, animation, game
+--------------------
+- wx (wxPython)
+- PyQt
+
+- matplotlib
+- processing.py
+- blender (python scripting)
+
+- kivy
+- pygame
 
 sound
 -----
