@@ -650,16 +650,46 @@ asn1
 scientific computing
 --------------------
 - math
+
 - cmath
+
 - decimal
+
 - statistics
+
 - SciPy
+
 - NumPy
-- IPython
+
 - Sympy
+
 - Matplotlib
+
 - pandas
+
 - pint
+
+- IPython
+
+- jupyter
+
+  kernels.
+
+  * ipykernel
+
+  widgets.
+
+  * ipyleaflet
+
+  * bqplot
+
+  * pythreejs
+
+  * ipyvolume
+
+  * nglview
+
+  * BeakerX
 
 c extension
 -----------
