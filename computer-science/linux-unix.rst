@@ -530,8 +530,13 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
       * wheel
       * 2to3
       * pyenv
+      * ipython
 
     - ghc, stack, cabal, hoogle
+
+  * computing
+
+    - jupyter
 
   * unix manuals
 
