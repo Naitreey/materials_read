@@ -7,6 +7,15 @@ Jupyter
 - documentation index
   https://jupyter.readthedocs.io/en/latest/
 
+architecture
+~~~~~~~~~~~~
+
+- How IPython and Jupyter Notebook work
+  https://jupyter.readthedocs.io/en/latest/architecture/how_jupyter_ipython_work.html
+
+- A Visual Overview of Projects
+  https://jupyter.readthedocs.io/en/latest/architecture/visual_overview.html
+
 Notebook
 ~~~~~~~~
 - Jupyter Notebook Quickstart

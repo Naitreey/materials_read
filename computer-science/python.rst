@@ -671,6 +671,8 @@ scientific computing
 
 - IPython
 
+  * ipyparallel
+
 - jupyter
 
   kernels.
@@ -690,6 +692,10 @@ scientific computing
   * nglview
 
   * BeakerX
+
+- traits
+
+- traitlets
 
 c extension
 -----------
