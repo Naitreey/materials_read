@@ -594,6 +594,8 @@ network programming
 
   * django-guardian
 
+  * django-jsonfield
+
   * Grappelli
 
   * Tornado
