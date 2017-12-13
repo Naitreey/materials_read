@@ -585,10 +585,21 @@ text
 - text-decoration-color
   https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-color
 
+- line-height
+  https://developer.mozilla.org/en-US/docs/Web/CSS/line-height
+
+- letter-spacing
+  https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing
+
 element
 ~~~~~~~
 - opacity
   https://developer.mozilla.org/en-US/docs/Web/CSS/opacity
+
+special
+~~~~~~~
+- all
+  https://developer.mozilla.org/en-US/docs/Web/CSS/all
 
 value data types
 ----------------
@@ -617,6 +628,20 @@ value data types
 
 - ``<string>``
   https://developer.mozilla.org/en-US/docs/Web/CSS/string
+
+global values
+~~~~~~~~~~~~~
+- initial
+  https://developer.mozilla.org/en-US/docs/Web/CSS/initial
+
+- inherit
+  https://developer.mozilla.org/en-US/docs/Web/CSS/inherit
+
+- unset
+  https://developer.mozilla.org/en-US/docs/Web/CSS/unset
+
+- revert
+  https://developer.mozilla.org/en-US/docs/Web/CSS/revert
 
 misc
 ====
