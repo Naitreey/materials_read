@@ -30,7 +30,8 @@ Notebook
   * Running the Notebook
     https://jupyter.readthedocs.io/en/latest/running.html
 
-- 
+  * introduction
+    http://jupyter-notebook.readthedocs.io/en/latest/notebook.html
 
 kernels
 ~~~~~~~
