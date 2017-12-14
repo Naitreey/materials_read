@@ -548,6 +548,12 @@ network programming
         - Conditional Expressions
           https://docs.djangoproject.com/en/1.11/ref/models/conditional-expressions/
 
+        - Model index reference
+          https://docs.djangoproject.com/en/2.0/ref/models/indexes/
+
+      * Validators
+        https://docs.djangoproject.com/en/2.0/ref/validators/
+
       * Templates
         https://docs.djangoproject.com/en/1.11/ref/templates/
 
