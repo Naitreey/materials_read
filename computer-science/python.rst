@@ -716,6 +716,8 @@ graphics and image processing
 -----------------------------
 - turtle
 - imghdr
+- stepic
+- pillow
 
 GUI, animation, game
 --------------------
