@@ -570,9 +570,6 @@ text
 - font-style
   https://developer.mozilla.org/en-US/docs/Web/CSS/font-style
 
-- text-transform
-  https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform
-
 - text-decoration
   https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration
 
@@ -585,11 +582,20 @@ text
 - text-decoration-color
   https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-color
 
+- text-transform
+  https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform
+
+- text-align
+  https://developer.mozilla.org/en-US/docs/Web/CSS/text-align
+
 - line-height
   https://developer.mozilla.org/en-US/docs/Web/CSS/line-height
 
 - letter-spacing
   https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing
+
+- word-spacing
+  https://developer.mozilla.org/en-US/docs/Web/CSS/word-spacing
 
 element
 ~~~~~~~
