@@ -33,6 +33,9 @@ Notebook
   * introduction
     http://jupyter-notebook.readthedocs.io/en/latest/notebook.html
 
+- UI Components
+  http://jupyter-notebook.readthedocs.io/en/latest/ui_components.html
+
 kernels
 ~~~~~~~
 - Jupyter kernels
