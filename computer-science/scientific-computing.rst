@@ -36,6 +36,11 @@ Notebook
 - UI Components
   http://jupyter-notebook.readthedocs.io/en/latest/ui_components.html
 
+- extensions
+
+  * jupyter vim binding
+    https://github.com/lambdalisue/jupyter-vim-binding
+
 kernels
 ~~~~~~~
 - Jupyter kernels
