@@ -23,6 +23,9 @@ syntax
 - block-level elements
   https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements
 
+- replaced & non-replaced elements
+  https://developer.mozilla.org/en-US/docs/Web/CSS/Replaced_element
+
 link types
 ----------
 
@@ -522,6 +525,17 @@ syntax
   * Correctly Using Titles With External Stylesheets
     https://developer.mozilla.org/en-US/docs/Correctly_Using_Titles_With_External_Stylesheets
 
+selectors
+---------
+
+pseudo-elements
+~~~~~~~~~~~~~~~
+- overview
+  https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
+
+- ``::before``
+  https://developer.mozilla.org/en-US/docs/Web/CSS/::before
+
 cascade, specificity, inheritance
 ---------------------------------
 
@@ -597,10 +611,27 @@ text
 - word-spacing
   https://developer.mozilla.org/en-US/docs/Web/CSS/word-spacing
 
+- vertical-align
+  https://developer.mozilla.org/en-US/docs/Web/CSS/vertical-align
+
+- text-indent
+  https://developer.mozilla.org/en-US/docs/Web/CSS/text-indent
+
+- text-shadow
+  https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow
+
+- quotes
+  https://developer.mozilla.org/en-US/docs/Web/CSS/quotes
+
 element
 ~~~~~~~
 - opacity
   https://developer.mozilla.org/en-US/docs/Web/CSS/opacity
+
+pseudo-element
+~~~~~~~~~~~~~~
+- content
+  https://developer.mozilla.org/en-US/docs/Web/CSS/content
 
 special
 ~~~~~~~
