@@ -1,6 +1,18 @@
 Tools
 =====
 
+SciPy
+-----
+
+- overview
+  https://www.scipy.org/about.html
+
+- install
+  https://www.scipy.org/install.html
+
+- Getting started
+  https://www.scipy.org/getting-started.html
+
 Jupyter
 -------
 
@@ -56,3 +68,9 @@ binder
 
 - binder
   https://mybinder.org/
+
+NumPy
+-----
+
+- NumPy manual
+  https://docs.scipy.org/doc/numpy/
