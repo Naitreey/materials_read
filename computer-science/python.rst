@@ -257,12 +257,13 @@ date, time
 - calendar
 - dateutil
 
-test
-----
+coverage & test
+---------------
 - trace
 - coverage
 - unittest
 - doctest
+- pytest
 
 refactor
 --------
@@ -359,7 +360,8 @@ SQL
 network programming
 -------------------
 
-.. lower-level structure
+lower-level stuffs
+~~~~~~~~~~~~~~~~~~
 
 - socket
 - netifaces
@@ -367,265 +369,272 @@ network programming
 - ipaddress
 - pyroute2
 
-- http and related protocols
+.. server
 
-  * http
+- socketserver
+- select
+- selectors
+- shadowsocks
 
-  .. client
+http and related protocols
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-  * http.client (httplib)
-  * urllib (urllib, urlib2)
-  * urllib.request
-  * urllib.parse (urlparse)
-  * urllib.robotparser
-  * urllib.error
-  * urllib3
-  * requests
-  * requests-toolbelt
-  * pycurl
-  * querystring-parser (多维数组形式 querystring 解析)
+* http
 
-  .. server
+.. client
 
-  * http.server (BaseHTTPServer)
-  * uWSGI
+* http.client (httplib)
+* urllib (urllib, urlib2)
+* urllib.request
+* urllib.parse (urlparse)
+* urllib.robotparser
+* urllib.error
+* urllib3
+* requests
+* requests-toolbelt
+* pycurl
+* querystring-parser (多维数组形式 querystring 解析)
 
-  .. cgi
+.. server
 
-  * cgi
+* http.server (BaseHTTPServer)
+* uWSGI
+* wsgiref
 
-  .. cookies
 
-  * http.cookies (Cookie)
-  * http.cookiejar
+.. cgi
 
-  .. web framework
+* cgi
 
-  * bottle
+.. cookies
 
-    - tutorial
-      https://bottlepy.org/docs/dev/tutorial.html
+* http.cookies (Cookie)
+* http.cookiejar
 
-  * Flask
+.. web framework
 
-  * django
+* bottle
 
-    - start
-      https://www.djangoproject.com/start/
+  - tutorial
+    https://bottlepy.org/docs/dev/tutorial.html
 
-      * overview
-        https://www.djangoproject.com/start/overview/
+* Flask
 
-    - Getting started
-      https://docs.djangoproject.com/en/stable/intro/
+* django
 
-      * Writing your first Django app, part 1,2,3,4,5,6,7
-        https://docs.djangoproject.com/en/stable/intro/tutorial01/
-        https://docs.djangoproject.com/en/stable/intro/tutorial02/
-        https://docs.djangoproject.com/en/stable/intro/tutorial03/
-        https://docs.djangoproject.com/en/stable/intro/tutorial04/
-        https://docs.djangoproject.com/en/stable/intro/tutorial05/
-        https://docs.djangoproject.com/en/stable/intro/tutorial06/
-        https://docs.djangoproject.com/en/stable/intro/tutorial07/
+  - start
+    https://www.djangoproject.com/start/
 
-      * Advanced tutorial: How to write reusable apps
-        https://docs.djangoproject.com/en/stable/intro/reusable-apps/
+    * overview
+      https://www.djangoproject.com/start/overview/
 
-      * Django at a glance
-        https://docs.djangoproject.com/en/stable/intro/overview/
+  - Getting started
+    https://docs.djangoproject.com/en/stable/intro/
 
-      * What to read next
-        https://docs.djangoproject.com/en/stable/intro/whatsnext/
+    * Writing your first Django app, part 1,2,3,4,5,6,7
+      https://docs.djangoproject.com/en/stable/intro/tutorial01/
+      https://docs.djangoproject.com/en/stable/intro/tutorial02/
+      https://docs.djangoproject.com/en/stable/intro/tutorial03/
+      https://docs.djangoproject.com/en/stable/intro/tutorial04/
+      https://docs.djangoproject.com/en/stable/intro/tutorial05/
+      https://docs.djangoproject.com/en/stable/intro/tutorial06/
+      https://docs.djangoproject.com/en/stable/intro/tutorial07/
 
-    - topics
+    * Advanced tutorial: How to write reusable apps
+      https://docs.djangoproject.com/en/stable/intro/reusable-apps/
 
-      * Models and databases
-        https://docs.djangoproject.com/en/1.11/topics/db/
+    * Django at a glance
+      https://docs.djangoproject.com/en/stable/intro/overview/
 
-        - Models
-          https://docs.djangoproject.com/en/1.11/topics/db/models/
+    * What to read next
+      https://docs.djangoproject.com/en/stable/intro/whatsnext/
 
-        - Making queries
-          https://docs.djangoproject.com/en/1.11/topics/db/queries/
+  - topics
 
-        - Aggregation
-          https://docs.djangoproject.com/en/1.11/topics/db/aggregation/
+    * Models and databases
+      https://docs.djangoproject.com/en/1.11/topics/db/
 
-        - Database transactions
-          https://docs.djangoproject.com/en/1.11/topics/db/transactions/
+      - Models
+        https://docs.djangoproject.com/en/1.11/topics/db/models/
 
-      * Class-based views
-        https://docs.djangoproject.com/en/1.11/topics/class-based-views/
+      - Making queries
+        https://docs.djangoproject.com/en/1.11/topics/db/queries/
 
-        - Introduction to class-based views
-          https://docs.djangoproject.com/en/1.11/topics/class-based-views/intro/
+      - Aggregation
+        https://docs.djangoproject.com/en/1.11/topics/db/aggregation/
 
-        - Built-in class-based generic views
-          https://docs.djangoproject.com/en/1.11/topics/class-based-views/generic-display/
+      - Database transactions
+        https://docs.djangoproject.com/en/1.11/topics/db/transactions/
 
-        - Form handling with class-based views
-          https://docs.djangoproject.com/en/1.11/topics/class-based-views/generic-editing/
+    * Class-based views
+      https://docs.djangoproject.com/en/1.11/topics/class-based-views/
 
-        - Using mixins with class-based views
-          https://docs.djangoproject.com/en/1.11/topics/class-based-views/mixins/
+      - Introduction to class-based views
+        https://docs.djangoproject.com/en/1.11/topics/class-based-views/intro/
 
-      * Migrations
-        https://docs.djangoproject.com/en/1.11/topics/migrations/
+      - Built-in class-based generic views
+        https://docs.djangoproject.com/en/1.11/topics/class-based-views/generic-display/
 
-        - How to move model between apps
-          https://stackoverflow.com/a/26472482/1602266
-          https://stackoverflow.com/a/29622570/1602266
-          https://stackoverflow.com/a/30613732/1602266
+      - Form handling with class-based views
+        https://docs.djangoproject.com/en/1.11/topics/class-based-views/generic-editing/
 
-      * Working with forms
-        https://docs.djangoproject.com/en/1.11/topics/forms/
+      - Using mixins with class-based views
+        https://docs.djangoproject.com/en/1.11/topics/class-based-views/mixins/
 
-        - Creating forms from models
-          https://docs.djangoproject.com/en/1.11/topics/forms/modelforms/
+    * Migrations
+      https://docs.djangoproject.com/en/1.11/topics/migrations/
 
-      * Templates
-        https://docs.djangoproject.com/en/1.11/topics/templates/
+      - How to move model between apps
+        https://stackoverflow.com/a/26472482/1602266
+        https://stackoverflow.com/a/29622570/1602266
+        https://stackoverflow.com/a/30613732/1602266
 
-      * Handling HTTP requests
-        https://docs.djangoproject.com/en/1.11/topics/http/
+    * Working with forms
+      https://docs.djangoproject.com/en/1.11/topics/forms/
 
-        - URL dispatcher
-          https://docs.djangoproject.com/en/1.11/topics/http/urls/
+      - Creating forms from models
+        https://docs.djangoproject.com/en/1.11/topics/forms/modelforms/
 
-        - Writing views
-          https://docs.djangoproject.com/en/1.11/topics/http/views/
+    * Templates
+      https://docs.djangoproject.com/en/1.11/topics/templates/
 
-        - View decorators
-          https://docs.djangoproject.com/en/1.11/topics/http/decorators/
+    * Handling HTTP requests
+      https://docs.djangoproject.com/en/1.11/topics/http/
 
-        - File Uploads
-          https://docs.djangoproject.com/en/1.11/topics/http/file-uploads/
+      - URL dispatcher
+        https://docs.djangoproject.com/en/1.11/topics/http/urls/
 
-        - Django shortcut functions
-          https://docs.djangoproject.com/en/1.11/topics/http/shortcuts/
+      - Writing views
+        https://docs.djangoproject.com/en/1.11/topics/http/views/
 
-        - Middleware
-          https://docs.djangoproject.com/en/1.11/topics/http/middleware/
+      - View decorators
+        https://docs.djangoproject.com/en/1.11/topics/http/decorators/
 
-        - How to use sessions
-          https://docs.djangoproject.com/en/1.11/topics/http/sessions/
+      - File Uploads
+        https://docs.djangoproject.com/en/1.11/topics/http/file-uploads/
 
-      * User authentication in Django
-        https://docs.djangoproject.com/en/1.11/topics/auth/
+      - Django shortcut functions
+        https://docs.djangoproject.com/en/1.11/topics/http/shortcuts/
 
-        - Using the Django authentication system
-          https://docs.djangoproject.com/en/1.11/topics/auth/default/
+      - Middleware
+        https://docs.djangoproject.com/en/1.11/topics/http/middleware/
 
-        - Customizing authentication in Django
-          https://docs.djangoproject.com/en/1.11/topics/auth/customizing/
+      - How to use sessions
+        https://docs.djangoproject.com/en/1.11/topics/http/sessions/
 
-      * Signals
-        https://docs.djangoproject.com/en/1.11/topics/signals/
+    * User authentication in Django
+      https://docs.djangoproject.com/en/1.11/topics/auth/
 
-      * The contenttypes framework
-        https://docs.djangoproject.com/en/1.11/ref/contrib/contenttypes/
+      - Using the Django authentication system
+        https://docs.djangoproject.com/en/1.11/topics/auth/default/
 
-    - "How-to" guides
+      - Customizing authentication in Django
+        https://docs.djangoproject.com/en/1.11/topics/auth/customizing/
 
-      * Managing static files (e.g. images, JavaScript, CSS)
-        https://docs.djangoproject.com/en/1.11/howto/static-files/
+    * Signals
+      https://docs.djangoproject.com/en/1.11/topics/signals/
 
-      * Outputting CSV with Django
-        https://docs.djangoproject.com/en/1.11/howto/outputting-csv/
+    * The contenttypes framework
+      https://docs.djangoproject.com/en/1.11/ref/contrib/contenttypes/
 
-      * Writing custom model fields
-        https://docs.djangoproject.com/en/1.11/howto/custom-model-fields/
+  - "How-to" guides
 
-    - API reference
-      https://docs.djangoproject.com/en/1.11/ref/
+    * Managing static files (e.g. images, JavaScript, CSS)
+      https://docs.djangoproject.com/en/1.11/howto/static-files/
 
-      * Models
-        https://docs.djangoproject.com/en/1.11/ref/models/
+    * Outputting CSV with Django
+      https://docs.djangoproject.com/en/1.11/howto/outputting-csv/
 
-        - Model Meta options
-          https://docs.djangoproject.com/en/1.11/ref/models/options/
+    * Writing custom model fields
+      https://docs.djangoproject.com/en/1.11/howto/custom-model-fields/
 
-        - Conditional Expressions
-          https://docs.djangoproject.com/en/1.11/ref/models/conditional-expressions/
+  - API reference
+    https://docs.djangoproject.com/en/1.11/ref/
 
-        - Model index reference
-          https://docs.djangoproject.com/en/2.0/ref/models/indexes/
+    * Models
+      https://docs.djangoproject.com/en/1.11/ref/models/
 
-      * Validators
-        https://docs.djangoproject.com/en/2.0/ref/validators/
+      - Model Meta options
+        https://docs.djangoproject.com/en/1.11/ref/models/options/
 
-      * Templates
-        https://docs.djangoproject.com/en/1.11/ref/templates/
+      - Conditional Expressions
+        https://docs.djangoproject.com/en/1.11/ref/models/conditional-expressions/
 
-        - The Django Template Language
-          https://docs.djangoproject.com/en/1.11/ref/templates/language/
+      - Model index reference
+        https://docs.djangoproject.com/en/2.0/ref/models/indexes/
 
-        - Built-in template tags and filters
-          https://docs.djangoproject.com/en/1.11/ref/templates/builtins/
+    * Validators
+      https://docs.djangoproject.com/en/2.0/ref/validators/
 
-        - The Django template language: for Python programmers
-          https://docs.djangoproject.com/en/1.11/ref/templates/api/
+    * Templates
+      https://docs.djangoproject.com/en/1.11/ref/templates/
 
-      * contrib packages
-        https://docs.djangoproject.com/en/1.11/ref/contrib/
+      - The Django Template Language
+        https://docs.djangoproject.com/en/1.11/ref/templates/language/
 
-        - The Django admin site
-          https://docs.djangoproject.com/en/1.11/ref/contrib/admin/
+      - Built-in template tags and filters
+        https://docs.djangoproject.com/en/1.11/ref/templates/builtins/
 
-          * Admin actions
-            https://docs.djangoproject.com/en/1.11/ref/contrib/admin/actions/
+      - The Django template language: for Python programmers
+        https://docs.djangoproject.com/en/1.11/ref/templates/api/
 
-        - The messages framework
-          https://docs.djangoproject.com/en/1.11/ref/contrib/messages/
+    * contrib packages
+      https://docs.djangoproject.com/en/1.11/ref/contrib/
 
-      * Request and response objects
-        https://docs.djangoproject.com/en/1.11/ref/request-response/
+      - The Django admin site
+        https://docs.djangoproject.com/en/1.11/ref/contrib/admin/
 
-    - Django's release schedule
-      https://www.djangoproject.com/download/
-      https://www.djangoproject.com/weblog/2015/jun/25/roadmap/
+        * Admin actions
+          https://docs.djangoproject.com/en/1.11/ref/contrib/admin/actions/
 
-  * django-nested-admin
-    http://django-nested-admin.readthedocs.io/en/latest/
+      - The messages framework
+        https://docs.djangoproject.com/en/1.11/ref/contrib/messages/
 
-  * django-widget-tweaks
+    * Request and response objects
+      https://docs.djangoproject.com/en/1.11/ref/request-response/
 
-  * django-redis
+  - Django's release schedule
+    https://www.djangoproject.com/download/
+    https://www.djangoproject.com/weblog/2015/jun/25/roadmap/
 
-  * django-session-security
+* django-nested-admin
+  http://django-nested-admin.readthedocs.io/en/latest/
 
-  * django-debug-toolbar
+* django-widget-tweaks
 
-  * djangorestframework
+* django-redis
 
-  * django-guardian
+* django-session-security
 
-  * django-jsonfield
+* django-debug-toolbar
 
-  * Grappelli
+* djangorestframework
 
-  * Tornado
+* django-guardian
 
-  * Twisted
+* django-jsonfield
 
-- ssh
+* Grappelli
 
-  * paramiko
+* Tornado
+
+* Twisted
+
+ssh
+~~~
+
+* paramiko
+
+RPC
+~~~
 
 - XML-RPC
+
   .. (ok, why not REST?)
 
   * xmlrpc
   * xmlrpc.client (xmlrpclib)
   * xmlrpc.server (SimpleXMLRPCServer)
-
-.. server
-
-- wsgiref
-- socketserver
-- select
-- selectors
-- shadowsocks
 
 template
 --------
@@ -681,7 +690,11 @@ scientific computing
 
   * ipyparallel
 
-- jupyter
+- Dask
+
+- Joblib
+
+- Jupyter
 
   kernels.
 
@@ -705,11 +718,15 @@ scientific computing
 
 - traitlets
 
+machine-learning
+----------------
+- scikit-learn
+
 c extension
 -----------
 - SWIG
 - ctypes
-- cython
+- Cython
 - cffi
 
 graphics and image processing
@@ -718,10 +735,11 @@ graphics and image processing
 - imghdr
 - stepic
 - pillow
+- scikit-image
 
 GUI, animation, game
 --------------------
-- wx (wxPython)
+- wxPython
 - PyQt
 
 - matplotlib
@@ -751,6 +769,8 @@ message queue
 - beanstalkc
 
 - pynsq
+
+- pyzmq
 
 task queue
 ----------
@@ -810,12 +830,22 @@ vcs
 
 file format manipulation
 ------------------------
-.. pdf
+pdf
+~~~
 
 - pypdf2
-.. microsoft excel
+
+microsoft excel
+~~~~~~~~~~~~~~~
 
 - xlwt
+
+HDF
+~~~
+-h5py
+
+- PyTables
+
 
 iOS
 ---
