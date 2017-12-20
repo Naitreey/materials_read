@@ -536,6 +536,18 @@ pseudo-elements
 - ``::before``
   https://developer.mozilla.org/en-US/docs/Web/CSS/::before
 
+- ``::after``
+  https://developer.mozilla.org/en-US/docs/Web/CSS/::after
+
+- ``::first-letter``
+  https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter
+
+- ``::first-line``
+  https://developer.mozilla.org/en-US/docs/Web/CSS/%3A%3Afirst-line
+
+- ``::selection``
+  https://developer.mozilla.org/en-US/docs/Web/CSS/::selection
+
 cascade, specificity, inheritance
 ---------------------------------
 
@@ -632,6 +644,17 @@ pseudo-element
 ~~~~~~~~~~~~~~
 - content
   https://developer.mozilla.org/en-US/docs/Web/CSS/content
+
+counter
+~~~~~~~
+- Using CSS counters
+  https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Lists_and_Counters/Using_CSS_counters
+
+- counter-reset
+  https://developer.mozilla.org/en-US/docs/Web/CSS/counter-reset
+
+- counter-increment
+  https://developer.mozilla.org/en-US/docs/Web/CSS/counter-increment
 
 special
 ~~~~~~~
