@@ -148,6 +148,20 @@ cookies
 - Set-Cookie
   https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie
 
+nginx
+~~~~~
+- overview
+  https://nginx.org/en/
+
+- beginner's guide
+  https://nginx.org/en/docs/beginners_guide.html
+
+- controlling nginx
+  https://nginx.org/en/docs/control.html
+
+- how nginx processes a request
+  http://nginx.org/en/docs/http/request_processing.html
+
 email
 -----
 RFC2822: Internet Message Format
