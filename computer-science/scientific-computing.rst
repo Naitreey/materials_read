@@ -71,6 +71,17 @@ binder
 
 NumPy
 -----
+- overview
+  https://docs.scipy.org/doc/numpy/about.html
+
+  * What is NumPy
+    https://docs.scipy.org/doc/numpy/user/whatisnumpy.html
 
 - NumPy manual
   https://docs.scipy.org/doc/numpy/
+
+  * NumPy User Guide
+    https://docs.scipy.org/doc/numpy/user/index.html
+
+    - quickstart tutorial
+      https://docs.scipy.org/doc/numpy/user/quickstart.html
