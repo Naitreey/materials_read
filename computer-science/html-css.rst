@@ -528,6 +528,43 @@ syntax
 selectors
 ---------
 
+basic selectors
+~~~~~~~~~~~~~~~
+- type selector
+  https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors
+
+- class selector
+  https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors
+
+- ID selector
+  https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors
+
+- Universal selector
+  https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors
+
+- Attribute selector
+  https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors
+
+pseudo-classes
+~~~~~~~~~~~~~~
+- overview
+  https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+
+- ``:link``
+  https://developer.mozilla.org/en-US/docs/Web/CSS/:link
+
+- ``:visited``
+  https://developer.mozilla.org/en-US/docs/Web/CSS/:visited
+
+- ``:hover``
+  https://developer.mozilla.org/en-US/docs/Web/CSS/:hover
+
+- ``:focus``
+  https://developer.mozilla.org/en-US/docs/Web/CSS/:focus
+
+- ``:active``
+  https://developer.mozilla.org/en-US/docs/Web/CSS/:active
+
 pseudo-elements
 ~~~~~~~~~~~~~~~
 - overview
