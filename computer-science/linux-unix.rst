@@ -952,6 +952,7 @@ open container, runC, docker (os-level virtualization)
 ------------------------------------------------------
 - Open Container Specifications
   https://github.com/opencontainers/specs
+
 - OCI FAQs
   https://www.opencontainers.org/faq
 
@@ -960,6 +961,7 @@ runC
 
 - runC homepage Getting Started
   https://runc.io/
+
 - runC readme
   https://github.com/opencontainers/runc
 
@@ -973,8 +975,20 @@ docker
 
 - docker documentation
 
-  * Get started with Docker
-    https://docs.docker.com/engine/getstarted/
+  * Install Docker
+    https://docs.docker.com/engine/installation/
+
+    - Get Docker CE for Ubuntu
+      https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/
+
+    - Post-installation steps for Linux
+      https://docs.docker.com/engine/installation/linux/linux-postinstall/
+
+    - Docker CE Edge
+      https://docs.docker.com/edge/
+
+  * Get Started
+    https://docs.docker.com/get-started/
 
   * Define and deploy your app
     https://docs.docker.com/engine/getstarted-voting-app/
