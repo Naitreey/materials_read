@@ -598,6 +598,9 @@ http and related protocols
     https://www.djangoproject.com/download/
     https://www.djangoproject.com/weblog/2015/jun/25/roadmap/
 
+  - Django packages
+    https://djangopackages.org/
+
 * django-nested-admin
   http://django-nested-admin.readthedocs.io/en/latest/
 
