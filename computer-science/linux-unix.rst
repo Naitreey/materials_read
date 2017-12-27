@@ -497,10 +497,10 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
     - docker
       * docker pull(1)
       * docker images(1), docker image ls(1)
-      * docker run(1)
+      * docker build(1), docker image build(1)
+      * docker run(1), docker container run(1)
       * docker start(1)
       * docker stop(1), docker container stop(1)
-      * docker build(1)
       * docker tag(1), docker image tag(1)
       * docker rm(1), docker container rm(1)
       * docker rmi(1), docker image rm(1)
@@ -516,8 +516,10 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
       * docker volume inspect(1)
       * docker-compose
       * docker-commit(1), docker container commit(1)
+      * docker logs(1), docker container logs(1)
+      * docker kill(1), docker container kill(1)
       * (create|rename|
-      stop|kill|attach|export|logs|
+      attach|export|
       history|exec)
 
   * language tools
