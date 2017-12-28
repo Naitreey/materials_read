@@ -495,32 +495,46 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
     - runc (start|spec|kill|list)
 
     - docker
-      * docker pull(1)
+
+      * docker pull(1), docker image pull(1)
+      * docker push(1), docker image push(1)
       * docker images(1), docker image ls(1)
       * docker build(1), docker image build(1)
-      * docker run(1), docker container run(1)
-      * docker start(1)
-      * docker stop(1), docker container stop(1)
       * docker tag(1), docker image tag(1)
-      * docker rm(1), docker container rm(1)
       * docker rmi(1), docker image rm(1)
+
+      * docker run(1), docker container run(1)
+      * docker start(1), docker container start(1)
+      * docker stop(1), docker container stop(1)
+      * docker kill(1), docker container kill(1)
+      * docker rm(1), docker container rm(1)
+      * docker port(1), docker container port(1)
+      * docker ps(1), docker container ls(1)
+      * docker commit(1), docker container commit(1)
+      * docker logs(1), docker container logs(1)
+
       * docker login(1)
       * docker logout(1)
-      * docker push(1), docker image push(1)
-      * docker port(1), docker container port(1)
       * docker events(1), docker system events(1)
       * docker info(1), docker system info(1)
-      * docker ps(1), docker container ls(1)
+
       * docker volume create(1)
       * docker volume ls(1)
       * docker volume inspect(1)
-      * docker-compose
-      * docker-commit(1), docker container commit(1)
-      * docker logs(1), docker container logs(1)
-      * docker kill(1), docker container kill(1)
+
       * (create|rename|
       attach|export|
       history|exec)
+
+      * docker-compose
+
+      * docker swarm init(1)
+      * docker swarm join(1)
+
+      * docker stack deploy(1)
+
+      * docker service ls(1)
+      * docker service ps(1)
 
   * language tools
     - python
