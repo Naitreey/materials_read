@@ -496,45 +496,66 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
 
     - docker
 
-      * docker pull(1), docker image pull(1)
-      * docker push(1), docker image push(1)
-      * docker images(1), docker image ls(1)
-      * docker build(1), docker image build(1)
-      * docker tag(1), docker image tag(1)
-      * docker rmi(1), docker image rm(1)
+      * docker image pull(1), docker pull(1)
+      * docker image push(1), docker push(1)
+      * docker image ls(1), docker images(1)
+      * docker image build(1), docker build(1)
+      * docker image tag(1), docker tag(1)
+      * docker image rm(1), docker rmi(1)
 
-      * docker run(1), docker container run(1)
-      * docker start(1), docker container start(1)
-      * docker stop(1), docker container stop(1)
-      * docker kill(1), docker container kill(1)
-      * docker rm(1), docker container rm(1)
-      * docker port(1), docker container port(1)
-      * docker ps(1), docker container ls(1)
-      * docker commit(1), docker container commit(1)
-      * docker logs(1), docker container logs(1)
+      * docker container run(1), docker run(1)
+      * docker container start(1), docker start(1)
+      * docker container stop(1), docker stop(1)
+      * docker container kill(1), docker kill(1)
+      * docker container rm(1), docker rm(1)
+      * docker container port(1), docker port(1)
+      * docker container ls(1), docker ps(1)
+      * docker container commit(1), docker commit(1)
+      * docker container logs(1), docker logs(1)
 
       * docker login(1)
       * docker logout(1)
-      * docker events(1), docker system events(1)
-      * docker info(1), docker system info(1)
+
+      * docker system events(1), docker events(1)
+      * docker system info(1), docker info(1)
 
       * docker volume create(1)
       * docker volume ls(1)
       * docker volume inspect(1)
 
-      * (create|rename|
-      attach|export|
-      history|exec)
-
-      * docker-compose
-
       * docker swarm init(1)
       * docker swarm join(1)
 
       * docker stack deploy(1)
+      * docker stack rm(1)
+      * docker stack ls(1)
+      * docker stack ps(1)
 
       * docker service ls(1)
       * docker service ps(1)
+
+      * docker network create(1)
+      * docker network ls(1)
+      * docker network inspect(1)
+      * docker network connect(1)
+      * docker network disconnect(1)
+
+      * docker inspect(1)
+
+      * docker-compose
+
+      * docker-machine create.
+      * docker-machine ls.
+      * docker-machine ssh.
+      * docker-machine env.
+      * docker-machine ip.
+      * docker-machine start.
+      * docker-machine stop.
+      * docker-machine rm.
+
+      * (create|rename|
+      attach|export|
+      history|exec)
 
   * language tools
     - python
@@ -830,6 +851,12 @@ Firewall & NAT
   * Advanced Firewall Configuration with ipset
     http://www.linuxjournal.com/content/advanced-firewall-configurations-ipset
 
+Bluetooth
+---------
+
+- archlinux bluetooth wiki
+  https://wiki.archlinux.org/index.php/bluetooth
+
 Desktop Environment
 ===================
 
@@ -1003,7 +1030,7 @@ docker
     - Docker CE Edge
       https://docs.docker.com/edge/
 
-  * Get Started
+  * Get Started: Part1 -- Part6
     https://docs.docker.com/get-started/
 
   * Define and deploy your app
@@ -1027,6 +1054,11 @@ docker
 
     - Get started with Docker Compose
       https://docs.docker.com/compose/gettingstarted/
+
+  * Networking
+
+    - guide
+      https://docs.docker.com/engine/tutorials/networkingcontainers/
 
   * Docker Registry
 
