@@ -7,5 +7,8 @@ books
 derivatives
 ===========
 
+- partial derivative wiki
+  https://en.wikipedia.org/wiki/Partial_derivative
+
 - total derivative wiki
   https://en.wikipedia.org/wiki/Total_derivative
