@@ -591,6 +591,9 @@ http and related protocols
       - The messages framework
         https://docs.djangoproject.com/en/1.11/ref/contrib/messages/
 
+      - authentication
+        https://docs.djangoproject.com/en/2.0/ref/contrib/auth/
+
     * Request and response objects
       https://docs.djangoproject.com/en/1.11/ref/request-response/
 
