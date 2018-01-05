@@ -453,37 +453,37 @@ http and related protocols
   - topics
 
     * Models and databases
-      https://docs.djangoproject.com/en/1.11/topics/db/
+      https://docs.djangoproject.com/en/stable/topics/db/
 
       - Models
-        https://docs.djangoproject.com/en/1.11/topics/db/models/
+        https://docs.djangoproject.com/en/stable/topics/db/models/
 
       - Making queries
-        https://docs.djangoproject.com/en/1.11/topics/db/queries/
+        https://docs.djangoproject.com/en/stable/topics/db/queries/
 
       - Aggregation
-        https://docs.djangoproject.com/en/1.11/topics/db/aggregation/
+        https://docs.djangoproject.com/en/stable/topics/db/aggregation/
 
       - Database transactions
-        https://docs.djangoproject.com/en/1.11/topics/db/transactions/
+        https://docs.djangoproject.com/en/stable/topics/db/transactions/
 
     * Class-based views
-      https://docs.djangoproject.com/en/1.11/topics/class-based-views/
+      https://docs.djangoproject.com/en/stable/topics/class-based-views/
 
       - Introduction to class-based views
-        https://docs.djangoproject.com/en/1.11/topics/class-based-views/intro/
+        https://docs.djangoproject.com/en/stable/topics/class-based-views/intro/
 
       - Built-in class-based generic views
-        https://docs.djangoproject.com/en/1.11/topics/class-based-views/generic-display/
+        https://docs.djangoproject.com/en/stable/topics/class-based-views/generic-display/
 
       - Form handling with class-based views
-        https://docs.djangoproject.com/en/1.11/topics/class-based-views/generic-editing/
+        https://docs.djangoproject.com/en/stable/topics/class-based-views/generic-editing/
 
       - Using mixins with class-based views
-        https://docs.djangoproject.com/en/1.11/topics/class-based-views/mixins/
+        https://docs.djangoproject.com/en/stable/topics/class-based-views/mixins/
 
     * Migrations
-      https://docs.djangoproject.com/en/1.11/topics/migrations/
+      https://docs.djangoproject.com/en/stable/topics/migrations/
 
       - How to move model between apps
         https://stackoverflow.com/a/26472482/1602266
@@ -491,75 +491,78 @@ http and related protocols
         https://stackoverflow.com/a/30613732/1602266
 
     * Working with forms
-      https://docs.djangoproject.com/en/1.11/topics/forms/
+      https://docs.djangoproject.com/en/stable/topics/forms/
 
       - Creating forms from models
-        https://docs.djangoproject.com/en/1.11/topics/forms/modelforms/
+        https://docs.djangoproject.com/en/stable/topics/forms/modelforms/
 
     * Templates
-      https://docs.djangoproject.com/en/1.11/topics/templates/
+      https://docs.djangoproject.com/en/stable/topics/templates/
 
     * Handling HTTP requests
-      https://docs.djangoproject.com/en/1.11/topics/http/
+      https://docs.djangoproject.com/en/stable/topics/http/
 
       - URL dispatcher
-        https://docs.djangoproject.com/en/1.11/topics/http/urls/
+        https://docs.djangoproject.com/en/stable/topics/http/urls/
 
       - Writing views
-        https://docs.djangoproject.com/en/1.11/topics/http/views/
+        https://docs.djangoproject.com/en/stable/topics/http/views/
 
       - View decorators
-        https://docs.djangoproject.com/en/1.11/topics/http/decorators/
+        https://docs.djangoproject.com/en/stable/topics/http/decorators/
 
       - File Uploads
-        https://docs.djangoproject.com/en/1.11/topics/http/file-uploads/
+        https://docs.djangoproject.com/en/stable/topics/http/file-uploads/
 
       - Django shortcut functions
-        https://docs.djangoproject.com/en/1.11/topics/http/shortcuts/
+        https://docs.djangoproject.com/en/stable/topics/http/shortcuts/
 
       - Middleware
-        https://docs.djangoproject.com/en/1.11/topics/http/middleware/
+        https://docs.djangoproject.com/en/stable/topics/http/middleware/
 
       - How to use sessions
-        https://docs.djangoproject.com/en/1.11/topics/http/sessions/
+        https://docs.djangoproject.com/en/stable/topics/http/sessions/
 
     * User authentication in Django
-      https://docs.djangoproject.com/en/1.11/topics/auth/
+      https://docs.djangoproject.com/en/stable/topics/auth/
 
       - Using the Django authentication system
-        https://docs.djangoproject.com/en/1.11/topics/auth/default/
+        https://docs.djangoproject.com/en/stable/topics/auth/default/
 
       - Customizing authentication in Django
-        https://docs.djangoproject.com/en/1.11/topics/auth/customizing/
+        https://docs.djangoproject.com/en/stable/topics/auth/customizing/
 
     * Signals
-      https://docs.djangoproject.com/en/1.11/topics/signals/
+      https://docs.djangoproject.com/en/stable/topics/signals/
 
     * The contenttypes framework
-      https://docs.djangoproject.com/en/1.11/ref/contrib/contenttypes/
+      https://docs.djangoproject.com/en/stable/ref/contrib/contenttypes/
 
   - "How-to" guides
 
     * Managing static files (e.g. images, JavaScript, CSS)
-      https://docs.djangoproject.com/en/1.11/howto/static-files/
+      https://docs.djangoproject.com/en/stable/howto/static-files/
 
     * Outputting CSV with Django
-      https://docs.djangoproject.com/en/1.11/howto/outputting-csv/
+      https://docs.djangoproject.com/en/stable/howto/outputting-csv/
 
     * Writing custom model fields
-      https://docs.djangoproject.com/en/1.11/howto/custom-model-fields/
+      https://docs.djangoproject.com/en/stable/howto/custom-model-fields/
+
+    * Authentication using ``REMOTE_USER``
+      https://docs.djangoproject.com/en/2.0/howto/auth-remote-user/
 
   - API reference
-    https://docs.djangoproject.com/en/1.11/ref/
+    https://docs.djangoproject.com/en/stable/ref/
 
     * Models
-      https://docs.djangoproject.com/en/1.11/ref/models/
+      https://docs.djangoproject.com/en/stable/ref/models/
 
       - Model Meta options
-        https://docs.djangoproject.com/en/1.11/ref/models/options/
+        https://docs.djangoproject.com/en/stable/ref/models/options/
 
       - Conditional Expressions
-        https://docs.djangoproject.com/en/1.11/ref/models/conditional-expressions/
+        https://docs.djangoproject.com/en/stable/ref/models/conditional-expressions/
 
       - Model index reference
         https://docs.djangoproject.com/en/2.0/ref/models/indexes/
@@ -568,34 +571,34 @@ http and related protocols
       https://docs.djangoproject.com/en/2.0/ref/validators/
 
     * Templates
-      https://docs.djangoproject.com/en/1.11/ref/templates/
+      https://docs.djangoproject.com/en/stable/ref/templates/
 
       - The Django Template Language
-        https://docs.djangoproject.com/en/1.11/ref/templates/language/
+        https://docs.djangoproject.com/en/stable/ref/templates/language/
 
       - Built-in template tags and filters
-        https://docs.djangoproject.com/en/1.11/ref/templates/builtins/
+        https://docs.djangoproject.com/en/stable/ref/templates/builtins/
 
       - The Django template language: for Python programmers
-        https://docs.djangoproject.com/en/1.11/ref/templates/api/
+        https://docs.djangoproject.com/en/stable/ref/templates/api/
 
     * contrib packages
-      https://docs.djangoproject.com/en/1.11/ref/contrib/
+      https://docs.djangoproject.com/en/stable/ref/contrib/
 
       - The Django admin site
-        https://docs.djangoproject.com/en/1.11/ref/contrib/admin/
+        https://docs.djangoproject.com/en/stable/ref/contrib/admin/
 
         * Admin actions
-          https://docs.djangoproject.com/en/1.11/ref/contrib/admin/actions/
+          https://docs.djangoproject.com/en/stable/ref/contrib/admin/actions/
 
       - The messages framework
-        https://docs.djangoproject.com/en/1.11/ref/contrib/messages/
+        https://docs.djangoproject.com/en/stable/ref/contrib/messages/
 
       - authentication
         https://docs.djangoproject.com/en/2.0/ref/contrib/auth/
 
     * Request and response objects
-      https://docs.djangoproject.com/en/1.11/ref/request-response/
+      https://docs.djangoproject.com/en/stable/ref/request-response/
 
   - Django's release schedule
     https://www.djangoproject.com/download/
@@ -620,6 +623,12 @@ http and related protocols
 * django-guardian
 
 * django-jsonfield
+
+* django-auth-ldap
+  https://bitbucket.org/psagers/django-auth-ldap
+
+  - Documentation
+    https://django-auth-ldap.readthedocs.io/en/latest/index.html
 
 * Grappelli
 
@@ -670,6 +679,10 @@ SNMP
 asn1
 ----
 - pyasn1
+
+ldap
+----
+- python-ldap
 
 scientific computing
 --------------------
