@@ -242,6 +242,15 @@ Shadowsocks
 - Shadowsocks + ChnRoute 实现 OpenWRT / LEDE 路由器自动翻墙
   https://cokebar.info/archives/664
 
+authentication
+--------------
+
+Lightweight Directory Access Protocol (LDAP)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- wiki
+  https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol
+
 misc
 ----
 Discard Protocol
