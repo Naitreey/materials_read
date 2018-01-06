@@ -57,6 +57,9 @@ Vulnerabilities
 - Stagefright
   https://en.wikipedia.org/wiki/Stagefright_(bug)
 
+- meltdown
+  https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)
+
 Penetration Testing
 ===================
 - metasploit
