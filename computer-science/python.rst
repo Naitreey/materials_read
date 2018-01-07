@@ -56,7 +56,7 @@ libraries and frameworks
 ========================
 concurrency
 -----------
-- subprocess
+- subprocess (with source)
   * Creating pipelines with subprocess
     http://www.enricozini.org/blog/2009/debian/python-pipes/
   * Python SIGPIPE handling
@@ -129,7 +129,7 @@ cmdline parser
 --------------
 - getopt
 - optparse
-- argparse
+- argparse (with source)
 - docopt
 - click
 
@@ -298,13 +298,13 @@ compression
 
 ABC
 ---
-- abc
-- collections.abc
+- abc (with source)
+- collections.abc (with source)
 - numbers
 
 data structure
 --------------
-- collections
+- collections (with source)
 - heapq
 - queue
 - enum
@@ -414,14 +414,14 @@ http and related protocols
 
 .. web framework
 
-* bottle
+* bottle (with source)
 
   - tutorial
     https://bottlepy.org/docs/dev/tutorial.html
 
 * Flask
 
-* django
+* django (with source)
 
   - start
     https://www.djangoproject.com/start/
@@ -624,11 +624,17 @@ http and related protocols
 
 * django-jsonfield
 
-* django-auth-ldap
+* django-auth-ldap (with source)
   https://bitbucket.org/psagers/django-auth-ldap
 
   - Documentation
     https://django-auth-ldap.readthedocs.io/en/latest/index.html
+
+    * installation
+      https://django-auth-ldap.readthedocs.io/en/latest/install.html
+
+    * authentication
+      https://django-auth-ldap.readthedocs.io/en/latest/authentication.html
 
 * Grappelli
 
@@ -819,7 +825,7 @@ task queue
 
 logging and warning
 -------------------
-- logging
+- logging (with source)
   * logging
   * logging.config
   * logging.handlers
@@ -842,7 +848,7 @@ vcs
 ---
 .. git
 
-- gitpython
+- gitpython (with source)
   * tutorial
     http://gitpython.readthedocs.io/en/stable/tutorial.html
 
