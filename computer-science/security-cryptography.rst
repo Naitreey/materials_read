@@ -60,6 +60,9 @@ Vulnerabilities
 - meltdown
   https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)
 
+- Spectre
+  https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)
+
 Penetration Testing
 ===================
 - metasploit
