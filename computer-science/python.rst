@@ -532,6 +532,9 @@ http and related protocols
       - Customizing authentication in Django
         https://docs.djangoproject.com/en/stable/topics/auth/customizing/
 
+      - Password Management in Django
+        https://docs.djangoproject.com/en/2.0/topics/auth/passwords/
+
     * Signals
       https://docs.djangoproject.com/en/stable/topics/signals/
 
