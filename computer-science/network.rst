@@ -251,6 +251,9 @@ Lightweight Directory Access Protocol (LDAP)
 - wiki
   https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol
 
+- search filter syntax
+  https://msdn.microsoft.com/en-us/library/aa746475(v=vs.85).aspx
+
 misc
 ----
 Discard Protocol

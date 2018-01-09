@@ -639,6 +639,9 @@ http and related protocols
     * authentication
       https://django-auth-ldap.readthedocs.io/en/latest/authentication.html
 
+    * user objects
+      https://django-auth-ldap.readthedocs.io/en/latest/users.html
+
 * Grappelli
 
 * Tornado
