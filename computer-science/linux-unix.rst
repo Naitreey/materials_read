@@ -1039,6 +1039,9 @@ docker
   * Define and deploy your app
     https://docs.docker.com/engine/getstarted-voting-app/
 
+  * Docker development best practices
+    https://docs.docker.com/develop/dev-best-practices/
+
   * Docker Engine
 
     - Overview
