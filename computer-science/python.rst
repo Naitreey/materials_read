@@ -541,6 +541,9 @@ http and related protocols
     * The contenttypes framework
       https://docs.djangoproject.com/en/stable/ref/contrib/contenttypes/
 
+    * Security in Django
+      https://docs.djangoproject.com/en/2.0/topics/security/
+
   - "How-to" guides
 
     * Managing static files (e.g. images, JavaScript, CSS)
@@ -602,6 +605,9 @@ http and related protocols
 
     * Request and response objects
       https://docs.djangoproject.com/en/stable/ref/request-response/
+
+    * Cross Site Request Forgery protection
+      https://docs.djangoproject.com/en/2.0/ref/csrf/
 
   - Django's release schedule
     https://www.djangoproject.com/download/
