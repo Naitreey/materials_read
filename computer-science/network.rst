@@ -46,6 +46,14 @@ overview
   * HTTP access control (CORS)
     https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS
 
+- HTTP Strict Transport Security (HSTS)
+  https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security
+
+  * HSTS preload checking
+    https://hstspreload.org/
+
+security
+~~~~~~~~
 - Cross-Site Scripting (XSS)
   https://en.wikipedia.org/wiki/Cross-site_scripting
 
@@ -147,6 +155,11 @@ cookies
 .......
 - Set-Cookie
   https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie
+
+security
+........
+- Strict-Transport-Security (HSTS)
+  https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security
 
 nginx
 ~~~~~
