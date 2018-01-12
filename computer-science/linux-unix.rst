@@ -598,7 +598,14 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
 
   * network management
 
+    - interface configuration
+
+      * systemd-networkd.service(8)
+
+      * systemd.network(5)
+
     - firewall
+
       * iptables(8), iptables-extensions(8)
 
     - ipset(8)
@@ -807,6 +814,11 @@ Magic SysRq key
 
 Networking
 ==========
+Interface configuration
+-----------------------
+
+- systemd-networkd archlinux wiki
+  https://wiki.archlinux.org/index.php/systemd-networkd
 
 DNS
 ---
