@@ -464,6 +464,12 @@ http and related protocols
       - Aggregation
         https://docs.djangoproject.com/en/stable/topics/db/aggregation/
 
+      - Search
+        https://docs.djangoproject.com/en/2.0/topics/db/search/
+
+      - Managers
+        https://docs.djangoproject.com/en/2.0/topics/db/managers/
+
       - Database transactions
         https://docs.djangoproject.com/en/stable/topics/db/transactions/
 
