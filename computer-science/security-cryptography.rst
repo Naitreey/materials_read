@@ -1,3 +1,8 @@
+organization
+============
+- Open Web Application Security Project (OWASP)
+  https://en.wikipedia.org/wiki/OWASP
+
 jargon
 ======
 - pwn
@@ -40,6 +45,11 @@ Password Cracking
 
 Steganography
 =============
+
+database
+========
+- SQL injection
+  https://en.wikipedia.org/wiki/SQL_injection
 
 Credentials
 ===========
