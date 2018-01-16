@@ -218,6 +218,20 @@ SNMP
 domain name system (DNS)
 ------------------------
 
+- Domain Name System (DNS) wiki
+  https://en.wikipedia.org/wiki/Domain_Name_System
+
+- Recursive and Iterative Queries
+  https://technet.microsoft.com/en-us/library/cc961401.aspx
+
+- List of DNS record types
+  https://en.wikipedia.org/wiki/List_of_DNS_record_types
+
+- .arpa TLD
+  https://en.wikipedia.org/wiki/.arpa
+
+- Reverse DNS lookup
+  https://en.wikipedia.org/wiki/Reverse_DNS_lookup
 
 Multicast DNS
 ~~~~~~~~~~~~~
