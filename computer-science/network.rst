@@ -230,6 +230,9 @@ domain name system (DNS)
 - List of DNS record types
   https://en.wikipedia.org/wiki/List_of_DNS_record_types
 
+- zone file
+  https://en.wikipedia.org/wiki/Zone_file
+
 - .arpa TLD
   https://en.wikipedia.org/wiki/.arpa
 
