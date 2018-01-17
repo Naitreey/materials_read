@@ -618,6 +618,9 @@ http and related protocols
     * Cross Site Request Forgery protection
       https://docs.djangoproject.com/en/2.0/ref/csrf/
 
+    * Clickjacking Protection
+      https://docs.djangoproject.com/en/2.0/ref/clickjacking/
+
   - Django's release schedule
     https://www.djangoproject.com/download/
     https://www.djangoproject.com/weblog/2015/jun/25/roadmap/

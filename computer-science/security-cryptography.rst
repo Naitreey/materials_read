@@ -21,6 +21,9 @@ http://yara.readthedocs.org/en/v3.4.0/writingrules.html
 Web
 ===
 
+- clickjacking
+  https://en.wikipedia.org/wiki/Clickjacking
+
 Encryption
 ==========
 Disk encryption introduction

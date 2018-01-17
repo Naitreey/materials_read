@@ -161,6 +161,9 @@ security
 - Strict-Transport-Security (HSTS)
   https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security
 
+- X-Frame-Options
+  https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options
+
 nginx
 ~~~~~
 - overview
