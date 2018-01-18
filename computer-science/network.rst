@@ -227,6 +227,21 @@ domain name system (DNS)
 - Recursive and Iterative Queries
   https://technet.microsoft.com/en-us/library/cc961401.aspx
 
+- DNS zone
+  https://en.wikipedia.org/wiki/DNS_zone
+
+- DNS root zone
+  https://en.wikipedia.org/wiki/DNS_root_zone
+
+  * There are not 13 root servers, but maximum 13 root servers in responses
+    https://www.icann.org/news/blog/there-are-not-13-root-servers
+
+  * DNS root servers in the world
+    https://stupid.domain.name/node/407
+
+- root name server
+  https://en.wikipedia.org/wiki/Root_name_server
+
 - List of DNS record types
   https://en.wikipedia.org/wiki/List_of_DNS_record_types
 
@@ -238,6 +253,9 @@ domain name system (DNS)
 
 - Reverse DNS lookup
   https://en.wikipedia.org/wiki/Reverse_DNS_lookup
+
+- Top-level domains
+  https://en.wikipedia.org/wiki/Top-level_domain
 
 Multicast DNS
 ~~~~~~~~~~~~~
