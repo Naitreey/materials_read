@@ -164,6 +164,12 @@ security
 - X-Frame-Options
   https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options
 
+- X-Content-Type-Options
+  https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options
+
+- X-XSS-Protection
+  https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-XSS-Protection
+
 nginx
 ~~~~~
 - overview
