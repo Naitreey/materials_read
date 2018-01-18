@@ -31,3 +31,8 @@ bup
 
 - Documentation
   https://bup.github.io/
+
+versioning
+==========
+- Semantic Versioning Specification
+  https://semver.org/
