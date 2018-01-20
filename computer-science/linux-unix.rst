@@ -617,7 +617,17 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
 
     - DNS
 
+      .. dnsmasq
+
       * dnsmasq(8)
+
+      .. systemd
+
+      * systemd-resolve(1)
+
+      * systemd-resolved.service(8)
+
+      * resolved.conf(5)
 
   * scheduled tasks
 

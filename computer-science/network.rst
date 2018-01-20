@@ -16,6 +16,8 @@ Concepts
 application layer
 =================
 
+
+
 HTTP
 ----
 
@@ -224,8 +226,14 @@ SNMP
 - management information base
   https://en.wikipedia.org/wiki/Management_information_base
 
+directory service
+-----------------
+
+- directory service wiki
+  https://en.wikipedia.org/wiki/Directory_service
+
 domain name system (DNS)
-------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Domain Name System (DNS) wiki
   https://en.wikipedia.org/wiki/Domain_Name_System
@@ -268,6 +276,15 @@ Multicast DNS
 - mDNS wiki
   https://en.wikipedia.org/wiki/Multicast_DNS
 
+Lightweight Directory Access Protocol (LDAP)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- wiki
+  https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol
+
+- search filter syntax
+  https://msdn.microsoft.com/en-us/library/aa746475(v=vs.85).aspx
+
 anti-censorship
 ---------------
 
@@ -298,18 +315,6 @@ Shadowsocks
 
 - Shadowsocks + ChnRoute 实现 OpenWRT / LEDE 路由器自动翻墙
   https://cokebar.info/archives/664
-
-authentication
---------------
-
-Lightweight Directory Access Protocol (LDAP)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-- wiki
-  https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol
-
-- search filter syntax
-  https://msdn.microsoft.com/en-us/library/aa746475(v=vs.85).aspx
 
 misc
 ----
