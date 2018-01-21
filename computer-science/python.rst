@@ -476,6 +476,12 @@ http and related protocols
       - Database transactions
         https://docs.djangoproject.com/en/stable/topics/db/transactions/
 
+      - Multiple databases
+        https://docs.djangoproject.com/en/2.0/topics/db/multi-db/
+
+      - Tablespaces
+        https://docs.djangoproject.com/en/2.0/topics/db/tablespaces/
+
     * Class-based views
       https://docs.djangoproject.com/en/stable/topics/class-based-views/
 
