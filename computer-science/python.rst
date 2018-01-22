@@ -576,6 +576,9 @@ http and related protocols
   - API reference
     https://docs.djangoproject.com/en/stable/ref/
 
+    * Databases
+      https://docs.djangoproject.com/en/2.0/ref/databases/
+
     * Models
       https://docs.djangoproject.com/en/stable/ref/models/
 
@@ -665,6 +668,8 @@ http and related protocols
 
     * user objects
       https://django-auth-ldap.readthedocs.io/en/latest/users.html
+
+* django-mongodb-engine
 
 * Grappelli
 
