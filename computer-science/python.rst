@@ -671,6 +671,8 @@ http and related protocols
 
 * django-mongodb-engine
 
+* django-localflavor
+
 * Grappelli
 
 * Tornado
