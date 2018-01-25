@@ -45,7 +45,7 @@ language
   https://docs.python.org/2/howto/unicode.html#python-2-x-s-unicode-support
 
 - Descriptor HowTo
-  https://docs.python.org/2/howto/descriptor.html
+  https://docs.python.org/3.6/howto/descriptor.html
 
 - Buffer protocol
 
