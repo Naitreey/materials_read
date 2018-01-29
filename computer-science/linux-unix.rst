@@ -509,6 +509,8 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
       * docker image tag(1), docker tag(1)
       * docker image rm(1), docker rmi(1)
       * docker image import(1), docker import(1)
+      * docker image load(1), docker load(1)
+      * docker image save(1), docker save(1)
 
       * docker container run(1), docker run(1)
       * docker container start(1), docker start(1)
@@ -1082,6 +1084,9 @@ docker
     - Create base image
       https://docs.docker.com/engine/userguide/eng-image/baseimages/
 
+    - Use multi-stage build
+      https://docs.docker.com/engine/userguide/eng-image/multistage-build/
+
   * Docker Compose
 
     - Overview of Docker Compose
@@ -1122,6 +1127,10 @@ docker
 
       * Registry as a pull through cache of docker hub
         https://docs.docker.com/registry/recipes/mirror/
+  * References
+
+    - Dockerfile reference
+      https://docs.docker.com/engine/reference/builder/
 
 Storage
 =======
