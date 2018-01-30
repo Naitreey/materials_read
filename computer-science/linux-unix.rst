@@ -511,6 +511,7 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
       * docker image import(1), docker import(1)
       * docker image load(1), docker load(1)
       * docker image save(1), docker save(1)
+      * docker image history(1), docker history(1)
 
       * docker container run(1), docker run(1)
       * docker container start(1), docker start(1)
@@ -563,8 +564,7 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
       * docker-machine rm.
 
       * (create|rename|
-      attach|export|
-      history|exec)
+      attach|export|exec)
 
   * language tools
     - python
