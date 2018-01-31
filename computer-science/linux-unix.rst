@@ -1087,6 +1087,9 @@ docker
     - Use multi-stage build
       https://docs.docker.com/engine/userguide/eng-image/multistage-build/
 
+    - Image management
+      https://docs.docker.com/engine/userguide/eng-image/image_management/
+
   * Docker Compose
 
     - Overview of Docker Compose
@@ -1127,10 +1130,28 @@ docker
 
       * Registry as a pull through cache of docker hub
         https://docs.docker.com/registry/recipes/mirror/
+
   * References
 
     - Dockerfile reference
       https://docs.docker.com/engine/reference/builder/
+
+- common images
+
+  * buildpack-deps
+    https://hub.docker.com/r/library/buildpack-deps/
+
+  * python
+    https://hub.docker.com/_/python/
+
+  * nginx
+    https://hub.docker.com/_/nginx/
+
+  * rabbitmq
+    https://hub.docker.com/_/rabbitmq/
+
+  * mysql
+    https://hub.docker.com/_/mysql/
 
 Storage
 =======
