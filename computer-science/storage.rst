@@ -1,6 +1,9 @@
 object storage
 ==============
 
+- object storage wiki
+  https://en.wikipedia.org/wiki/Object_storage
+
 ceph
 ----
 
