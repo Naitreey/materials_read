@@ -1138,6 +1138,11 @@ docker
     - Dockerfile reference
       https://docs.docker.com/engine/reference/builder/
 
+  * Samples
+
+    - Django and PostgreSQL
+      https://docs.docker.com/compose/django/
+
 - common images
 
   * buildpack-deps
