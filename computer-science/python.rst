@@ -6,6 +6,9 @@ language
 
 - Beginning Python From Novice to Professional (已读)
 
+- C3 method resolution order
+  https://www.python.org/download/releases/2.3/mro/
+
 - The Python Standard Library
 
   * Built-in Constants
