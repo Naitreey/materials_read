@@ -60,3 +60,6 @@ ceph
 
     - Deployment
       http://docs.ceph.com/docs/master/rados/deployment/ceph-deploy-mds/
+
+    - Authorization
+      http://docs.ceph.com/docs/master/cephfs/client-auth/
