@@ -532,6 +532,8 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
       * docker volume create(1)
       * docker volume ls(1)
       * docker volume inspect(1)
+      * docker volume rm(1)
+      * docker volume prune(1)
 
       * docker swarm init(1)
       * docker swarm join(1)
@@ -541,6 +543,7 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
       * docker stack ls(1)
       * docker stack ps(1)
 
+      * docker service create(1)
       * docker service ls(1)
       * docker service ps(1)
 
@@ -1091,6 +1094,14 @@ docker
 
     - Image management
       https://docs.docker.com/engine/userguide/eng-image/image_management/
+
+  * data storage
+
+    - Storage overview
+      https://docs.docker.com/storage/
+
+    - Use volumes
+      https://docs.docker.com/storage/volumes/
 
   * Docker Compose
 
