@@ -546,6 +546,17 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
       * docker service create(1)
       * docker service ls(1)
       * docker service ps(1)
+      * docker service update(1)
+
+      * docker config create(1)
+      * docker config ls(1)
+      * docker config inspect(1)
+      * docker config rm(1)
+
+      * docker secret create(1)
+      * docker secret ls(1)
+      * docker secret inspect(1)
+      * docker secret rm(1)
 
       * docker network create(1)
       * docker network ls(1)
@@ -1103,6 +1114,12 @@ docker
     - Use volumes
       https://docs.docker.com/storage/volumes/
 
+    - Use bind mounts
+      https://docs.docker.com/storage/bind-mounts/
+
+    - Use tmpfs mounts
+      https://docs.docker.com/storage/tmpfs/
+
   * Docker Compose
 
     - Overview of Docker Compose
@@ -1113,6 +1130,14 @@ docker
 
     - Get started with Docker Compose
       https://docs.docker.com/compose/gettingstarted/
+
+  * docker swarm
+
+    - Store configuration data using Docker Configs
+      https://docs.docker.com/engine/swarm/configs/
+
+    - Manage sensitive data with Docker secrets
+      https://docs.docker.com/engine/swarm/secrets/
 
   * Networking
 

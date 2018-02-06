@@ -738,6 +738,8 @@ scientific computing
 
 - decimal
 
+- fractions
+
 - statistics
 
 - SciPy
