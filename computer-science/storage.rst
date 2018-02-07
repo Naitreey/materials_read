@@ -21,6 +21,12 @@ ceph
     - Storage cluster quick start
       http://docs.ceph.com/docs/master/start/quick-ceph-deploy/
 
+    - CephFS quick start
+      http://docs.ceph.com/docs/master/start/quick-cephfs/
+
+    - RADOS gateway quick start
+      http://docs.ceph.com/docs/master/start/quick-rgw/
+
   * Ceph Storage Cluster
 
     - Deployment
@@ -50,6 +56,11 @@ ceph
       * Admin Tasks
         http://docs.ceph.com/docs/master/rados/deployment/ceph-deploy-admin/
 
+    - Operations
+
+      * User management
+        http://docs.ceph.com/docs/master/rados/operations/user-management/
+
   * Ceph Manager Daemon
     http://docs.ceph.com/docs/master/mgr/
 
@@ -63,3 +74,8 @@ ceph
 
     - Authorization
       http://docs.ceph.com/docs/master/cephfs/client-auth/
+
+    - Operations
+
+      * Mount CephFS with kernel driver
+        http://docs.ceph.com/docs/master/cephfs/kernel/
