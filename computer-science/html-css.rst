@@ -603,6 +603,15 @@ at-rule
 - at-rule
   https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule
 
+box model
+---------
+
+- Introduction to the CSS box model
+  https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model
+
+- Margin collapsing
+  https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing
+
 properties
 ----------
 
@@ -672,8 +681,17 @@ text
 - quotes
   https://developer.mozilla.org/en-US/docs/Web/CSS/quotes
 
-element
-~~~~~~~
+box
+~~~
+- width
+  https://developer.mozilla.org/en-US/docs/Web/CSS/width
+
+- min-width
+  https://developer.mozilla.org/en-US/docs/Web/CSS/min-width
+
+- max-width
+  https://developer.mozilla.org/en-US/docs/Web/CSS/max-width
+
 - opacity
   https://developer.mozilla.org/en-US/docs/Web/CSS/opacity
 
