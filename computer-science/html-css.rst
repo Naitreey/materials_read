@@ -692,6 +692,27 @@ box
 - max-width
   https://developer.mozilla.org/en-US/docs/Web/CSS/max-width
 
+- height
+  https://developer.mozilla.org/en-US/docs/Web/CSS/height
+
+- min-height
+  https://developer.mozilla.org/en-US/docs/Web/CSS/min-height
+
+- max-height
+  https://developer.mozilla.org/en-US/docs/Web/CSS/max-height
+
+- overflow
+  https://developer.mozilla.org/en-US/docs/Web/CSS/overflow
+
+- overflow-x
+  https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-x
+
+- overflow-y
+  https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-y
+
+- white-space
+  https://developer.mozilla.org/en-US/docs/Web/CSS/white-space
+
 - opacity
   https://developer.mozilla.org/en-US/docs/Web/CSS/opacity
 
