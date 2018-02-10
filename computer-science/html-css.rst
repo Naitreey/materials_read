@@ -713,6 +713,51 @@ box
 - white-space
   https://developer.mozilla.org/en-US/docs/Web/CSS/white-space
 
+- border-top-width
+  https://developer.mozilla.org/en-US/docs/Web/CSS/border-top-width
+
+- border-right-width
+  https://developer.mozilla.org/en-US/docs/Web/CSS/border-right-width
+
+- border-bottom-width
+  https://developer.mozilla.org/en-US/docs/Web/CSS/border-bottom-width
+
+- border-left-width
+  https://developer.mozilla.org/en-US/docs/Web/CSS/border-left-width
+
+- border-top-style
+  https://developer.mozilla.org/en-US/docs/Web/CSS/border-top-style
+
+- border-right-style
+  https://developer.mozilla.org/en-US/docs/Web/CSS/border-right-style
+
+- border-bottom-style
+  https://developer.mozilla.org/en-US/docs/Web/CSS/border-bottom-style
+
+- border-left-style
+  https://developer.mozilla.org/en-US/docs/Web/CSS/border-left-style
+
+- border-top-color
+  https://developer.mozilla.org/en-US/docs/Web/CSS/border-top-color
+
+- border-right-color
+  https://developer.mozilla.org/en-US/docs/Web/CSS/border-right-color
+
+- border-bottom-color
+  https://developer.mozilla.org/en-US/docs/Web/CSS/border-bottom-color
+
+- border-left-color
+  https://developer.mozilla.org/en-US/docs/Web/CSS/border-left-color
+
+- border-width
+  https://developer.mozilla.org/en-US/docs/Web/CSS/border-width
+
+- border-style
+  https://developer.mozilla.org/en-US/docs/Web/CSS/border-style
+
+- border-color
+  https://developer.mozilla.org/en-US/docs/Web/CSS/border-color
+
 - opacity
   https://developer.mozilla.org/en-US/docs/Web/CSS/opacity
 
