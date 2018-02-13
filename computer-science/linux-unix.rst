@@ -18,28 +18,32 @@ Distributions
 
   * os-release(5)
 
+Arch Linux
+----------
 - Arch Linux
   https://wiki.archlinux.org/index.php/Arch_Linux
 
-  * Arch Linux FAQ
-    https://wiki.archlinux.org/index.php/Frequently_asked_questions
+- Arch Linux FAQ
+  https://wiki.archlinux.org/index.php/Frequently_asked_questions
 
-  * Arch compared to other distributions
-    https://wiki.archlinux.org/index.php/arch_compared_to_other_distributions
+- Arch compared to other distributions
+  https://wiki.archlinux.org/index.php/arch_compared_to_other_distributions
 
-- Ubuntu
+Ubuntu
+------
 
-  * 17.10 Release Note
-    https://wiki.ubuntu.com/ArtfulAardvark/ReleaseNotes
+* 17.10 Release Note
+  https://wiki.ubuntu.com/ArtfulAardvark/ReleaseNotes
 
-- Alpine Linux
+Alpine Linux
+------------
 
-  * Overview
-    https://alpinelinux.org/about/
-
+* Overview
+  https://alpinelinux.org/about/
 
 User System
 ===========
+
 - sudo
   * https://help.ubuntu.com/community/RootSudo
   * https://help.ubuntu.com/community/Sudoers
