@@ -758,6 +758,51 @@ box
 - border-color
   https://developer.mozilla.org/en-US/docs/Web/CSS/border-color
 
+- border
+  https://developer.mozilla.org/en-US/docs/Web/CSS/border
+
+- border-top
+  https://developer.mozilla.org/en-US/docs/Web/CSS/border-top
+
+- border-right
+  https://developer.mozilla.org/en-US/docs/Web/CSS/border-right
+
+- border-bottom
+  https://developer.mozilla.org/en-US/docs/Web/CSS/border-bottom
+
+- border-left
+  https://developer.mozilla.org/en-US/docs/Web/CSS/border-left
+
+- padding-top
+  https://developer.mozilla.org/en-US/docs/Web/CSS/padding-top
+
+- padding-right
+  https://developer.mozilla.org/en-US/docs/Web/CSS/padding-right
+
+- padding-bottom
+  https://developer.mozilla.org/en-US/docs/Web/CSS/padding-bottom
+
+- padding-left
+  https://developer.mozilla.org/en-US/docs/Web/CSS/padding-left
+
+- padding
+  https://developer.mozilla.org/en-US/docs/Web/CSS/padding
+
+- margin-top
+  https://developer.mozilla.org/en-US/docs/Web/CSS/margin-top
+
+- margin-right
+  https://developer.mozilla.org/en-US/docs/Web/CSS/margin-right
+
+- margin-bottom
+  https://developer.mozilla.org/en-US/docs/Web/CSS/margin-bottom
+
+- margin-left
+  https://developer.mozilla.org/en-US/docs/Web/CSS/margin-left
+
+- margin
+  https://developer.mozilla.org/en-US/docs/Web/CSS/margin
+
 - opacity
   https://developer.mozilla.org/en-US/docs/Web/CSS/opacity
 
