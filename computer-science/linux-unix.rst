@@ -567,6 +567,8 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
       * docker network inspect(1)
       * docker network connect(1)
       * docker network disconnect(1)
+      * docker network rm(1)
+      * docker network prune(1)
 
       * docker inspect(1)
 
@@ -1147,6 +1149,15 @@ docker
 
     - guide
       https://docs.docker.com/engine/tutorials/networkingcontainers/
+
+    - overview
+      https://docs.docker.com/network/
+
+    - Use bridge networks
+      https://docs.docker.com/network/bridge/
+
+    - Use overlay networks
+      https://docs.docker.com/network/overlay/
 
   * Docker Registry
 
