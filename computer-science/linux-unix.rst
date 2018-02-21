@@ -41,6 +41,156 @@ Alpine Linux
 * Overview
   https://alpinelinux.org/about/
 
+Xorg
+====
+
+Compositor
+----------
+
+Compton
+~~~~~~~
+- arch wiki
+  https://wiki.archlinux.org/index.php/Compton
+
+window manager
+==============
+
+tiling window manager
+---------------------
+- tiling window manager
+  https://en.wikipedia.org/wiki/Tiling_window_manager
+
+i3 wm
+~~~~~
+
+- i3 wiki
+  https://en.wikipedia.org/wiki/I3_(window_manager)
+
+- i3 goals
+  https://i3wm.org/
+
+- videos.
+  i3wm jump start
+  https://www.youtube.com/watch?v=j1I63wGcvU4&list=PL5ze0DjYv5DbCv9vNEzFmP6sU7ZmkGzcf
+  i3wm: Configuration
+  https://www.youtube.com/watch?v=8-S0cWnLBKg&index=2&list=PL5ze0DjYv5DbCv9vNEzFmP6sU7ZmkGzcf
+  i3wm: How To "Rice" Your Desktop
+  https://www.youtube.com/watch?v=ARKIwOlazKI&index=3&list=PL5ze0DjYv5DbCv9vNEzFmP6sU7ZmkGzcf
+
+- enabling multimedia keys
+  https://faq.i3wm.org/question/3747/enabling-multimedia-keys.1.html
+
+- i3 User's Guide
+  https://i3wm.org/docs/userguide.html
+
+- layout saving
+  https://i3wm.org/docs/layout-saving.html
+
+- i3bar protocol
+  https://i3wm.org/docs/i3bar-protocol.html
+
+- i3blocks
+  
+  * overview
+    https://github.com/vivien/i3blocks
+
+  * contributed blocklets
+    https://github.com/vivien/i3blocks-contrib
+
+  * i3blocks project wiki
+    https://github.com/vivien/i3blocks/wiki
+
+    - FAQ
+      https://github.com/vivien/i3blocks/wiki/FAQ
+
+    - user config examples
+      https://github.com/vivien/i3blocks/wiki/User-Configs
+
+- i3-gaps project overview
+  https://github.com/Airblader/i3
+
+- CLI utils
+
+  * i3lock(1)
+
+  * i3bar(1)
+
+  * i3-msg(1)
+
+  * i3-input(1)
+
+  * i3-dump-log(1)
+
+  * i3-save-tree(1)
+
+  * i3blocks(1)
+
+- python library
+
+  * i3ipc-python
+    https://github.com/acrisci/i3ipc-python
+
+desktop background
+==================
+
+feh
+---
+- arch wiki
+  https://wiki.archlinux.org/index.php/Feh
+
+nitrogen
+--------
+
+- arch wiki
+  https://wiki.archlinux.org/index.php/nitrogen
+
+screenshot
+==========
+- tools to take screenshot
+  https://wiki.archlinux.org/index.php/taking_a_screenshot
+
+scrot
+-----
+
+- scrot(1)
+
+desktop notification
+====================
+
+client
+------
+- notify-send
+
+dunst
+-----
+- features
+  https://dunst-project.org/
+
+- archlinux wiki
+  https://wiki.archlinux.org/index.php/Dunst
+
+app launcher
+============
+dmenu
+-----
+
+rofi
+----
+- Readme overview
+  https://github.com/DaveDavenport/rofi
+
+- arch wiki
+  https://wiki.archlinux.org/index.php/Rofi
+
+- rofi themes repo
+  https://github.com/DaveDavenport/rofi-themes
+
+- rofi(1)
+
+- rofi-theme(5)
+
+- rofi-sensible-terminal(1)
+
 User System
 ===========
 
