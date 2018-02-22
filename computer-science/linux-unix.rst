@@ -29,6 +29,9 @@ Arch Linux
 - Arch compared to other distributions
   https://wiki.archlinux.org/index.php/arch_compared_to_other_distributions
 
+- Installation guide
+  https://wiki.archlinux.org/index.php/Installation_guide
+
 Ubuntu
 ------
 
@@ -676,6 +679,7 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
       * docker container ls(1), docker ps(1)
       * docker container commit(1), docker commit(1)
       * docker container logs(1), docker logs(1)
+      * docker container attach(1), docker attach(1)
 
       * docker login(1)
       * docker logout(1)
@@ -1005,9 +1009,20 @@ Magic SysRq key
 
 Networking
 ==========
+
+wireless
+--------
+- wireless network configuration, arch wiki
+  https://wiki.archlinux.org/index.php/Wireless_network_configuration
+
 Interface configuration
 -----------------------
 
+CLI
+~~~
+
+systemd
+~~~~~~~
 - systemd-networkd archlinux wiki
   https://wiki.archlinux.org/index.php/systemd-networkd
 
@@ -1306,8 +1321,20 @@ docker
     - Use bridge networks
       https://docs.docker.com/network/bridge/
 
+      bridge network tutorial
+      https://docs.docker.com/network/network-tutorial-standalone/
+
     - Use overlay networks
       https://docs.docker.com/network/overlay/
+
+    - User host networking
+      https://docs.docker.com/network/host/
+
+      host network tutorial
+      https://docs.docker.com/network/network-tutorial-host/
+
+    - Disable networking for a container
+      https://docs.docker.com/network/none/
 
   * Docker Registry
 
