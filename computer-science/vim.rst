@@ -61,5 +61,12 @@ powerline
   * overview
     https://powerline.readthedocs.io/en/latest/overview.html
 
-  * installation
-    https://powerline.readthedocs.io/en/latest/installation.html
+  * installation on linux
+    https://powerline.readthedocs.io/en/latest/installation/linux.html
+
+    - Application-specific requirements
+      https://powerline.readthedocs.io/en/latest/usage.html
+
+    - shell prompt
+      https://powerline.readthedocs.io/en/latest/usage/shell-prompts.html
+
