@@ -47,6 +47,11 @@ Alpine Linux
 Xorg
 ====
 
+config files
+------------
+- xprofile
+  https://wiki.archlinux.org/index.php/Xprofile
+
 Compositor
 ----------
 
@@ -1327,6 +1332,9 @@ docker
     - Use overlay networks
       https://docs.docker.com/network/overlay/
 
+      networking with overlay networks
+      https://docs.docker.com/network/network-tutorial-overlay/
+
     - User host networking
       https://docs.docker.com/network/host/
 
@@ -1335,6 +1343,9 @@ docker
 
     - Disable networking for a container
       https://docs.docker.com/network/none/
+
+    - Container networking configuration
+      https://docs.docker.com/config/containers/container-networking/
 
   * Docker Registry
 
