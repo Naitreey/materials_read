@@ -70,3 +70,14 @@ powerline
     - shell prompt
       https://powerline.readthedocs.io/en/latest/usage/shell-prompts.html
 
+    - powerline-fonts project overview
+      https://github.com/powerline/fonts
+
+    - vim statusline
+      https://powerline.readthedocs.io/en/latest/usage/other.html
+
+  * configuration and customization
+    https://powerline.readthedocs.io/en/latest/configuration.html
+
+  * configuration reference
+    https://powerline.readthedocs.io/en/latest/configuration/reference.html

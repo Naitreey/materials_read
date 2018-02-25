@@ -133,6 +133,8 @@ i3 wm
 
   * i3blocks(1)
 
+  * i3-sensible-terminal(1)
+
 - python library
 
   * i3ipc-python
@@ -334,6 +336,45 @@ System Programming
 
 - Address space layout randomization (ASLR)
   https://en.wikipedia.org/wiki/Address_space_layout_randomization
+
+terminal emulator
+=================
+
+tilix
+-----
+- overview
+  https://gnunn1.github.io/tilix-web/
+
+- FAQ
+  https://gnunn1.github.io/tilix-web/faq
+
+- documentation
+  https://gnunn1.github.io/tilix-web/manual/
+
+  * badge
+    https://gnunn1.github.io/tilix-web/manual/badges/
+
+  * command line actions
+    https://gnunn1.github.io/tilix-web/manual/cliactions/
+
+  * automatic profile switching
+    https://gnunn1.github.io/tilix-web/manual/profileswitch/
+
+  * guake mode
+    https://gnunn1.github.io/tilix-web/manual/quake/
+
+  * paramter substitution in titles
+    https://gnunn1.github.io/tilix-web/manual/title/
+
+  * triggers
+    https://gnunn1.github.io/tilix-web/manual/triggers/
+
+  * VTE configuration
+    https://gnunn1.github.io/tilix-web/manual/vteconfig/
+
+- CLI
+
+  * tilix(1)
 
 Command Line
 ============
