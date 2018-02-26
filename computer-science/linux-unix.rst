@@ -201,6 +201,24 @@ rofi
 
 - rofi-sensible-terminal(1)
 
+console
+=======
+
+fonts
+-----
+
+CLI
+~~~
+* showconsolefont(8)
+
+* setfont(8)
+
+key maps
+--------
+* loadkeys(1)
+
+* showkey(1)
+
 User System
 ===========
 
