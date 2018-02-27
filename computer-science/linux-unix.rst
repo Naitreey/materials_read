@@ -44,13 +44,65 @@ Alpine Linux
 * Overview
   https://alpinelinux.org/about/
 
-Xorg
-====
+X window system
+===============
 
 config files
 ------------
 - xprofile
   https://wiki.archlinux.org/index.php/Xprofile
+
+Desktop Environment
+-------------------
+
+gnome
+~~~~~
+
+- gnome wiki
+  https://en.wikipedia.org/wiki/GNOME
+- gnome newcomers guide
+  https://wiki.gnome.org/Newcomers/
+- gnome project tour
+  https://wiki.gnome.org/Newcomers/ProjectTour
+- gnome IRC
+  https://wiki.gnome.org/Community/GettingInTouch/IRC
+- Tools and tricks for solving tasks in a GNOME project
+  https://wiki.gnome.org/Newcomers/FindAndSolveTasks
+- PDF viewer
+  * evince wiki
+    https://en.wikipedia.org/wiki/Evince
+  * poppler wiki
+    https://en.wikipedia.org/wiki/Poppler_(software)
+- jhbuild
+  * build gnome: Set up JHBuild
+    https://wiki.gnome.org/Newcomers/BuildGnome
+- Choose Application ID
+  https://wiki.gnome.org/HowDoI/ChooseApplicationID
+- Beautiful Buttons
+  https://wiki.gnome.org/HowDoI/Buttons
+
+KDE
+~~~
+
+- KDE Wallet
+
+  * Arch Linux wiki
+    https://wiki.archlinux.org/index.php/KDE_Wallet
+
+GUI framework
+-------------
+
+GTK
+~~~
+- Compiling GTK+ Applications
+  https://developer.gnome.org/gtk3/stable/gtk-compiling.html
+- Getting Started with GTK+
+  https://developer.gnome.org/gtk3/stable/gtk-getting-started.html
+- GtkInspector
+  https://wiki.gnome.org/Projects/GTK%2B/Inspector
+
+QT
+~~
 
 Compositor
 ----------
@@ -61,118 +113,117 @@ Compton
   https://wiki.archlinux.org/index.php/Compton
 
 window manager
-==============
+--------------
 
 tiling window manager
----------------------
+~~~~~~~~~~~~~~~~~~~~~
 - tiling window manager
   https://en.wikipedia.org/wiki/Tiling_window_manager
 
-i3 wm
-~~~~~
+- i3 wm
 
-- i3 wiki
-  https://en.wikipedia.org/wiki/I3_(window_manager)
-
-- i3 goals
-  https://i3wm.org/
-
-- videos.
-  i3wm jump start
-  https://www.youtube.com/watch?v=j1I63wGcvU4&list=PL5ze0DjYv5DbCv9vNEzFmP6sU7ZmkGzcf
-  i3wm: Configuration
-  https://www.youtube.com/watch?v=8-S0cWnLBKg&index=2&list=PL5ze0DjYv5DbCv9vNEzFmP6sU7ZmkGzcf
-  i3wm: How To "Rice" Your Desktop
-  https://www.youtube.com/watch?v=ARKIwOlazKI&index=3&list=PL5ze0DjYv5DbCv9vNEzFmP6sU7ZmkGzcf
-
-- enabling multimedia keys
-  https://faq.i3wm.org/question/3747/enabling-multimedia-keys.1.html
-
-- i3 User's Guide
-  https://i3wm.org/docs/userguide.html
-
-- layout saving
-  https://i3wm.org/docs/layout-saving.html
-
-- i3bar protocol
-  https://i3wm.org/docs/i3bar-protocol.html
-
-- i3blocks
+  - i3 wiki
+    https://en.wikipedia.org/wiki/I3_(window_manager)
   
-  * overview
-    https://github.com/vivien/i3blocks
-
-  * contributed blocklets
-    https://github.com/vivien/i3blocks-contrib
-
-  * i3blocks project wiki
-    https://github.com/vivien/i3blocks/wiki
-
-    - FAQ
-      https://github.com/vivien/i3blocks/wiki/FAQ
-
-    - user config examples
-      https://github.com/vivien/i3blocks/wiki/User-Configs
-
-- i3-gaps project overview
-  https://github.com/Airblader/i3
-
-- CLI utils
-
-  * i3lock(1)
-
-  * i3bar(1)
-
-  * i3-msg(1)
-
-  * i3-input(1)
-
-  * i3-dump-log(1)
-
-  * i3-save-tree(1)
-
-  * i3blocks(1)
-
-  * i3-sensible-terminal(1)
-
-- python library
-
-  * i3ipc-python
-    https://github.com/acrisci/i3ipc-python
+  - i3 goals
+    https://i3wm.org/
+  
+  - videos.
+    i3wm jump start
+    https://www.youtube.com/watch?v=j1I63wGcvU4&list=PL5ze0DjYv5DbCv9vNEzFmP6sU7ZmkGzcf
+    i3wm: Configuration
+    https://www.youtube.com/watch?v=8-S0cWnLBKg&index=2&list=PL5ze0DjYv5DbCv9vNEzFmP6sU7ZmkGzcf
+    i3wm: How To "Rice" Your Desktop
+    https://www.youtube.com/watch?v=ARKIwOlazKI&index=3&list=PL5ze0DjYv5DbCv9vNEzFmP6sU7ZmkGzcf
+  
+  - enabling multimedia keys
+    https://faq.i3wm.org/question/3747/enabling-multimedia-keys.1.html
+  
+  - i3 User's Guide
+    https://i3wm.org/docs/userguide.html
+  
+  - layout saving
+    https://i3wm.org/docs/layout-saving.html
+  
+  - i3bar protocol
+    https://i3wm.org/docs/i3bar-protocol.html
+  
+  - i3blocks
+    
+    * overview
+      https://github.com/vivien/i3blocks
+  
+    * contributed blocklets
+      https://github.com/vivien/i3blocks-contrib
+  
+    * i3blocks project wiki
+      https://github.com/vivien/i3blocks/wiki
+  
+      - FAQ
+        https://github.com/vivien/i3blocks/wiki/FAQ
+  
+      - user config examples
+        https://github.com/vivien/i3blocks/wiki/User-Configs
+  
+  - i3-gaps project overview
+    https://github.com/Airblader/i3
+  
+  - CLI utils
+  
+    * i3lock(1)
+  
+    * i3bar(1)
+  
+    * i3-msg(1)
+  
+    * i3-input(1)
+  
+    * i3-dump-log(1)
+  
+    * i3-save-tree(1)
+  
+    * i3blocks(1)
+  
+    * i3-sensible-terminal(1)
+  
+  - python library
+  
+    * i3ipc-python
+      https://github.com/acrisci/i3ipc-python
 
 desktop background
-==================
+------------------
 
 feh
----
+~~~
 - arch wiki
   https://wiki.archlinux.org/index.php/Feh
 
 nitrogen
---------
+~~~~~~~~
 
 - arch wiki
   https://wiki.archlinux.org/index.php/nitrogen
 
 screenshot
-==========
+----------
 - tools to take screenshot
   https://wiki.archlinux.org/index.php/taking_a_screenshot
 
 scrot
------
+~~~~~
 
 - scrot(1)
 
 desktop notification
-====================
+--------------------
 
 client
-------
+~~~~~~
 - notify-send
 
 dunst
------
+~~~~~
 - features
   https://dunst-project.org/
 
@@ -180,12 +231,13 @@ dunst
   https://wiki.archlinux.org/index.php/Dunst
 
 app launcher
-============
+------------
+
 dmenu
------
+~~~~~
 
 rofi
-----
+~~~~
 - Readme overview
   https://github.com/DaveDavenport/rofi
 
@@ -200,6 +252,45 @@ rofi
 - rofi-theme(5)
 
 - rofi-sensible-terminal(1)
+
+terminal emulator
+-----------------
+
+tilix
+~~~~~
+- overview
+  https://gnunn1.github.io/tilix-web/
+
+- FAQ
+  https://gnunn1.github.io/tilix-web/faq
+
+- documentation
+  https://gnunn1.github.io/tilix-web/manual/
+
+  * badge
+    https://gnunn1.github.io/tilix-web/manual/badges/
+
+  * command line actions
+    https://gnunn1.github.io/tilix-web/manual/cliactions/
+
+  * automatic profile switching
+    https://gnunn1.github.io/tilix-web/manual/profileswitch/
+
+  * guake mode
+    https://gnunn1.github.io/tilix-web/manual/quake/
+
+  * paramter substitution in titles
+    https://gnunn1.github.io/tilix-web/manual/title/
+
+  * triggers
+    https://gnunn1.github.io/tilix-web/manual/triggers/
+
+  * VTE configuration
+    https://gnunn1.github.io/tilix-web/manual/vteconfig/
+
+- CLI
+
+  * tilix(1)
 
 console
 =======
@@ -354,45 +445,6 @@ System Programming
 
 - Address space layout randomization (ASLR)
   https://en.wikipedia.org/wiki/Address_space_layout_randomization
-
-terminal emulator
-=================
-
-tilix
------
-- overview
-  https://gnunn1.github.io/tilix-web/
-
-- FAQ
-  https://gnunn1.github.io/tilix-web/faq
-
-- documentation
-  https://gnunn1.github.io/tilix-web/manual/
-
-  * badge
-    https://gnunn1.github.io/tilix-web/manual/badges/
-
-  * command line actions
-    https://gnunn1.github.io/tilix-web/manual/cliactions/
-
-  * automatic profile switching
-    https://gnunn1.github.io/tilix-web/manual/profileswitch/
-
-  * guake mode
-    https://gnunn1.github.io/tilix-web/manual/quake/
-
-  * paramter substitution in titles
-    https://gnunn1.github.io/tilix-web/manual/title/
-
-  * triggers
-    https://gnunn1.github.io/tilix-web/manual/triggers/
-
-  * VTE configuration
-    https://gnunn1.github.io/tilix-web/manual/vteconfig/
-
-- CLI
-
-  * tilix(1)
 
 Command Line
 ============
@@ -1138,53 +1190,6 @@ Bluetooth
 
 - archlinux bluetooth wiki
   https://wiki.archlinux.org/index.php/bluetooth
-
-Desktop Environment
-===================
-
-GNOME, GTK
-----------
-
-GNOME
-~~~~~
-- gnome wiki
-  https://en.wikipedia.org/wiki/GNOME
-- gnome newcomers guide
-  https://wiki.gnome.org/Newcomers/
-- gnome project tour
-  https://wiki.gnome.org/Newcomers/ProjectTour
-- gnome IRC
-  https://wiki.gnome.org/Community/GettingInTouch/IRC
-- Tools and tricks for solving tasks in a GNOME project
-  https://wiki.gnome.org/Newcomers/FindAndSolveTasks
-- PDF viewer
-  * evince wiki
-    https://en.wikipedia.org/wiki/Evince
-  * poppler wiki
-    https://en.wikipedia.org/wiki/Poppler_(software)
-- jhbuild
-  * build gnome: Set up JHBuild
-    https://wiki.gnome.org/Newcomers/BuildGnome
-- Choose Application ID
-  https://wiki.gnome.org/HowDoI/ChooseApplicationID
-- Beautiful Buttons
-  https://wiki.gnome.org/HowDoI/Buttons
-
-GTK
-~~~
-- Compiling GTK+ Applications
-  https://developer.gnome.org/gtk3/stable/gtk-compiling.html
-- Getting Started with GTK+
-  https://developer.gnome.org/gtk3/stable/gtk-getting-started.html
-- GtkInspector
-  https://wiki.gnome.org/Projects/GTK%2B/Inspector
-
-KDE
----
-- KDE Wallet
-
-  * Arch Linux wiki
-    https://wiki.archlinux.org/index.php/KDE_Wallet
 
 font configuration
 ------------------
