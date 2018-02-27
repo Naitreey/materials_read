@@ -47,6 +47,17 @@ Alpine Linux
 X window system
 ===============
 
+protocol
+--------
+RandR
+~~~~~
+- wiki
+  https://en.wikipedia.org/wiki/RandR
+
+- CLI
+
+  * xrandr(1)
+
 config files
 ------------
 - xprofile
@@ -414,18 +425,25 @@ Network Share and Printing
 
 Sound system
 ============
-- PulseAudio
+PulseAudio
+----------
 
-  * wiki
-    https://en.wikipedia.org/wiki/PulseAudio
+* wiki
+  https://en.wikipedia.org/wiki/PulseAudio
 
-  * Why you should care about PulseAudio (and how to start doing it)
-    https://www.linux.com/news/why-you-should-care-about-pulseaudio-and-how-start-doing-it
+* Why you should care about PulseAudio (and how to start doing it)
+  https://www.linux.com/news/why-you-should-care-about-pulseaudio-and-how-start-doing-it
 
-- Advanced Linux Sound Architecture (ALSA)
+Advanced Linux Sound Architecture (ALSA)
+----------------------------------------
 
-  * wiki
-    https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture
+* wiki
+  https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture
+
+PC speaker
+----------
+- arch wiki
+  https://wiki.archlinux.org/index.php/PC_speaker
 
 System Programming
 ==================
