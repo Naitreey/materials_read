@@ -1392,11 +1392,16 @@ docker
 
   * docker swarm
 
-    - Store configuration data using Docker Configs
+    - docker config: Store configuration data using Docker Configs
       https://docs.docker.com/engine/swarm/configs/
 
-    - Manage sensitive data with Docker secrets
+    - docker secret: Manage sensitive data with Docker secrets
       https://docs.docker.com/engine/swarm/secrets/
+
+    - docker stack:
+
+  * Compose file reference version 3
+    https://docs.docker.com/compose/compose-file/
 
   * Networking
 
