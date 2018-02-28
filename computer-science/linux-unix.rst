@@ -839,6 +839,7 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
       * docker service ls(1)
       * docker service ps(1)
       * docker service update(1)
+      * docker service logs(1)
 
       * docker config create(1)
       * docker config ls(1)
