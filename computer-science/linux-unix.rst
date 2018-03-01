@@ -834,6 +834,7 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
       * docker stack rm(1)
       * docker stack ls(1)
       * docker stack ps(1)
+      * docker stack services(1)
 
       * docker service create(1)
       * docker service ls(1)
@@ -1402,6 +1403,9 @@ docker
 
   * Compose file reference version 3
     https://docs.docker.com/compose/compose-file/
+
+    - compose file versioning explanation
+      https://docs.docker.com/compose/compose-file/compose-versioning/
 
   * Networking
 
