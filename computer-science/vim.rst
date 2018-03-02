@@ -81,3 +81,6 @@ powerline
 
   * configuration reference
     https://powerline.readthedocs.io/en/latest/configuration/reference.html
+
+  * tips and tricks
+    https://powerline.readthedocs.io/en/latest/tips-and-tricks.html
