@@ -303,6 +303,14 @@ tilix
 
   * tilix(1)
 
+music
+-----
+
+spotify
+~~~~~~~
+- arch wiki
+  https://wiki.archlinux.org/index.php/spotify
+
 console
 =======
 
@@ -317,9 +325,20 @@ CLI
 
 key maps
 --------
+
+CLI
+~~~
 * loadkeys(1)
 
 * showkey(1)
+
+control
+-------
+
+CLI
+~~~
+
+* chvt(1)
 
 User System
 ===========
