@@ -155,6 +155,9 @@ tiling window manager
   
   - layout saving
     https://i3wm.org/docs/layout-saving.html
+
+  - i3 tips
+    http://www.slackword.net/?p=657
   
   - i3bar protocol
     https://i3wm.org/docs/i3bar-protocol.html
