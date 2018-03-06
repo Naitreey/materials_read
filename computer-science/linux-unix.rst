@@ -158,7 +158,10 @@ tiling window manager
 
   - i3 tips
     http://www.slackword.net/?p=657
-  
+
+  - i3 arch wiki
+    https://wiki.archlinux.org/index.php/i3
+
   - i3bar protocol
     https://i3wm.org/docs/i3bar-protocol.html
   
