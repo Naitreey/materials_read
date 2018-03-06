@@ -71,5 +71,15 @@ Salt
     - Python client API
       https://docs.saltstack.com/en/latest/ref/clients/index.html
 
+    - netapi modules
+      https://docs.saltstack.com/en/latest/topics/netapi/index.html
+
+      * rest_cherrypy, a REST API for salt
+        https://docs.saltstack.com/en/latest/ref/netapi/all/salt.netapi.rest_cherrypy.html
+
 - SaltStack Arch Linux wiki
   https://wiki.archlinux.org/index.php/Saltstack
+
+- CLI.
+
+  * salt-api(1)
