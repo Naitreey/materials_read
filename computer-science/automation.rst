@@ -31,6 +31,9 @@ Salt
   * Understanding SaltStack
     https://docs.saltstack.com/en/getstarted/system/
 
+    - subsystem diagram
+      https://docs.saltstack.com/en/getstarted/system/plugins.html
+
   * Agentless Salt
     https://docs.saltstack.com/en/getstarted/ssh/
 
@@ -77,9 +80,23 @@ Salt
       * rest_cherrypy, a REST API for salt
         https://docs.saltstack.com/en/latest/ref/netapi/all/salt.netapi.rest_cherrypy.html
 
+      * python client library: pepper
+        https://github.com/saltstack/pepper
+
+  * access control system
+    https://docs.saltstack.com/en/latest/topics/eauth/access_control.html
+
+    - publisher acl system
+      https://docs.saltstack.com/en/latest/ref/publisheracl.html
+
+    - external authentication
+      https://docs.saltstack.com/en/latest/topics/eauth/index.html
+
 - SaltStack Arch Linux wiki
   https://wiki.archlinux.org/index.php/Saltstack
 
 - CLI.
 
   * salt-api(1)
+
+  * pepper
