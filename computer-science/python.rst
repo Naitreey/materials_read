@@ -155,13 +155,22 @@ grammar parser
 file and directory
 ------------------
 - glob
+
 - fnmatch
+
 - linecache
+
 - pathlib
+
 - filecmp
+
 - stat
+
 - tempfile
+  https://docs.python.org/3/library/tempfile.html
+
 - fileinput
+
 - shutil
 
 debugging and profiling
