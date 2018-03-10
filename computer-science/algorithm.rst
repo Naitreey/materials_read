@@ -1,6 +1,5 @@
 book
 ====
-- Introduction to Algorithms, by Cormen. (在读, 很多有价值的参考资料在章末)
 
 data structure
 ==============
