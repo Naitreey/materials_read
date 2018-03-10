@@ -13,9 +13,14 @@ Concepts
 - Network topology
   https://en.wikipedia.org/wiki/Network_topology#Point-to-point
 
+checksum
+--------
+
+- internet checksum
+  https://en.wikipedia.org/wiki/IPv4_header_checksum
+
 application layer
 =================
-
 
 
 HTTP
