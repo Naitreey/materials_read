@@ -115,6 +115,12 @@ GTK
 QT
 ~~
 
+display manager
+---------------
+
+- arch wiki
+  https://wiki.archlinux.org/index.php/Display_manager
+
 Compositor
 ----------
 
