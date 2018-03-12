@@ -49,6 +49,11 @@ X window system
 
 protocol
 --------
+X resources
+~~~~~~~~~~~
+- wiki
+  https://en.wikipedia.org/wiki/X_resources
+
 RandR
 ~~~~~
 - wiki
@@ -62,6 +67,9 @@ config files
 ------------
 - xprofile
   https://wiki.archlinux.org/index.php/Xprofile
+
+- Xresources
+  https://wiki.archlinux.org/index.php/X_resources
 
 Desktop Environment
 -------------------
