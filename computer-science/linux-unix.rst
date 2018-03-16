@@ -1430,6 +1430,9 @@ docker
     - Get started with Docker Compose
       https://docs.docker.com/compose/gettingstarted/
 
+    - Networking in Compose
+      https://docs.docker.com/compose/networking/
+
   * docker swarm
 
     - docker config: Store configuration data using Docker Configs
