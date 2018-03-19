@@ -61,6 +61,12 @@ ceph
       * User management
         http://docs.ceph.com/docs/master/rados/operations/user-management/
 
+    - RADOS cluster API: librados
+      http://docs.ceph.com/docs/master/rados/api/
+
+      * Intro to librados
+        http://docs.ceph.com/docs/master/rados/api/librados-intro/
+
   * Ceph Manager Daemon
     http://docs.ceph.com/docs/master/mgr/
 
