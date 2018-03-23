@@ -883,12 +883,13 @@ logging and warning
 -------------------
 - logging (with source)
   * logging
+    https://docs.python.org/3/library/logging.html
   * logging.config
   * logging.handlers
   * Logging HOWTO
-    https://docs.python.org/3/howto/logging.html#advanced-logging-tutorial
+    https://docs.python.org/3/howto/logging.html
   * Logging Cookbook
-    https://docs.python.org/3/howto/logging-cookbook.html#adding-contextual-information-to-your-logging-output
+    https://docs.python.org/3/howto/logging-cookbook.html
 - warnings
 
 malware analysis
