@@ -885,6 +885,7 @@ logging and warning
   * logging
     https://docs.python.org/3/library/logging.html
   * logging.config
+    https://docs.python.org/3/library/logging.config.html
   * logging.handlers
   * Logging HOWTO
     https://docs.python.org/3/howto/logging.html
