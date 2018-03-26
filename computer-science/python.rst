@@ -573,6 +573,9 @@ http and related protocols
     * Security in Django
       https://docs.djangoproject.com/en/2.0/topics/security/
 
+    * Logging
+      https://docs.djangoproject.com/en/2.0/topics/logging/
+
   - "How-to" guides
 
     * Managing static files (e.g. images, JavaScript, CSS)
