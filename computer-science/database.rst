@@ -1,8 +1,5 @@
 RDBMS
 =====
-SQL language
-------------
-
 PostgreSQL
 ----------
 - PostgreSQL Documentation (在读)
@@ -19,6 +16,21 @@ MySQL
 
     - Tutorial
       https://dev.mysql.com/doc/refman/5.7/en/tutorial.html
+
+    - Replication
+      https://dev.mysql.com/doc/refman/5.7/en/replication.html
+
+      * Configuring replication
+        https://dev.mysql.com/doc/refman/5.7/en/replication-configuration.html
+
+        - Binary Log File Position Based Replication Configuration Overview
+          https://dev.mysql.com/doc/refman/5.7/en/binlog-replication-configuration-overview.html
+
+        - Setting Up Binary Log File Position Based Replication
+          https://dev.mysql.com/doc/refman/5.7/en/replication-howto.html
+
+          * Setting the Replication Master Configuration
+            https://dev.mysql.com/doc/refman/5.7/en/replication-howto-masterbaseconfig.html
 
 - Python driver choice
 
@@ -262,5 +274,3 @@ Elasticsearch
 
 - Elasticsearch Reference (在读)
   https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html
-
-  *

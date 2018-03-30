@@ -55,6 +55,12 @@ language
   * Less copies in Python with the buffer protocol and memoryviews
     http://eli.thegreenplace.net/2011/11/28/less-copies-in-python-with-the-buffer-protocol-and-memoryviews
 
+- FAQs
+
+  * Why is Python a dynamic language and also a strongly typed language?
+    https://wiki.python.org/moin/Why%20is%20Python%20a%20dynamic%20language%20and%20also%20a%20strongly%20typed%20language
+
+
 libraries and frameworks
 ========================
 concurrency
