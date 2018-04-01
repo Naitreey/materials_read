@@ -323,6 +323,21 @@ tilix
 
   * tilix(1)
 
+clipboard
+---------
+- arch wiki
+  https://wiki.archlinux.org/index.php/clipboard
+
+tools
+~~~~~
+- greenclip
+  https://github.com/erebe/greenclip
+
+- xclip
+  https://github.com/astrand/xclip
+
+  * xclip(1)
+
 music
 -----
 
