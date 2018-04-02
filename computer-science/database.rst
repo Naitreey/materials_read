@@ -17,6 +17,13 @@ MySQL
     - Tutorial
       https://dev.mysql.com/doc/refman/5.7/en/tutorial.html
 
+    - Server Administration
+
+      * Server Logs
+
+        - Binary Log
+          https://dev.mysql.com/doc/refman/5.7/en/binary-log.html
+
     - Replication
       https://dev.mysql.com/doc/refman/5.7/en/replication.html
 
@@ -31,6 +38,23 @@ MySQL
 
           * Setting the Replication Master Configuration
             https://dev.mysql.com/doc/refman/5.7/en/replication-howto-masterbaseconfig.html
+          * Creating a User for Replication
+            https://dev.mysql.com/doc/refman/5.7/en/replication-howto-repuser.html
+
+          * Obtaining the Replication Master Binary Log Coordinates
+            https://dev.mysql.com/doc/refman/5.7/en/replication-howto-masterstatus.html
+
+          * Choosing a Method for Data Snapshots
+            https://dev.mysql.com/doc/refman/5.7/en/replication-snapshot-method.html
+
+          * Setting Up Replication Slaves
+            https://dev.mysql.com/doc/refman/5.7/en/replication-setup-slaves.html
+
+      * Replication Implementation
+        https://dev.mysql.com/doc/refman/5.7/en/replication-implementation.html
+
+        - Replication formats
+          https://dev.mysql.com/doc/refman/5.7/en/replication-formats.html
 
 - Python driver choice
 
