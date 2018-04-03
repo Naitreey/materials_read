@@ -24,6 +24,12 @@ MySQL
         - Binary Log
           https://dev.mysql.com/doc/refman/5.7/en/binary-log.html
 
+          * binary logging formats
+            https://dev.mysql.com/doc/refman/5.7/en/binary-log-formats.html
+
+          * Setting The Binary Log Format
+            https://dev.mysql.com/doc/refman/5.7/en/binary-log-setting.html
+
     - Replication
       https://dev.mysql.com/doc/refman/5.7/en/replication.html
 
@@ -50,11 +56,23 @@ MySQL
           * Setting Up Replication Slaves
             https://dev.mysql.com/doc/refman/5.7/en/replication-setup-slaves.html
 
+        - Common Replication Administration Tasks
+          https://dev.mysql.com/doc/refman/5.7/en/replication-administration.html
+
+          * Checking Replication Status
+            https://dev.mysql.com/doc/refman/5.7/en/replication-administration-status.html
+
       * Replication Implementation
         https://dev.mysql.com/doc/refman/5.7/en/replication-implementation.html
 
         - Replication formats
           https://dev.mysql.com/doc/refman/5.7/en/replication-formats.html
+
+          * Advantages and Disadvantages of Statement-Based and Row-Based Replication
+            https://dev.mysql.com/doc/refman/5.7/en/replication-sbr-rbr.html
+
+        - Replication Implementation Details
+          https://dev.mysql.com/doc/refman/5.7/en/replication-implementation-details.html
 
 - Python driver choice
 
