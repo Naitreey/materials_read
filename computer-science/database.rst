@@ -74,6 +74,15 @@ MySQL
         - Replication Implementation Details
           https://dev.mysql.com/doc/refman/5.7/en/replication-implementation-details.html
 
+        - Replication Relay and Status Logs
+          https://dev.mysql.com/doc/refman/5.7/en/slave-logs.html
+
+          * The Slave Relay Log
+            https://dev.mysql.com/doc/refman/5.7/en/slave-logs-relaylog.html
+
+          * Slave Status Logs
+            https://dev.mysql.com/doc/refman/5.7/en/slave-logs-status.html
+
 - Python driver choice
 
   * python mysql wiki
