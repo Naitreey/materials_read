@@ -98,6 +98,38 @@ MySQL
     MySQL connector/python
     https://stackoverflow.com/questions/43102442/whats-the-difference-between-mysqldb-mysqlclient-and-mysql-connector-python
 
+- Percona tools
+
+  * Percona XtraBackup Documentation
+    https://www.percona.com/doc/percona-xtrabackup/LATEST/index.html
+
+    - About Percona XtraBackup
+      https://www.percona.com/doc/percona-xtrabackup/LATEST/intro.html
+
+    - Installation
+      https://www.percona.com/doc/percona-xtrabackup/LATEST/installation.html
+
+      * Installing Percona XtraBackup on Debian and Ubuntu
+        https://www.percona.com/doc/percona-xtrabackup/LATEST/installation/apt_repo.html
+
+    - Prerequisites
+
+      * Connection and Privileges Needed
+        https://www.percona.com/doc/percona-xtrabackup/LATEST/using_xtrabackup/privileges.html
+
+    - backups
+
+      * full backup
+        https://www.percona.com/doc/percona-xtrabackup/LATEST/backup_scenarios/full_backup.html
+
+    - replication
+
+      * working with binlogs
+        https://www.percona.com/doc/percona-xtrabackup/LATEST/xtrabackup_bin/working_with_binary_logs.html
+
+      * How to setup a slave for replication in 6 simple steps with Percona XtraBackup
+        https://www.percona.com/doc/percona-xtrabackup/LATEST/howtos/setting_up_replication.html
+
 - MySQL 语句自动化审核系统: inception
 
   * source code
