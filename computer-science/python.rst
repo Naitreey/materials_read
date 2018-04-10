@@ -596,6 +596,9 @@ http and related protocols
     * Authentication using ``REMOTE_USER``
       https://docs.djangoproject.com/en/2.0/howto/auth-remote-user/
 
+    * Writing custom django-admin commands
+      https://docs.djangoproject.com/en/2.0/howto/custom-management-commands/
+
   - API reference
     https://docs.djangoproject.com/en/stable/ref/
 

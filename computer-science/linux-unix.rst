@@ -1521,6 +1521,17 @@ docker
       * Registry as a pull through cache of docker hub
         https://docs.docker.com/registry/recipes/mirror/
 
+  * API and Client library
+
+    - Develop with Docker Engine SDKs and API
+      https://docs.docker.com/develop/sdk/
+
+    - Examples using the Docker Engine SDKs and Docker API
+      https://docs.docker.com/develop/sdk/examples/
+
+    - Docker SDK for Python
+      https://docker-py.readthedocs.io/en/stable/
+
   * References
 
     - Dockerfile reference
