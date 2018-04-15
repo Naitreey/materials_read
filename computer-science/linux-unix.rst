@@ -375,6 +375,14 @@ CLI
 
 * chvt(1)
 
+memory
+======
+
+swap
+----
+- swap -- arch wiki
+  https://wiki.archlinux.org/index.php/Swap
+
 User System
 ===========
 
