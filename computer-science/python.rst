@@ -2,9 +2,14 @@ language
 ========
 - tutorial --- Python official documentation (已读)
 
+- Beginning Python From Novice to Professional (已读)
+
 - Python Language Reference 2.7.10 --- Python official documentation (已读)
 
-- Beginning Python From Novice to Professional (已读)
+- Python Standard Library
+
+  * Built-in Exceptions
+    https://docs.python.org/3/library/exceptions.html
 
 - C3 method resolution order
   https://www.python.org/download/releases/2.3/mro/
@@ -215,15 +220,18 @@ python runtime
 - gc
 - contextlib
 - pprint
+- reprlib
 
-.. import
+import
+^^^^^^
 
 - importlib
 - imp
 - zipimport
 - pkgutil
 
-.. packaging
+packaging
+^^^^^^^^^
 
 - ensurepip
 - pip
@@ -341,7 +349,7 @@ database
 - dbm.gnu
 
 NoSQL
-~~~~~
+^^^^^
 
 .. mongodb
 
@@ -355,7 +363,7 @@ NoSQL
 - elasticsearch_dsl
 
 SQL
-~~~
+^^^
 
 - sqlalchemy
 
@@ -380,7 +388,7 @@ network programming
 -------------------
 
 lower-level stuffs
-~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^
 
 - socket
 - netifaces
@@ -396,7 +404,7 @@ lower-level stuffs
 - shadowsocks
 
 http and related protocols
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * http
 
@@ -706,12 +714,12 @@ http and related protocols
 * Twisted
 
 ssh
-~~~
+^^^
 
 * paramiko
 
 RPC
-~~~
+^^^
 
 - XML-RPC
 
@@ -927,17 +935,17 @@ vcs
 file format manipulation
 ------------------------
 pdf
-~~~
+^^^
 
 - pypdf2
 
 microsoft excel
-~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^
 
 - xlwt
 
 HDF
-~~~
+^^^
 -h5py
 
 - PyTables
