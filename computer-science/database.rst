@@ -122,6 +122,12 @@ MySQL
       * full backup
         https://www.percona.com/doc/percona-xtrabackup/LATEST/backup_scenarios/full_backup.html
 
+      * Accelerating the backup process
+        https://www.percona.com/doc/percona-xtrabackup/LATEST/innobackupex/parallel_copy_ibk.html
+
+      * Performing MySQL Hot Backups with Percona XtraBackup and Google Cloud Storage
+        https://cloud.google.com/solutions/mysql-hot-backups
+
     - replication
 
       * working with binlogs
@@ -129,6 +135,12 @@ MySQL
 
       * How to setup a slave for replication in 6 simple steps with Percona XtraBackup
         https://www.percona.com/doc/percona-xtrabackup/LATEST/howtos/setting_up_replication.html
+
+    - The xtrabackup Option Reference
+      https://www.percona.com/doc/percona-xtrabackup/LATEST/xtrabackup_bin/xbk_option_reference.html
+
+  * xbstream binary
+    https://www.percona.com/doc/percona-xtrabackup/LATEST/xbstream/xbstream.html
 
 - MySQL 语句自动化审核系统: inception
 
