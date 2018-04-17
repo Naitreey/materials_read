@@ -335,6 +335,9 @@ Secure Shell (SSH)
   * wikibook *OpenSSH* -- *SSH Protocols* section
     https://en.wikibooks.org/wiki/OpenSSH/SSH_Protocols
 
+  * Understanding the SSH Encryption and Connection Process
+    https://www.digitalocean.com/community/tutorials/understanding-the-ssh-encryption-and-connection-process
+
 - implementation
 
   * OpenSSH
