@@ -5,6 +5,21 @@ Language
 
   * Up & Going (finished)
 
+- MDN JavaScript reference
+
+  * Standard built-in objects
+
+    - Function
+
+      * Function.prototype.call()
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call
+
+      * Function.prototype.apply()
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply
+
+      * Function.prototype.bind()
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind
+
 Security
 ========
 - Javascript Array Vulnerability
