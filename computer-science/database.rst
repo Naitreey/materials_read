@@ -17,6 +17,15 @@ MySQL
     - Tutorial
       https://dev.mysql.com/doc/refman/5.7/en/tutorial.html
 
+    - SQL statement syntax
+
+      * database administration statements
+
+        - SHOW Syntax
+
+          * SHOW VARIABLES syntax
+            https://dev.mysql.com/doc/refman/8.0/en/show-variables.html
+
     - Server Administration
 
       * Server Logs
