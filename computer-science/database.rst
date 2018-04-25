@@ -26,6 +26,9 @@ MySQL
           * SHOW VARIABLES syntax
             https://dev.mysql.com/doc/refman/8.0/en/show-variables.html
 
+          * SHOW SLAVE STATUS Syntax
+            https://dev.mysql.com/doc/refman/8.0/en/show-slave-status.html
+
     - Server Administration
 
       * Server Logs
@@ -91,6 +94,25 @@ MySQL
 
           * Slave Status Logs
             https://dev.mysql.com/doc/refman/5.7/en/slave-logs-status.html
+
+    - MySQL Performance Schema
+
+      * Performance Schema Table Descriptions
+
+        - Performance Schema Replication Tables
+          https://dev.mysql.com/doc/refman/8.0/en/performance-schema-replication-tables.html
+
+          * The replication_connection_configuration Table
+            https://dev.mysql.com/doc/refman/8.0/en/replication-connection-configuration-table.html
+
+          * The replication_connection_status Table
+            https://dev.mysql.com/doc/refman/8.0/en/replication-connection-status-table.html
+
+          * The replication_applier_status Table
+            https://dev.mysql.com/doc/refman/8.0/en/replication-applier-status-table.html
+
+          * The replication_applier_global_filters Table
+            https://dev.mysql.com/doc/refman/8.0/en/replication-applier-global-filters-table.html
 
 - Python driver choice
 
