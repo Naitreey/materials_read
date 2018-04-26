@@ -32,6 +32,9 @@ MySQL
           * SHOW VARIABLES syntax
             https://dev.mysql.com/doc/refman/8.0/en/show-variables.html
 
+          * SHOW SLAVE HOSTS Syntax
+            https://dev.mysql.com/doc/refman/8.0/en/show-slave-hosts.html
+
           * SHOW SLAVE STATUS Syntax
             https://dev.mysql.com/doc/refman/8.0/en/show-slave-status.html
 

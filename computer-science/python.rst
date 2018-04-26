@@ -244,7 +244,10 @@ packaging
 functional programming
 ----------------------
 - operator
+  https://docs.python.org/3/library/operator.html
+
 - functools
+
 - itertools
 
 documentation
