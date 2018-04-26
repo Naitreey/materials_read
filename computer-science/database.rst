@@ -21,6 +21,12 @@ MySQL
 
       * database administration statements
 
+        - Account Management Statements
+          https://dev.mysql.com/doc/refman/8.0/en/account-management-sql.html
+
+          * CREATE USER Syntax
+            https://dev.mysql.com/doc/refman/8.0/en/create-user.html
+
         - SHOW Syntax
 
           * SHOW VARIABLES syntax
@@ -28,6 +34,29 @@ MySQL
 
           * SHOW SLAVE STATUS Syntax
             https://dev.mysql.com/doc/refman/8.0/en/show-slave-status.html
+
+          * SHOW CREATE USER Syntax
+            https://dev.mysql.com/doc/refman/8.0/en/show-create-user.html
+
+          * SHOW GRANTS Syntax
+            https://dev.mysql.com/doc/refman/8.0/en/show-grants.html
+
+    - Security
+
+      * MySQL User Account Management
+        https://dev.mysql.com/doc/refman/8.0/en/user-account-management.html
+
+        - User Names and Passwords
+          https://dev.mysql.com/doc/refman/8.0/en/user-names.html
+
+        - Adding User Accounts
+          https://dev.mysql.com/doc/refman/8.0/en/adding-users.html
+
+        - Remove User Accounts
+          https://dev.mysql.com/doc/refman/8.0/en/removing-users.html
+
+        - Reserved User Accounts
+          https://dev.mysql.com/doc/refman/8.0/en/reserved-users.html
 
     - Server Administration
 
