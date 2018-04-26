@@ -9,6 +9,11 @@ Language
 
   * Standard built-in objects
 
+    - Object
+
+      * Object.assign()
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
+
     - Function
 
       * Function.prototype.call()
