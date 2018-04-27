@@ -7,12 +7,51 @@ Language
 
 - MDN JavaScript reference
 
+  * Expressions
+
+    - delete operator
+      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete
+
+  * Statements
+
+    - for...in
+      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in
+
+    - for...of
+      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of
+
+  * Functions
+
+    - getter
+      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get
+
   * Standard built-in objects
 
     - Object
 
       * Object.assign()
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
+
+      * Object.getOwnPropertyDescriptor()
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyDescriptor
+
+      * Object.preventExtensions()
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/preventExtensions
+
+      * Object.seal()
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/seal
+
+      * Object.isSealed()
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/isSealed
+
+      * Object.freeze()
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze
+
+      * Object.isFrozen()
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/isFrozen
+
+      * Object.prototype.hasOwnProperty()
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty
 
     - Function
 
