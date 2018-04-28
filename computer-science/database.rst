@@ -17,7 +17,46 @@ MySQL
     - Tutorial
       https://dev.mysql.com/doc/refman/5.7/en/tutorial.html
 
+    - Language Structure
+      https://dev.mysql.com/doc/refman/8.0/en/language-structure.html
+
+      * Literal Values
+        https://dev.mysql.com/doc/refman/8.0/en/literals.html
+
+        - String literals
+          https://dev.mysql.com/doc/refman/8.0/en/string-literals.html
+
+        - Numeric literals
+          https://dev.mysql.com/doc/refman/8.0/en/number-literals.html
+
+        - Date and Time Literals
+          https://dev.mysql.com/doc/refman/8.0/en/date-and-time-literals.html
+
+        - Hexadecimal literals
+          https://dev.mysql.com/doc/refman/8.0/en/hexadecimal-literals.html
+
+        - Bit-value literals
+          https://dev.mysql.com/doc/refman/8.0/en/bit-value-literals.html
+
+        - Boolean literals
+          https://dev.mysql.com/doc/refman/8.0/en/boolean-literals.html
+
+        - NULL values
+          https://dev.mysql.com/doc/refman/8.0/en/null-values.html
+
+      * Schema Object Names
+        https://dev.mysql.com/doc/refman/8.0/en/identifiers.html
+
+        - Identifier Qualifiers
+          https://dev.mysql.com/doc/refman/8.0/en/identifier-qualifiers.html
+
     - SQL statement syntax
+
+      * Transactional and Locking Statements
+        https://dev.mysql.com/doc/refman/8.0/en/sql-syntax-transactions.html
+
+        - START TRANSACTION, COMMIT, and ROLLBACK Syntax
+          https://dev.mysql.com/doc/refman/8.0/en/commit.html
 
       * database administration statements
 
