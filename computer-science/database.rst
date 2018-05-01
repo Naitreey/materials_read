@@ -50,6 +50,112 @@ MySQL
         - Identifier Qualifiers
           https://dev.mysql.com/doc/refman/8.0/en/identifier-qualifiers.html
 
+        - Identifier Case Sensitivity
+          https://dev.mysql.com/doc/refman/8.0/en/identifier-case-sensitivity.html
+
+        - Function Name Parsing and Resolution
+          https://dev.mysql.com/doc/refman/8.0/en/function-resolution.html
+
+      * Keywords and Reserved Words
+        https://dev.mysql.com/doc/refman/8.0/en/keywords.html
+
+      * User-defined variables
+        https://dev.mysql.com/doc/refman/8.0/en/user-variables.html
+
+      * Expression syntax
+        https://dev.mysql.com/doc/refman/8.0/en/expressions.html
+
+      * Comment syntax
+        https://dev.mysql.com/doc/refman/8.0/en/comments.html
+
+    - Data types
+      https://dev.mysql.com/doc/refman/8.0/en/data-types.html
+
+      * Data Type Overview
+        https://dev.mysql.com/doc/refman/8.0/en/data-types.html
+
+        - Numeric Type Overview
+          https://dev.mysql.com/doc/refman/8.0/en/numeric-type-overview.html
+
+        - Date and Time Type Overview
+          https://dev.mysql.com/doc/refman/8.0/en/date-and-time-type-overview.html
+
+        - String Type Overview
+          https://dev.mysql.com/doc/refman/8.0/en/string-type-overview.html
+
+      * Numeric Types
+        https://dev.mysql.com/doc/refman/8.0/en/numeric-types.html
+
+        - Integer Types (Exact Value), INTEGER, INT, SMALLINT, TINYINT,
+          MEDIUMINT, BIGINT
+          https://dev.mysql.com/doc/refman/8.0/en/integer-types.html
+
+        - Fixed-Point Types (Exact Value) - DECIMAL, NUMERIC
+          https://dev.mysql.com/doc/refman/8.0/en/fixed-point-types.html
+
+        - Floating-Point Types (Approximate Value) - FLOAT, DOUBLE
+          https://dev.mysql.com/doc/refman/8.0/en/floating-point-types.html
+
+        - Bit-Value Type - BIT
+          https://dev.mysql.com/doc/refman/8.0/en/bit-type.html
+
+        - Numeric Type Attributes
+          https://dev.mysql.com/doc/refman/8.0/en/numeric-type-attributes.html
+
+        - Out-of-Range and Overflow Handling
+          https://dev.mysql.com/doc/refman/8.0/en/out-of-range-and-overflow.html
+
+      * Date and Time Types
+        https://dev.mysql.com/doc/refman/8.0/en/date-and-time-types.html
+
+        - The DATE, DATETIME, and TIMESTAMP Types
+          https://dev.mysql.com/doc/refman/8.0/en/datetime.html
+
+        - The TIME Type
+          https://dev.mysql.com/doc/refman/8.0/en/time.html
+
+        - The YEAR type
+          https://dev.mysql.com/doc/refman/8.0/en/year.html
+
+        - Automatic Initialization and Updating for TIMESTAMP and DATETIME
+          https://dev.mysql.com/doc/refman/8.0/en/timestamp-initialization.html
+
+        - Fractional Seconds in Time Values
+          https://dev.mysql.com/doc/refman/8.0/en/fractional-seconds.html
+
+        - Conversion Between Date and Time Types
+          https://dev.mysql.com/doc/refman/8.0/en/date-and-time-type-conversion.html
+
+      * String Types
+        https://dev.mysql.com/doc/refman/8.0/en/string-types.html
+
+        - The CHAR and VARCHAR types
+          https://dev.mysql.com/doc/refman/8.0/en/char.html
+
+        - BINARY and VARBINARY types
+          https://dev.mysql.com/doc/refman/8.0/en/binary-varbinary.html
+
+        - The BLOB and TEXT Types
+          https://dev.mysql.com/doc/refman/8.0/en/blob.html
+
+        - The ENUM Type
+          https://dev.mysql.com/doc/refman/8.0/en/enum.html
+
+        - The SET Type
+          https://dev.mysql.com/doc/refman/8.0/en/set.html
+
+      * Spatial Data Types
+        https://dev.mysql.com/doc/refman/8.0/en/spatial-types.html
+
+        - Spatial Data Types
+          https://dev.mysql.com/doc/refman/8.0/en/spatial-type-overview.html
+
+        - The OpenGIS Geometry Model
+          https://dev.mysql.com/doc/refman/8.0/en/opengis-geometry-model.html
+
+      * JSON type
+        https://dev.mysql.com/doc/refman/8.0/en/json.html
+
     - SQL statement syntax
 
       * Transactional and Locking Statements
@@ -101,6 +207,11 @@ MySQL
           https://dev.mysql.com/doc/refman/8.0/en/reserved-users.html
 
     - Server Administration
+
+      * The MySQL Server
+
+        - Server SQL Modes
+          https://dev.mysql.com/doc/refman/8.0/en/sql-mode.html
 
       * Server Logs
 
