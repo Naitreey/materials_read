@@ -12,6 +12,9 @@ Language
     - delete operator
       https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete
 
+    - in operator
+      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/in
+
   * Statements
 
     - for...in
@@ -72,6 +75,17 @@ Language
 
       * Function.prototype.bind()
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind
+
+    - Array
+
+      * Array.prototype.forEach()
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+
+      * Array.prototype.some()
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some
+
+      * Array.prototype.every()
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every
 
 Security
 ========
