@@ -1456,6 +1456,11 @@ docker
     - Networking in Compose
       https://docs.docker.com/compose/networking/
 
+    - Compose CLI reference
+
+      * docker-compose run
+        https://docs.docker.com/compose/reference/run/
+
   * docker swarm
 
     - docker config: Store configuration data using Docker Configs
