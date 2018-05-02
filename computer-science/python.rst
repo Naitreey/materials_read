@@ -706,6 +706,9 @@ http and related protocols
     * user objects
       https://django-auth-ldap.readthedocs.io/en/latest/users.html
 
+* django-mysql
+
+
 * django-mongodb-engine
 
 * django-localflavor
