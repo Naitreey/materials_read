@@ -156,6 +156,12 @@ MySQL
       * JSON type
         https://dev.mysql.com/doc/refman/8.0/en/json.html
 
+      * Data Type Default Values
+        https://dev.mysql.com/doc/refman/8.0/en/data-type-defaults.html
+
+      * Data Type Storage Requirements
+        https://dev.mysql.com/doc/refman/8.0/en/storage-requirements.html
+
     - SQL statement syntax
 
       * Transactional and Locking Statements
