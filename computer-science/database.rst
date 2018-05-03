@@ -169,6 +169,9 @@ MySQL
         - CREAT DATABASE Syntax
           https://dev.mysql.com/doc/refman/8.0/en/create-database.html
 
+        - ALTER DATABASE Syntax
+          https://dev.mysql.com/doc/refman/8.0/en/alter-database.html
+
       * Transactional and Locking Statements
         https://dev.mysql.com/doc/refman/8.0/en/sql-syntax-transactions.html
 
@@ -264,6 +267,11 @@ MySQL
 
         - Column Character Set Conversion
           https://dev.mysql.com/doc/refman/8.0/en/charset-conversion.html
+
+      * Unicode Support
+
+        - Converting Between 3-Byte and 4-Byte Unicode Character Sets
+          https://dev.mysql.com/doc/refman/8.0/en/charset-unicode-conversion.html
 
     - Security
 
@@ -450,128 +458,6 @@ MySQL
 
   * docs
     http://www.mycli.net/docs
-
-- MySQL SQL language
-
-  * DDL
-
-    - ``CREATE DATABASE``
-
-    - ``CREATE TABLE``
-
-    - ``ALTER TABLE``
-
-  * DML
-
-    - ``LOAD DATA INFILE``
-
-    - ``INSERT``
-
-    - ``SELECT``
-
-    - ``JOIN``
-
-    - ``UNION``
-
-    - ``DELETE``
-
-    - ``UPDATE``
-
-  * Administration statements
-
-    - ``CREATE USER``
-
-    - ``GRANT``
-
-    - ``SHOW``
-
-  * Utility statements
-
-    - ``QUIT``
-
-    - ``USE``
-
-    - ``DESCRIBE``
-
-  * Logical operatos
-
-   - AND
-
-   - OR
-
-   - IS NULL
-
-   - IS NOT NULL
-
-   - LIKE
-
-   - NOT LIKE
-
-   - RLIKE
-
-   - NOT RLIKE
-
-   - REGEXP
-
-   - NOT REGEXP
-
-  * misc
-
-    - VERSION()
-
-    - CURRENT_DATE
-
-    - NOW()
-
-    - DATABASE()
-
-    - DISTINCT
-
-    - ORDER BY
-
-    - WHERE
-
-    - BINARY
-
-    - TIMESTAMPDIFF()
-
-    - YEAR()
-
-    - MONTH()
-
-    - DAYOFMONTH()
-
-    - DATE_ADD()
-
-    - CURDATE()
-
-    - COUNT()
-
-    - GROUP BY
-
-    - INNER JOIN ON
-
-    - LEFT JOIN ON
-
-    - source
-
-    - MAX()
-
-    - MIN()
-
-    - LIMIT
-
-    - zerofill
-
-    - LAST_INSERT_ID()
-
-    - REFERENCES
-
-- mysql client commands
-
-  * ``\g``, ``\G``
-
-  * ``\c``
 
 NoSQL
 =====
