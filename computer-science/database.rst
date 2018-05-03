@@ -164,6 +164,11 @@ MySQL
 
     - SQL statement syntax
 
+      * Data Definition Statements
+
+        - CREAT DATABASE Syntax
+          https://dev.mysql.com/doc/refman/8.0/en/create-database.html
+
       * Transactional and Locking Statements
         https://dev.mysql.com/doc/refman/8.0/en/sql-syntax-transactions.html
 
@@ -194,6 +199,71 @@ MySQL
 
           * SHOW GRANTS Syntax
             https://dev.mysql.com/doc/refman/8.0/en/show-grants.html
+
+          * SHOW CHARACTER SET Syntax
+            https://dev.mysql.com/doc/refman/8.0/en/show-character-set.html
+
+          * SHOW COLLATION Syntax
+            https://dev.mysql.com/doc/refman/8.0/en/show-collation.html
+
+        - SET Syntax
+
+          * SET NAMES Syntax
+            https://dev.mysql.com/doc/refman/8.0/en/set-names.html
+
+          * SET CHARACTER SET Syntax
+            https://dev.mysql.com/doc/refman/8.0/en/set-character-set.html
+
+    - Character Sets, Collations, Unicode
+      https://dev.mysql.com/doc/refman/8.0/en/charset.html
+
+      * Character Sets and Collations in General
+        https://dev.mysql.com/doc/refman/8.0/en/charset-general.html
+
+      * Character Sets and Collations in MySQL
+        https://dev.mysql.com/doc/refman/8.0/en/charset-mysql.html
+
+        - Character Set Repertoire
+          https://dev.mysql.com/doc/refman/8.0/en/charset-repertoire.html
+
+        - UTF-8 for Metadata
+          https://dev.mysql.com/doc/refman/8.0/en/charset-metadata.html
+
+      * Specifying Character Sets and Collations
+        https://dev.mysql.com/doc/refman/8.0/en/charset-syntax.html
+
+        - Collation Naming Conventions
+          https://dev.mysql.com/doc/refman/8.0/en/charset-collation-names.html
+
+        - Server Character Set and Collation
+          https://dev.mysql.com/doc/refman/8.0/en/charset-server.html
+
+        - Database Character Set and Collation
+          https://dev.mysql.com/doc/refman/8.0/en/charset-database.html
+
+        - Table Character Set and Collation
+          https://dev.mysql.com/doc/refman/8.0/en/charset-table.html
+
+        - Column Character Set and Collation
+          https://dev.mysql.com/doc/refman/8.0/en/charset-column.html
+
+        - Character String Literal Character Set and Collation
+          https://dev.mysql.com/doc/refman/8.0/en/charset-literal.html
+
+        - Character Set Introducers
+          https://dev.mysql.com/doc/refman/8.0/en/charset-introducer.html
+
+        - Connection Character Sets and Collations
+          https://dev.mysql.com/doc/refman/8.0/en/charset-connection.html
+
+        - Configuring Application Character Set and Collation
+          https://dev.mysql.com/doc/refman/8.0/en/charset-applications.html
+
+        - Error Message Character Set
+          https://dev.mysql.com/doc/refman/8.0/en/charset-errors.html
+
+        - Column Character Set Conversion
+          https://dev.mysql.com/doc/refman/8.0/en/charset-conversion.html
 
     - Security
 
