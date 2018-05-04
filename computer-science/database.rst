@@ -217,6 +217,13 @@ MySQL
           * SET CHARACTER SET Syntax
             https://dev.mysql.com/doc/refman/8.0/en/set-character-set.html
 
+    - MySQL programs
+
+      * Using MySQL programs
+
+        - Using Option Files
+          https://dev.mysql.com/doc/refman/8.0/en/option-files.html
+
     - Character Sets, Collations, Unicode
       https://dev.mysql.com/doc/refman/8.0/en/charset.html
 
