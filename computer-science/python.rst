@@ -708,6 +708,8 @@ http and related protocols
 
 * django-mysql
 
+  - checks
+    https://django-mysql.readthedocs.io/en/latest/checks.html
 
 * django-mongodb-engine
 
