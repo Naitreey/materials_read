@@ -708,8 +708,20 @@ http and related protocols
 
 * django-mysql
 
+  - Requirements and Installation
+    https://django-mysql.readthedocs.io/en/latest/installation.html
+
   - checks
     https://django-mysql.readthedocs.io/en/latest/checks.html
+
+  - Model Fields
+    https://django-mysql.readthedocs.io/en/latest/model_fields/index.html
+
+    * EnumField
+      https://django-mysql.readthedocs.io/en/latest/model_fields/enum_field.html
+
+    * BIT(1) boolean fields
+      https://django-mysql.readthedocs.io/en/latest/model_fields/null_bit1_boolean_fields.html
 
 * django-mongodb-engine
 
