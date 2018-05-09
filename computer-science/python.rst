@@ -314,6 +314,8 @@ crypto
 - crypt
 - ssl
 - rsa
+- cryptography
+- pynacl
 
 compression
 -----------

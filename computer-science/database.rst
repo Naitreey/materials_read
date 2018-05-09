@@ -217,6 +217,11 @@ MySQL
           * SET CHARACTER SET Syntax
             https://dev.mysql.com/doc/refman/8.0/en/set-character-set.html
 
+    - Optimization
+
+      * Optimization and Indexes
+        https://dev.mysql.com/doc/refman/8.0/en/optimization-indexes.html
+
     - MySQL programs
 
       * Using MySQL programs
