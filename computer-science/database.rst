@@ -282,6 +282,9 @@ MySQL
 
       * Unicode Support
 
+        - The utf8mb4 Character Set (4-Byte UTF-8 Unicode Encoding)
+          https://dev.mysql.com/doc/refman/8.0/en/charset-unicode-utf8mb4.html
+
         - Converting Between 3-Byte and 4-Byte Unicode Character Sets
           https://dev.mysql.com/doc/refman/8.0/en/charset-unicode-conversion.html
 
