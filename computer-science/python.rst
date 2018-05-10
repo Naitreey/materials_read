@@ -731,6 +731,10 @@ http and related protocols
 
 * Grappelli
 
+* django-crispy-forms
+
+* django-material
+
 * Tornado
 
 * Twisted
