@@ -28,6 +28,9 @@ Language
     - getter
       https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get
 
+  * iteration protocols
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols
+
   * Standard built-in objects
 
     - Object
