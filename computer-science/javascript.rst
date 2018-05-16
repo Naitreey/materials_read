@@ -5,6 +5,11 @@ Language
 
   * Up & Going (finished)
 
+- MDN JavaScript Guide
+
+  * Iterators and generators
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators
+
 - MDN JavaScript reference
 
   * Expressions
@@ -89,6 +94,10 @@ Language
 
       * Array.prototype.every()
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every
+
+    - Generator
+      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator
+
 
 Security
 ========
