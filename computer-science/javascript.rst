@@ -98,6 +98,14 @@ Language
     - Generator
       https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator
 
+      * Generator.prototype.next()
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator/next
+
+      * Generator.prototype.return()
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator/return
+
+      * Generator.prototype.throw()
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator/throw
 
 Security
 ========
