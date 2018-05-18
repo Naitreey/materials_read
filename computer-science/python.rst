@@ -595,6 +595,9 @@ http and related protocols
     * Logging
       https://docs.djangoproject.com/en/2.0/topics/logging/
 
+    * Testing in Django
+      https://docs.djangoproject.com/en/2.0/topics/testing/
+
   - "How-to" guides
 
     * Managing static files (e.g. images, JavaScript, CSS)
