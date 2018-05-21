@@ -531,7 +531,6 @@ http and related protocols
         https://docs.djangoproject.com/en/stable/topics/class-based-views/mixins/
 
     * Migrations
-      https://docs.djangoproject.com/en/stable/topics/migrations/
 
       - How to move model between apps
         https://stackoverflow.com/a/26472482/1602266
@@ -614,6 +613,9 @@ http and related protocols
 
     * Writing custom django-admin commands
       https://docs.djangoproject.com/en/2.0/howto/custom-management-commands/
+
+    * Writing database migrations
+      https://docs.djangoproject.com/en/2.0/howto/writing-migrations/
 
   - API reference
     https://docs.djangoproject.com/en/stable/ref/
