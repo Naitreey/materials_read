@@ -88,6 +88,9 @@ URI
 - Cool URIs don't change
   https://www.w3.org/Provider/Style/URI
 
+- Percent-encoding
+  https://en.wikipedia.org/wiki/Percent-encoding
+
 header fields
 ~~~~~~~~~~~~~
 

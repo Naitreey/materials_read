@@ -419,6 +419,7 @@ http and related protocols
 * urllib (urllib, urlib2)
 * urllib.request
 * urllib.parse (urlparse)
+  https://docs.python.org/3/library/urllib.parse.html#urllib.parse.urlencode
 * urllib.robotparser
 * urllib.error
 * urllib3
