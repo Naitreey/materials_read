@@ -20,6 +20,9 @@ Language
     - in operator
       https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/in
 
+    - spread syntax
+      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+
   * Statements
 
     - for...in
@@ -27,6 +30,12 @@ Language
 
     - for...of
       https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of
+
+    - function*
+      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*
+
+    - yield*
+      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield*
 
   * Functions
 
@@ -106,6 +115,11 @@ Language
 
       * Generator.prototype.throw()
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator/throw
+
+coding style
+============
+- callback hell
+  http://callbackhell.com/
 
 Security
 ========
