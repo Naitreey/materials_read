@@ -931,6 +931,12 @@ task queue
     - Next Steps
       http://docs.celeryproject.org/en/latest/getting-started/next-steps.html
 
+  * Django
+    http://docs.celeryproject.org/en/latest/django/index.html
+
+    - First steps with Django
+      http://docs.celeryproject.org/en/latest/django/first-steps-with-django.html
+
 logging and warning
 -------------------
 - logging (with source)
