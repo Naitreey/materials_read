@@ -849,6 +849,8 @@ scientific computing
 
 - traitlets
 
+- PyEphem
+
 machine-learning
 ----------------
 - scikit-learn
@@ -931,11 +933,20 @@ task queue
     - Next Steps
       http://docs.celeryproject.org/en/latest/getting-started/next-steps.html
 
+  * user guide
+
+    - Periodic Tasks
+      http://docs.celeryproject.org/en/latest/userguide/periodic-tasks.html
+
   * Django
     http://docs.celeryproject.org/en/latest/django/index.html
 
     - First steps with Django
       http://docs.celeryproject.org/en/latest/django/first-steps-with-django.html
+
+- django-celery-beat
+
+- django-celery-results
 
 logging and warning
 -------------------
