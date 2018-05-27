@@ -938,6 +938,9 @@ task queue
     - Periodic Tasks
       http://docs.celeryproject.org/en/latest/userguide/periodic-tasks.html
 
+    - Routing Tasks
+      http://docs.celeryproject.org/en/latest/userguide/routing.html
+
   * Django
     http://docs.celeryproject.org/en/latest/django/index.html
 
