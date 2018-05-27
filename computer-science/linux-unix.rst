@@ -1428,6 +1428,9 @@ docker
     - Image management
       https://docs.docker.com/engine/userguide/eng-image/image_management/
 
+    - Control Docker with systemd
+      https://docs.docker.com/config/daemon/systemd/
+
   * data storage
 
     - Storage overview
