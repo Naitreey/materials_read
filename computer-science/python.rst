@@ -949,7 +949,7 @@ task queue
 
 - django-celery-beat
 
-- django-celery-results
+- django-celery-results (useless)
 
 logging and warning
 -------------------

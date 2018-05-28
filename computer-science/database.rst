@@ -217,6 +217,16 @@ MySQL
           * SET CHARACTER SET Syntax
             https://dev.mysql.com/doc/refman/8.0/en/set-character-set.html
 
+      * replication statements
+
+        - SQL Statements for Controlling Slave Servers
+
+          * STOP SLAVE Syntax
+            https://dev.mysql.com/doc/refman/8.0/en/stop-slave.html
+
+          * RESET SLAVE Syntax
+            https://dev.mysql.com/doc/refman/8.0/en/reset-slave.html
+
     - Optimization
 
       * Optimization and Indexes
