@@ -283,6 +283,7 @@ system level utils
 date, time
 ----------
 - time
+  https://docs.python.org/3/library/time.html
 - datetime
 - calendar
 - dateutil
