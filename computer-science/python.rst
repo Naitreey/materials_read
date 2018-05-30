@@ -285,7 +285,9 @@ date, time
 - time
   https://docs.python.org/3/library/time.html
 - datetime
+  https://docs.python.org/3/library/datetime.html
 - calendar
+  https://docs.python.org/3/library/calendar.html#module-calendar
 - dateutil
 
 coverage & test
