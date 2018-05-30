@@ -39,6 +39,9 @@ Language
 
   * Functions
 
+    - rest parameter
+      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters
+
     - getter
       https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get
 
