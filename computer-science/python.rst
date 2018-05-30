@@ -289,6 +289,7 @@ date, time
 - calendar
   https://docs.python.org/3/library/calendar.html#module-calendar
 - dateutil
+  https://dateutil.readthedocs.io/en/stable/
 
 coverage & test
 ---------------
