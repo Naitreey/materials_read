@@ -37,6 +37,9 @@ Language
     - yield*
       https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield*
 
+    - Destructuring statement
+      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
+
   * Functions
 
     - rest parameter
