@@ -23,6 +23,9 @@ Language
     - spread syntax
       https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
 
+    - instanceof operator
+      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof
+
   * Statements
 
     - for...in
@@ -47,6 +50,18 @@ Language
 
     - getter
       https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get
+
+    - method definitions
+      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions
+
+  * Classes
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
+
+    - static
+      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static
+
+    - super
+      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super
 
   * iteration protocols
     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols
@@ -79,14 +94,26 @@ Language
       * Object.keys()
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys
 
-      * Object.prototype.hasOwnProperty()
-        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty
-
       * Object.getOwnPropertyNames()
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames
 
+      * Object.getPrototypeOf()
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getPrototypeOf
+
+      * Object.setPrototypeOf()
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/setPrototypeOf
+
+      * Object.prototype.hasOwnProperty()
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty
+
       * Object.prototype.propertyIsEnumerable()
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/propertyIsEnumerable
+
+      * Object.prototype.constructor
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/constructor
+
+      * Object.prototype.isPrototypeOf()
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/isPrototypeOf
 
     - Function
 
