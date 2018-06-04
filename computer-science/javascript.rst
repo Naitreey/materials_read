@@ -26,6 +26,9 @@ Language
     - instanceof operator
       https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof
 
+    - class expression
+      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/class
+
   * Statements
 
     - for...in
@@ -57,11 +60,20 @@ Language
   * Classes
     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
 
+    - class
+      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class
+
     - static
       https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static
 
     - super
       https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super
+
+    - constructor
+      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor
+
+    - extends
+      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends
 
   * iteration protocols
     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols
@@ -117,6 +129,9 @@ Language
 
     - Function
 
+      * Function.prototype.length
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/length
+
       * Function.prototype.call()
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call
 
@@ -148,6 +163,11 @@ Language
 
       * Generator.prototype.throw()
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator/throw
+
+    - Symbol
+
+      * Symbol.species
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/species
 
 coding style
 ============
