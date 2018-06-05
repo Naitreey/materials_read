@@ -143,6 +143,12 @@ Language
 
     - Array
 
+      * Array.from()
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from
+
+      * Array.prototype.length
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length
+
       * Array.prototype.forEach()
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
 
@@ -151,6 +157,9 @@ Language
 
       * Array.prototype.every()
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every
+
+      * Array.prototype.slice()
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
 
     - Generator
       https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator
