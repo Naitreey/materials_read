@@ -187,13 +187,24 @@ file and directory
 debugging and profiling
 -----------------------
 - pdb
+
+- ipdb
+  https://github.com/gotcha/ipdb
+
 - bdb
+
 - dis
+
 - tracemalloc
+
 - timeit
+
 - cProfile
+
 - profile
+
 - pstats
+
 - pycallgraph
 
 virtualization
