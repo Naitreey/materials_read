@@ -149,6 +149,7 @@ Language
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind
 
     - String
+      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
 
       * raw()
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/raw
