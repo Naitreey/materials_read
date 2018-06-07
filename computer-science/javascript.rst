@@ -12,6 +12,13 @@ Language
 
 - MDN JavaScript reference
 
+  * Primitives
+
+    - string
+
+      * Template literals
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+
   * Expressions
 
     - delete operator
@@ -140,6 +147,11 @@ Language
 
       * Function.prototype.bind()
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind
+
+    - String
+
+      * raw()
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/raw
 
     - Array
 
