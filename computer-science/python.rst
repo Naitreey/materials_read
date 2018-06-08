@@ -666,6 +666,11 @@ http and related protocols
       - The Django template language: for Python programmers
         https://docs.djangoproject.com/en/stable/ref/templates/api/
 
+    * Built-in class-based views API
+
+      - Multiple object mixins
+        https://docs.djangoproject.com/en/2.0/ref/class-based-views/mixins-multiple-object/
+
     * contrib packages
       https://docs.djangoproject.com/en/stable/ref/contrib/
 
