@@ -89,6 +89,9 @@ Language
 
     - Object
 
+      * Object.create()
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create
+
       * Object.assign()
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
 
@@ -110,9 +113,6 @@ Language
       * Object.isFrozen()
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/isFrozen
 
-      * Object.keys()
-        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys
-
       * Object.getOwnPropertyNames()
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames
 
@@ -121,6 +121,15 @@ Language
 
       * Object.setPrototypeOf()
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/setPrototypeOf
+
+      * Object.keys()
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys
+
+      * Object.entries()
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries
+
+      * Object.is()
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is
 
       * Object.prototype.hasOwnProperty()
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty
@@ -154,10 +163,20 @@ Language
       * raw()
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/raw
 
+    - Number
+      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
+
     - Array
+      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 
       * Array.from()
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from
+
+      * Array.of()
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/of
+
+      * Array.isArray()
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray
 
       * Array.prototype.length
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length
@@ -220,3 +239,12 @@ mathjax
 
     - Getting started
       https://docs.mathjax.org/en/latest/start.html
+
+UI framework
+------------
+
+React
+^^^^^
+
+- React homepage
+  https://reactjs.org/
