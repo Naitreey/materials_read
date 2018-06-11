@@ -386,6 +386,16 @@ MySQL
           * Slave Status Logs
             https://dev.mysql.com/doc/refman/5.7/en/slave-logs-status.html
 
+        - How Servers Evaluate Replication Filtering Rules
+          https://dev.mysql.com/doc/refman/8.0/en/replication-rules.html
+
+      * Replication Notes and Tips
+
+        - Replication Features and Issues
+
+          * Replication of the mysql System Database
+            https://dev.mysql.com/doc/refman/8.0/en/replication-features-mysqldb.html
+
     - MySQL Performance Schema
 
       * Performance Schema Table Descriptions
