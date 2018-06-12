@@ -918,6 +918,12 @@ py2py3
   * Quick-start guide
     http://python-future.org/quickstart.html
 
+  * Cheat Sheet: Writing Python 2-3 compatible code
+    http://python-future.org/compatible_idioms.html
+
+  * imports
+    http://python-future.org/imports.html
+
 - past
 
 - builtins
