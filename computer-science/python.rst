@@ -909,7 +909,19 @@ sound
 py2py3
 ------
 - six
+
 - future
+
+  * Overview: Easy, clean, reliable Python 2/3 compatibility
+    http://python-future.org/overview.html
+
+  * Quick-start guide
+    http://python-future.org/quickstart.html
+
+- past
+
+- builtins
+
 - lib2to3
 
 codingstyle
