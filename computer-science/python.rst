@@ -910,7 +910,7 @@ py2py3
 ------
 - six
 
-- future
+- python-future
 
   * Overview: Easy, clean, reliable Python 2/3 compatibility
     http://python-future.org/overview.html
@@ -924,9 +924,11 @@ py2py3
   * imports
     http://python-future.org/imports.html
 
-- past
+  * What else you need to know
+    http://python-future.org/what_else.html
 
-- builtins
+  * Automatic conversion to Py2/3
+    http://python-future.org/automatic_conversion.html#known-limitations
 
 - lib2to3
 
