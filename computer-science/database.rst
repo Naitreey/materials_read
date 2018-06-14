@@ -1,5 +1,6 @@
 RDBMS
 =====
+
 PostgreSQL
 ----------
 - PostgreSQL Documentation (在读)
@@ -553,6 +554,32 @@ MongoDB
 
   * Datetimes and Timezones
     http://api.mongodb.com/python/current/examples/datetimes.html
+
+Cache
+=====
+
+Memcached
+---------
+
+- wikipedia
+  https://en.wikipedia.org/wiki/Memcached
+
+- Memcached overview
+  https://memcached.org/about
+
+- Getting Started
+
+  * Install
+    https://github.com/memcached/memcached/wiki/Install
+
+  * Tutorial
+    https://github.com/memcached/memcached/wiki/TutorialCachingStory
+
+Redis
+-----
+
+- wiki
+  https://en.wikipedia.org/wiki/Redis
 
 Search Engine
 =============
