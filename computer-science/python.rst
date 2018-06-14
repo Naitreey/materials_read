@@ -987,7 +987,8 @@ task queue
     - First steps with Django
       http://docs.celeryproject.org/en/latest/django/first-steps-with-django.html
 
-- django-celery-beat
+- django-celery-beat (with source)
+  https://github.com/celery/django-celery-beat
 
 - django-celery-results (useless)
 
