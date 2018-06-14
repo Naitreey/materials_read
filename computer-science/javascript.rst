@@ -88,6 +88,7 @@ Language
   * Standard built-in objects
 
     - Object
+      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
 
       * Object.create()
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create
@@ -128,6 +129,9 @@ Language
       * Object.entries()
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries
 
+      * Object.values()
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/values
+
       * Object.is()
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is
 
@@ -143,7 +147,17 @@ Language
       * Object.prototype.isPrototypeOf()
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/isPrototypeOf
 
+      * Object.prototype.toString()
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toString
+
+      * Object.prototype.valueOf()
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/valueOf
+
     - Function
+      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function
+
+      * Function.name
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/name
 
       * Function.prototype.length
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/length
