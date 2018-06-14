@@ -581,6 +581,18 @@ Redis
 - wiki
   https://en.wikipedia.org/wiki/Redis
 
+- homepage
+  https://redis.io/
+
+- Introduction to Redis
+  https://redis.io/topics/introduction
+
+- Download
+  https://redis.io/download
+
+- tutorial
+  http://try.redis.io/
+
 Search Engine
 =============
 
