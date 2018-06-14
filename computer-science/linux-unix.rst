@@ -1575,6 +1575,9 @@ docker
   * mysql
     https://hub.docker.com/_/mysql/
 
+  * redis
+    https://hub.docker.com/_/redis/
+
 Storage
 =======
 
