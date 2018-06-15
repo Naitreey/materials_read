@@ -590,8 +590,13 @@ Redis
 - Download
   https://redis.io/download
 
-- tutorial
-  http://try.redis.io/
+- Tutorials
+
+  * try redis
+    http://try.redis.io/
+
+  * Introduction to Redis data types
+    https://redis.io/topics/data-types-intro
 
 Search Engine
 =============
