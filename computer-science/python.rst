@@ -219,6 +219,7 @@ python runtime
 - builtins
 - __future__
 - traceback
+- tblib
 - py_compile
 - compileall
 - copy
