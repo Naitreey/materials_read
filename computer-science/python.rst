@@ -416,6 +416,7 @@ lower-level stuffs
 - dpkt
 - ipaddress
 - pyroute2
+- scapy
 
 .. server
 
