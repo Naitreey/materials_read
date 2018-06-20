@@ -976,6 +976,9 @@ task queue
 
   * user guide
 
+    - Tasks
+      http://docs.celeryproject.org/en/latest/userguide/tasks.html
+
     - Periodic Tasks
       http://docs.celeryproject.org/en/latest/userguide/periodic-tasks.html
 
@@ -987,6 +990,11 @@ task queue
 
     - First steps with Django
       http://docs.celeryproject.org/en/latest/django/first-steps-with-django.html
+
+  * API Reference
+
+    - celery.contrib.abortable
+      http://docs.celeryproject.org/en/latest/reference/celery.contrib.abortable.html
 
 - django-celery-beat (with source)
   https://github.com/celery/django-celery-beat
