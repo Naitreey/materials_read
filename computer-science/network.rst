@@ -39,8 +39,32 @@ overview
 - Basic access authentication
   https://en.wikipedia.org/wiki/Basic_access_authentication
 
+design patterns
+~~~~~~~~~~~~~~~
+
+- Post/Redirect/Get
+  https://en.wikipedia.org/wiki/Post/Redirect/Get
+
+cookies
+~~~~~~~
 - HTTP cookie
   https://en.wikipedia.org/wiki/HTTP_cookie
+
+security
+~~~~~~~~
+- Cross-Site Scripting (XSS)
+  https://en.wikipedia.org/wiki/Cross-site_scripting
+
+- Cross-Site Request Forgery (CSRF)
+
+  * wiki
+    https://en.wikipedia.org/wiki/Cross-site_request_forgery
+
+  * SameSite cookie to prevent CSRF attack
+    https://scotthelme.co.uk/csrf-is-dead/
+
+- Session fixation
+  https://en.wikipedia.org/wiki/Session_fixation
 
 - Same-Origin Policy (SOP)
   https://en.wikipedia.org/wiki/Same-origin_policy
@@ -58,22 +82,6 @@ overview
 
   * HSTS preload checking
     https://hstspreload.org/
-
-security
-~~~~~~~~
-- Cross-Site Scripting (XSS)
-  https://en.wikipedia.org/wiki/Cross-site_scripting
-
-- Cross-Site Request Forgery (CSRF)
-
-  * wiki
-    https://en.wikipedia.org/wiki/Cross-site_request_forgery
-
-  * SameSite cookie to prevent CSRF attack
-    https://scotthelme.co.uk/csrf-is-dead/
-
-- Session fixation
-  https://en.wikipedia.org/wiki/Session_fixation
 
 request methods
 ~~~~~~~~~~~~~~~
