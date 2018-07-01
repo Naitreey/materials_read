@@ -25,6 +25,20 @@ service-oriented architecture
 - microservices
   https://en.wikipedia.org/wiki/Microservices
 
+methodology
+===========
+
+test-driven development
+-----------------------
+- Benefits of Test-Driven Development
+  https://medium.com/@MasterOfCodeGlobal/benefits-of-test-driven-development-64a24bbe743e
+
+- The Three Laws of TDD (Featuring Kotlin)
+  https://youtu.be/qkblc5WRn-U
+
+- Eradicating Non-Determinism in Tests
+  https://martinfowler.com/articles/nonDeterminism.html
+
 License
 =======
 - WTFPL
