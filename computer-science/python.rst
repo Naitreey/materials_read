@@ -70,12 +70,6 @@ libraries and frameworks
 ========================
 concurrency
 -----------
-- subprocess (with source)
-  * Creating pipelines with subprocess
-    http://www.enricozini.org/blog/2009/debian/python-pipes/
-  * Python SIGPIPE handling
-    http://www.chiark.greenend.org.uk/~cjwatson/blog/python-sigpipe.html
-- subprocess32
 - thread (_thread in py3)
 - threading
 - multiprocessing
@@ -83,6 +77,17 @@ concurrency
 - uvloop
 - concurrent.futures
 - gevent
+
+command execution
+-----------------
+- subprocess (with source)
+  * Creating pipelines with subprocess
+    http://www.enricozini.org/blog/2009/debian/python-pipes/
+  * Python SIGPIPE handling
+    http://www.chiark.greenend.org.uk/~cjwatson/blog/python-sigpipe.html
+- subprocess32
+- pyinvoke
+- fabric
 
 event scheduler
 ---------------
@@ -767,10 +772,9 @@ http and related protocols
 
 * Twisted
 
-ssh
+SSH
 ^^^
-
-* paramiko
+- paramiko
 
 RPC
 ^^^

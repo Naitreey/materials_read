@@ -39,6 +39,9 @@ test-driven development
 - Eradicating Non-Determinism in Tests
   https://martinfowler.com/articles/nonDeterminism.html
 
+- 如何用正确的姿势打开 TDD？
+  https://zhuanlan.zhihu.com/p/24997923
+
 License
 =======
 - WTFPL
