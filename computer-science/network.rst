@@ -13,6 +13,9 @@ Concepts
 - Network topology
   https://en.wikipedia.org/wiki/Network_topology#Point-to-point
 
+- stateful and stateless protocols
+  https://en.wikipedia.org/wiki/Stateless_protocol
+
 checksum
 --------
 
