@@ -323,9 +323,19 @@ coverage & test
     - introduction
       https://factoryboy.readthedocs.io/en/latest/introduction.html
 
+    - Using factory_boy with ORMs
+      http://factoryboy.readthedocs.io/en/latest/orms.html
+
+    - Examples
+      http://factoryboy.readthedocs.io/en/latest/examples.html
+
 - doctest
 - pytest
-- faker
+
+- Faker
+
+  * doc
+    https://faker.readthedocs.io/en/latest/
 
 refactor
 --------
@@ -618,9 +628,6 @@ http and related protocols
 
     * Signals
       https://docs.djangoproject.com/en/stable/topics/signals/
-
-    * The contenttypes framework
-      https://docs.djangoproject.com/en/stable/ref/contrib/contenttypes/
 
     * Security in Django
       https://docs.djangoproject.com/en/2.0/topics/security/
