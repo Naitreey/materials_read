@@ -313,8 +313,19 @@ coverage & test
 - trace
 - coverage
 - unittest
+- unittest.mock
+
+- factory_boy
+
+  * doc
+    https://factoryboy.readthedocs.io/en/latest/index.html
+
+    - introduction
+      https://factoryboy.readthedocs.io/en/latest/introduction.html
+
 - doctest
 - pytest
+- faker
 
 refactor
 --------
