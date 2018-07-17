@@ -764,9 +764,6 @@ http and related protocols
   - Requirements and Installation
     https://django-mysql.readthedocs.io/en/latest/installation.html
 
-  - checks
-    https://django-mysql.readthedocs.io/en/latest/checks.html
-
   - Model Fields
     https://django-mysql.readthedocs.io/en/latest/model_fields/index.html
 

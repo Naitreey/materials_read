@@ -210,6 +210,9 @@ MySQL
           * SHOW COLLATION Syntax
             https://dev.mysql.com/doc/refman/8.0/en/show-collation.html
 
+          * SHOW CREATE DATABASE Syntax
+            https://dev.mysql.com/doc/refman/8.0/en/show-create-database.html
+
         - SET Syntax
 
           * SET NAMES Syntax
