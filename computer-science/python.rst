@@ -1,6 +1,11 @@
 language
 ========
-- tutorial --- Python official documentation (已读)
+- tutorials 
+  
+  * tutorial section of Python official documentation (已读)
+
+  * Python's Class Development Toolkit
+    https://www.youtube.com/watch?v=HTLu2DFOdTg&list=WL&index=20&t=1s
 
 - Beginning Python From Novice to Professional (已读)
 
