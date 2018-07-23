@@ -42,6 +42,12 @@ test-driven development
 - 如何用正确的姿势打开 TDD？
   https://zhuanlan.zhihu.com/p/24997923
 
+- DjangoCon US 2015 - Intro to Mocking: Why Unit Testing Doesn't Have To Be So Hard
+  https://www.youtube.com/watch?v=DqwtbRExNa0
+
+- Practical Unit Testing in Django
+  https://www.youtube.com/watch?v=Ue-a20-tKPI
+
 License
 =======
 - WTFPL

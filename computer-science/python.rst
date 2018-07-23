@@ -7,6 +7,9 @@ language
   * Python's Class Development Toolkit
     https://www.youtube.com/watch?v=HTLu2DFOdTg&list=WL&index=20&t=1s
 
+  * Beyond PEP 8, best practices for beautiful intelligible code
+    https://www.youtube.com/watch?v=wf-BqAjZb8M
+
 - Beginning Python From Novice to Professional (已读)
 
 - Python Language Reference 2.7.10 --- Python official documentation (已读)
