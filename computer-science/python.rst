@@ -781,6 +781,14 @@ http and related protocols
     * BIT(1) boolean fields
       https://django-mysql.readthedocs.io/en/latest/model_fields/null_bit1_boolean_fields.html
 
+* django-environ (with source)
+
+  - readme
+    https://github.com/joke2k/django-environ/tree/master
+
+  - doc
+    http://django-environ.readthedocs.io/en/latest/
+
 * django-mongodb-engine
 
 * django-localflavor
