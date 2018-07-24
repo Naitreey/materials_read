@@ -785,12 +785,6 @@ http and related protocols
 
 * django-localflavor
 
-* Grappelli
-
-* django-crispy-forms
-
-* django-material
-
 * Tornado
 
 * Twisted
