@@ -1084,6 +1084,17 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
 
       * salt-api(1)
 
+  * environment management
+
+    - direnv
+
+      * doc
+        https://github.com/direnv/direnv
+
+      * direnv(1)
+
+      * direnv-stdlib(1)
+
     \begin{enumerate}
         \item xinput, xclip,
         \item alternatives
@@ -1460,6 +1471,9 @@ docker
       https://docs.docker.com/compose/networking/
 
     - Compose CLI reference
+
+      * Compose CLI environment variables
+        https://docs.docker.com/compose/reference/envvars/
 
       * docker-compose run
         https://docs.docker.com/compose/reference/run/
