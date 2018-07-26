@@ -634,6 +634,9 @@ http and related protocols
       - Password Management in Django
         https://docs.djangoproject.com/en/2.0/topics/auth/passwords/
 
+    * Managing files
+      https://docs.djangoproject.com/en/2.0/topics/files/
+
     * Signals
       https://docs.djangoproject.com/en/stable/topics/signals/
 
@@ -698,6 +701,12 @@ http and related protocols
 
       - The Django template language: for Python programmers
         https://docs.djangoproject.com/en/stable/ref/templates/api/
+
+    * File handling
+      https://docs.djangoproject.com/en/2.0/ref/files/
+
+      - The File object
+        https://docs.djangoproject.com/en/2.0/ref/files/file/
 
     * Built-in class-based views API
 
