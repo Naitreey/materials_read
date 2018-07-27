@@ -708,6 +708,9 @@ http and related protocols
       - The File object
         https://docs.djangoproject.com/en/2.0/ref/files/file/
 
+      - File storage API
+        https://docs.djangoproject.com/en/2.0/ref/files/storage/
+
     * Built-in class-based views API
 
       - Multiple object mixins
