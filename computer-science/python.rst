@@ -654,6 +654,9 @@ http and related protocols
     * Managing static files (e.g. images, JavaScript, CSS)
       https://docs.djangoproject.com/en/stable/howto/static-files/
 
+      - Deploying static files
+        https://docs.djangoproject.com/en/2.0/howto/static-files/deployment/
+
     * Outputting CSV with Django
       https://docs.djangoproject.com/en/stable/howto/outputting-csv/
 
