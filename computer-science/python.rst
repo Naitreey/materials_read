@@ -669,6 +669,9 @@ http and related protocols
     * Writing database migrations
       https://docs.djangoproject.com/en/2.0/howto/writing-migrations/
 
+    * Writing a custom storage system
+      https://docs.djangoproject.com/en/2.0/howto/custom-file-storage/
+
   - API reference
     https://docs.djangoproject.com/en/stable/ref/
 
@@ -710,6 +713,9 @@ http and related protocols
 
       - File storage API
         https://docs.djangoproject.com/en/2.0/ref/files/storage/
+
+      - Uploaded Files and Upload Handlers
+        https://docs.djangoproject.com/en/2.0/ref/files/uploads/
 
     * Built-in class-based views API
 
