@@ -737,6 +737,9 @@ http and related protocols
       - authentication
         https://docs.djangoproject.com/en/2.0/ref/contrib/auth/
 
+      - The staticfiles app
+        https://docs.djangoproject.com/en/2.0/ref/contrib/staticfiles/
+
     * Request and response objects
       https://docs.djangoproject.com/en/stable/ref/request-response/
 
