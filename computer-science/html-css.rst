@@ -869,6 +869,15 @@ global values
 - revert
   https://developer.mozilla.org/en-US/docs/Web/CSS/revert
 
+mobile
+======
+
+viewport
+--------
+
+- Using the viewport meta tag to control layout on mobile browsers
+  https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag
+
 misc
 ====
 
