@@ -289,6 +289,9 @@ npm
   * Set up npm account and install npm
     https://docs.npmjs.com/getting-started/installing-node
 
+  * How to Install Local Packages
+    https://docs.npmjs.com/getting-started/installing-npm-packages-locally
+
 - CLI
 
   * npm(1), npm help npm
