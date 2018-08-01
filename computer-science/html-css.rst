@@ -883,3 +883,22 @@ misc
 
 - Content Management System (CMS)
   https://en.wikipedia.org/wiki/Content_management_system
+
+Sass
+====
+- wiki
+  https://en.wikipedia.org/wiki/Sass_(stylesheet_language)
+
+- installation
+  https://sass-lang.com/install
+
+libraries
+=========
+
+bootstrap
+---------
+
+- docs
+  https://getbootstrap.com/
+
+  * 

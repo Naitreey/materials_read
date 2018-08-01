@@ -270,6 +270,31 @@ Language
       * Symbol.species
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/species
 
+package manager
+===============
+npm
+---
+
+- wiki
+  https://en.wikipedia.org/wiki/Npm_(software)
+
+- getting started
+
+  * What is npm?
+    https://docs.npmjs.com/getting-started/what-is-npm
+
+  * Finding and Selecting Packages
+    https://docs.npmjs.com/getting-started/searching-for-packages
+
+  * Set up npm account and install npm
+    https://docs.npmjs.com/getting-started/installing-node
+
+- CLI
+
+  * npm(1), npm help npm
+
+  * npm-adduser(1), npm help adduser
+
 coding style
 ============
 - callback hell
