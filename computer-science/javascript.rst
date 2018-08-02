@@ -292,6 +292,12 @@ npm
   * How to Install Local Packages
     https://docs.npmjs.com/getting-started/installing-npm-packages-locally
 
+  * Working with package.json
+    https://docs.npmjs.com/getting-started/using-a-package.json
+
+  * How to Update Local Packages
+    https://docs.npmjs.com/getting-started/updating-local-packages
+
 - CLI
 
   * npm(1), npm help npm
@@ -299,6 +305,10 @@ npm
   * npm-adduser(1), npm help adduser
 
   * npm-package-locks(5), npm help package-locks
+
+  * npm-init(1), npm help init
+
+  * npm-update(1), npm help update
 
 coding style
 ============

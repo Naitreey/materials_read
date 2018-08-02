@@ -683,6 +683,9 @@ text
 
 box
 ~~~
+- box-sizing
+  https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
+
 - width
   https://developer.mozilla.org/en-US/docs/Web/CSS/width
 
@@ -901,4 +904,19 @@ bootstrap
 - docs
   https://getbootstrap.com/
 
-  * 
+  * Getting Started
+
+    - Introduction
+      https://getbootstrap.com/docs/4.1/getting-started/introduction/
+
+    - Download
+      https://getbootstrap.com/docs/4.1/getting-started/download/
+
+    - Content
+      https://getbootstrap.com/docs/4.1/getting-started/contents/
+
+    - Browsers and devices
+      https://getbootstrap.com/docs/4.1/getting-started/browsers-devices/
+
+    - JavaScript
+      https://getbootstrap.com/docs/4.1/getting-started/javascript/
