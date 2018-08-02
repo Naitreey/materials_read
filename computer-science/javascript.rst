@@ -298,6 +298,8 @@ npm
 
   * npm-adduser(1), npm help adduser
 
+  * npm-package-locks(5), npm help package-locks
+
 coding style
 ============
 - callback hell
