@@ -895,6 +895,9 @@ Sass
 - installation
   https://sass-lang.com/install
 
+- Sass Basics
+  https://sass-lang.com/guide
+
 libraries
 =========
 
