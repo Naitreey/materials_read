@@ -612,6 +612,12 @@ box model
 - Margin collapsing
   https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing
 
+flexblox layout
+---------------
+
+- A Complete Guide to Flexbox
+  https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
 properties
 ----------
 
@@ -923,3 +929,8 @@ bootstrap
 
     - JavaScript
       https://getbootstrap.com/docs/4.1/getting-started/javascript/
+
+  * layout
+
+    - overview
+      https://getbootstrap.com/docs/4.1/layout/overview/
