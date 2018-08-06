@@ -180,6 +180,9 @@ Language
       * raw()
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/raw
 
+      * String.prototype.trim()
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim
+
     - Number
       https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
 

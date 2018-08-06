@@ -934,3 +934,17 @@ bootstrap
 
     - overview
       https://getbootstrap.com/docs/4.1/layout/overview/
+
+    - grid system
+      https://getbootstrap.com/docs/4.1/layout/grid/
+
+    - media object
+      https://getbootstrap.com/docs/4.1/layout/media-object/
+
+  * components
+
+    - forms
+      https://getbootstrap.com/docs/4.1/components/forms/
+
+    - input groups
+      https://getbootstrap.com/docs/4.1/components/input-group/
