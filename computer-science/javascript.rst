@@ -301,6 +301,18 @@ npm
   * How to Update Local Packages
     https://docs.npmjs.com/getting-started/updating-local-packages
 
+  * How to Uninstall Local Packages
+    https://docs.npmjs.com/getting-started/uninstalling-local-packages
+
+  * How to Install Global Packages
+    https://docs.npmjs.com/getting-started/installing-npm-packages-globally
+
+  * How to Update Global Packages
+    https://docs.npmjs.com/getting-started/updating-global-packages
+
+  * How to uninstall global packages
+    https://docs.npmjs.com/getting-started/uninstalling-global-packages
+
 - CLI
 
   * npm(1), npm help npm
@@ -312,6 +324,8 @@ npm
   * npm-init(1), npm help init
 
   * npm-update(1), npm help update
+
+  * npm-uninstall(1), npm help uninstall
 
 coding style
 ============
