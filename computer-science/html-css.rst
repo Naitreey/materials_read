@@ -948,3 +948,6 @@ bootstrap
 
     - input groups
       https://getbootstrap.com/docs/4.1/components/input-group/
+
+    - tooltips
+      https://getbootstrap.com/docs/4.1/components/tooltips/
