@@ -7,12 +7,25 @@ general books and docs
 
 - CSS: The Definitive Guide (在读)
 
-- Mozilla Developer Network: Getting Started with Web (在读)
-  https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web
+- HTML — Structuring the Web
+
+  * HTML forms
+    https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms
+
+  * You first HTML form
+    https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form
+
+  * How to structure an HTML form
+    https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/How_to_structure_an_HTML_form
+
+  * The native form widgets
+    https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/The_native_form_widgets
+
+  * Sending form data
+    https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Sending_and_retrieving_form_data
 
 HTML
 ====
-
 
 syntax
 ------
