@@ -24,6 +24,14 @@ general books and docs
   * Sending form data
     https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Sending_and_retrieving_form_data
 
+  * Form data validation
+    https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation
+
+- HTML5 guides
+
+  * Constraint validation
+    https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/Constraint_validation
+
 HTML
 ====
 
@@ -964,3 +972,6 @@ bootstrap
 
     - tooltips
       https://getbootstrap.com/docs/4.1/components/tooltips/
+
+    - modal
+      https://getbootstrap.com/docs/4.1/components/modal/
