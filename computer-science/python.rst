@@ -850,7 +850,6 @@ email
 - smtpd
 - poplib
 - imaplib
-- mimetypes
 
 SMB
 ---
@@ -1088,8 +1087,14 @@ vcs
 
 - gittle
 
-file format manipulation
-------------------------
+file format
+-----------
+format library
+^^^^^^^^^^^^^^^
+- python-magic
+  https://github.com/ahupp/python-magic
+- mimetypes
+
 pdf
 ^^^
 
