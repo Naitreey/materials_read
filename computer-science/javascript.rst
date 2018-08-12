@@ -183,6 +183,9 @@ Language
       * String.prototype.trim()
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim
 
+      * String.prototype.replace()
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace
+
     - Number
       https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
 

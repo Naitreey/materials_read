@@ -341,9 +341,12 @@ coverage & test
 - pytest
 
 - Faker
+  https://faker.readthedocs.io/en/latest/
 
-  * doc
-    https://faker.readthedocs.io/en/latest/
+  * providers
+
+    - file
+      http://faker.readthedocs.io/en/master/providers/faker.providers.file.html
 
 refactor
 --------
