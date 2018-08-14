@@ -111,8 +111,22 @@ text
 encoding
 --------
 - codecs
+
 - unicodedata
+
 - chardet
+  * homepage
+    https://github.com/chardet/chardet
+
+  * doc
+    https://chardet.readthedocs.io/en/latest/index.html
+
+    - FAQs
+      https://chardet.readthedocs.io/en/latest/faq.html
+
+    - Supported encodings
+      https://chardet.readthedocs.io/en/latest/supported-encodings.html
+
 
 io
 --
