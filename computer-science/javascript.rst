@@ -5,6 +5,15 @@ Language
 
   * Up & Going (finished)
 
+- The Modern JavaScript Tutorial
+
+  * Browser: Document, Events, Interfaces
+
+    - Introduction into Events
+
+      * Bubbling and capturing
+        https://javascript.info/bubbling-and-capturing
+
 - MDN JavaScript Guide
 
   * Iterators and generators
