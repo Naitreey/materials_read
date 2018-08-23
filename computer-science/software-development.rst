@@ -52,7 +52,7 @@ test-driven development
   https://www.youtube.com/watch?v=Ue-a20-tKPI
 
 - Writing Fast and Efficient Unit Tests for Django
-  https://www.youtube.com/watch?v=bsmFVb8guMU&t=1623s
+  https://www.youtube.com/watch?v=bsmFVb8guMU
 
 - Fast Test, Slow Test
   https://www.youtube.com/watch?v=RAxiiRPHS9k
