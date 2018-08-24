@@ -10,6 +10,10 @@ Language
   * Browser: Document, Events, Interfaces
 
     - Introduction into Events
+      https://javascript.info/events
+
+      * Introduction to browser events
+        https://javascript.info/introduction-browser-events
 
       * Bubbling and capturing
         https://javascript.info/bubbling-and-capturing
