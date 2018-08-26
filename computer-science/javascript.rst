@@ -18,6 +18,15 @@ Language
       * Bubbling and capturing
         https://javascript.info/bubbling-and-capturing
 
+      * Event delegation
+        https://javascript.info/event-delegation
+
+      * Browser default actions
+        https://javascript.info/default-browser-action
+
+      * Dispatching custom events
+        https://javascript.info/dispatch-events
+
 - MDN JavaScript Guide
 
   * Iterators and generators
@@ -288,6 +297,25 @@ Language
 
       * Symbol.species
         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/species
+
+Web APIs
+========
+
+event model
+-----------
+
+- Event
+
+  * isTrusted
+    https://developer.mozilla.org/en-US/docs/Web/API/Event/isTrusted
+
+  * Event.preventDefault()
+    https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault
+
+- EventTarget
+
+  * EventTarget.dispatchEvent()
+    https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/dispatchEvent
 
 package manager
 ===============
