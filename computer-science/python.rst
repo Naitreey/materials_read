@@ -174,6 +174,12 @@ cmdline parser
 - docopt
 - click
 
+cmdline animation
+-----------------
+- curses
+- halo
+- asciimatics
+
 shell, terminal
 ---------------
 - colorama
