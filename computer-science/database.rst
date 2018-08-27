@@ -179,6 +179,9 @@ MySQL
         - START TRANSACTION, COMMIT, and ROLLBACK Syntax
           https://dev.mysql.com/doc/refman/8.0/en/commit.html
 
+        - Statements That Cause an Implicit Commit
+          https://dev.mysql.com/doc/refman/8.0/en/implicit-commit.html
+
       * database administration statements
 
         - Account Management Statements
