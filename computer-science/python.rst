@@ -707,6 +707,9 @@ http and related protocols
     * Databases
       https://docs.djangoproject.com/en/2.0/ref/databases/
 
+    * SchemaEditor
+      https://docs.djangoproject.com/en/2.1/ref/schema-editor/
+
     * Models
       https://docs.djangoproject.com/en/stable/ref/models/
 
