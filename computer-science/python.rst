@@ -590,6 +590,9 @@ http and related protocols
       - Tablespaces
         https://docs.djangoproject.com/en/2.0/topics/db/tablespaces/
 
+    * Migrations
+      https://docs.djangoproject.com/en/2.1/topics/migrations/
+
     * Class-based views
       https://docs.djangoproject.com/en/stable/topics/class-based-views/
 
