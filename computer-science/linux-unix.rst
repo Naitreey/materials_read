@@ -1442,6 +1442,9 @@ docker
     - Control Docker with systemd
       https://docs.docker.com/config/daemon/systemd/
 
+    - Dockerfile reference
+      https://docs.docker.com/engine/reference/builder/
+
   * data storage
 
     - Storage overview
@@ -1561,11 +1564,6 @@ docker
 
     - Docker SDK for Python
       https://docker-py.readthedocs.io/en/stable/
-
-  * References
-
-    - Dockerfile reference
-      https://docs.docker.com/engine/reference/builder/
 
   * Samples
 
