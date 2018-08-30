@@ -32,6 +32,12 @@ general books and docs
   * Constraint validation
     https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/Constraint_validation
 
+- CSS animations
+  https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations
+
+  * Using CSS animations
+    https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
+
 HTML
 ====
 
@@ -639,6 +645,35 @@ flexblox layout
 - A Complete Guide to Flexbox
   https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
+animation
+---------
+- animation-name
+  https://developer.mozilla.org/en-US/docs/Web/CSS/animation-name
+
+- animation-duration
+  https://developer.mozilla.org/en-US/docs/Web/CSS/animation-duration
+
+- animation-timing-function
+  https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timing-function
+
+- animation-delay
+  https://developer.mozilla.org/en-US/docs/Web/CSS/animation-delay
+
+- animation-iteration-count
+  https://developer.mozilla.org/en-US/docs/Web/CSS/animation-iteration-count
+
+- animation-direction
+  https://developer.mozilla.org/en-US/docs/Web/CSS/animation-direction
+
+- animation-fill-mode
+  https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode
+
+- animation-play-state
+  https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state
+
+- animation
+  https://developer.mozilla.org/en-US/docs/Web/CSS/animation
+
 properties
 ----------
 
@@ -884,6 +919,12 @@ value data types
 
 - ``<string>``
   https://developer.mozilla.org/en-US/docs/Web/CSS/string
+
+- ``<custom-ident>``
+  https://developer.mozilla.org/en-US/docs/Web/CSS/custom-ident
+
+- ``<time>``
+  https://developer.mozilla.org/en-US/docs/Web/CSS/time
 
 global values
 ~~~~~~~~~~~~~
