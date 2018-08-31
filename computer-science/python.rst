@@ -704,6 +704,9 @@ http and related protocols
   - API reference
     https://docs.djangoproject.com/en/stable/ref/
 
+    * Application
+      https://docs.djangoproject.com/en/2.1/ref/applications/
+
     * Databases
       https://docs.djangoproject.com/en/2.0/ref/databases/
 

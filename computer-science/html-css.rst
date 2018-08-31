@@ -38,6 +38,10 @@ general books and docs
   * Using CSS animations
     https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
 
+- Using CSS transitions
+  https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
+
+
 HTML
 ====
 
@@ -644,6 +648,24 @@ flexblox layout
 
 - A Complete Guide to Flexbox
   https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+
+transition
+----------
+- transition-property
+  https://developer.mozilla.org/en-US/docs/Web/CSS/transition-property
+
+- transition-duration
+  https://developer.mozilla.org/en-US/docs/Web/CSS/transition-duration
+
+- transition-timing-function
+  https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function
+
+- transition-delay
+  https://developer.mozilla.org/en-US/docs/Web/CSS/transition-delay
+
+- transition
+  https://developer.mozilla.org/en-US/docs/Web/CSS/transition
 
 animation
 ---------
