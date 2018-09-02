@@ -948,6 +948,12 @@ value data types
 - ``<time>``
   https://developer.mozilla.org/en-US/docs/Web/CSS/time
 
+- ``<single-transition-timing-function>``
+  https://developer.mozilla.org/en-US/docs/Web/CSS/single-transition-timing-function
+
+  * easing functions selector
+    https://easings.net/
+
 global values
 ~~~~~~~~~~~~~
 - initial
