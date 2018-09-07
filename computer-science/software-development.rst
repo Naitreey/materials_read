@@ -57,6 +57,9 @@ test-driven development
 - Fast Test, Slow Test
   https://www.youtube.com/watch?v=RAxiiRPHS9k
 
+- Functional test design considerations
+  https://www.seleniumhq.org/docs/06_test_design_considerations.jsp
+
 License
 =======
 - WTFPL

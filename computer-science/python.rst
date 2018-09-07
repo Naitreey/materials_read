@@ -340,7 +340,8 @@ coverage & test
 ---------------
 - trace
 - coverage
-- unittest
+- unittest (with source)
+  https://docs.python.org/3/library/unittest.html
 - unittest.mock
 
 - factory_boy
