@@ -383,6 +383,12 @@ swap
 - swap -- arch wiki
   https://wiki.archlinux.org/index.php/Swap
 
+- swapon(8)
+
+- swapoff(8)
+
+- mkswap(8)
+
 User System
 ===========
 
