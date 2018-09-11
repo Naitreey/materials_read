@@ -1,7 +1,12 @@
 selenium
 ========
+- selenium wiki
+  https://en.wikipedia.org/wiki/Selenium_(software)
+
 - Selenium python unofficial documentation
   https://selenium-python.readthedocs.io/index.html
+
+  * source code
 
   * installation
     https://selenium-python.readthedocs.io/installation.html
@@ -20,6 +25,9 @@ selenium
 
   * Page Objects
     https://selenium-python.readthedocs.io/page-objects.html
+
+  * WebDriver API
+    https://selenium-python.readthedocs.io/api.html
 
   * FAQs
     https://selenium-python.readthedocs.io/faq.html
