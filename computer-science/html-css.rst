@@ -1044,3 +1044,6 @@ bootstrap
 
     - modal
       https://getbootstrap.com/docs/4.1/components/modal/
+
+    - navs
+      https://getbootstrap.com/docs/4.1/components/navs/
