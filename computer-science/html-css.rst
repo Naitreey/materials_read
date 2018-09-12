@@ -1047,3 +1047,8 @@ bootstrap
 
     - navs
       https://getbootstrap.com/docs/4.1/components/navs/
+
+  * utilities
+
+    - Spacing
+      https://getbootstrap.com/docs/4.1/utilities/spacing/
