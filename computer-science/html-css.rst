@@ -645,6 +645,12 @@ box model
 
 positioned layout
 -----------------
+- Understanding CSS z-index
+  https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index
+
+  * Stacking without the z-index property
+    https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/Stacking_without_z-index
+
 - position
   https://developer.mozilla.org/en-US/docs/Web/CSS/position
 
@@ -1066,3 +1072,6 @@ bootstrap
 
     - Colors
       https://getbootstrap.com/docs/4.1/utilities/colors/
+
+    - Flex
+      https://getbootstrap.com/docs/4.1/utilities/flex/
