@@ -643,6 +643,11 @@ box model
 - Margin collapsing
   https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing
 
+positioned layout
+-----------------
+- position
+  https://developer.mozilla.org/en-US/docs/Web/CSS/position
+
 flexblox layout
 ---------------
 
@@ -1048,7 +1053,16 @@ bootstrap
     - navs
       https://getbootstrap.com/docs/4.1/components/navs/
 
+    - navbar
+      https://getbootstrap.com/docs/4.1/components/navbar/
+
   * utilities
 
     - Spacing
       https://getbootstrap.com/docs/4.1/utilities/spacing/
+
+    - Position
+      https://getbootstrap.com/docs/4.1/utilities/position/
+
+    - Colors
+      https://getbootstrap.com/docs/4.1/utilities/colors/
