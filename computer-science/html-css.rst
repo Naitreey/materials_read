@@ -651,8 +651,20 @@ positioned layout
   * Stacking without the z-index property
     https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/Stacking_without_z-index
 
+  * Stacking with floated blocks
+    https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/Stacking_and_float
+
+  * Using z-index
+    https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/Adding_z-index
+
 - position
   https://developer.mozilla.org/en-US/docs/Web/CSS/position
+
+- float
+  https://developer.mozilla.org/en-US/docs/Web/CSS/float
+
+- clear
+  https://developer.mozilla.org/en-US/docs/Web/CSS/clear
 
 flexblox layout
 ---------------
