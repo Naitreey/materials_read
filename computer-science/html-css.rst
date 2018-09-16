@@ -657,6 +657,18 @@ positioned layout
   * Using z-index
     https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/Adding_z-index
 
+  * The stacking context
+    https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context
+
+  * Stacking context example 1
+    https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/Stacking_context_example_1
+
+  * Stacking context example 2
+    https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/Stacking_context_example_2
+
+  * Stacking context example 3
+    https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/Stacking_context_example_3
+
 - position
   https://developer.mozilla.org/en-US/docs/Web/CSS/position
 
@@ -665,6 +677,9 @@ positioned layout
 
 - clear
   https://developer.mozilla.org/en-US/docs/Web/CSS/clear
+
+- z-index
+  https://developer.mozilla.org/en-US/docs/Web/CSS/z-index
 
 flexblox layout
 ---------------
