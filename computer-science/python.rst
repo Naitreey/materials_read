@@ -487,6 +487,13 @@ lower-level stuffs
 http and related protocols
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+* WSGI
+
+  * wiki
+    https://en.wikipedia.org/wiki/Web_Server_Gateway_Interface
+
+  * 
+
 * http
 
 .. client
