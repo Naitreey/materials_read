@@ -492,7 +492,8 @@ http and related protocols
   * wiki
     https://en.wikipedia.org/wiki/Web_Server_Gateway_Interface
 
-  * 
+  * PEP 3333 -- Python Web Server Gateway Interface v1.0.1
+    https://www.python.org/dev/peps/pep-3333/
 
 * http
 
