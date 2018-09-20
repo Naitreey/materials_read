@@ -685,6 +685,9 @@ http and related protocols
     * Testing in Django
       https://docs.djangoproject.com/en/2.0/topics/testing/
 
+      - Testing tools
+        https://docs.djangoproject.com/en/2.1/topics/testing/tools/
+
   - "How-to" guides
 
     * Managing static files (e.g. images, JavaScript, CSS)
