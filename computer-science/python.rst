@@ -685,6 +685,9 @@ http and related protocols
     * Testing in Django
       https://docs.djangoproject.com/en/2.0/topics/testing/
 
+      - Writing and running tests
+        https://docs.djangoproject.com/en/2.1/topics/testing/overview/
+
       - Testing tools
         https://docs.djangoproject.com/en/2.1/topics/testing/tools/
 
