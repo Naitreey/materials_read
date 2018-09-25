@@ -691,6 +691,9 @@ http and related protocols
       - Testing tools
         https://docs.djangoproject.com/en/2.1/topics/testing/tools/
 
+      - Advanced testing topics
+        https://docs.djangoproject.com/en/2.1/topics/testing/advanced/
+
   - "How-to" guides
 
     * Managing static files (e.g. images, JavaScript, CSS)
