@@ -370,6 +370,9 @@ coverage & test
     - file
       http://faker.readthedocs.io/en/master/providers/faker.providers.file.html
 
+    - phone_number
+      https://faker.readthedocs.io/en/latest/providers/faker.providers.phone_number.html
+
 refactor
 --------
 - pylint
