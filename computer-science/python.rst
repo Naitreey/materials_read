@@ -373,6 +373,12 @@ coverage & test
     - phone_number
       https://faker.readthedocs.io/en/latest/providers/faker.providers.phone_number.html
 
+    - company
+      https://faker.readthedocs.io/en/master/providers/faker.providers.company.html
+
+    - lorem
+      https://faker.readthedocs.io/en/master/providers/faker.providers.lorem.html
+
 refactor
 --------
 - pylint
