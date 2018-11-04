@@ -44,6 +44,24 @@ Alpine Linux
 * Overview
   https://alpinelinux.org/about/
 
+
+Free Desktop
+============
+
+desktop entry
+-------------
+
+utilities
+^^^^^^^^^
+- dex
+  
+  * https://github.com/jceb/dex
+
+  * dex(1)
+
+  * How can I use autostart .desktop files in i3?
+    https://faq.i3wm.org/question/2155/how-can-i-use-autostart-desktop-files-in-i3.1.html
+
 X window system
 ===============
 
@@ -1374,6 +1392,11 @@ KVM (hardware-assisted virtualization, paravirtualization)
 - Example using SPICE and QXL for improved Graphics experience in the guest
   http://www.linux-kvm.org/page/SPICE
 
+VMware
+------
+- VMware/Installing Arch as a guest
+  https://wiki.archlinux.org/index.php/VMware/Installing_Arch_as_a_guest
+
 chroot
 ------
 
@@ -1688,6 +1711,30 @@ PCIe
 ~~~~
 
 - pciconf
+
+
+macOS
+=====
+
+property list
+-------------
+- property list
+
+  * wiki
+    https://en.wikipedia.org/wiki/Property_list
+
+AppKit
+------
+- Key bindings
+
+  * Text System Defaults and Key Bindings
+    https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/EventOverview/TextDefaultsBindings/TextDefaultsBindings.html
+
+  * Usable Selectors for Cocoa Key Bindings 
+    http://www.hcs.harvard.edu/~jrus/site/selectors.html
+
+  * DefaultKeyBinding.dict
+    https://web.archive.org/web/20161104151247/http://osxnotes.net/keybindings.html
 
 All Unixes
 ==========
