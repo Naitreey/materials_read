@@ -1397,6 +1397,9 @@ VMware
 - VMware/Installing Arch as a guest
   https://wiki.archlinux.org/index.php/VMware/Installing_Arch_as_a_guest
 
+- Creating a raw disk VMDK and adding it to the Virtual machine in Fusion
+  https://kb.vmware.com/s/article/2097401
+
 chroot
 ------
 
