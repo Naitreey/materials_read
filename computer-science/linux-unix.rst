@@ -1739,6 +1739,9 @@ AppKit
   * DefaultKeyBinding.dict
     https://web.archive.org/web/20161104151247/http://osxnotes.net/keybindings.html
 
+  * Emuate Emacs keybindings
+    http://www.hcs.harvard.edu/~jrus/site/KeyBindings/Emacs%20Opt%20Bindings.dict
+
 All Unixes
 ==========
 
