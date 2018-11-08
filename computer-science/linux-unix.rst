@@ -20,7 +20,7 @@ Distributions
 
 Arch Linux
 ----------
-- Arch Linux
+- Arch Linux wiki
   https://wiki.archlinux.org/index.php/Arch_Linux
 
 - Arch Linux FAQ
@@ -31,6 +31,14 @@ Arch Linux
 
 - Installation guide
   https://wiki.archlinux.org/index.php/Installation_guide
+
+Manjaro
+-------
+- Manjaro Linux wiki
+  https://en.wikipedia.org/wiki/Manjaro_Linux
+
+- The Rolling Release Development Model
+  https://wiki.manjaro.org/index.php/The_Rolling_Release_Development_Model
 
 Ubuntu
 ------
