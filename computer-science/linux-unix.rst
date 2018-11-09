@@ -1151,7 +1151,7 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
         \item udev.conf(5), udevadm(8), udev(7), systemd-udevd.service(8)
         \item dracut(8), lsinitrd(1), mkinitrd(8), dracut.cmdline(7), dracut.conf(5), dracut.modules(7), dracut.bootup(7), dracut-cmdline.service(8),
         \item screen
-        \item samba, free, mkswap, swapon, swapoff, dmsetup, lspci, ionice, iotop
+        \item samba, free(1), mkswap, swapon, swapoff, dmsetup, lspci, ionice, iotop
         \item console_codes(4)
         \item grub2-install, grub2-mkconfig
         \item ssh, ssh-keygen, ssh-copy-id, sshpass sftp, ftp, scp, telnet, netcat (nc), wget, curl, rsync, nslookup, tcpdump
