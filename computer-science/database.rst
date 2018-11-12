@@ -16,7 +16,10 @@ MySQL
   * MySQL Reference Manual
 
     - Tutorial
-      https://dev.mysql.com/doc/refman/5.7/en/tutorial.html
+      https://dev.mysql.com/doc/refman/8.0/en/tutorial.html
+
+      * Connecting to and Disconnecting from the Server
+        https://dev.mysql.com/doc/refman/8.0/en/connecting-disconnecting.html
 
     - Language Structure
       https://dev.mysql.com/doc/refman/8.0/en/language-structure.html
