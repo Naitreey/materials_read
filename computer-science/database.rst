@@ -21,6 +21,12 @@ MySQL
       * Connecting to and Disconnecting from the Server
         https://dev.mysql.com/doc/refman/8.0/en/connecting-disconnecting.html
 
+      * Entering Queries
+        https://dev.mysql.com/doc/refman/8.0/en/entering-queries.html
+
+      * Creating and Using a Database
+        https://dev.mysql.com/doc/refman/8.0/en/database-use.html
+
     - Language Structure
       https://dev.mysql.com/doc/refman/8.0/en/language-structure.html
 
@@ -193,6 +199,9 @@ MySQL
           * CREATE USER Syntax
             https://dev.mysql.com/doc/refman/8.0/en/create-user.html
 
+          * GRANT Syntax
+            https://dev.mysql.com/doc/refman/8.0/en/grant.html
+
         - SHOW Syntax
 
           * SHOW VARIABLES syntax
@@ -218,6 +227,9 @@ MySQL
 
           * SHOW CREATE DATABASE Syntax
             https://dev.mysql.com/doc/refman/8.0/en/show-create-database.html
+
+          * SHOW DATABASES Syntax
+            https://dev.mysql.com/doc/refman/8.0/en/show-databases.html
 
         - SET Syntax
 
