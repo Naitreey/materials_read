@@ -27,6 +27,9 @@ MySQL
       * Creating and Using a Database
         https://dev.mysql.com/doc/refman/8.0/en/database-use.html
 
+        - Creating and Selecting a Database
+          https://dev.mysql.com/doc/refman/8.0/en/creating-database.html
+
     - Language Structure
       https://dev.mysql.com/doc/refman/8.0/en/language-structure.html
 
@@ -176,7 +179,7 @@ MySQL
 
       * Data Definition Statements
 
-        - CREAT DATABASE Syntax
+        - CREATE DATABASE Syntax
           https://dev.mysql.com/doc/refman/8.0/en/create-database.html
 
         - ALTER DATABASE Syntax
@@ -230,6 +233,9 @@ MySQL
 
           * SHOW DATABASES Syntax
             https://dev.mysql.com/doc/refman/8.0/en/show-databases.html
+
+          * SHOW TABLES syntax
+            https://dev.mysql.com/doc/refman/8.0/en/show-tables.html
 
         - SET Syntax
 
