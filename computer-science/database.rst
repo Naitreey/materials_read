@@ -263,6 +263,9 @@ MySQL
         - How MySQL Uses Indexes
           https://dev.mysql.com/doc/refman/8.0/en/mysql-indexes.html
 
+        - Multiple-Column Indexes
+          https://dev.mysql.com/doc/refman/8.0/en/multiple-column-indexes.html
+
     - MySQL programs
 
       * Using MySQL programs
