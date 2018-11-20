@@ -185,6 +185,24 @@ MySQL
         - ALTER DATABASE Syntax
           https://dev.mysql.com/doc/refman/8.0/en/alter-database.html
 
+        - CREATE TABLE syntax
+          https://dev.mysql.com/doc/refman/8.0/en/create-table.html
+
+          * CREATE TABLE Statement Retention
+            https://dev.mysql.com/doc/refman/8.0/en/create-table-statement-retention.html
+
+          * Files Created by CREATE TABLE
+            https://dev.mysql.com/doc/refman/8.0/en/create-table-files.html
+
+          * CREATE TEMPORARY TABLE Syntax
+            https://dev.mysql.com/doc/refman/8.0/en/create-temporary-table.html
+
+          * CREATE TABLE ... LIKE Syntax
+            https://dev.mysql.com/doc/refman/8.0/en/create-table-like.html
+
+          * CREATE TABLE ... SELECT Syntax
+            https://dev.mysql.com/doc/refman/8.0/en/create-table-select.html
+
       * Transactional and Locking Statements
         https://dev.mysql.com/doc/refman/8.0/en/sql-syntax-transactions.html
 
@@ -230,6 +248,9 @@ MySQL
 
           * SHOW CREATE DATABASE Syntax
             https://dev.mysql.com/doc/refman/8.0/en/show-create-database.html
+
+          * SHOW CREATE TABLE Syntax
+            https://dev.mysql.com/doc/refman/8.0/en/show-create-table.html
 
           * SHOW DATABASES Syntax
             https://dev.mysql.com/doc/refman/8.0/en/show-databases.html

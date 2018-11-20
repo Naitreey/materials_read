@@ -1750,6 +1750,14 @@ AppKit
   * Emuate Emacs keybindings
     http://www.hcs.harvard.edu/~jrus/site/KeyBindings/Emacs%20Opt%20Bindings.dict
 
+Cocoa
+-----
+
+utilities
+^^^^^^^^^
+- Spectacle
+  https://github.com/eczarny/spectacle
+
 All Unixes
 ==========
 
