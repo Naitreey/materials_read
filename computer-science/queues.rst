@@ -1,3 +1,11 @@
+Protocols
+=========
+- Choosing Your Messaging Protocol: AMQP, MQTT, or STOMP
+  https://blogs.vmware.com/vfabric/2013/02/choosing-your-messaging-protocol-amqp-mqtt-or-stomp.html
+
+- Advanced Message Queuing Protocol
+  https://en.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol
+
 RabbitMQ
 ========
 
@@ -9,3 +17,12 @@ RabbitMQ
 
 - Downloading and Installing RabbitMQ
   https://www.rabbitmq.com/download.html
+
+- RabbitMQ Tutorials
+  https://www.rabbitmq.com/getstarted.html
+
+  * "Hello World!"
+    https://www.rabbitmq.com/tutorials/tutorial-one-python.html
+
+  * Work queues
+    https://www.rabbitmq.com/tutorials/tutorial-two-python.html
