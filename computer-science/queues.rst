@@ -26,3 +26,12 @@ RabbitMQ
 
   * Work queues
     https://www.rabbitmq.com/tutorials/tutorial-two-python.html
+
+  * Publish/Subscribe
+    https://www.rabbitmq.com/tutorials/tutorial-three-python.html
+
+  * Routing
+    https://www.rabbitmq.com/tutorials/tutorial-four-python.html
+
+  * Topics
+    https://www.rabbitmq.com/tutorials/tutorial-five-python.html
