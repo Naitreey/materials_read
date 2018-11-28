@@ -7,6 +7,15 @@ Infrastructure Management
 Salt
 ----
 
+- SaltStack Package Repo
+  https://repo.saltstack.com/
+
+- Installation
+  https://docs.saltstack.com/en/latest/topics/installation/index.html
+
+  * platform-specific installation instructions: Ubuntu
+    https://docs.saltstack.com/en/latest/topics/installation/ubuntu.html
+
 - Salt Get Started
   https://docs.saltstack.com/en/getstarted/
 
@@ -33,6 +42,9 @@ Salt
 
     - subsystem diagram
       https://docs.saltstack.com/en/getstarted/system/plugins.html
+
+    - Communication & Security
+      https://docs.saltstack.com/en/getstarted/system/communication.html
 
   * Agentless Salt
     https://docs.saltstack.com/en/getstarted/ssh/
@@ -67,6 +79,12 @@ Salt
 
     - Orchestrate runner
       https://docs.saltstack.com/en/latest/topics/orchestrate/orchestrate_runner.html
+
+  * Configuring Salt
+    https://docs.saltstack.com/en/latest/topics/configuration/index.html
+
+    - Configuring Salt
+      https://docs.saltstack.com/en/latest/ref/configuration/index.html
 
   * APIs
     https://docs.saltstack.com/en/latest/topics/api.html
