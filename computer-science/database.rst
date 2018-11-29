@@ -203,6 +203,9 @@ MySQL
           * CREATE TABLE ... SELECT Syntax
             https://dev.mysql.com/doc/refman/8.0/en/create-table-select.html
 
+        - CREATE INDEX Syntax
+          https://dev.mysql.com/doc/refman/8.0/en/create-index.html
+
       * Transactional and Locking Statements
         https://dev.mysql.com/doc/refman/8.0/en/sql-syntax-transactions.html
 
