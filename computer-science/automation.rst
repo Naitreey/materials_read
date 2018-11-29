@@ -63,8 +63,41 @@ Salt
     - Grains
       https://docs.saltstack.com/en/latest/topics/grains/index.html
 
+    - Targeting minions
+      https://docs.saltstack.com/en/latest/topics/targeting/index.html
+
+      * Matching the minion id
+        https://docs.saltstack.com/en/latest/topics/targeting/globbing.html
+
+      * Targeting using grains
+        https://docs.saltstack.com/en/latest/topics/targeting/grains.html
+
+      * Targeting using pillar
+        https://docs.saltstack.com/en/latest/topics/targeting/pillar.html
+
+      * Subnet/IP address matching
+        https://docs.saltstack.com/en/latest/topics/targeting/ipcidr.html
+
+      * Node groups
+        https://docs.saltstack.com/en/latest/topics/targeting/nodegroups.html
+
+      * Batch
+        https://docs.saltstack.com/en/latest/topics/targeting/batch.html
+
+      * Compound matchers
+        https://docs.saltstack.com/en/latest/topics/targeting/compound.html
+
     - Storing Static Data In The Pillar
       https://docs.saltstack.com/en/latest/topics/pillar/index.html
+
+    - Remote Execution
+      https://docs.saltstack.com/en/latest/topics/execution/index.html
+
+      * Remote execution tutorial
+        https://docs.saltstack.com/en/latest/topics/tutorials/modules.html
+
+      * Running Commands on Salt Minions
+        https://docs.saltstack.com/en/latest/topics/execution/remote_execution.html
 
   * Configuration Management
 
@@ -115,6 +148,12 @@ Salt
 
 - CLI.
 
+  * salt(1)
+
+  * salt-key(1)
+
   * salt-api(1)
+
+  * salt-cp(1)
 
   * pepper
