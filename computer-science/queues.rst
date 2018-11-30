@@ -6,6 +6,12 @@ Protocols
 - Advanced Message Queuing Protocol
   https://en.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol
 
+  * AMQP 0-9-1 Model Explained
+    https://www.rabbitmq.com/tutorials/amqp-concepts.html
+
+  * AMQP 0-9-1 Quick Reference
+    https://www.rabbitmq.com/amqp-0-9-1-quickref.html
+
 RabbitMQ
 ========
 
