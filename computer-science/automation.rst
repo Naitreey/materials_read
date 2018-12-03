@@ -99,6 +99,19 @@ Salt
       * Running Commands on Salt Minions
         https://docs.saltstack.com/en/latest/topics/execution/remote_execution.html
 
+  * Runners
+    https://docs.saltstack.com/en/latest/ref/runners/
+
+    - Runner Modules
+
+      * jobs
+        https://docs.saltstack.com/en/latest/ref/runners/all/salt.runners.jobs.html
+
+  * Job
+
+    * Managing The Job Cache
+      https://docs.saltstack.com/en/latest/topics/jobs/job_cache.html
+
   * Configuration Management
 
     - State System Reference
@@ -153,6 +166,8 @@ Salt
   * salt-key(1)
 
   * salt-api(1)
+
+  * salt-run(1)
 
   * salt-cp(1)
 
