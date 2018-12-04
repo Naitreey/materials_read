@@ -468,16 +468,29 @@ System Components
     http://www.rsyslog.com/doc/master/index.html
   * syslog wiki
     https://en.wikipedia.org/wiki/Syslog
-- scheduled tasks
-  * at
-  * cron
-  * anacron
-    - anacron wiki
-      https://en.wikipedia.org/wiki/Anacron
-    - anacron homepage
-      http://anacron.sourceforge.net/
-    - anacron(8)
-    - /etc/anacrontab(8)
+* scheduled tasks
+
+  - periodic schedule
+    * crontab(1)
+    * cron(8)
+    * run-parts/crontabs(4)
+    * crontab(5)
+
+  - fuzzy schedule
+    * anacron(8)
+      - anacron wiki
+        https://en.wikipedia.org/wiki/Anacron
+      - anacron homepage
+        http://anacron.sourceforge.net/
+      - anacron(8)
+      - /etc/anacrontab(8)
+    * /etc/anacrontab(8)
+
+  - one-time schedule
+    * at(1), atq(1), atrm(1), batch(1)
+    * /etc/at.allow(5), /etc/at.deny(5)
+    * atd(8)
+
 - SELinux
   * CentOS SELinux HowTo
     https://wiki.centos.org/HowTos/SELinux
@@ -1041,23 +1054,6 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
       * systemd-resolved.service(8)
 
       * resolved.conf(5)
-
-  * scheduled tasks
-
-    - periodic schedule
-      * crontab(1)
-      * crond(8)
-      * run-parts/crontabs(4)
-      * crontab(5)
-
-    - fuzzy schedule
-      * anacron(8)
-      * /etc/anacrontab(8)
-
-    - one-time schedule
-      * at(1), atq(1), atrm(1), batch(1)
-      * /etc/at.allow(5), /etc/at.deny(5)
-      * atd(8)
 
   * kernel configuration
 
