@@ -99,6 +99,9 @@ Salt
       * Running Commands on Salt Minions
         https://docs.saltstack.com/en/latest/topics/execution/remote_execution.html
 
+      * salt.modules.schedule
+        https://docs.saltstack.com/en/latest/ref/modules/all/salt.modules.schedule.html
+
   * Runners
     https://docs.saltstack.com/en/latest/ref/runners/
 
@@ -109,7 +112,10 @@ Salt
 
   * Job
 
-    * Managing The Job Cache
+    - Job Management
+      https://docs.saltstack.com/en/latest/topics/jobs/index.html
+
+    - Managing The Job Cache
       https://docs.saltstack.com/en/latest/topics/jobs/job_cache.html
 
   * Configuration Management

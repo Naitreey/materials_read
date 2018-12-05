@@ -476,6 +476,11 @@ System Components
     * run-parts/crontabs(4)
     * crontab(5)
 
+    * language implementations
+
+      - croniter (python)
+        https://github.com/taichino/croniter
+
   - fuzzy schedule
     * anacron(8)
       - anacron wiki
