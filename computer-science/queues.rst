@@ -44,3 +44,16 @@ RabbitMQ
 
   * Remote procedure call (RPC)
     https://www.rabbitmq.com/tutorials/tutorial-six-python.html
+
+- RabbitMQ Documentation
+
+  * Installation
+
+    - Ubuntu
+      https://www.rabbitmq.com/install-debian.html
+  
+  * Distributed RabbitMQ brokers
+    https://www.rabbitmq.com/distributed.html
+
+  * Cluster Formation and Peer Discovery
+    https://www.rabbitmq.com/cluster-formation.html
