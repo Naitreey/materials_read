@@ -55,5 +55,8 @@ RabbitMQ
   * Distributed RabbitMQ brokers
     https://www.rabbitmq.com/distributed.html
 
+  * Clustering guide
+    https://www.rabbitmq.com/clustering.html
+
   * Cluster Formation and Peer Discovery
     https://www.rabbitmq.com/cluster-formation.html
