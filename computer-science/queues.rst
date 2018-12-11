@@ -60,3 +60,15 @@ RabbitMQ
 
   * Cluster Formation and Peer Discovery
     https://www.rabbitmq.com/cluster-formation.html
+
+  * Highly Available (Mirrored) Queues
+    https://www.rabbitmq.com/ha.html
+
+  * Virtual Hosts
+    https://www.rabbitmq.com/vhosts.html
+
+  * Parameters and Policies
+    https://www.rabbitmq.com/parameters.html
+
+  * Access Control (Authentication, Authorisation) in RabbitMQ
+    https://www.rabbitmq.com/access-control.html
