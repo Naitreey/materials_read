@@ -810,11 +810,23 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
       sudo(8), visudo(8)
 
   * calendar time, timezone
+
     - timedatectl(1)
+
     - date(1)
+
     - zdump(8)
+
     - zic(8)
+
     - time-sync.target
+
+    - systemd-timesyncd.service
+      
+      * systemd-timesyncd.service(8)
+
+      * arch wiki
+        https://wiki.archlinux.org/index.php/systemd-timesyncd
 
   * process time
     - time(1)
