@@ -72,3 +72,6 @@ RabbitMQ
 
   * Access Control (Authentication, Authorisation) in RabbitMQ
     https://www.rabbitmq.com/access-control.html
+
+  * Production Checklist
+    https://www.rabbitmq.com/production-checklist.html
