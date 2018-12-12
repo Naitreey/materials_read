@@ -118,6 +118,9 @@ Salt
     - Managing The Job Cache
       https://docs.saltstack.com/en/latest/topics/jobs/job_cache.html
 
+    - Storing job results in an external system
+      https://docs.saltstack.com/en/latest/topics/jobs/external_cache.html
+
   * Configuration Management
 
     - State System Reference
