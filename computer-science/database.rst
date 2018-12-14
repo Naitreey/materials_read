@@ -209,6 +209,9 @@ MySQL
           * Secondary Indexes and Generated Columns
             https://dev.mysql.com/doc/refman/8.0/en/create-table-secondary-indexes.html
 
+          * Using FOREIGN KEY Constraints
+            https://dev.mysql.com/doc/refman/8.0/en/create-table-foreign-keys.html
+
         - CREATE INDEX Syntax
           https://dev.mysql.com/doc/refman/8.0/en/create-index.html
 
