@@ -862,6 +862,9 @@ http and related protocols
     * EnumField
       https://django-mysql.readthedocs.io/en/latest/model_fields/enum_field.html
 
+    * JSONField
+      https://django-mysql.readthedocs.io/en/latest/model_fields/json_field.html
+
     * BIT(1) boolean fields
       https://django-mysql.readthedocs.io/en/latest/model_fields/null_bit1_boolean_fields.html
 
