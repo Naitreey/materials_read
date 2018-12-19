@@ -340,31 +340,45 @@ remote access
 
 Secure Shell (SSH)
 ~~~~~~~~~~~~~~~~~~
-
-- protocol
+protocol
+^^^^^^^^
   
-  * wiki
-    https://en.wikipedia.org/wiki/Secure_Shell
+* wiki
+  https://en.wikipedia.org/wiki/Secure_Shell
 
-  * wikibook *OpenSSH* -- *SSH Protocols* section
-    https://en.wikibooks.org/wiki/OpenSSH/SSH_Protocols
+* wikibook *OpenSSH* -- *SSH Protocols* section
+  https://en.wikibooks.org/wiki/OpenSSH/SSH_Protocols
 
-  * Understanding the SSH Encryption and Connection Process
-    https://www.digitalocean.com/community/tutorials/understanding-the-ssh-encryption-and-connection-process
+* Understanding the SSH Encryption and Connection Process
+  https://www.digitalocean.com/community/tutorials/understanding-the-ssh-encryption-and-connection-process
 
-- implementation
+implementation
+^^^^^^^^^^^^^^
+* OpenSSH
 
-  * OpenSSH
+  - wikibook *OpenSSH*
+    https://en.wikibooks.org/wiki/OpenSSH
 
-    - wikibook *OpenSSH*
-      https://en.wikibooks.org/wiki/OpenSSH
+    * Overview
+      https://en.wikibooks.org/wiki/OpenSSH/Overview
 
-      * Overview
-        https://en.wikibooks.org/wiki/OpenSSH/Overview
+    * SSH Protocols
+      https://en.wikibooks.org/wiki/OpenSSH/SSH_Protocols
 
-      * SSH Protocols
-        https://en.wikibooks.org/wiki/OpenSSH/SSH_Protocols
+* Fabric
+    http://www.fabfile.org/
 
+  * Installing
+    http://www.fabfile.org/installing.html
+
+  * FAQs
+    http://www.fabfile.org/faq.html
+
+  * API docs
+    http://docs.fabfile.org/
+
+    - Getting started
+      http://docs.fabfile.org/en/2.4/getting-started.html
 
 
 time

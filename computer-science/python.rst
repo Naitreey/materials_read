@@ -888,6 +888,8 @@ SSH
 ^^^
 - paramiko
 
+- fabric
+
 RPC
 ^^^
 
