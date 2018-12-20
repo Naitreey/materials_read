@@ -102,6 +102,21 @@ Salt
       * salt.modules.schedule
         https://docs.saltstack.com/en/latest/ref/modules/all/salt.modules.schedule.html
 
+  * Salt file server
+    https://docs.saltstack.com/en/latest/ref/file_server/
+
+    - File server backends
+      https://docs.saltstack.com/en/latest/ref/file_server/backends.html
+
+    - Dynamic module distribution
+      https://docs.saltstack.com/en/latest/ref/file_server/dynamic-modules.html
+
+    - Requesting files from specific environments
+      https://docs.saltstack.com/en/latest/ref/file_server/environments.html
+
+    - File server configuration
+      https://docs.saltstack.com/en/latest/ref/file_server/file_roots.html
+
   * Runners
     https://docs.saltstack.com/en/latest/ref/runners/
 
