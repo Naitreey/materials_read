@@ -99,6 +99,9 @@ Salt
       * Running Commands on Salt Minions
         https://docs.saltstack.com/en/latest/topics/execution/remote_execution.html
 
+      * Writing execution modules
+        https://docs.saltstack.com/en/latest/ref/modules/index.html
+
       * salt.modules.schedule
         https://docs.saltstack.com/en/latest/ref/modules/all/salt.modules.schedule.html
 
