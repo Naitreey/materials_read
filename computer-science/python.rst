@@ -346,18 +346,16 @@ coverage & test
 - unittest.mock
 
 - factory_boy
+  https://factoryboy.readthedocs.io/en/latest/index.html
 
-  * doc
-    https://factoryboy.readthedocs.io/en/latest/index.html
+  - introduction
+    https://factoryboy.readthedocs.io/en/latest/introduction.html
 
-    - introduction
-      https://factoryboy.readthedocs.io/en/latest/introduction.html
+  - Using factory_boy with ORMs
+    http://factoryboy.readthedocs.io/en/latest/orms.html
 
-    - Using factory_boy with ORMs
-      http://factoryboy.readthedocs.io/en/latest/orms.html
-
-    - Examples
-      http://factoryboy.readthedocs.io/en/latest/examples.html
+  - Examples
+    http://factoryboy.readthedocs.io/en/latest/examples.html
 
 - doctest
 - pytest
