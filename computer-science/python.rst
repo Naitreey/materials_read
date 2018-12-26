@@ -351,8 +351,14 @@ coverage & test
   - introduction
     https://factoryboy.readthedocs.io/en/latest/introduction.html
 
+  - Reference
+    https://factoryboy.readthedocs.io/en/latest/reference.html
+
   - Using factory_boy with ORMs
     http://factoryboy.readthedocs.io/en/latest/orms.html
+
+  - Common recipes
+    https://factoryboy.readthedocs.io/en/latest/recipes.html
 
   - Examples
     http://factoryboy.readthedocs.io/en/latest/examples.html
