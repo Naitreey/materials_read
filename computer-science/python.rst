@@ -383,6 +383,12 @@ coverage & test
     - lorem
       https://faker.readthedocs.io/en/master/providers/faker.providers.lorem.html
 
+    - python
+      https://faker.readthedocs.io/en/master/providers/faker.providers.python.html
+
+    - misc
+      https://faker.readthedocs.io/en/master/providers/faker.providers.misc.html
+
 refactor
 --------
 - pylint
