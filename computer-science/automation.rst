@@ -105,6 +105,18 @@ Salt
       * salt.modules.schedule
         https://docs.saltstack.com/en/latest/ref/modules/all/salt.modules.schedule.html
 
+      * salt.modules.ret
+        https://docs.saltstack.com/en/latest/ref/modules/all/salt.modules.ret.html
+
+  * Returners
+    https://docs.saltstack.com/en/latest/ref/returners/
+
+    - salt.returners.local_cache
+      https://docs.saltstack.com/en/latest/ref/returners/all/salt.returners.local_cache.html
+
+    - salt.returners.redis_return
+      https://docs.saltstack.com/en/latest/ref/returners/all/salt.returners.redis_return.html
+
   * Salt file server
     https://docs.saltstack.com/en/latest/ref/file_server/
 
@@ -197,5 +209,7 @@ Salt
   * salt-run(1)
 
   * salt-cp(1)
+
+  * salt-call(1)
 
   * pepper

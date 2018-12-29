@@ -345,7 +345,7 @@ coverage & test
   https://docs.python.org/3/library/unittest.html
 - unittest.mock
 
-- factory_boy
+- factory_boy (with source)
   https://factoryboy.readthedocs.io/en/latest/index.html
 
   - introduction
@@ -366,7 +366,7 @@ coverage & test
 - doctest
 - pytest
 
-- Faker
+- Faker (with source)
   https://faker.readthedocs.io/en/latest/
 
   * providers
