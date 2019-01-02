@@ -664,6 +664,11 @@ Redis
   * Introduction to Redis data types
     https://redis.io/topics/data-types-intro
 
+- Administration
+
+  * redis-cli, the Redis command line interface
+    https://redis.io/topics/rediscli
+
 Search Engine
 =============
 
