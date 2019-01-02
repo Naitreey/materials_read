@@ -1113,6 +1113,9 @@ task queue
     - Routing Tasks
       http://docs.celeryproject.org/en/latest/userguide/routing.html
 
+    - Canvas: Designing Work-flows
+      http://docs.celeryproject.org/en/latest/userguide/canvas.html
+
   * Django
     http://docs.celeryproject.org/en/latest/django/index.html
 
