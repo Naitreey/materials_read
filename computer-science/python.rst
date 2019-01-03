@@ -1076,7 +1076,7 @@ message queue
 
 task queue
 ----------
-- celery
+- celery (with source)
 
   * Celery: an overview of the architecture and how it works
     https://www.vinta.com.br/blog/2017/celery-overview-archtecture-and-how-it-works/
