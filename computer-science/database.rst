@@ -664,6 +664,31 @@ Redis
   * Introduction to Redis data types
     https://redis.io/topics/data-types-intro
 
+- Programming with Redis
+
+  * Pub/Sub
+    https://redis.io/topics/pubsub
+
+  * The full list of commands
+
+    - SUBSCRIBE
+      https://redis.io/commands/subscribe
+
+    - UNSUBSCRIBE
+      https://redis.io/commands/unsubscribe
+
+    - PSUBSCRIBE
+      https://redis.io/commands/psubscribe
+
+    - PUNSUBSCRIBE
+      https://redis.io/commands/punsubscribe
+
+    - PUBLISH
+      https://redis.io/commands/publish
+
+    - PUBSUB
+      https://redis.io/commands/pubsub
+
 - Administration
 
   * redis-cli, the Redis command line interface
