@@ -669,6 +669,12 @@ Redis
   * Pub/Sub
     https://redis.io/topics/pubsub
 
+  * Using pipelining to speedup Redis queries
+    https://redis.io/topics/pipelining
+
+  * Transactions
+    https://redis.io/topics/transactions
+
   * The full list of commands
 
     - SUBSCRIBE
@@ -688,6 +694,24 @@ Redis
 
     - PUBSUB
       https://redis.io/commands/pubsub
+
+    - SELECT
+      https://redis.io/commands/select
+
+    - WATCH
+      https://redis.io/commands/watch
+
+    - UNWATCH
+      https://redis.io/commands/unwatch
+
+    - MULTI
+      https://redis.io/commands/multi
+
+    - EXEC
+      https://redis.io/commands/exec
+
+    - DISCARD
+      https://redis.io/commands/discard
 
 - Administration
 
