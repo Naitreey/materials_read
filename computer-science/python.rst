@@ -713,6 +713,9 @@ http and related protocols
       - Advanced testing topics
         https://docs.djangoproject.com/en/2.1/topics/testing/advanced/
 
+    * System check framework
+      https://docs.djangoproject.com/en/2.1/topics/checks/
+
   - "How-to" guides
 
     * Managing static files (e.g. images, JavaScript, CSS)
@@ -821,6 +824,9 @@ http and related protocols
 
     * Clickjacking Protection
       https://docs.djangoproject.com/en/2.0/ref/clickjacking/
+
+    * System check framework
+      https://docs.djangoproject.com/en/2.1/ref/checks/
 
   - Django's release schedule
     https://www.djangoproject.com/download/
