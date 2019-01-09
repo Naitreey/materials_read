@@ -713,6 +713,33 @@ Redis
     - DISCARD
       https://redis.io/commands/discard
 
+    - GET
+      https://redis.io/commands/get
+
+    - SET
+      https://redis.io/commands/set
+
+    - INCR
+      https://redis.io/commands/incr
+
+    - GETSET
+      https://redis.io/commands/getset
+
+    - INCRBY
+      https://redis.io/commands/incrby
+
+    - DECR
+      https://redis.io/commands/decr
+
+    - DECRBY
+      https://redis.io/commands/decrby
+
+    - MGET
+      https://redis.io/commands/mget
+
+    - MSET
+      https://redis.io/commands/mset
+
 - Administration
 
   * redis-cli, the Redis command line interface
