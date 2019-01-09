@@ -740,6 +740,15 @@ Redis
     - MSET
       https://redis.io/commands/mset
 
+    - EXISTS
+      https://redis.io/commands/exists
+
+    - DEL
+      https://redis.io/commands/del
+
+    - TYPE
+      https://redis.io/commands/type
+
 - Administration
 
   * redis-cli, the Redis command line interface
