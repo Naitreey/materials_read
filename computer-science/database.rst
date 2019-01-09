@@ -749,6 +749,36 @@ Redis
     - TYPE
       https://redis.io/commands/type
 
+    - EXPIRE
+      https://redis.io/commands/expire
+
+    - PERSIST
+      https://redis.io/commands/persist
+
+    - TTL
+      https://redis.io/commands/ttl
+
+    - PTTL
+      https://redis.io/commands/pttl
+
+    - LPUSH
+      https://redis.io/commands/lpush
+
+    - RPUSH
+      https://redis.io/commands/rpush
+
+    - LRANGE
+      https://redis.io/commands/lrange
+
+    - LPOP
+      https://redis.io/commands/lpop
+
+    - RPOP
+      https://redis.io/commands/rpop
+
+    - LTRIM
+      https://redis.io/commands/ltrim
+
 - Administration
 
   * redis-cli, the Redis command line interface
