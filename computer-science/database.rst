@@ -728,6 +728,9 @@ Redis
     - INCRBY
       https://redis.io/commands/incrby
 
+    - INCRBYFLOAT
+      https://redis.io/commands/INCRBYFLOAT
+
     - DECR
       https://redis.io/commands/decr
 
@@ -778,6 +781,93 @@ Redis
 
     - LTRIM
       https://redis.io/commands/ltrim
+
+    - BLPOP
+      https://redis.io/commands/blpop
+
+    - BRPOP
+      https://redis.io/commands/brpop
+
+    - RPOPLPUSH
+      https://redis.io/commands/rpoplpush
+
+    - BRPOPLPUSH
+      https://redis.io/commands/brpoplpush
+
+    - LREM
+      https://redis.io/commands/LREM
+
+    - HSET
+      https://redis.io/commands/hset
+
+    - HGET
+      https://redis.io/commands/hget
+
+    - HMSET
+      https://redis.io/commands/hmset
+
+    - HMGET
+      https://redis.io/commands/hmget
+
+    - HGETALL
+      https://redis.io/commands/hgetall
+
+    - HKEYS
+      https://redis.io/commands/hkeys
+
+    - HVALS
+      https://redis.io/commands/hvals
+
+    - HEXISTS
+      https://redis.io/commands/hexists
+
+    - HDEL
+      https://redis.io/commands/hdel
+
+    - HLEN
+      https://redis.io/commands/hlen
+
+    - HINCRBY
+      https://redis.io/commands/hincrby
+
+    - SADD
+      https://redis.io/commands/sadd
+
+    - SREM
+      https://redis.io/commands/srem
+
+    - SCARD
+      https://redis.io/commands/scard
+
+    - SMEMBERS
+      https://redis.io/commands/smembers
+
+    - SISMEMBER
+      https://redis.io/commands/sismember
+
+    - SINTER
+      https://redis.io/commands/sinter
+
+    - SINTERSTORE
+      https://redis.io/commands/sinterstore
+
+    - SUNION
+      https://redis.io/commands/sunion
+
+    - SUNIONSTORE
+      https://redis.io/commands/sunionstore
+
+    - SPOP
+      https://redis.io/commands/spop
+
+    - SRANDMEMBER
+      https://redis.io/commands/srandmember
+
+    - SDIFF
+      https://redis.io/commands/sdiff
+
+    - SDIFFSTORE
+      https://redis.io/commands/sdiffstore
 
 - Administration
 
