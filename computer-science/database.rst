@@ -869,6 +869,9 @@ Redis
     - SDIFFSTORE
       https://redis.io/commands/sdiffstore
 
+    - ZADD
+      https://redis.io/commands/zadd
+
 - Administration
 
   * redis-cli, the Redis command line interface
