@@ -872,6 +872,15 @@ Redis
     - ZADD
       https://redis.io/commands/zadd
 
+    - ZRANGE
+      https://redis.io/commands/zrange
+
+    - ZREVRANGE
+      https://redis.io/commands/zrevrange
+
+    - ZRANGEBYSCORE
+      https://redis.io/commands/zrangebyscore
+
 - Administration
 
   * redis-cli, the Redis command line interface
