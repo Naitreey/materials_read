@@ -872,6 +872,15 @@ Redis
     - ZADD
       https://redis.io/commands/zadd
 
+    - ZREM
+      https://redis.io/commands/zrem
+
+    - ZINCRBY
+      https://redis.io/commands/zincrby
+
+    - ZSCORE
+      https://redis.io/commands/zscore
+
     - ZRANGE
       https://redis.io/commands/zrange
 
@@ -880,6 +889,15 @@ Redis
 
     - ZRANGEBYSCORE
       https://redis.io/commands/zrangebyscore
+
+    - ZREVRANGEBYSCORE
+      https://redis.io/commands/zrevrangebyscore
+
+    - ZRANGEBYLEX
+      https://redis.io/commands/zrangebylex
+
+    - ZREVRANGEBYLEX
+      https://redis.io/commands/zrevrangebylex
 
 - Administration
 
