@@ -875,6 +875,12 @@ Redis
     - ZREM
       https://redis.io/commands/zrem
 
+    - ZREMRANGEBYSCORE
+      https://redis.io/commands/zremrangebyscore
+
+    - ZREMRANGEBYLEX
+      https://redis.io/commands/zremrangebylex
+
     - ZINCRBY
       https://redis.io/commands/zincrby
 
@@ -898,6 +904,30 @@ Redis
 
     - ZREVRANGEBYLEX
       https://redis.io/commands/zrevrangebylex
+
+    - ZPOPMIN
+      https://redis.io/commands/zpopmin
+
+    - ZPOPMAX
+      https://redis.io/commands/zpopmax
+
+    - BZPOPMIN
+      https://redis.io/commands/bzpopmin
+
+    - BZPOPMAX
+      https://redis.io/commands/bzpopmax
+
+    - ZRANK
+      https://redis.io/commands/zremrangebylex
+
+    - ZREVRANK
+      https://redis.io/commands/zrevrank
+
+    - ZCOUNT
+      https://redis.io/commands/zcount
+
+    - ZSCAN
+      https://redis.io/commands/zscan
 
 - Administration
 
