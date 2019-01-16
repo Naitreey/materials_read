@@ -677,6 +677,12 @@ Redis
 
   * The full list of commands
 
+    - KEYS
+      https://redis.io/commands/keys
+
+    - SCAN
+      https://redis.io/commands/scan
+
     - SUBSCRIBE
       https://redis.io/commands/subscribe
 
@@ -881,11 +887,23 @@ Redis
     - ZREMRANGEBYLEX
       https://redis.io/commands/zremrangebylex
 
+    - ZREMRANGEBYRANK
+      https://redis.io/commands/zremrangebyrank
+
     - ZINCRBY
       https://redis.io/commands/zincrby
 
+    - ZUNIONSTORE
+      https://redis.io/commands/zunionstore
+
+    - ZINTERSTORE
+      https://redis.io/commands/zinterstore
+
     - ZSCORE
       https://redis.io/commands/zscore
+
+    - ZLEXCOUNT
+      https://redis.io/commands/zlexcount
 
     - ZRANGE
       https://redis.io/commands/zrange
@@ -928,6 +946,24 @@ Redis
 
     - ZSCAN
       https://redis.io/commands/zscan
+
+    - SETBIT
+      https://redis.io/commands/setbit
+
+    - GETBIT
+      https://redis.io/commands/getbit
+
+    - BICOUNT
+      https://redis.io/commands/bitcount
+   
+    - BITOP
+      https://redis.io/commands/bitop
+
+    - BITPOS
+      https://redis.io/commands/bitpos
+
+    - PFADD
+      https://redis.io/commands/pfadd
 
 - Administration
 
