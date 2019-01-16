@@ -965,6 +965,9 @@ Redis
     - PFADD
       https://redis.io/commands/pfadd
 
+    - PFCOUNT
+      https://redis.io/commands/pfcount
+
 - Administration
 
   * redis-cli, the Redis command line interface
