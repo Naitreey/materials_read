@@ -343,7 +343,11 @@ coverage & test
 - coverage
 - unittest (with source)
   https://docs.python.org/3/library/unittest.html
+
 - unittest.mock
+
+  * getting started
+    https://docs.python.org/3/library/unittest.mock-examples.html
 
 - factory_boy (with source)
   https://factoryboy.readthedocs.io/en/latest/index.html
