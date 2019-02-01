@@ -344,7 +344,7 @@ coverage & test
 - unittest (with source)
   https://docs.python.org/3/library/unittest.html
 
-- unittest.mock
+- unittest.mock (with source)
 
   * getting started
     https://docs.python.org/3/library/unittest.mock-examples.html
