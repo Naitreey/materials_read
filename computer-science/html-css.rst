@@ -931,6 +931,25 @@ box
 - opacity
   https://developer.mozilla.org/en-US/docs/Web/CSS/opacity
 
+- outline-color
+  https://developer.mozilla.org/en-US/docs/Web/CSS/outline-color
+
+- outline-width
+  https://developer.mozilla.org/en-US/docs/Web/CSS/outline-width
+
+- outline-style
+  https://developer.mozilla.org/en-US/docs/Web/CSS/outline-style
+
+- outline
+  https://developer.mozilla.org/en-US/docs/Web/CSS/outline
+
+- outline-offset
+  https://developer.mozilla.org/en-US/docs/Web/CSS/outline-offset
+
+pointing device
+~~~~~~~~~~~~~~~
+- pointer-events
+  https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events
 pseudo-element
 ~~~~~~~~~~~~~~
 - content
@@ -1088,6 +1107,12 @@ bootstrap
 
     - navbar
       https://getbootstrap.com/docs/4.1/components/navbar/
+
+    - buttons
+      https://getbootstrap.com/docs/4.2/components/buttons/
+
+    - button groups
+      https://getbootstrap.com/docs/4.2/components/button-group/
 
   * utilities
 
