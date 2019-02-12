@@ -203,14 +203,17 @@ MySQL
           * CREATE TABLE ... SELECT Syntax
             https://dev.mysql.com/doc/refman/8.0/en/create-table-select.html
 
+          * Using FOREIGN KEY Constraints
+            https://dev.mysql.com/doc/refman/8.0/en/create-table-foreign-keys.html
+
           * CREATE TABLE and Generated Columns
             https://dev.mysql.com/doc/refman/8.0/en/create-table-generated-columns.html
 
           * Secondary Indexes and Generated Columns
             https://dev.mysql.com/doc/refman/8.0/en/create-table-secondary-indexes.html
 
-          * Using FOREIGN KEY Constraints
-            https://dev.mysql.com/doc/refman/8.0/en/create-table-foreign-keys.html
+          * Silent Column Specification Changes
+            https://dev.mysql.com/doc/refman/8.0/en/silent-column-changes.html
 
         - CREATE INDEX Syntax
           https://dev.mysql.com/doc/refman/8.0/en/create-index.html
