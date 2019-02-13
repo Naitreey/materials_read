@@ -30,6 +30,9 @@ MySQL
         - Creating and Selecting a Database
           https://dev.mysql.com/doc/refman/8.0/en/creating-database.html
 
+        - Creating a Table
+          https://dev.mysql.com/doc/refman/8.0/en/creating-tables.html
+
     - Language Structure
       https://dev.mysql.com/doc/refman/8.0/en/language-structure.html
 
@@ -273,6 +276,9 @@ MySQL
           * SHOW TABLES syntax
             https://dev.mysql.com/doc/refman/8.0/en/show-tables.html
 
+          * SHOW COLUMNS syntax
+            https://dev.mysql.com/doc/refman/8.0/en/show-columns.html
+
         - SET Syntax
 
           * SET NAMES Syntax
@@ -280,6 +286,11 @@ MySQL
 
           * SET CHARACTER SET Syntax
             https://dev.mysql.com/doc/refman/8.0/en/set-character-set.html
+
+      * Utility statements
+
+        - DESCRIBE syntax
+          https://dev.mysql.com/doc/refman/8.0/en/describe.html
 
       * replication statements
 
