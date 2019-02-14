@@ -33,6 +33,9 @@ MySQL
         - Creating a Table
           https://dev.mysql.com/doc/refman/8.0/en/creating-tables.html
 
+        - Loading Data into a Table
+          https://dev.mysql.com/doc/refman/8.0/en/loading-tables.html
+
     - Language Structure
       https://dev.mysql.com/doc/refman/8.0/en/language-structure.html
 
@@ -288,6 +291,9 @@ MySQL
             https://dev.mysql.com/doc/refman/8.0/en/set-character-set.html
 
       * Utility statements
+
+        - EXPLAIN syntax
+          https://dev.mysql.com/doc/refman/8.0/en/explain.html
 
         - DESCRIBE syntax
           https://dev.mysql.com/doc/refman/8.0/en/describe.html
