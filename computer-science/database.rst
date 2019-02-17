@@ -224,6 +224,20 @@ MySQL
         - CREATE INDEX Syntax
           https://dev.mysql.com/doc/refman/8.0/en/create-index.html
 
+      * Data Manipulation Statements
+
+        - LOAD DATA syntax
+          https://dev.mysql.com/doc/refman/8.0/en/load-data.html
+
+        - INSERT syntax
+          https://dev.mysql.com/doc/refman/8.0/en/insert.html
+
+          * INSERT ... ON DUPLICATE KEY UPDATE Syntax
+            https://dev.mysql.com/doc/refman/8.0/en/insert-on-duplicate.html
+
+          * INSERT ... SELECT Syntax
+            https://dev.mysql.com/doc/refman/8.0/en/insert-select.html
+
       * Transactional and Locking Statements
         https://dev.mysql.com/doc/refman/8.0/en/sql-syntax-transactions.html
 
