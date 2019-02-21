@@ -1,6 +1,11 @@
 RDBMS
 =====
 
+SQL in general
+--------------
+- Join (SQL)
+  https://en.wikipedia.org/wiki/Join_(SQL)
+
 PostgreSQL
 ----------
 - PostgreSQL Documentation (在读)
@@ -237,6 +242,11 @@ MySQL
 
           * INSERT ... SELECT Syntax
             https://dev.mysql.com/doc/refman/8.0/en/insert-select.html
+
+        - SELECT syntax
+
+          * JOIN Syntax
+            https://dev.mysql.com/doc/refman/8.0/en/join.html
 
       * Transactional and Locking Statements
         https://dev.mysql.com/doc/refman/8.0/en/sql-syntax-transactions.html
