@@ -3,8 +3,11 @@ RDBMS
 
 SQL in general
 --------------
-- Join (SQL)
+- JOIN (SQL)
   https://en.wikipedia.org/wiki/Join_(SQL)
+
+- HAVING (SQL)
+  https://en.wikipedia.org/wiki/Having_(SQL)
 
 PostgreSQL
 ----------
@@ -244,9 +247,16 @@ MySQL
             https://dev.mysql.com/doc/refman/8.0/en/insert-select.html
 
         - SELECT syntax
+          https://dev.mysql.com/doc/refman/8.0/en/select.html
 
           * JOIN Syntax
             https://dev.mysql.com/doc/refman/8.0/en/join.html
+
+          * SELECT ... INTO Syntax
+            https://dev.mysql.com/doc/refman/8.0/en/select-into.html
+
+          * UNION syntax
+            https://dev.mysql.com/doc/refman/8.0/en/union.html
 
       * Transactional and Locking Statements
         https://dev.mysql.com/doc/refman/8.0/en/sql-syntax-transactions.html
