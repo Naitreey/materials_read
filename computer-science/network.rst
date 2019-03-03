@@ -365,6 +365,15 @@ implementation
     * SSH Protocols
       https://en.wikibooks.org/wiki/OpenSSH/SSH_Protocols
 
+  - Port forwarding
+
+    * What's ssh port forwarding and what's the difference between ssh local
+      and remote port forwarding
+      https://unix.stackexchange.com/questions/115897/whats-ssh-port-forwarding-and-whats-the-difference-between-ssh-local-and-remot
+
+    * ssh port forwarding example
+      https://www.ssh.com/ssh/tunneling/example
+
 * Fabric
     http://www.fabfile.org/
 
