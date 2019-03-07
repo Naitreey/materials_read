@@ -1254,6 +1254,36 @@ python version
 --------------
 - pyenv
 
+  * repository
+    https://github.com/pyenv/pyenv
+
+  * FAQ
+    https://github.com/pyenv/pyenv/wiki
+
+  * Common build problems
+    https://github.com/pyenv/pyenv/wiki/Common-build-problems
+
+  * Deploying with pyenv
+    https://github.com/pyenv/pyenv/wiki/Deploying-with-pyenv
+
+  * Plugins
+    https://github.com/pyenv/pyenv/wiki/Plugins
+
+  * Understanding binstubs
+    https://github.com/pyenv/pyenv/wiki/Understanding-binstubs
+
+  * Unix shell initialization
+    https://github.com/pyenv/pyenv/wiki/Unix-shell-initialization
+
+  * Command Reference
+    https://github.com/pyenv/pyenv/blob/master/COMMANDS.md
+
+  * plugin: python-build
+    https://github.com/pyenv/pyenv/tree/master/plugins/python-build
+
+  * plugin: pyenv-virtualenv
+    https://github.com/pyenv/pyenv-virtualenv
+
 virtual environment
 -------------------
 - venv
