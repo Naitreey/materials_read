@@ -9,11 +9,20 @@ Hadoop
 - Hadoop homepage
   https://hadoop.apache.org/
 
-  * Overview
-    http://hadoop.apache.org/docs/stable/index.html
+  * General
 
-  * Hadoop: Setting up a Single Node Cluster
-    http://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html
+    - Overview
+      http://hadoop.apache.org/docs/stable/index.html
 
-  * Hadoop Cluster Setup
-    https://hadoop.apache.org/docs/r3.2.0/hadoop-project-dist/hadoop-common/ClusterSetup.html
+    - Hadoop: Setting up a Single Node Cluster
+      http://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html
+
+    - Hadoop Cluster Setup
+      https://hadoop.apache.org/docs/r3.2.0/hadoop-project-dist/hadoop-common/ClusterSetup.html
+
+  * HDFS
+
+    - Architecture
+      https://hadoop.apache.org/docs/r3.2.0/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html
+
+  * YARN
