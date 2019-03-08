@@ -401,6 +401,9 @@ CLI
 
 * chvt(1)
 
+terminal
+========
+
 memory
 ======
 
@@ -849,6 +852,7 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
     - getty, chvt
     - script(1), scriptreplay(1)
     - wall(1)
+    - dir_colors(5)
 
   * package management
 
