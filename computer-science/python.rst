@@ -1086,10 +1086,14 @@ py2py3
 
 - lib2to3
 
-codingstyle
------------
+code quality
+------------
 - flake8
+
 - yapf
+
+- vulture
+  https://github.com/jendrikseipp/vulture
 
 message queue
 -------------
@@ -1218,6 +1222,24 @@ HDF
 iOS
 ---
 - stash
+
+static typing
+-------------
+- typing
+
+  * PEP 483 -- The Theory of Type Hints
+    https://www.python.org/dev/peps/pep-0483/
+
+  * PEP 484 -- Type hints
+    https://www.python.org/dev/peps/pep-0484/
+
+  * PEP 526 -- Syntax for Variable Annotations
+    https://www.python.org/dev/peps/pep-0526/
+
+  * PEP 563 -- Postponed Evaluation of Annotations
+    https://www.python.org/dev/peps/pep-0563/
+
+- mypy
 
 misc
 ----
