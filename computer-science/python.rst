@@ -1239,7 +1239,25 @@ static typing
   * PEP 563 -- Postponed Evaluation of Annotations
     https://www.python.org/dev/peps/pep-0563/
 
+- typeshed
+  https://github.com/python/typeshed/
+
 - mypy
+
+  * home
+  http://www.mypy-lang.org/
+
+  * readme
+    https://github.com/python/mypy
+
+  * examples
+    http://www.mypy-lang.org/examples.html
+
+  * about
+    http://www.mypy-lang.org/about.html
+
+  * roadmap
+    https://github.com/python/mypy/blob/master/ROADMAP.md
 
 misc
 ----
