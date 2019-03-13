@@ -12,3 +12,12 @@
 
 - MapReduce
   https://en.wikipedia.org/wiki/MapReduce
+
+- shared-nothing architecture
+  https://en.wikipedia.org/wiki/Shared-nothing_architecture
+
+- shared-disk architecture
+  https://en.wikipedia.org/wiki/Shared_disk_architecture
+
+- distributed shared memory architecture
+  https://en.wikipedia.org/wiki/Distributed_shared_memory
