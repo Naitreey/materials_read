@@ -1226,6 +1226,7 @@ iOS
 static typing
 -------------
 - typing
+  https://docs.python.org/3/library/typing.html
 
   * PEP 483 -- The Theory of Type Hints
     https://www.python.org/dev/peps/pep-0483/
@@ -1258,6 +1259,18 @@ static typing
 
   * roadmap
     https://github.com/python/mypy/blob/master/ROADMAP.md
+
+  * documentation
+    https://mypy.readthedocs.io/en/stable/
+
+    - Introduction
+      https://mypy.readthedocs.io/en/stable/introduction.html
+
+    - Getting started
+      https://mypy.readthedocs.io/en/stable/getting_started.html
+
+    - Using mypy with an existing codebase
+      https://mypy.readthedocs.io/en/stable/existing_code.html
 
 misc
 ----
