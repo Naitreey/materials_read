@@ -1272,6 +1272,15 @@ static typing
     - Using mypy with an existing codebase
       https://mypy.readthedocs.io/en/stable/existing_code.html
 
+    - Running mypy and managing imports
+      https://mypy.readthedocs.io/en/stable/running_mypy.html
+
+    - The mypy command line
+      https://mypy.readthedocs.io/en/stable/command_line.html
+
+    - The mypy configuration file
+      https://mypy.readthedocs.io/en/stable/config_file.html
+
 misc
 ----
 - jsbeautifier
