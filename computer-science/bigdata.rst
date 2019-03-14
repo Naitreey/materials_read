@@ -26,3 +26,8 @@ Hadoop
       https://hadoop.apache.org/docs/r3.2.0/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html
 
   * YARN
+
+  * Tools
+
+    - Hadoop Streaming
+      https://hadoop.apache.org/docs/r3.2.0/hadoop-streaming/HadoopStreaming.html
