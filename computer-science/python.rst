@@ -1281,6 +1281,63 @@ static typing
     - The mypy configuration file
       https://mypy.readthedocs.io/en/stable/config_file.html
 
+    - Mypy daemon
+      https://mypy.readthedocs.io/en/stable/mypy_daemon.html
+
+    - Using intalled packages
+      https://mypy.readthedocs.io/en/stable/installed_packages.html
+
+    - Extending and integrating mypy
+      https://mypy.readthedocs.io/en/stable/extending_mypy.html
+
+    - Common issues and solutions
+      https://mypy.readthedocs.io/en/stable/common_issues.html#
+
+    - Supported python features
+      https://mypy.readthedocs.io/en/stable/supported_python_features.html
+
+    - Unsupported python features
+      https://github.com/python/mypy/wiki/Unsupported-Python-Features
+
+    - FAQs
+      https://mypy.readthedocs.io/en/stable/faq.html
+
+    - Built-in types
+      https://mypy.readthedocs.io/en/stable/builtin_types.html
+
+    - Type inference and type annotations
+      https://mypy.readthedocs.io/en/stable/type_inference_and_annotations.html
+
+    - Kinds of types
+      https://mypy.readthedocs.io/en/stable/kinds_of_types.html
+
+    - Class basics
+      https://mypy.readthedocs.io/en/stable/class_basics.html
+
+    - Protocols and structural subtyping
+      https://mypy.readthedocs.io/en/stable/protocols.html
+
+    - Dynamically typed code
+      https://mypy.readthedocs.io/en/stable/dynamic_typing.html
+
+    - Casts and type assertions
+      https://mypy.readthedocs.io/en/stable/casts.html
+
+    - Duck type compatibility
+      https://mypy.readthedocs.io/en/stable/duck_type_compatibility.html
+
+    - Stub files
+      https://mypy.readthedocs.io/en/stable/stubs.html
+
+    - Generics
+      https://mypy.readthedocs.io/en/stable/generics.html
+
+    - More types
+      https://mypy.readthedocs.io/en/stable/more_types.html
+
+    - Final names, methods and classes
+      https://mypy.readthedocs.io/en/stable/final_attrs.html
+
 misc
 ----
 - jsbeautifier
