@@ -383,7 +383,6 @@ Security
 
 Libraries
 =========
-
 math
 ----
 
@@ -403,9 +402,15 @@ mathjax
 
 UI framework
 ------------
-
 React
 ^^^^^
-
 - React homepage
   https://reactjs.org/
+
+- documentation
+
+  * Getting started
+    https://reactjs.org/docs/getting-started.html
+
+  * Add React to a Website
+    https://reactjs.org/docs/add-react-to-a-website.html

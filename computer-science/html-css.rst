@@ -44,7 +44,6 @@ general books and docs
 
 HTML
 ====
-
 syntax
 ------
 
@@ -471,6 +470,10 @@ embeded content
 - object
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object
 
+scripting
+~~~~~~~~~
+- script
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script
 Global attributes
 -----------------
 - Overview
