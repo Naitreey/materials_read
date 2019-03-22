@@ -25,6 +25,9 @@ Hadoop
     - Architecture
       https://hadoop.apache.org/docs/r3.2.0/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html
 
+    - HDFS Federation
+      https://hadoop.apache.org/docs/r3.2.0/hadoop-project-dist/hadoop-hdfs/Federation.html
+
   * YARN
 
   * Tools
