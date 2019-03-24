@@ -28,6 +28,9 @@ Hadoop
     - HDFS Federation
       https://hadoop.apache.org/docs/r3.2.0/hadoop-project-dist/hadoop-hdfs/Federation.html
 
+    - HDFS High Availability Using the Quorum Journal Manager
+      https://hadoop.apache.org/docs/r3.2.0/hadoop-project-dist/hadoop-hdfs/HDFSHighAvailabilityWithQJM.html
+
   * YARN
 
   * Tools
