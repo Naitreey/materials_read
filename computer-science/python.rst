@@ -1364,7 +1364,7 @@ debugging
 
 - pdb
 
-code checking
+code quality
 -------------
 - pylint
 - flake8
