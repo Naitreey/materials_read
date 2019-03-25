@@ -1091,9 +1091,12 @@ code quality
 - flake8
 
 - yapf
+  https://github.com/google/yapf
 
 - vulture
   https://github.com/jendrikseipp/vulture
+
+- pylint
 
 message queue
 -------------
@@ -1364,11 +1367,6 @@ debugging
 
 - pdb
 
-code quality
--------------
-- pylint
-- flake8
-- yapf
 
 profiling
 ---------
