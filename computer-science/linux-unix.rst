@@ -1656,6 +1656,11 @@ Storage
 File Systems
 ------------
 
+general
+~~~~~~~
+- Extended file attributes
+  https://en.wikipedia.org/wiki/Extended_file_attributes
+
 Union mount, overlayfs
 ~~~~~~~~~~~~~~~~~~~~~~
 - Union mount
