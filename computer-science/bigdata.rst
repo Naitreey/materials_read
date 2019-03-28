@@ -31,6 +31,9 @@ Hadoop
     - HDFS High Availability Using the Quorum Journal Manager
       https://hadoop.apache.org/docs/r3.2.0/hadoop-project-dist/hadoop-hdfs/HDFSHighAvailabilityWithQJM.html
 
+    - Extended Attributes in HDFS
+      https://hadoop.apache.org/docs/r3.2.0/hadoop-project-dist/hadoop-hdfs/ExtendedAttributes.html
+
   * YARN
 
   * Tools
