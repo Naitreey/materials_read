@@ -40,3 +40,6 @@ Hadoop
 
     - Hadoop Streaming
       https://hadoop.apache.org/docs/r3.2.0/hadoop-streaming/HadoopStreaming.html
+
+    - DistCp Guide
+      https://hadoop.apache.org/docs/r3.2.0/hadoop-distcp/DistCp.html
