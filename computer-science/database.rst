@@ -1,6 +1,5 @@
 RDBMS
 =====
-
 SQL in general
 --------------
 - JOIN (SQL)
@@ -257,6 +256,42 @@ MySQL
 
           * UNION syntax
             https://dev.mysql.com/doc/refman/8.0/en/union.html
+
+        - Subquery syntax
+          https://dev.mysql.com/doc/refman/8.0/en/subqueries.html
+
+          * The Subquery as Scalar Operand
+            https://dev.mysql.com/doc/refman/8.0/en/scalar-subqueries.html
+
+          * Comparisons Using Subqueries
+            https://dev.mysql.com/doc/refman/8.0/en/comparisons-using-subqueries.html
+
+          * Subqueries with ANY, IN, or SOME
+            https://dev.mysql.com/doc/refman/8.0/en/any-in-some-subqueries.html
+
+          * Subqueries with ALL
+            https://dev.mysql.com/doc/refman/8.0/en/all-subqueries.html
+
+          * Row Subqueries
+            https://dev.mysql.com/doc/refman/8.0/en/row-subqueries.html
+
+          * Subqueries with EXISTS or NOT EXISTS
+            https://dev.mysql.com/doc/refman/8.0/en/exists-and-not-exists-subqueries.html
+
+          * Correlated Subqueries
+            https://dev.mysql.com/doc/refman/8.0/en/correlated-subqueries.html
+
+          * Derived tables
+            https://dev.mysql.com/doc/refman/8.0/en/derived-tables.html
+
+          * Subquery Errors
+            https://dev.mysql.com/doc/refman/8.0/en/subquery-errors.html
+
+          * Optimizing Subqueries
+            https://dev.mysql.com/doc/refman/8.0/en/optimizing-subqueries.html
+
+          * Rewriting Subqueries as Joins
+            https://dev.mysql.com/doc/refman/8.0/en/rewriting-subqueries.html
 
       * Transactional and Locking Statements
         https://dev.mysql.com/doc/refman/8.0/en/sql-syntax-transactions.html
