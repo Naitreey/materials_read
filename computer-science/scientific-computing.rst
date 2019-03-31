@@ -85,3 +85,21 @@ NumPy
 
     - quickstart tutorial
       https://docs.scipy.org/doc/numpy/user/quickstart.html
+
+matplotlib
+----------
+- homepage
+  https://matplotlib.org/
+
+- User's Guide
+
+  * installing
+    https://matplotlib.org/users/installing.html
+
+  * Tutorials
+    https://matplotlib.org/tutorials/index.html
+
+    - Introductory
+
+      * Usage Guide
+        https://matplotlib.org/tutorials/introductory/usage.html
