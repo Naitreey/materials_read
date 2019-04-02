@@ -1090,6 +1090,22 @@ py2py3
 code quality
 ------------
 - flake8
+  https://github.com/PyCQA/flake8
+
+  * quickstart
+    http://flake8.pycqa.org/en/latest/
+
+  * FAQs
+    http://flake8.pycqa.org/en/latest/faq.html
+
+  * Glossary of terms used in flake8 documentation
+    http://flake8.pycqa.org/en/latest/glossary.html
+
+  * Using Flake8
+    http://flake8.pycqa.org/en/latest/user/index.html
+
+    - Invoking Flake8
+      http://flake8.pycqa.org/en/latest/user/invocation.html
 
 - yapf
   https://github.com/google/yapf
