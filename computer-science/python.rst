@@ -1107,6 +1107,21 @@ code quality
     - Invoking Flake8
       http://flake8.pycqa.org/en/latest/user/invocation.html
 
+    - Configuring Flake8
+      http://flake8.pycqa.org/en/latest/user/configuration.html
+
+    - Full Listing of Options and Their Descriptions
+      http://flake8.pycqa.org/en/latest/user/options.html
+
+    - Error/Violation codes
+      http://flake8.pycqa.org/en/latest/user/error-codes.html
+
+    - Selecting and Ignoring Violations
+      http://flake8.pycqa.org/en/latest/user/violations.html
+
+    - Using Version Control Hooks
+      http://flake8.pycqa.org/en/latest/user/using-hooks.html
+
 - yapf
   https://github.com/google/yapf
 
