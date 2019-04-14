@@ -43,3 +43,29 @@ Hadoop
 
     - DistCp Guide
       https://hadoop.apache.org/docs/r3.2.0/hadoop-distcp/DistCp.html
+
+Azkaban
+=======
+- Azkaban documentation
+  https://azkaban.readthedocs.io/en/latest/index.html
+
+  * Getting Started
+    https://azkaban.readthedocs.io/en/latest/getStarted.html
+
+  * Configuration
+    https://azkaban.readthedocs.io/en/latest/configuration.html
+
+  * UserManager
+    https://azkaban.readthedocs.io/en/latest/userManager.html
+
+  * Using Azkaban
+    https://azkaban.readthedocs.io/en/latest/useAzkaban.html
+
+  * Creating Flows
+    https://azkaban.readthedocs.io/en/latest/createFlows.html
+
+  * Conditional Workflow
+    https://azkaban.readthedocs.io/en/latest/conditionalFlow.html
+
+  * Jobtypes
+    https://azkaban.readthedocs.io/en/latest/jobTypes.html
