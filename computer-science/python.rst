@@ -327,6 +327,7 @@ system level utils
 - resource
 - mmap
 - atexit
+  https://docs.python.org/3/library/atexit.html
 - python-prctl
 - os
 - os.path (posixpath)
@@ -735,6 +736,9 @@ http and related protocols
 
     * System check framework
       https://docs.djangoproject.com/en/2.1/topics/checks/
+
+    * Sending email
+      https://docs.djangoproject.com/en/2.2/topics/email/
 
   - "How-to" guides
 
