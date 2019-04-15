@@ -916,6 +916,9 @@ http and related protocols
   - doc
     http://django-environ.readthedocs.io/en/latest/
 
+* django-stubs
+  https://github.com/mkurnikov/django-stubs
+
 * django-mongodb-engine
 
 * django-localflavor
