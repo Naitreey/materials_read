@@ -103,3 +103,22 @@ matplotlib
 
       * Usage Guide
         https://matplotlib.org/tutorials/introductory/usage.html
+
+  * API reference
+
+    - matplotlib.pyplot
+
+      * matplotlib.pyplot.axis
+        https://matplotlib.org/api/_as_gen/matplotlib.pyplot.axis.html
+
+      * matplotlib.pyplot.figure
+        https://matplotlib.org/api/_as_gen/matplotlib.pyplot.figure.html
+
+      * matplotlib.pyplot.close
+        https://matplotlib.org/api/_as_gen/matplotlib.pyplot.close.html
+
+      * matplotlib.pyplot.show
+        https://matplotlib.org/api/_as_gen/matplotlib.pyplot.show.html
+
+      * matplotlib.pyplot.subplot
+        https://matplotlib.org/api/_as_gen/matplotlib.pyplot.subplot.html
