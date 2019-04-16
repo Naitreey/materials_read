@@ -122,3 +122,27 @@ matplotlib
 
       * matplotlib.pyplot.subplot
         https://matplotlib.org/api/_as_gen/matplotlib.pyplot.subplot.html
+
+      * matplotlib.pyplot.suptitle
+        https://matplotlib.org/api/_as_gen/matplotlib.pyplot.suptitle.html
+
+      * matplotlib.pyplot.axes
+        https://matplotlib.org/api/_as_gen/matplotlib.pyplot.axes.html
+
+      * matplotlib.pyplot.title
+        https://matplotlib.org/api/_as_gen/matplotlib.pyplot.title.html
+
+      * matplotlib.pyplot.clf
+        https://matplotlib.org/api/_as_gen/matplotlib.pyplot.clf.html
+
+      * matplotlib.pyplot.cla
+        https://matplotlib.org/api/_as_gen/matplotlib.pyplot.cla.html
+
+      * matplotlib.pyplot.gcf
+        https://matplotlib.org/api/_as_gen/matplotlib.pyplot.gcf.html
+
+      * matplotlib.pyplot.gca
+        https://matplotlib.org/api/_as_gen/matplotlib.pyplot.gca.html
+
+      * matplotlib.pyplot.plot
+        https://matplotlib.org/api/_as_gen/matplotlib.pyplot.plot.html
