@@ -293,6 +293,9 @@ MySQL
           * Rewriting Subqueries as Joins
             https://dev.mysql.com/doc/refman/8.0/en/rewriting-subqueries.html
 
+        - UPDATE syntax
+          https://dev.mysql.com/doc/refman/8.0/en/update.html
+
       * Transactional and Locking Statements
         https://dev.mysql.com/doc/refman/8.0/en/sql-syntax-transactions.html
 
