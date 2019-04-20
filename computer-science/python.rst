@@ -62,6 +62,9 @@ language
 
   * PEP 3107 -- Function Annotations
 
+  * PEP 249  -- Python Database API Specification v2.0
+    https://www.python.org/dev/peps/pep-0249/
+
 - Unifying types and classes in Python 2.2
   https://www.python.org/download/releases/2.2.3/descrintro/
 
