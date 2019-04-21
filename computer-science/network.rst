@@ -211,7 +211,6 @@ RFC2822: Internet Message Format
 
 file sharing and printing
 -------------------------
-
 Network File System Protocol
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -233,6 +232,11 @@ SMB/CIFS protocol
   * samba print server (ubuntu community wiki)
   * SambaServerGuide (ubuntu community wiki)
   * mountWindowsSharesPermanently (ubuntu community wiki)
+
+BitTorrent
+^^^^^^^^^^
+- Torrent file
+  https://en.wikipedia.org/wiki/Torrent_file
 
 remote management
 -----------------
