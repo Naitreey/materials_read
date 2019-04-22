@@ -503,6 +503,16 @@ SQL
 
 - MySQLdb
 - mysqlclient
+
+  * MySQLdb User’s Guide
+    https://mysqlclient.readthedocs.io/user_guide.html
+
+  * MySQLdb package
+    https://mysqlclient.readthedocs.io/MySQLdb.html
+
+  * constant package
+    https://mysqlclient.readthedocs.io/MySQLdb.constants.html
+
 - PyMySQL
 - mysql.connector
 - mycli
