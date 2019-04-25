@@ -30,6 +30,18 @@
       * Unified types
         https://docs.scala-lang.org/tour/unified-types.html
 
+      * Classes
+        https://docs.scala-lang.org/tour/classes.html
+
+      * Traits
+        https://docs.scala-lang.org/tour/traits.html
+
+      * Tuples
+        https://docs.scala-lang.org/tour/tuples.html
+
+      * Class composition with mixins
+        https://docs.scala-lang.org/tour/mixin-class-composition.html
+
 - sbt
 
   * sbt Reference Manual
