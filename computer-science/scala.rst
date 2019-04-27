@@ -42,6 +42,18 @@
       * Class composition with mixins
         https://docs.scala-lang.org/tour/mixin-class-composition.html
 
+      * Higer-order functions
+        https://docs.scala-lang.org/tour/higher-order-functions.html
+
+      * Nested methods
+        https://docs.scala-lang.org/tour/nested-functions.html
+
+      * Multiple Parameter Lists
+        https://docs.scala-lang.org/tour/multiple-parameter-lists.html
+
+      * Case classes
+        https://docs.scala-lang.org/tour/case-classes.html
+
 - sbt
 
   * sbt Reference Manual
