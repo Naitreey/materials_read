@@ -71,20 +71,47 @@ binder
 
 NumPy
 -----
-- overview
-  https://docs.scipy.org/doc/numpy/about.html
+- homepage
+  https://www.numpy.org/
 
-  * What is NumPy
-    https://docs.scipy.org/doc/numpy/user/whatisnumpy.html
+- install
+  https://scipy.org/install.html
 
 - NumPy manual
-  https://docs.scipy.org/doc/numpy/
+  https://www.numpy.org/devdocs/
 
   * NumPy User Guide
-    https://docs.scipy.org/doc/numpy/user/index.html
+    https://www.numpy.org/devdocs/user/index.html
 
-    - quickstart tutorial
-      https://docs.scipy.org/doc/numpy/user/quickstart.html
+    - Setting up
+      https://www.numpy.org/devdocs/user/setting-up.html
+
+      * What is NumPy?
+        https://www.numpy.org/devdocs/user/whatisnumpy.html
+
+      * Installing NumPy
+        https://www.numpy.org/devdocs/user/install.html
+
+  * NumPy Reference
+
+    - Routines
+
+      * Array creation routines
+
+        - numpy.array
+          https://www.numpy.org/devdocs/reference/generated/numpy.array.html
+
+        - numpy.zeros
+          https://www.numpy.org/devdocs/reference/generated/numpy.zeros.html
+
+        - numpy.ones
+          https://www.numpy.org/devdocs/reference/generated/numpy.ones.html
+
+        - numpy.arange
+          https://www.numpy.org/devdocs/reference/generated/numpy.arange.html
+
+        - numpy.linspace
+          https://www.numpy.org/devdocs/reference/generated/numpy.linspace.html
 
 matplotlib
 ----------
