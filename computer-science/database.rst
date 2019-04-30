@@ -299,6 +299,9 @@ MySQL
         - DELETE syntax
           https://dev.mysql.com/doc/refman/8.0/en/delete.html
 
+        - REPLACE syntax
+          https://dev.mysql.com/doc/refman/8.0/en/replace.html
+
       * Transactional and Locking Statements
         https://dev.mysql.com/doc/refman/8.0/en/sql-syntax-transactions.html
 
