@@ -113,6 +113,32 @@ NumPy
         - numpy.linspace
           https://www.numpy.org/devdocs/reference/generated/numpy.linspace.html
 
+      * Mathematical functions
+
+        - numpy.sum
+          https://www.numpy.org/devdocs/reference/generated/numpy.sum.html
+
+        - numpy.cumsum
+          https://www.numpy.org/devdocs/reference/generated/numpy.cumsum.html
+
+      * Statistics
+
+        - numpy.amin
+          https://www.numpy.org/devdocs/reference/generated/numpy.amin.html
+
+    - Array objects
+
+      * The N-dimensional Array
+
+        - numpy.ndarray.sum
+          https://www.numpy.org/devdocs/reference/generated/numpy.ndarray.sum.html
+
+        - numpy.ndarray.min
+          https://www.numpy.org/devdocs/reference/generated/numpy.ndarray.min.html
+
+        - numpy.ndarray.cumsum
+          https://www.numpy.org/devdocs/reference/generated/numpy.ndarray.cumsum.html
+
 matplotlib
 ----------
 - homepage
