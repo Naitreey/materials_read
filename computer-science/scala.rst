@@ -54,6 +54,27 @@
       * Case classes
         https://docs.scala-lang.org/tour/case-classes.html
 
+      * Pattern matching
+        https://docs.scala-lang.org/tour/pattern-matching.html
+
+      * Singleon objects
+        https://docs.scala-lang.org/tour/singleton-objects.html
+
+      * Regular expression patterns
+        https://docs.scala-lang.org/tour/regular-expression-patterns.html
+
+      * Extractor objects
+        https://docs.scala-lang.org/tour/extractor-objects.html
+
+      * For comprehensions
+        https://docs.scala-lang.org/tour/for-comprehensions.html
+
+      * Generic classes
+        https://docs.scala-lang.org/tour/generic-classes.html
+
+      * Variances
+        https://docs.scala-lang.org/tour/variances.html
+
 - sbt
 
   * sbt Reference Manual
