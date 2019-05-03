@@ -75,6 +75,54 @@
       * Variances
         https://docs.scala-lang.org/tour/variances.html
 
+      * Upper type bounds
+        https://docs.scala-lang.org/tour/upper-type-bounds.html
+
+      * Lower type bounds
+        https://docs.scala-lang.org/tour/lower-type-bounds.html
+
+      * Inner classes
+        https://docs.scala-lang.org/tour/inner-classes.html
+
+      * Abstract type members
+        https://docs.scala-lang.org/tour/abstract-type-members.html
+
+      * Compound types
+        https://docs.scala-lang.org/tour/compound-types.html
+
+      * Self-types
+        https://docs.scala-lang.org/tour/self-types.html
+
+      * Implicit parameters
+        https://docs.scala-lang.org/tour/implicit-parameters.html
+
+      * Polymorphic methods
+        https://docs.scala-lang.org/tour/polymorphic-methods.html
+
+      * Type inference
+        https://docs.scala-lang.org/tour/type-inference.html
+
+      * Operators
+        https://docs.scala-lang.org/tour/operators.html
+
+      * By-name parameters
+        https://docs.scala-lang.org/tour/by-name-parameters.html
+
+      * Annotations
+        https://docs.scala-lang.org/tour/annotations.html
+
+      * Default parameter values
+        https://docs.scala-lang.org/tour/default-parameter-values.html
+
+      * Named arguments
+        https://docs.scala-lang.org/tour/named-arguments.html
+
+      * Packages and imports
+        https://docs.scala-lang.org/tour/packages-and-imports.html
+
+      * Package objects
+        https://docs.scala-lang.org/tour/package-objects.html
+
 - sbt
 
   * sbt Reference Manual
