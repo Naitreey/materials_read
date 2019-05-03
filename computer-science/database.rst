@@ -302,6 +302,9 @@ MySQL
         - REPLACE syntax
           https://dev.mysql.com/doc/refman/8.0/en/replace.html
 
+        - WITH Syntax
+          https://dev.mysql.com/doc/refman/8.0/en/with.html
+
       * Transactional and Locking Statements
         https://dev.mysql.com/doc/refman/8.0/en/sql-syntax-transactions.html
 
