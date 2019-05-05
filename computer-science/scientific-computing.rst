@@ -199,3 +199,9 @@ matplotlib
 
       * matplotlib.pyplot.plot
         https://matplotlib.org/api/_as_gen/matplotlib.pyplot.plot.html
+
+      * matplotlib.pyplot.ylabel
+        https://matplotlib.org/api/_as_gen/matplotlib.pyplot.ylabel.html
+
+      * matplotlib.pyplot.scatter
+        https://matplotlib.org/api/_as_gen/matplotlib.pyplot.scatter.html
