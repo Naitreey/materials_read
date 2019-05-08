@@ -1270,6 +1270,14 @@ pdf
 
 microsoft excel
 ^^^^^^^^^^^^^^^
+- openpyxl
+  https://openpyxl.readthedocs.io/en/stable/index.html
+
+  * Tutorial
+    https://openpyxl.readthedocs.io/en/stable/tutorial.html
+
+  * Simple usage
+    https://openpyxl.readthedocs.io/en/stable/usage.html
 
 - xlwt
 

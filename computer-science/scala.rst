@@ -123,6 +123,9 @@
       * Package objects
         https://docs.scala-lang.org/tour/package-objects.html
 
+    - Online Resources
+      https://docs.scala-lang.org/learn.html
+
 - sbt
 
   * sbt Reference Manual
