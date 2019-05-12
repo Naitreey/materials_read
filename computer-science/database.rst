@@ -1,3 +1,8 @@
+General
+=======
+- Column-oriented DBMS
+  https://en.wikipedia.org/wiki/Column-oriented_DBMS
+
 RDBMS
 =====
 SQL in general
