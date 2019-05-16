@@ -44,6 +44,11 @@ Hadoop
     - DistCp Guide
       https://hadoop.apache.org/docs/r3.2.0/hadoop-distcp/DistCp.html
 
+- sqoop
+
+  * wiki
+    https://en.wikipedia.org/wiki/Sqoop
+
 Azkaban
 =======
 - Azkaban documentation
