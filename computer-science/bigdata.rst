@@ -1,3 +1,8 @@
+general
+=======
+- big data
+  https://en.wikipedia.org/wiki/Big_data
+
 Hadoop
 ======
 - Apache Hadoop wiki
