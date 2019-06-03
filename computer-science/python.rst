@@ -1149,6 +1149,15 @@ code quality
   https://github.com/jendrikseipp/vulture
 
 - pylint
+  
+  * homepage
+    https://www.pylint.org/
+
+  * user manual
+    https://pylint.readthedocs.io/en/latest/
+
+    - Introduction
+      https://pylint.readthedocs.io/en/latest/intro.html
 
 message queue
 -------------
