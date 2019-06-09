@@ -413,10 +413,6 @@ coverage & test
     - misc
       https://faker.readthedocs.io/en/master/providers/faker.providers.misc.html
 
-refactor
---------
-- pylint
-
 bin
 ---
 - base64
@@ -1158,6 +1154,27 @@ code quality
 
     - Introduction
       https://pylint.readthedocs.io/en/latest/intro.html
+
+    - Tutorial
+      https://pylint.readthedocs.io/en/latest/tutorial.html
+
+  * User Guide
+    https://pylint.readthedocs.io/en/latest/user_guide/index.html
+
+    - Installation
+      https://pylint.readthedocs.io/en/latest/user_guide/installation.html
+
+    - Running pylint
+      https://pylint.readthedocs.io/en/latest/user_guide/run.html
+
+    - pylint output
+      https://pylint.readthedocs.io/en/latest/user_guide/output.html
+
+    - message control
+      https://pylint.readthedocs.io/en/latest/user_guide/message-control.html
+
+    - FAQs
+      https://pylint.readthedocs.io/en/latest/faq.html
 
 message queue
 -------------
