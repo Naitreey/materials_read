@@ -3,6 +3,9 @@ general
 - big data
   https://en.wikipedia.org/wiki/Big_data
 
+- ETL
+  https://en.wikipedia.org/wiki/Extract,_transform,_load
+
 Hadoop
 ======
 - Apache Hadoop wiki

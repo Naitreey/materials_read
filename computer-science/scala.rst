@@ -128,11 +128,62 @@
 
 - sbt
 
+  * sbt wiki
+    https://en.wikipedia.org/wiki/Sbt_(software)
+
   * sbt Reference Manual
+    https://www.scala-sbt.org/1.x/docs/index.html
 
     - Getting Started with sbt
+      https://www.scala-sbt.org/1.x/docs/Getting-Started.html
 
       * Installing sbt
+        https://www.scala-sbt.org/1.x/docs/Setup.html
+
+        - Installing sbt on Mac
+          https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Mac.html
 
         - Installing sbt on Linux
           https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Linux.html
+
+      * sbt by example
+        https://www.scala-sbt.org/1.x/docs/sbt-by-example.html
+
+      * Directory structure
+        https://www.scala-sbt.org/1.x/docs/Directories.html
+
+      * Running
+        https://www.scala-sbt.org/1.x/docs/Running.html
+
+      * Build definition
+        https://www.scala-sbt.org/1.x/docs/Basic-Def.html
+
+      * Multi-project build
+        https://www.scala-sbt.org/1.x/docs/Multi-Project.html
+
+      * Task graph
+        https://www.scala-sbt.org/1.x/docs/Task-Graph.html
+
+      * Scopes
+        https://www.scala-sbt.org/1.x/docs/Scopes.html
+
+      * Appending values
+        https://www.scala-sbt.org/1.x/docs/Appending-Values.html
+
+      * Scope delegation
+        https://www.scala-sbt.org/1.x/docs/Scope-Delegation.html
+
+      * Library dependencies
+        https://www.scala-sbt.org/1.x/docs/Library-Dependencies.html
+
+      * Using plugins
+        https://www.scala-sbt.org/1.x/docs/Using-Plugins.html
+
+      * Custom settings and tasks
+        https://www.scala-sbt.org/1.x/docs/Custom-Settings.html
+
+      * Organizing the build
+        https://www.scala-sbt.org/1.x/docs/Organizing-Build.html
+
+      * Getting Started summary
+        https://www.scala-sbt.org/1.x/docs/Summary.html
