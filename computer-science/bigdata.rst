@@ -6,6 +6,8 @@ general
 - ETL
   https://en.wikipedia.org/wiki/Extract,_transform,_load
 
+- Big Data Made Accessible: 2019 Edition, by Anil Maheshwari
+
 Hadoop
 ======
 - Apache Hadoop wiki

@@ -669,6 +669,13 @@ MySQL
 
 NoSQL
 =====
+general
+-------
+- NoSQL wiki
+  https://en.wikipedia.org/wiki/NoSQL
+
+- NoSQL databases
+  http://nosql-database.org/
 
 MongoDB
 -------
