@@ -556,7 +556,21 @@ http and related protocols
 * urllib.robotparser
 * urllib.error
 * urllib3
+
 * requests
+
+  * Introduction
+    https://2.python-requests.org/en/master/user/intro/
+
+  * Installation
+    https://2.python-requests.org/en/master/user/install/
+
+  * Quickstart
+    https://2.python-requests.org/en/master/user/quickstart/
+
+  * Advanced Usage
+    https://2.python-requests.org/en/master/user/advanced/
+
 * requests-toolbelt
 * pycurl
 * querystring-parser (多维数组形式 querystring 解析)

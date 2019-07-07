@@ -84,3 +84,11 @@ Azkaban
 
   * Jobtypes
     https://azkaban.readthedocs.io/en/latest/jobTypes.html
+
+  * API documentation
+    https://azkaban.readthedocs.io/en/latest/ajaxApi.html
+
+Kafka
+=====
+- Apache Kafka wiki
+  https://en.wikipedia.org/wiki/Apache_Kafka
