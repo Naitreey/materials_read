@@ -92,3 +92,76 @@ Kafka
 =====
 - Apache Kafka wiki
   https://en.wikipedia.org/wiki/Apache_Kafka
+
+file formats
+============
+- RC File
+
+  * wiki
+    https://en.wikipedia.org/wiki/RCFile
+
+  * RCFile Hive Wiki
+    https://cwiki.apache.org/confluence/display/Hive/RCFile
+
+  * RCFile: A Fast and Space-efficient Data Placement Structure in
+    MapReduce-based Warehouse Systems
+    http://www.cse.ohio-state.edu/hpcs/WWW/HTML/publications/papers/TR-11-4.pdf
+
+- ORC File
+
+  * wiki
+    https://en.wikipedia.org/wiki/Apache_ORC
+
+  * homepage
+    https://orc.apache.org/
+
+  * ORC Files Hive Wiki
+    https://cwiki.apache.org/confluence/display/Hive/LanguageManual+ORC
+
+  * documentation
+
+    - background
+      https://orc.apache.org/docs/index.html
+
+    - ORC Adopters
+      https://orc.apache.org/docs/adopters.html
+
+    - Types
+      https://orc.apache.org/docs/types.html
+
+    - Indexes
+      https://orc.apache.org/docs/indexes.html
+
+    - ACID support
+      https://orc.apache.org/docs/acid.html
+
+  * ORC specification v1
+    https://orc.apache.org/specification/ORCv1/
+
+  * ORCFile in HDP 2: Better Compression, Better Performance
+    https://hortonworks.com/blog/orcfile-in-hdp-2-better-compression-better-performance/
+
+- Parquet File
+  https://en.wikipedia.org/wiki/Apache_Parquet
+
+  * homepage
+    https://parquet.apache.org/documentation/latest/
+
+  * readme
+    https://github.com/apache/parquet-format
+
+in-memory data format
+=====================
+- Apache Arrow
+
+  * homepage
+    https://arrow.apache.org/
+
+  * installation
+    https://arrow.apache.org/install/
+
+  * FAQ
+    https://arrow.apache.org/faq/
+
+  * Columnar Databases and Vectorization
+    https://www.infoq.com/articles/columnar-databases-and-vectorization/
