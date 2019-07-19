@@ -93,6 +93,12 @@ Kafka
 - Apache Kafka wiki
   https://en.wikipedia.org/wiki/Apache_Kafka
 
+- Kafka homepage
+  https://kafka.apache.org/
+
+  * quickstart
+    https://kafka.apache.org/quickstart
+
 file formats
 ============
 - RC File
@@ -165,3 +171,15 @@ in-memory data format
 
   * Columnar Databases and Vectorization
     https://www.infoq.com/articles/columnar-databases-and-vectorization/
+
+  * documentation
+    https://arrow.apache.org/docs/index.html
+
+    - Arrow specification documents
+      https://arrow.apache.org/docs/format/README.html
+
+    - python bindings
+      https://arrow.apache.org/docs/python/index.html
+
+      * installing pyarrow
+        https://arrow.apache.org/docs/python/install.html
