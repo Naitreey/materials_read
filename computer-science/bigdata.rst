@@ -99,6 +99,23 @@ Kafka
   * quickstart
     https://kafka.apache.org/quickstart
 
+ZooKeeper
+=========
+- wiki
+  https://en.wikipedia.org/wiki/Apache_ZooKeeper
+
+- ZooKeeper homepage
+  https://zookeeper.apache.org/
+
+- documentation
+  https://zookeeper.apache.org/doc/current/index.html
+    
+  * overview
+    https://zookeeper.apache.org/doc/current/zookeeperOver.html
+
+  * ZooKeeper Getting Started Guide
+    https://zookeeper.apache.org/doc/current/zookeeperStarted.html
+
 file formats
 ============
 - RC File
