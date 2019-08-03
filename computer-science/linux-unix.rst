@@ -418,12 +418,18 @@ swap
 
 - mkswap(8)
 
-User System
-===========
-
+Account System
+==============
 - sudo
+
+  * Sudo in a Nutshell
+    https://www.sudo.ws/intro.html
+
   * https://help.ubuntu.com/community/RootSudo
+
   * https://help.ubuntu.com/community/Sudoers
+
+  * sudo(8)
 
 System Components
 =================
@@ -810,7 +816,7 @@ findmnt, blkid, lsblk, smartctl, smartd.conf, /etc/fstab (fstab(5)), /etc/mtab (
 
     - switch user/group:
       su(1), sg(1), newgrp(1)
-      sudo(8), visudo(8)
+      visudo(8)
 
   * calendar time, timezone
 

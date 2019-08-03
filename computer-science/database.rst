@@ -1111,3 +1111,56 @@ Elasticsearch
 
 - Elasticsearch Reference (在读)
   https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html
+
+Google
+------
+- Google Advanced Search Operators: The Ultimate List (40+ Advanced Operators)
+  https://www.spyfu.com/blog/google-search-operators/
+
+- Refine web searches
+  https://support.google.com/websearch/answer/2466433?visit_id=637002234560518368-2298607146&p=adv_operators&hl=en&rd=1
+
+- Google Search Operators
+  https://moz.com/learn/seo/search-operators
+
+- Mastering Google Search Operators in 67 Easy Steps
+  https://moz.com/blog/mastering-google-search-operators-in-67-steps
+
+- Google guide
+  http://www.googleguide.com/
+
+  * Entering a Query
+    http://www.googleguide.com/entering_queries.html
+
+  * Going Directly to the First Result
+    http://www.googleguide.com/first_result.html
+
+  * Selecting Search Terms
+    http://www.googleguide.com/select_terms.html
+
+  * Interpreting Your Query
+    http://www.googleguide.com/interpreting_queries.html
+
+  * Crafting Your Query by using Special Characters
+    http://www.googleguide.com/crafting_queries.html
+
+    - Quoted Phrases
+      http://www.googleguide.com/quoted_phrases.html
+
+    - The - operator
+      http://www.googleguide.com/minus_operator.html
+
+    - The OR and | Operators
+      http://www.googleguide.com/or_operator.html
+
+    - The .. Operator
+      http://www.googleguide.com/number_range.html
+
+    - The * Operator
+      http://www.googleguide.com/wildcard_operator.html
+
+  * Using search operators
+    http://www.googleguide.com/using_advanced_operators.html
+
+  * Favorite Features
+    http://www.googleguide.com/category/favorite-features/
