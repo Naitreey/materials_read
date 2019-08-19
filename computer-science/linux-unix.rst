@@ -601,6 +601,24 @@ Command Line
 
 - GNU Readline
 
+  * wiki
+    https://en.wikipedia.org/wiki/GNU_Readline
+
+  * homepage
+    https://tiswww.case.edu/php/chet/readline/rltop.html
+
+  * The GNU Readline Library manual (pdf)
+    http://git.savannah.gnu.org/cgit/readline.git/tree/doc/readline.pdf
+
+  * The GNU History Library
+    http://git.savannah.gnu.org/cgit/readline.git/tree/doc/history.pdf
+
+  * The GNU Readline User Interface
+    http://git.savannah.gnu.org/cgit/readline.git/tree/doc/rluserman.pdf
+
+  * readline arch wiki
+    https://wiki.archlinux.org/index.php/Readline
+
   * move:
     - backward-char (C-b) (<Left>)
     - forward-char (C-f) (<Right>)
