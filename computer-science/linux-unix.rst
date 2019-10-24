@@ -1671,6 +1671,9 @@ docker
   * redis
     https://hub.docker.com/_/redis/
 
+  * minio
+    https://hub.docker.com/r/minio/minio
+
 Storage
 =======
 

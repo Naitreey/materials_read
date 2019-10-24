@@ -8,6 +8,20 @@ general
 
 - Big Data Made Accessible: 2019 Edition, by Anil Maheshwari
 
+- types of data
+
+  * semi-structured data wiki
+    https://en.wikipedia.org/wiki/Semi-structured_data
+
+  * unstructured data wiki
+    https://en.wikipedia.org/wiki/Unstructured_data
+
+  * Data Types: Structured vs. Unstructured Data
+    https://www.bigdataframework.org/data-types-structured-vs-unstructured-data/
+
+  * STRUCTURED, SEMI STRUCTURED AND UNSTRUCTURED DATA
+    https://jeremyronk.wordpress.com/2014/09/01/structured-semi-structured-and-unstructured-data/
+
 Hadoop
 ======
 - Apache Hadoop wiki
@@ -115,6 +129,17 @@ ZooKeeper
 
   * ZooKeeper Getting Started Guide
     https://zookeeper.apache.org/doc/current/zookeeperStarted.html
+
+  * ZooKeeper Programmer's Guide
+    http://zookeeper.apache.org/doc/r3.5.5/zookeeperProgrammers.html
+
+Spark
+=====
+- wiki
+  https://en.wikipedia.org/wiki/Apache_Spark
+
+- Spark download
+  https://spark.apache.org/downloads.html
 
 file formats
 ============

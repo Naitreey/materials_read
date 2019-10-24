@@ -85,3 +85,19 @@ ceph
 
       * Mount CephFS with kernel driver
         http://docs.ceph.com/docs/master/cephfs/kernel/
+
+MinIO
+-----
+- wiki
+  https://en.wikipedia.org/wiki/MinIO
+
+- homepage
+  https://min.io/
+
+- overview
+  https://min.io/product/overview
+
+- MinIO Client
+
+  * MinIO Client Quickstart Guide
+    https://docs.min.io/docs/minio-client-quickstart-guide.html#add-a-cloud-storage-service
