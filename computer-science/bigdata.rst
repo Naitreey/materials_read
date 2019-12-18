@@ -133,14 +133,6 @@ ZooKeeper
   * ZooKeeper Programmer's Guide
     http://zookeeper.apache.org/doc/r3.5.5/zookeeperProgrammers.html
 
-Spark
-=====
-- wiki
-  https://en.wikipedia.org/wiki/Apache_Spark
-
-- Spark download
-  https://spark.apache.org/downloads.html
-
 file formats
 ============
 - RC File
